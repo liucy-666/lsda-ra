@@ -1,0 +1,17 @@
+{
+  "run_id": "pair_098_seed2022",
+  "seed": 2022,
+  "ss_prompt": "Neutral studio background: a Russian matryoshka wooden doll on the left, a Japanese Tsugaru kokeshi wooden doll on the right; both fully visible, separate, and similar in size.",
+  "entities": [
+    {
+      "name": "A",
+      "prompt": "a Russian matryoshka wooden doll",
+      "position": "left"
+    },
+    {
+      "name": "B",
+      "prompt": "a Japanese Tsugaru kokeshi wooden doll",
+      "position": "right"
+    }
+  ]
+}

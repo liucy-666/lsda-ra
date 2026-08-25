@@ -1,0 +1,52 @@
+{
+  "task_id": "pair_061_lsda_independent_g2_r3_s2023",
+  "pair_id": "pair_061",
+  "pair_index": 61,
+  "seed_group": 2,
+  "replicate": 3,
+  "latent_seed": 2023,
+  "global_prompt": "Neutral studio background: a Japanese silk kimono on the left, a Lao sinh silk skirt on the right; both fully visible, separate, and similar in size.",
+  "entity_A_prompt": "a Japanese silk kimono",
+  "entity_B_prompt": "a Lao sinh silk skirt",
+  "native_task_id": "pair_061_native_SS_g2_r3_s2023",
+  "standalone_A_task_id": "pair_061_standalone_A_g2_r3_s2023",
+  "standalone_B_task_id": "pair_061_standalone_B_g2_r3_s2023",
+  "method": "LSDA independent entity latent pilot",
+  "mask_source": "/science/wx/pry/AAA_Experiment/cultural100_v1/lsda_original/masks/pair_061_lsda_ra_g2_r3_s2023",
+  "standalone_visual_information_used": false,
+  "sl_ll_information_used": false,
+  "steps": 28,
+  "guidance_scale": 4.5,
+  "latent_sha256": "5dffadadbfc918f3b9a258a917384838ba19e945cb6bf1122a9ede80a6b26a8d",
+  "seconds": 31.836488723754883,
+  "max_memory_gib": 39.24633264541626,
+  "diagnostics": {
+    "mu": null,
+    "steps": 28,
+    "private_entity_latents": true,
+    "private_trajectory_start_step": 0,
+    "ss_latent_inside_entity_used": false,
+    "ss_information_used": "SAM contour, background, position, scale, and occlusion only",
+    "entity_prompt_type": "standalone Short phrase",
+    "owner_bounds_latent": [
+      [
+        0,
+        0,
+        78,
+        128
+      ],
+      [
+        60,
+        0,
+        128,
+        128
+      ]
+    ],
+    "owner_fractions": [
+      0.32000732421875,
+      0.27685546875
+    ],
+    "background_fraction": 0.40313720703125,
+    "conflict_fraction": 0.0
+  }
+}

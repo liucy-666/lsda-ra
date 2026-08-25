@@ -1,0 +1,6 @@
+get /science/wx/pry/AAA_Experiment/cultural100_v1/lsda_original/masks/pair_007_lsda_ra_g2_r2_s2022/entity_1.png D:/Python/MMDIT/AAA_Experiment/experiment_4500/independent_pilot/masks/pair_007/entity_1.png
+get /science/wx/pry/AAA_Experiment/cultural100_v1/lsda_original/masks/pair_007_lsda_ra_g2_r2_s2022/entity_2.png D:/Python/MMDIT/AAA_Experiment/experiment_4500/independent_pilot/masks/pair_007/entity_2.png
+get /science/wx/pry/AAA_Experiment/cultural100_v1/lsda_original/masks/pair_061_lsda_ra_g2_r3_s2023/entity_1.png D:/Python/MMDIT/AAA_Experiment/experiment_4500/independent_pilot/masks/pair_061/entity_1.png
+get /science/wx/pry/AAA_Experiment/cultural100_v1/lsda_original/masks/pair_061_lsda_ra_g2_r3_s2023/entity_2.png D:/Python/MMDIT/AAA_Experiment/experiment_4500/independent_pilot/masks/pair_061/entity_2.png
+get /science/wx/pry/AAA_Experiment/cultural100_v1/lsda_original/masks/pair_098_lsda_ra_g2_r2_s2022/entity_1.png D:/Python/MMDIT/AAA_Experiment/experiment_4500/independent_pilot/masks/pair_098/entity_1.png
+get /science/wx/pry/AAA_Experiment/cultural100_v1/lsda_original/masks/pair_098_lsda_ra_g2_r2_s2022/entity_2.png D:/Python/MMDIT/AAA_Experiment/experiment_4500/independent_pilot/masks/pair_098/entity_2.png

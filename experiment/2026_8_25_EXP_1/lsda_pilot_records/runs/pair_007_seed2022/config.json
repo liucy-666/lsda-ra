@@ -1,0 +1,18 @@
+{
+  "run_id": "pair_007_seed2022",
+  "seed": 2022,
+  "ss_prompt": "Neutral studio background: a French Sèvres porcelain vase on the left, a Russian Imperial Porcelain cobalt-net vase on the right; both fully visible, separate, and similar in size.",
+  "background_prompt": "an empty neutral studio background with a plain supporting surface, soft studio lighting, no objects",
+  "entities": [
+    {
+      "name": "A",
+      "prompt": "a French Sèvres porcelain vase",
+      "position": "left"
+    },
+    {
+      "name": "B",
+      "prompt": "a Russian Imperial Porcelain cobalt-net vase",
+      "position": "right"
+    }
+  ]
+}

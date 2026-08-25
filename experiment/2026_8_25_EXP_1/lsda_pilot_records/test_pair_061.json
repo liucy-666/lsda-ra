@@ -1,0 +1,17 @@
+{
+  "run_id": "pair_061_seed2023",
+  "seed": 2023,
+  "ss_prompt": "Neutral studio background: a Japanese silk kimono on the left, a Lao sinh silk skirt on the right; both fully visible, separate, and similar in size.",
+  "entities": [
+    {
+      "name": "A",
+      "prompt": "a Japanese silk kimono",
+      "position": "left"
+    },
+    {
+      "name": "B",
+      "prompt": "a Lao sinh silk skirt",
+      "position": "right"
+    }
+  ]
+}

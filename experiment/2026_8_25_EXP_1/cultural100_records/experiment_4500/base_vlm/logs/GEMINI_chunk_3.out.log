@@ -1,0 +1,6 @@
+[60/150] ok=0 fail=12
+[80/150] ok=0 fail=32
+[100/150] ok=0 fail=52
+[120/150] ok=0 fail=72
+[140/150] ok=0 fail=92
+DONE GEMINI chunk=3 ok=0 fail=102 out=D:\Python\MMDIT\AAA_Experiment\experiment_4500\base_vlm\ratings\GEMINI\ratings_GEMINI_full_chunk_3.jsonl.raw

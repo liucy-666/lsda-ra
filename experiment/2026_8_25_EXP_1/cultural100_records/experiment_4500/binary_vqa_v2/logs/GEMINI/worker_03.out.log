@@ -1,0 +1,8 @@
+{"event": "failed", "eval_id": "eval_1307", "message": "HTTPError: HTTP Error 404: Not Found"}
+{"event": "failed", "eval_id": "eval_0795", "message": "HTTPError: HTTP Error 404: Not Found"}
+{"event": "failed", "eval_id": "eval_1002", "message": "HTTPError: HTTP Error 404: Not Found"}
+{"event": "rated", "eval_id": "eval_0055"}
+{"event": "failed", "eval_id": "eval_1274", "message": "HTTPError: HTTP Error 404: Not Found"}
+{"event": "failed", "eval_id": "eval_0923", "message": "HTTPError: HTTP Error 404: Not Found"}
+{"event": "rated", "eval_id": "eval_1501"}
+{"event": "failed", "eval_id": "eval_1036", "message": "HTTPError: HTTP Error 404: Not Found"}

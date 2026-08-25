@@ -1,0 +1,443 @@
+{
+  "run_id": "pair_007_seed2022",
+  "seed": 2022,
+  "latent_sha256": "74fdedbf2ca0911f2abae131226ff622b71440553335f9e3c367d449786277a0",
+  "steps": 28,
+  "guidance": 4.5,
+  "specialist_count": 3,
+  "entity_prompts": [
+    "a French Sèvres porcelain vase",
+    "a Russian Imperial Porcelain cobalt-net vase"
+  ],
+  "background_prompt": "an empty neutral studio background with a plain supporting surface, soft studio lighting, no objects",
+  "external_visual_information": "native SS contour only",
+  "standalone_sl_ll_image_or_latent_used": false,
+  "segmentation": {
+    "raw_overlap_fraction": 0.0,
+    "owner_fractions_image": [
+      0.13077449798583984,
+      0.20423603057861328
+    ],
+    "background_fraction_image": 0.6649894714355469,
+    "partition_min_image": 1,
+    "partition_max_image": 1,
+    "chosen": [
+      {
+        "point": [
+          196,
+          684
+        ],
+        "sam_iou": 0.8985210657119751,
+        "selection_score": 1.890714695569568,
+        "candidate_area": 0.13061904907226562,
+        "bbox": [
+          155,
+          214,
+          436,
+          945
+        ]
+      },
+      {
+        "point": [
+          556,
+          540
+        ],
+        "sam_iou": 0.9753109812736511,
+        "selection_score": 2.0509852876042367,
+        "candidate_area": 0.20423603057861328,
+        "bbox": [
+          543,
+          109,
+          912,
+          939
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "name": "A",
+        "area": 0.13077449798583984,
+        "bbox": [
+          155,
+          214,
+          436,
+          945
+        ],
+        "centroid": [
+          287.3132060061111,
+          563.0965674156074
+        ]
+      },
+      {
+        "name": "B",
+        "area": 0.20423603057861328,
+        "bbox": [
+          543,
+          109,
+          912,
+          939
+        ],
+        "centroid": [
+          725.986108322399,
+          542.4740354039326
+        ]
+      }
+    ]
+  },
+  "denoising": {
+    "mu": null,
+    "bounds": [
+      [
+        16,
+        22,
+        58,
+        122
+      ],
+      [
+        64,
+        10,
+        118,
+        122
+      ]
+    ],
+    "step_audit": [
+      {
+        "step": 0,
+        "timestep": 1000.0,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.6054918766021729
+      },
+      {
+        "step": 1,
+        "timestep": 987.380615234375,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.6606098413467407
+      },
+      {
+        "step": 2,
+        "timestep": 974.1077270507812,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4605164527893066
+      },
+      {
+        "step": 3,
+        "timestep": 960.1293334960938,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4143668413162231
+      },
+      {
+        "step": 4,
+        "timestep": 945.3875122070312,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.5355099439620972
+      },
+      {
+        "step": 5,
+        "timestep": 929.8179321289062,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4341439008712769
+      },
+      {
+        "step": 6,
+        "timestep": 913.3489990234375,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4368226528167725
+      },
+      {
+        "step": 7,
+        "timestep": 895.9003295898438,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4370044469833374
+      },
+      {
+        "step": 8,
+        "timestep": 877.3818969726562,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4300137758255005
+      },
+      {
+        "step": 9,
+        "timestep": 857.6923217773438,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4269721508026123
+      },
+      {
+        "step": 10,
+        "timestep": 836.7166748046875,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4216728210449219
+      },
+      {
+        "step": 11,
+        "timestep": 814.3247680664062,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.414050817489624
+      },
+      {
+        "step": 12,
+        "timestep": 790.3682861328125,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4131991863250732
+      },
+      {
+        "step": 13,
+        "timestep": 764.6771240234375,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4082472324371338
+      },
+      {
+        "step": 14,
+        "timestep": 737.0558471679688,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4077030420303345
+      },
+      {
+        "step": 15,
+        "timestep": 707.2785034179688,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4041119813919067
+      },
+      {
+        "step": 16,
+        "timestep": 675.0823364257812,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4024401903152466
+      },
+      {
+        "step": 17,
+        "timestep": 640.1602172851562,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.4000399112701416
+      },
+      {
+        "step": 18,
+        "timestep": 602.1505737304688,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.3953499794006348
+      },
+      {
+        "step": 19,
+        "timestep": 560.625,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.391151785850525
+      },
+      {
+        "step": 20,
+        "timestep": 515.0720825195312,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.3863977193832397
+      },
+      {
+        "step": 21,
+        "timestep": 464.87603759765625,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.3813673257827759
+      },
+      {
+        "step": 22,
+        "timestep": 409.288818359375,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.373429298400879
+      },
+      {
+        "step": 23,
+        "timestep": 347.39263916015625,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.3629467487335205
+      },
+      {
+        "step": 24,
+        "timestep": 278.0487976074219,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.3457797765731812
+      },
+      {
+        "step": 25,
+        "timestep": 199.8269805908203,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.3156275749206543
+      },
+      {
+        "step": 26,
+        "timestep": 110.90573120117188,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.2501963376998901
+      },
+      {
+        "step": 27,
+        "timestep": 8.928571701049805,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity_rms": 1.0828784704208374
+      }
+    ]
+  },
+  "seconds": 34.85414385795593
+}

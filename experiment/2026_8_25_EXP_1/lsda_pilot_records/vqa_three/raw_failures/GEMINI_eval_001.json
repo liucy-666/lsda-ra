@@ -1,0 +1,32 @@
+{
+  "id": "chatcmpl-20260825142001404969952pNKgozYv",
+  "model": "gemini-3-pro-preview",
+  "object": "chat.completion",
+  "created": 1787638818,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"eval_id\": \"eval_001\",\n  \"object_count\": 2,\n  \"two_objects_separate\": true,\n  \"A_identity\": 4,\n  \"A_shape_fidelity\": "
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1735,
+    "completion_tokens": 1596,
+    "total_tokens": 3331,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 615,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 59,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1537
+    }
+  }
+}

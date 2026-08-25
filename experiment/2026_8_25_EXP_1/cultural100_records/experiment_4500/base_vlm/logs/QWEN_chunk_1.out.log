@@ -1,0 +1,8 @@
+[20/150] ok=0 fail=9
+[40/150] ok=0 fail=29
+[60/150] ok=0 fail=49
+[80/150] ok=0 fail=69
+[100/150] ok=0 fail=89
+[120/150] ok=0 fail=109
+[140/150] ok=0 fail=129
+DONE QWEN chunk=1 ok=0 fail=139 out=D:\Python\MMDIT\AAA_Experiment\experiment_4500\base_vlm\ratings\QWEN\ratings_QWEN_full_chunk_1.jsonl.raw

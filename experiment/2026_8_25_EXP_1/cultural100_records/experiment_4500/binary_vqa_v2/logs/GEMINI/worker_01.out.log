@@ -1,0 +1,9 @@
+{"event": "failed", "eval_id": "eval_0108", "message": "[WinError 10054] 远程主机强迫关闭了一个现有的连接。"}
+{"event": "failed", "eval_id": "eval_0911", "message": "[WinError 10054] 远程主机强迫关闭了一个现有的连接。"}
+{"event": "failed", "eval_id": "eval_0446", "message": "Remote end closed connection without response"}
+{"event": "failed", "eval_id": "eval_0267", "message": "Remote end closed connection without response"}
+{"event": "failed", "eval_id": "eval_0358", "message": "HTTPError: HTTP Error 404: Not Found"}
+{"event": "failed", "eval_id": "eval_0988", "message": "HTTPError: HTTP Error 404: Not Found"}
+{"event": "failed", "eval_id": "eval_0943", "message": "Remote end closed connection without response"}
+{"event": "failed", "eval_id": "eval_0804", "message": "HTTPError: HTTP Error 404: Not Found"}
+{"event": "failed", "eval_id": "eval_1272", "message": "HTTPError: HTTP Error 404: Not Found"}

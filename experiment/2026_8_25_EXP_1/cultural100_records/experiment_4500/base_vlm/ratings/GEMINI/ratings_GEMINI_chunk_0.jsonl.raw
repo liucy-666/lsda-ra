@@ -1,0 +1,1 @@
+{"sample_id":"sample_0737","rater_id":"GEMINI","rater_model":"gemini-3-pro-preview","raw":"{\n  \"sample_id\": \"sample_0737\",\n  \"standalone_A\": {\n    \"identity_score\": 4,\n    \"correct\": true,\n    \"evidence\": \"Blue matte vase with white classical relief.\"\n  },\n  \"standalone_B\": {\n    \"identity_score","request_status":""}

@@ -1,0 +1,13 @@
+{
+  "paired_valid": 36,
+  "base_shift_count": 22,
+  "method_shift_count": 24,
+  "strict_rescue_count": 0,
+  "strict_rescue_rate_among_base_failures": 0.0,
+  "persistent_failure_count": 20,
+  "strict_harm_count": 0,
+  "stable_success_count": 0,
+  "fail_to_disagree_count": 2,
+  "disagree_to_fail_count": 4,
+  "rule": "Strict rescue requires dual-VLM failure for Native and dual-VLM success for the method on the identical Pair x seed sample_id; rater disagreement is kept separate."
+}

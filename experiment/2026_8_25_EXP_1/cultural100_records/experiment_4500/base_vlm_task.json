@@ -1,0 +1,14 @@
+{
+  "name": "cultural100_native_seed_level_blind_vqa_v1",
+  "instructions": "The image is a three-panel sheet: A-alone, B-alone, and Native SS. Judge each visible cultural object from appearance, not merely object category. Use the supplied short identity and diagnostic description as the intended target. For A-alone and B-alone, determine whether the model independently renders the intended cultural material, palette, technique, and motif. For Native SS, judge the LEFT object as A and RIGHT object as B. Attribute shift means a substantial loss, replacement, or cross-object transfer of culture-defining material, palette, technique, or motif compared with the intended target and the corresponding standalone panel. Do not mark ordinary viewpoint, lighting, or harmless motif variation as shift. Score every identity from 0 to 5: 0 absent/wrong, 1 faint, 2 partial/generic, 3 recognizable but incomplete, 4 core diagnostic features present, 5 canonical. Set correct=true only for score >=4. Set any_shift=true if A_loss, B_loss, A_to_B_leak, or B_to_A_leak is true. Return JSON only.",
+  "output_schema": {
+    "sample_id": "string",
+    "standalone_A": {"identity_score": "integer 0-5", "correct": "boolean", "evidence": "short string"},
+    "standalone_B": {"identity_score": "integer 0-5", "correct": "boolean", "evidence": "short string"},
+    "candidate_A": {"identity_score": "integer 0-5", "correct": "boolean", "evidence": "short string"},
+    "candidate_B": {"identity_score": "integer 0-5", "correct": "boolean", "evidence": "short string"},
+    "shift": {"A_loss": "boolean", "B_loss": "boolean", "A_to_B_leak": "boolean", "B_to_A_leak": "boolean", "any_shift": "boolean"},
+    "structure": {"two_objects_present": "boolean", "left_right_correct": "boolean", "merged_or_touching": "boolean", "extra_objects": "integer"},
+    "reason": "short string"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "task_id": "pair_007_lsda_independent_g2_r2_s2022",
+  "pair_id": "pair_007",
+  "pair_index": 7,
+  "seed_group": 2,
+  "replicate": 2,
+  "latent_seed": 2022,
+  "global_prompt": "Neutral studio background: a French Sèvres porcelain vase on the left, a Russian Imperial Porcelain cobalt-net vase on the right; both fully visible, separate, and similar in size.",
+  "entity_A_prompt": "a French Sèvres porcelain vase",
+  "entity_B_prompt": "a Russian Imperial Porcelain cobalt-net vase",
+  "native_task_id": "pair_007_native_SS_g2_r2_s2022",
+  "standalone_A_task_id": "pair_007_standalone_A_g2_r2_s2022",
+  "standalone_B_task_id": "pair_007_standalone_B_g2_r2_s2022",
+  "method": "LSDA independent entity latent pilot",
+  "mask_source": "/science/wx/pry/AAA_Experiment/cultural100_v1/lsda_original/masks/pair_007_lsda_ra_g2_r2_s2022",
+  "standalone_visual_information_used": false,
+  "sl_ll_information_used": false,
+  "steps": 28,
+  "guidance_scale": 4.5,
+  "latent_sha256": "74fdedbf2ca0911f2abae131226ff622b71440553335f9e3c367d449786277a0",
+  "seconds": 29.55398178100586,
+  "max_memory_gib": 39.24624156951904,
+  "diagnostics": {
+    "mu": null,
+    "steps": 28,
+    "private_entity_latents": true,
+    "private_trajectory_start_step": 0,
+    "ss_latent_inside_entity_used": false,
+    "ss_information_used": "SAM contour, background, position, scale, and occlusion only",
+    "entity_prompt_type": "standalone Short phrase",
+    "owner_bounds_latent": [
+      [
+        0,
+        0,
+        60,
+        124
+      ],
+      [
+        62,
+        0,
+        128,
+        128
+      ]
+    ],
+    "owner_fractions": [
+      0.103759765625,
+      0.2298583984375
+    ],
+    "background_fraction": 0.6663818359375,
+    "conflict_fraction": 0.0
+  }
+}

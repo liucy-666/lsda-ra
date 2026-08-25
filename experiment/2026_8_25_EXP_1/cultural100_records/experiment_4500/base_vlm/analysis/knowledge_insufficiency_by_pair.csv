@@ -1,0 +1,37 @@
+﻿pair_id,n,entity_A,entity_B,seeds,A_only_count,B_only_count,AB_count
+pair_029,6,a Japanese Bizen stoneware vase,a French Puisaye stoneware vase,"1012,1013,2022,2023,3032,3033",0,3,3
+pair_028,5,a Chinese Jun ware ceramic bowl,a Japanese Hagi ware tea bowl,"1011,1012,1013,3031,3032",0,0,5
+pair_020,4,a Polish Bolesławiec stoneware jug,a Bulgarian Troyan pottery jug,"1013,2021,2022,3032",0,0,4
+pair_022,3,a Chinese sancai glazed ceramic jar,a Peruvian Chulucanas pottery jar,"1011,1013,3033",3,0,0
+pair_030,3,a Chinese Longquan celadon vase,a Thai Si Satchanalai celadon vase,"1012,3031,3032",0,1,2
+pair_055,3,an Indian Dhokra bronze figurine,a Ghanaian Asante brass goldweight figurine,"1012,2023,3032",1,0,2
+pair_079,3,a Panamanian mola textile panel,a Ukrainian Hutsul embroidery panel,"2021,3032,3033",3,0,0
+pair_010,2,a Chinese celadon ceramic bowl,a Vietnamese Lý–Trần celadon ceramic bowl,"1011,1013",1,0,1
+pair_019,2,a Japanese Raku tea bowl,a Japanese Onta ware bowl,"3032,3033",0,0,2
+pair_021,2,a Japanese Raku tea bowl,a Korean buncheong tea bowl,"1011,3032",0,1,1
+pair_035,2,a Japanese raden lacquerware tray,a Korean najeonchilgi lacquerware tray,"2023,3032",0,0,2
+pair_037,2,a Chinese black-lacquer wooden bowl,a Burmese yun lacquerware bowl,"1012,1013",0,2,0
+pair_046,2,a Spanish Toledo damascened vase,a Korean ipsa metal-inlay vase,"1013,2021",1,0,1
+pair_049,2,a Chinese cloisonné enamel plate,a French Limoges painted-enamel plate,"3032,3033",1,1,0
+pair_001,1,a Chinese blue-and-white porcelain vase,a Vietnamese Bát Tràng blue-and-white ceramic vase,3032,0,1,0
+pair_002,1,a Chinese blue-and-white porcelain plate,a Japanese Nabeshima porcelain plate,1013,0,1,0
+pair_012,1,a Dutch blue-and-white Delftware plate,a Slovak Modra faience plate,3031,0,1,0
+pair_014,1,an Italian Renaissance maiolica plate,a French Nevers faience plate,2021,1,0,0
+pair_018,1,a Moroccan Fes ceramic bowl,an Algerian Kabyle pottery bowl,2023,1,0,0
+pair_025,1,a Mexican Mata Ortiz pottery jar,a Serbian Zlakusa pottery jar,1011,0,1,0
+pair_034,1,a Japanese raden lacquerware lidded box,a Mexican Olinalá lacquerware lidded box,3032,1,0,0
+pair_039,1,a Japanese Tsugaru-nuri lacquerware box,a Kashmiri papier-mâché lacquer box,1011,1,0,0
+pair_040,1,a Chinese lacquered folding screen,a Vietnamese sơn mài lacquer screen,3033,0,1,0
+pair_043,1,a Russian Fabergé-style guilloché enamel box,an Indian Jaipur meenakari enamel box,1012,1,0,0
+pair_045,1,a Spanish Toledo damascened box,a Japanese nunome-zōgan metal-inlay box,1011,1,0,0
+pair_052,1,an Ottoman tinned-copper ewer,a Bosnian engraved-copper coffee ewer,3031,1,0,0
+pair_060,1,a Chinese bronze ritual bowl,a Korean bangjja bronze bowl,1013,1,0,0
+pair_064,1,an Indian Banarasi brocade textile panel,a Turkmen keteni silk textile panel,3032,0,1,0
+pair_065,1,a Chinese silk-embroidery panel,a Vietnamese silk-embroidery panel,2023,0,0,1
+pair_067,1,a Japanese brocade obi sash,a Korean gold-thread brocade sash,2023,0,0,1
+pair_072,1,an Indonesian batik textile panel,a Japanese katazome textile panel,3031,0,0,1
+pair_075,1,a Mexican Otomi embroidered blouse,a Guatemalan huipil blouse,3032,1,0,0
+pair_076,1,a Japanese sashiko textile panel,a Romanian ie-embroidery textile panel,1011,1,0,0
+pair_095,1,a Navajo coiled basket,a Panamanian Wounaan chunga basket,3033,1,0,0
+pair_097,1,an Italian tooled-leather wall panel,a Spanish Córdoba guadamecí leather panel,1012,0,1,0
+pair_100,1,an Inuit soapstone figurine,a Kenyan Kisii soapstone figurine,1011,0,0,1

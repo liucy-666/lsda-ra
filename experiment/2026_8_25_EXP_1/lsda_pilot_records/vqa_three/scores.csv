@@ -1,0 +1,13 @@
+﻿case_id,sample_id,condition,eval_id,rater,model,A_identity,A_shape_fidelity,A_texture_fidelity,B_identity,B_shape_fidelity,B_texture_fidelity,A_to_B_leakage,B_to_A_leakage,boundary_artifact,object_count,two_objects_separate,extra_objects,strict_success_recomputed,defects
+pair_007_seed2022,sample_0244,LSDA,eval_003,GEMINI,gemini-3-pro-preview,3,3,3,3,3,2,2,2,2,2,True,0,False,A base round not square. B lower half white not solid blue.
+pair_007_seed2022,sample_0244,LSDA,eval_003,QWEN,qwen3-vl-235b-a22b-instruct,5,5,4,5,5,5,0,0,0,2,True,0,True,
+pair_007_seed2022,sample_0244,native_SS,eval_006,GEMINI,gemini-3-pro-preview,3,3,2,3,2,3,2,2,2,2,True,0,False,"Left missing color medallion, thin handles. Right wrong shape, missing fluted base."
+pair_007_seed2022,sample_0244,native_SS,eval_006,QWEN,qwen3-vl-235b-a22b-instruct,5,5,4,5,5,5,0,0,0,2,True,0,True,
+pair_061_seed2023,sample_0068,LSDA,eval_004,GEMINI,gemini-3-pro-preview,4,3,3,4,3,3,2,3,2,2,True,0,False,Draped instead of flat. Skirt hue and hem differ. Red underskirt on kimono.
+pair_061_seed2023,sample_0068,LSDA,eval_004,QWEN,qwen3-vl-235b-a22b-instruct,5,5,5,5,5,5,0,0,0,2,True,0,True,
+pair_061_seed2023,sample_0068,native_SS,eval_002,GEMINI,gemini-3-pro-preview,4,4,3,1,1,1,3,0,0,2,True,0,False,The right object is generated as a full-body dress with sleeves instead of the target Lao sinh skirt. It lacks the defining horizontal woven bands and pleats of Reference B.
+pair_061_seed2023,sample_0068,native_SS,eval_002,QWEN,qwen3-vl-235b-a22b-instruct,5,5,5,5,5,5,0,0,0,2,True,0,True,
+pair_098_seed2022,sample_0405,LSDA,eval_001,GEMINI,gemini-3-pro-preview,4,3,2,3,2,3,4,2,3,2,True,0,False,Left doll lacks Ref A color/detail. Right doll encased in leaked matryoshka shell.
+pair_098_seed2022,sample_0405,LSDA,eval_001,QWEN,qwen3-vl-235b-a22b-instruct,5,4,4,5,4,4,0,0,0,2,True,0,True,
+pair_098_seed2022,sample_0405,native_SS,eval_005,GEMINI,gemini-3-pro-preview,3,3,2,2,2,2,4,2,2,2,True,0,False,Right object shaped like matryoshka (A-to-B leakage). Left lacks detail.
+pair_098_seed2022,sample_0405,native_SS,eval_005,QWEN,qwen3-vl-235b-a22b-instruct,4,4,3,0,0,0,0,5,0,2,True,0,False,"Candidate's right object is a matryoshka doll, not a Tsugaru kokeshi; complete identity and shape failure for B. Strong leakage of A features into B region."

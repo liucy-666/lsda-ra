@@ -1,0 +1,163 @@
+{
+  "case_count": 3,
+  "rating_count": 12,
+  "strict_restored_count": 0,
+  "lsda_dual_success_count": 0,
+  "lsda_dual_failure_count": 0,
+  "lsda_disagreement_count": 3,
+  "cases": [
+    {
+      "case_id": "pair_007_seed2022",
+      "conditions": {
+        "native_SS": {
+          "strict_success_by_rater": {
+            "QWEN": true,
+            "GEMINI": false
+          },
+          "dual_success": false,
+          "dual_failure": false,
+          "rater_disagreement": true,
+          "mean_scores": {
+            "A_identity": 4.0,
+            "A_shape_fidelity": 4.0,
+            "A_texture_fidelity": 3.0,
+            "B_identity": 4.0,
+            "B_shape_fidelity": 3.5,
+            "B_texture_fidelity": 4.0
+          },
+          "mean_core": 3.75
+        },
+        "LSDA": {
+          "strict_success_by_rater": {
+            "QWEN": true,
+            "GEMINI": false
+          },
+          "dual_success": false,
+          "dual_failure": false,
+          "rater_disagreement": true,
+          "mean_scores": {
+            "A_identity": 4.0,
+            "A_shape_fidelity": 4.0,
+            "A_texture_fidelity": 3.5,
+            "B_identity": 4.0,
+            "B_shape_fidelity": 4.0,
+            "B_texture_fidelity": 3.5
+          },
+          "mean_core": 3.8333333333333335
+        }
+      },
+      "strict_restored": false,
+      "mean_core_delta_LSDA_minus_native": 0.08333333333333348,
+      "metric_deltas": {
+        "A_identity": 0.0,
+        "A_shape_fidelity": 0.0,
+        "A_texture_fidelity": 0.5,
+        "B_identity": 0.0,
+        "B_shape_fidelity": 0.5,
+        "B_texture_fidelity": -0.5
+      }
+    },
+    {
+      "case_id": "pair_061_seed2023",
+      "conditions": {
+        "native_SS": {
+          "strict_success_by_rater": {
+            "QWEN": true,
+            "GEMINI": false
+          },
+          "dual_success": false,
+          "dual_failure": false,
+          "rater_disagreement": true,
+          "mean_scores": {
+            "A_identity": 4.5,
+            "A_shape_fidelity": 4.5,
+            "A_texture_fidelity": 4.0,
+            "B_identity": 3.0,
+            "B_shape_fidelity": 3.0,
+            "B_texture_fidelity": 3.0
+          },
+          "mean_core": 3.6666666666666665
+        },
+        "LSDA": {
+          "strict_success_by_rater": {
+            "QWEN": true,
+            "GEMINI": false
+          },
+          "dual_success": false,
+          "dual_failure": false,
+          "rater_disagreement": true,
+          "mean_scores": {
+            "A_identity": 4.5,
+            "A_shape_fidelity": 4.0,
+            "A_texture_fidelity": 4.0,
+            "B_identity": 4.5,
+            "B_shape_fidelity": 4.0,
+            "B_texture_fidelity": 4.0
+          },
+          "mean_core": 4.166666666666667
+        }
+      },
+      "strict_restored": false,
+      "mean_core_delta_LSDA_minus_native": 0.5000000000000004,
+      "metric_deltas": {
+        "A_identity": 0.0,
+        "A_shape_fidelity": -0.5,
+        "A_texture_fidelity": 0.0,
+        "B_identity": 1.5,
+        "B_shape_fidelity": 1.0,
+        "B_texture_fidelity": 1.0
+      }
+    },
+    {
+      "case_id": "pair_098_seed2022",
+      "conditions": {
+        "native_SS": {
+          "strict_success_by_rater": {
+            "QWEN": false,
+            "GEMINI": false
+          },
+          "dual_success": false,
+          "dual_failure": true,
+          "rater_disagreement": false,
+          "mean_scores": {
+            "A_identity": 3.5,
+            "A_shape_fidelity": 3.5,
+            "A_texture_fidelity": 2.5,
+            "B_identity": 1.0,
+            "B_shape_fidelity": 1.0,
+            "B_texture_fidelity": 1.0
+          },
+          "mean_core": 2.0833333333333335
+        },
+        "LSDA": {
+          "strict_success_by_rater": {
+            "QWEN": true,
+            "GEMINI": false
+          },
+          "dual_success": false,
+          "dual_failure": false,
+          "rater_disagreement": true,
+          "mean_scores": {
+            "A_identity": 4.5,
+            "A_shape_fidelity": 3.5,
+            "A_texture_fidelity": 3.0,
+            "B_identity": 4.0,
+            "B_shape_fidelity": 3.0,
+            "B_texture_fidelity": 3.5
+          },
+          "mean_core": 3.5833333333333335
+        }
+      },
+      "strict_restored": false,
+      "mean_core_delta_LSDA_minus_native": 1.5,
+      "metric_deltas": {
+        "A_identity": 1.0,
+        "A_shape_fidelity": 0.0,
+        "A_texture_fidelity": 0.5,
+        "B_identity": 3.0,
+        "B_shape_fidelity": 2.0,
+        "B_texture_fidelity": 2.5
+      }
+    }
+  ]
+}

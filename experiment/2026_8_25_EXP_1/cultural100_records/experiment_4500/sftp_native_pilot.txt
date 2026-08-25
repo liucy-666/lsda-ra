@@ -1,0 +1,3 @@
+get /science/wx/pry/AAA_Experiment/cultural100_v1/base/images/pair_007/native_SS/pair_007_native_SS_g2_r2_s2022.png D:/Python/MMDIT/AAA_Experiment/experiment_4500/independent_pilot/masks/pair_007/native_SS.png
+get /science/wx/pry/AAA_Experiment/cultural100_v1/base/images/pair_061/native_SS/pair_061_native_SS_g2_r3_s2023.png D:/Python/MMDIT/AAA_Experiment/experiment_4500/independent_pilot/masks/pair_061/native_SS.png
+get /science/wx/pry/AAA_Experiment/cultural100_v1/base/images/pair_098/native_SS/pair_098_native_SS_g2_r2_s2022.png D:/Python/MMDIT/AAA_Experiment/experiment_4500/independent_pilot/masks/pair_098/native_SS.png

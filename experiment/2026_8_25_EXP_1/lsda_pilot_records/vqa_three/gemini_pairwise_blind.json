@@ -1,0 +1,62 @@
+[
+  {
+    "eval_id": "eval_001",
+    "right_choice": "B",
+    "left_choice": "A",
+    "right_reason": "Wood texture and minimalist face.",
+    "left_reason": "Glossy finish and ornate face.",
+    "correct_binding": true,
+    "A_to_B_leakage": false,
+    "B_to_A_leakage": false
+  },
+  {
+    "eval_id": "eval_002",
+    "right_choice": "A",
+    "left_choice": "A",
+    "right_reason": "shares the smooth silk finish and solid warm orange-red color seen on the garment edges",
+    "left_reason": "shares the cream silk base and painted landscape motifs",
+    "correct_binding": false,
+    "A_to_B_leakage": true,
+    "B_to_A_leakage": false
+  },
+  {
+    "eval_id": "eval_003",
+    "right_choice": "B",
+    "left_choice": "A",
+    "right_reason": "deep blue color with intricate gold netting and motifs",
+    "left_reason": "central painted pastoral scene and ornate gold handles on a white body",
+    "correct_binding": true,
+    "A_to_B_leakage": false,
+    "B_to_A_leakage": false
+  },
+  {
+    "eval_id": "eval_004",
+    "right_choice": "B",
+    "left_choice": "A",
+    "right_reason": "Shares bright pink color and metallic hem border.",
+    "left_reason": "Shares gold silk material and pine tree motifs.",
+    "correct_binding": true,
+    "A_to_B_leakage": false,
+    "B_to_A_leakage": false
+  },
+  {
+    "eval_id": "eval_005",
+    "right_choice": "B",
+    "left_choice": "A",
+    "right_reason": "features visible wood grain and kimono-style grid and floral branch motifs similar to B-alone",
+    "left_reason": "features a high gloss finish, painted red cheeks, and vivid color patterns similar to A-alone",
+    "correct_binding": true,
+    "A_to_B_leakage": false,
+    "B_to_A_leakage": false
+  },
+  {
+    "eval_id": "eval_006",
+    "right_choice": "B",
+    "left_choice": "A",
+    "right_reason": "deep blue base color with an all-over netting pattern",
+    "left_reason": "white porcelain body with gold handles and a central painted scene",
+    "correct_binding": true,
+    "A_to_B_leakage": false,
+    "B_to_A_leakage": false
+  }
+]

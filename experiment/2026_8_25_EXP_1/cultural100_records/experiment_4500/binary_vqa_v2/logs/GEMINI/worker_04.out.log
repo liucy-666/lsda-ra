@@ -1,0 +1,8 @@
+{"event": "failed", "eval_id": "eval_0236", "message": "[WinError 10054] 远程主机强迫关闭了一个现有的连接。"}
+{"event": "failed", "eval_id": "eval_0946", "message": "HTTPError: HTTP Error 404: Not Found"}
+{"event": "failed", "eval_id": "eval_1279", "message": "HTTPError: HTTP Error 404: Not Found"}
+{"event": "rated", "eval_id": "eval_1299"}
+{"event": "failed", "eval_id": "eval_0992", "message": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"}
+{"event": "failed", "eval_id": "eval_0027", "message": "HTTPError: HTTP Error 404: Not Found"}
+{"event": "failed", "eval_id": "eval_1769", "message": "Remote end closed connection without response"}
+{"event": "failed", "eval_id": "eval_1448", "message": "HTTPError: HTTP Error 404: Not Found"}

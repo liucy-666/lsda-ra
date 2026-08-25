@@ -1,0 +1,20 @@
+{
+  "experiment_id": "2026_8_25_EXP_1",
+  "image_counts": {
+    "Standalone_A": 900,
+    "Standalone_B": 900,
+    "SS": 900,
+    "LSDA": 900,
+    "Blind": 1800,
+    "LSDA_Pilot": 17
+  },
+  "code_counts": {
+    "cultural100": 36,
+    "lsda": 18
+  },
+  "metadata_counts": {
+    "cultural100": 252,
+    "lsda_pilots": 22
+  },
+  "source_note": "Method images are cropped from frozen VQA triptychs; Blind contains the mixed anonymous SS/LSDA pool."
+}
