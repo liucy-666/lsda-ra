@@ -1,12 +1,19 @@
 param(
-    [int]$PollSeconds = 60
+    [int]$PollSeconds = 60,
+    [string]$Root = (Join-Path $PSScriptRoot '..\..\experiment\2026_8_25_EXP_1\cultural100_records\experiment_4500\binary_vqa_v2'),
+    [string]$ImageRoot = (Join-Path $PSScriptRoot '..\..\data\Blind\2026_8_25_EXP_1'),
+    [string]$Worker = (Join-Path $PSScriptRoot '..\lsda\rate_binary_vqa_v2.py')
 )
 
 $ErrorActionPreference = 'Stop'
 $env:TEST_API_KEY = [Environment]::GetEnvironmentVariable('TEST_API_KEY', 'User')
 if (-not $env:TEST_API_KEY) { throw 'TEST_API_KEY is not available in the user environment.' }
-$Root = 'D:\Python\MMDIT\experiment\2026_8_25_EXP_1\cultural100_records\experiment_4500\binary_vqa_v2'
-$Worker = 'D:\Python\MMDIT\code\lsda\rate_binary_vqa_v2.py'
+$Root = [IO.Path]::GetFullPath($Root)
+$ImageRoot = [IO.Path]::GetFullPath($ImageRoot)
+$Worker = [IO.Path]::GetFullPath($Worker)
+if (-not (Test-Path -LiteralPath $Root -PathType Container)) { throw "Rating root does not exist: $Root" }
+if (-not (Test-Path -LiteralPath $ImageRoot -PathType Container)) { throw "Blind image root does not exist: $ImageRoot" }
+if (-not (Test-Path -LiteralPath $Worker -PathType Leaf)) { throw "Worker does not exist: $Worker" }
 $StateDir = Join-Path $Root 'watchdog'
 New-Item -ItemType Directory -Force -Path $StateDir | Out-Null
 
@@ -45,7 +52,8 @@ function Start-Worker($Config, [int]$Chunk) {
     $err = Join-Path $logDir ("watch_{0}_{1:00}_{2}.err.log" -f $rater,$Chunk,$stamp)
     $args = @(
         $Worker, '--rater', $rater, '--model', $Config.Model,
-        '--chunk', $Chunk, '--nchunks', $Config.Chunks
+        '--chunk', $Chunk, '--nchunks', $Config.Chunks,
+        '--root', $Root, '--image-root', $ImageRoot
     )
     $proc = Start-Process -FilePath 'python' -ArgumentList $args -WindowStyle Hidden -RedirectStandardOutput $out -RedirectStandardError $err -PassThru
     $pidFile = Join-Path $StateDir ("worker_{0}_{1:00}.pid" -f $rater,$Chunk)

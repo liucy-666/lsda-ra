@@ -11,11 +11,18 @@ import urllib.request
 from pathlib import Path
 
 
-ROOT = Path(
-    r"D:\Python\MMDIT\experiment\2026_8_25_EXP_1"
-    r"\cultural100_records\experiment_4500\binary_vqa_v2"
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DEFAULT_ROOT = (
+    PROJECT_ROOT
+    / "experiment"
+    / "2026_8_25_EXP_1"
+    / "cultural100_records"
+    / "experiment_4500"
+    / "binary_vqa_v2"
 )
-IMAGE_ROOT = Path(r"D:\Python\MMDIT\data\Blind\2026_8_25_EXP_1")
+DEFAULT_IMAGE_ROOT = PROJECT_ROOT / "data" / "Blind" / "2026_8_25_EXP_1"
+ROOT = DEFAULT_ROOT
+IMAGE_ROOT = DEFAULT_IMAGE_ROOT
 URL = "https://api.openlux.ai/v1/chat/completions"
 
 
@@ -124,13 +131,21 @@ def all_existing_ids(rater: str) -> set[str]:
 
 
 def main() -> None:
+    global ROOT, IMAGE_ROOT
     parser = argparse.ArgumentParser()
     parser.add_argument("--rater", choices=("GEMINI", "QWEN"), required=True)
     parser.add_argument("--model", required=True)
     parser.add_argument("--chunk", type=int, required=True)
     parser.add_argument("--nchunks", type=int, required=True)
     parser.add_argument("--limit", type=int, default=0)
+    parser.add_argument("--root", type=Path, default=DEFAULT_ROOT)
+    parser.add_argument("--image-root", type=Path, default=DEFAULT_IMAGE_ROOT)
     args = parser.parse_args()
+    ROOT = args.root
+    IMAGE_ROOT = args.image_root
+    for label, path in (("rating root", ROOT), ("blind image root", IMAGE_ROOT)):
+        if not path.exists():
+            raise FileNotFoundError(f"{label} does not exist: {path}")
     api_key = os.environ.get("TEST_API_KEY")
     if not api_key:
         raise RuntimeError("TEST_API_KEY missing")

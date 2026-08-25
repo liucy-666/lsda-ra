@@ -19,10 +19,6 @@ from PIL import Image, ImageDraw
 from transformers import SamModel, SamProcessor
 
 
-MODEL = Path("/science/wx/pry/models/stable-diffusion-3.5-large")
-SAM_MODEL = Path("/science/wx/pry/baseline_v2/models/sam-vit-base")
-HELPERS = Path("/science/wx/pry/baseline_v2/lsda_v2_src")
-ROOT = Path("/science/wx/pry/LSDA")
 STEPS = 28
 GUIDANCE = 4.5
 SIZE = 1024
@@ -425,26 +421,44 @@ def make_comparison(ss: Image.Image, overlay: Image.Image, lsda: Image.Image, ou
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=Path, required=True)
+    parser.add_argument("--model-dir", type=Path, required=True)
+    parser.add_argument("--sam-model-dir", type=Path, required=True)
+    parser.add_argument(
+        "--helpers-dir",
+        type=Path,
+        required=True,
+        help="Directory containing the phase1/phase2 LSDA helper modules.",
+    )
+    parser.add_argument("--output-root", type=Path, required=True)
     parser.add_argument("--overwrite", action="store_true")
     parser.add_argument("--reuse-ss", action="store_true")
     parser.add_argument("--reuse-segmentation", action="store_true")
     args = parser.parse_args()
+    for label, path in (
+        ("model", args.model_dir),
+        ("SAM model", args.sam_model_dir),
+        ("helper modules", args.helpers_dir),
+    ):
+        if not path.exists():
+            raise FileNotFoundError(f"{label} path does not exist: {path}")
     config = json.loads(args.config.read_text(encoding="utf-8"))
-    run_dir = ROOT / "runs" / config["run_id"]
+    run_dir = args.output_root / "runs" / config["run_id"]
     if run_dir.exists() and not args.overwrite:
         raise FileExistsError(run_dir)
     run_dir.mkdir(parents=True, exist_ok=True)
     (run_dir / "config.json").write_text(json.dumps(config, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    sys.path.insert(0, str(HELPERS))
+    sys.path.insert(0, str(args.helpers_dir))
     import phase1_common
-    phase1_common.MODEL_DIR = MODEL
+    phase1_common.MODEL_DIR = args.model_dir
     from diffusers import StableDiffusion3Pipeline
     from phase212_regional_score import prepare_schedule, transformer_pair
     from phase213_multidiffusion_crop import region_cfg_score
     from phase221_group_overlap_arbitration import encode_prompts
 
-    pipe = StableDiffusion3Pipeline.from_pretrained(MODEL, torch_dtype=torch.float16, local_files_only=True).to("cuda")
+    pipe = StableDiffusion3Pipeline.from_pretrained(
+        args.model_dir, torch_dtype=torch.float16, local_files_only=True
+    ).to("cuda")
     pipe.set_progress_bar_config(disable=True)
     seed = int(config["seed"])
     started = time.time()
@@ -470,8 +484,12 @@ def main():
             (segmentation_dir / "segmentation.json").read_text(encoding="utf-8")
         )
     else:
-        sam_processor = SamProcessor.from_pretrained(SAM_MODEL, local_files_only=True)
-        sam_model = SamModel.from_pretrained(SAM_MODEL, local_files_only=True).to("cuda").eval()
+        sam_processor = SamProcessor.from_pretrained(
+            args.sam_model_dir, local_files_only=True
+        )
+        sam_model = SamModel.from_pretrained(
+            args.sam_model_dir, local_files_only=True
+        ).to("cuda").eval()
         candidate_sets = []
         for index, entity in enumerate(config["entities"]):
             x = expected_x(entity.get("position", ""), index, len(config["entities"]))

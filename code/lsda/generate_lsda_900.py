@@ -14,19 +14,17 @@ import torch
 from PIL import Image, PngImagePlugin
 
 
-SERVER_ROOT = Path("/science/wx/pry/AAA_Experiment/cultural100_v1")
-MODEL = Path("/science/wx/pry/models/stable-diffusion-3.5-large")
-HELPERS = Path("/science/wx/pry/baseline_v2/lsda_v2_src")
-LSDA_CODE = Path("/science/wx/pry/LSDA")
-MANIFEST = SERVER_ROOT / "lsda_manifest.json"
-OUTPUT = SERVER_ROOT / "lsda_clean"
+MODEL: Path
+HELPERS: Path
+MANIFEST: Path
+OUTPUT: Path
+NATIVE_IMAGES_ROOT: Path
+MASK_ROOT: Path
 
 
 def native_path(row: dict) -> Path:
     return (
-        SERVER_ROOT
-        / "base"
-        / "images"
+        NATIVE_IMAGES_ROOT
         / row["pair_id"]
         / "native_SS"
         / f'{row["native_task_id"]}.png'
@@ -36,7 +34,7 @@ def native_path(row: dict) -> Path:
 def source_mask_dir(row: dict) -> Path:
     # These masks were produced by SAM from the matching native SS image. They are
     # reused as segmentation artifacts only; no old LSDA image/latent is consumed.
-    return SERVER_ROOT / "lsda_original" / "masks" / row["task_id"]
+    return MASK_ROOT / row["task_id"]
 
 
 def load_exclusive_image_masks(mask_dir: Path) -> tuple[list[np.ndarray], dict]:
@@ -92,13 +90,61 @@ def sha256_file(path: Path) -> str:
 
 
 def main() -> None:
+    global MODEL, HELPERS, MANIFEST, OUTPUT, NATIVE_IMAGES_ROOT, MASK_ROOT
     parser = argparse.ArgumentParser()
     parser.add_argument("shard", type=int)
     parser.add_argument("nshards", type=int)
     parser.add_argument("--limit", type=int, default=0)
+    parser.add_argument(
+        "--manifest",
+        type=Path,
+        required=True,
+        help="Frozen 900-task LSDA manifest.",
+    )
+    parser.add_argument(
+        "--native-images-root",
+        type=Path,
+        required=True,
+        help="Root containing <pair-id>/native_SS/*.png.",
+    )
+    parser.add_argument(
+        "--mask-root",
+        type=Path,
+        required=True,
+        help="Root containing one native-SS SAM-mask directory per LSDA task.",
+    )
+    parser.add_argument("--model-dir", type=Path, required=True)
+    parser.add_argument(
+        "--helpers-dir",
+        type=Path,
+        required=True,
+        help="Directory containing the phase1/phase2 LSDA helper modules.",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        required=True,
+        help="Dedicated LSDA clean output directory.",
+    )
     args = parser.parse_args()
 
-    sys.path.insert(0, str(LSDA_CODE))
+    MODEL = args.model_dir
+    HELPERS = args.helpers_dir
+    MANIFEST = args.manifest
+    OUTPUT = args.output_dir
+    NATIVE_IMAGES_ROOT = args.native_images_root
+    MASK_ROOT = args.mask_root
+    for label, path in (
+        ("model", MODEL),
+        ("helper modules", HELPERS),
+        ("manifest", MANIFEST),
+        ("native images", NATIVE_IMAGES_ROOT),
+        ("SAM masks", MASK_ROOT),
+    ):
+        if not path.exists():
+            raise FileNotFoundError(f"{label} path does not exist: {path}")
+
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
     sys.path.insert(0, str(HELPERS))
     import phase1_common
     phase1_common.MODEL_DIR = MODEL

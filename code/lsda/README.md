@@ -130,3 +130,28 @@ partition_min = partition_max = 1
 - 配置、sidecars、日志、评分及分析：`D:\Python\MMDIT\experiment\<experiment_id>`
 
 不要把图像、JSON、评分或日志重新放回本目录。
+
+## 10. 运行时路径配置
+
+仓库不再绑定任何个人工作目录或特定服务器目录。模型权重和辅助模块体积较大，
+不随仓库分发，运行时必须显式传入，避免把某台机器的目录误认为项目约定。
+
+单任务入口 `lsda_pipeline.py` 必须指定：
+
+- `--model-dir`：本机或计算节点上的 SD3.5 Large 权重目录；
+- `--sam-model-dir`：SAM 权重目录；
+- `--helpers-dir`：包含 phase1/phase2 模块的 LSDA 辅助代码目录；
+- `--output-root`：本次运行的独立输出根目录。
+
+900 任务入口 `generate_lsda_900.py` 必须另外指定冻结 manifest、原生 SS 图像根目录、
+对应的 SAM mask 根目录和输出目录。mask 可以来自早期分割任务，但这里只将其作为同 seed
+原生 SS 的分割产物读取；旧 LSDA/RA 图像、latent 或 hidden state 不会被读取。
+
+`helpers-dir` 中的辅助模块目前尚未收录进本仓库，这是完整复现前必须补齐并锁定版本的外部依赖。
+
+## 11. 历史代码清理记录
+
+`code/cultural100/experiment_4500` 曾保存 Base、LSDA-RA、Original 与早期 VLM 的一次性脚本。
+这些脚本依赖已经废弃的目录结构，且不属于 LSDA clean v1 正式实现，已从代码区移除。
+其生成图像、原始评分、日志与实验元数据仍完整保留在 `data` 和 `experiment` 中，
+不得据此将历史探索结果并入 clean v1 的正式统计。
