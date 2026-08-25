@@ -1,0 +1,73 @@
+{
+  "status": "Qwen complete; single-rater analysis",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "n_ratings": 1800,
+  "n_paired_samples": 900,
+  "n_cultural_pairs": 100,
+  "duplicates_ignored_first_occurrence_wins": 0,
+  "condition": {
+    "native_SS": {
+      "n": 900,
+      "correct": 633,
+      "drift": 267,
+      "drift_rate": 0.2966666666666667,
+      "wilson95": [
+        0.2677388581545861,
+        0.3273228681823026
+      ],
+      "A_to_B_leakage": 200,
+      "B_to_A_leakage": 204,
+      "bidirectional_leakage": 137
+    },
+    "lsda_clean": {
+      "n": 900,
+      "correct": 853,
+      "drift": 47,
+      "drift_rate": 0.052222222222222225,
+      "wilson95": [
+        0.039497180735670774,
+        0.06875350622479992
+      ],
+      "A_to_B_leakage": 32,
+      "B_to_A_leakage": 41,
+      "bidirectional_leakage": 26
+    }
+  },
+  "transitions": {
+    "persistent_failure": 37,
+    "both_correct": 623,
+    "restored": 230,
+    "worsened": 10
+  },
+  "restoration_rate_among_native_failures": 0.8614232209737828,
+  "persistent_failure_rate_among_native_failures": 0.13857677902621723,
+  "harm_rate_among_native_correct": 0.01579778830963665,
+  "absolute_drift_rate_difference_lsda_minus_ss": -0.24444444444444446,
+  "cluster_bootstrap95_difference": [
+    -0.28888888888888886,
+    -0.20222222222222222
+  ],
+  "relative_drift_reduction": 0.8239700374531835,
+  "mcnemar_exact": {
+    "discordant_restored": 230,
+    "discordant_worsened": 10,
+    "p_two_sided": 1.709158459265253e-55
+  },
+  "paired_odds_ratio_restoration_vs_harm": 23.0,
+  "paired_odds_ratio_approx95": [
+    12.211243175424075,
+    43.32073257411228
+  ],
+  "pair_level": {
+    "improved_pairs": 78,
+    "unchanged_pairs": 19,
+    "worsened_pairs": 3,
+    "zero_lsda_drift_pairs": 65,
+    "zero_native_drift_pairs": 16
+  },
+  "bootstrap": {
+    "unit": "cultural pair",
+    "draws": 20000,
+    "seed": 20260825
+  }
+}

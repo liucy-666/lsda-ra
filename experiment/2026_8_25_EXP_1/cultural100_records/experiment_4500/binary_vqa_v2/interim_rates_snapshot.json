@@ -1,0 +1,80 @@
+{
+  "snapshot_time": "2026-08-25T22:24:10.105194+08:00",
+  "status": "interim_partial_blind_review",
+  "unit": "one pair-seed image",
+  "drift_definition": "left_choice != A or right_choice != B",
+  "raters": {
+    "QWEN": {
+      "valid_total": 1800,
+      "conditions": {
+        "native_SS": {
+          "n": 900,
+          "correct": 633,
+          "drift": 267,
+          "drift_rate": 0.2966666666666667,
+          "drift_rate_wilson95": [
+            0.2677388581545861,
+            0.3273228681823026
+          ],
+          "A_to_B_leakage": 200,
+          "B_to_A_leakage": 204
+        },
+        "lsda_clean": {
+          "n": 900,
+          "correct": 853,
+          "drift": 47,
+          "drift_rate": 0.052222222222222225,
+          "drift_rate_wilson95": [
+            0.039497180735670774,
+            0.06875350622479992
+          ],
+          "A_to_B_leakage": 32,
+          "B_to_A_leakage": 41
+        }
+      },
+      "paired": {
+        "n": 900,
+        "restored_native_drift_to_lsda_correct": 230,
+        "worsened_native_correct_to_lsda_drift": 10,
+        "both_drift": 37,
+        "both_correct": 623
+      }
+    },
+    "GEMINI": {
+      "valid_total": 834,
+      "conditions": {
+        "native_SS": {
+          "n": 431,
+          "correct": 210,
+          "drift": 221,
+          "drift_rate": 0.5127610208816705,
+          "drift_rate_wilson95": [
+            0.4656683560351263,
+            0.5596282199395571
+          ],
+          "A_to_B_leakage": 178,
+          "B_to_A_leakage": 99
+        },
+        "lsda_clean": {
+          "n": 403,
+          "correct": 348,
+          "drift": 55,
+          "drift_rate": 0.13647642679900746,
+          "drift_rate_wilson95": [
+            0.10637463465849158,
+            0.17344310847586064
+          ],
+          "A_to_B_leakage": 41,
+          "B_to_A_leakage": 35
+        }
+      },
+      "paired": {
+        "n": 189,
+        "restored_native_drift_to_lsda_correct": 83,
+        "worsened_native_correct_to_lsda_drift": 2,
+        "both_drift": 23,
+        "both_correct": 81
+      }
+    }
+  }
+}
