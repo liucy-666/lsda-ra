@@ -7,3 +7,5 @@
 {"eval_id": "eval_0502", "error": "ConnectionResetError", "message": "[WinError 10054] 远程主机强迫关闭了一个现有的连接。"}
 {"eval_id": "eval_1779", "error": "RemoteDisconnected", "message": "Remote end closed connection without response"}
 {"eval_id": "eval_0260", "error": "RemoteDisconnected", "message": "Remote end closed connection without response"}
+{"eval_id": "eval_0720", "error": "RemoteDisconnected", "message": "Remote end closed connection without response"}
+{"eval_id": "eval_0922", "error": "RemoteDisconnected", "message": "Remote end closed connection without response"}

@@ -1,9 +1,0 @@
-{"event": "failed", "eval_id": "eval_0612", "message": "HTTPError: HTTP Error 404: Not Found"}
-{"event": "rated", "eval_id": "eval_1661"}
-{"event": "failed", "eval_id": "eval_0509", "message": "Remote end closed connection without response"}
-{"event": "rated", "eval_id": "eval_1353"}
-{"event": "failed", "eval_id": "eval_0268", "message": "HTTPError: HTTP Error 404: Not Found"}
-{"event": "failed", "eval_id": "eval_0035", "message": "HTTPError: HTTP Error 404: Not Found"}
-{"event": "failed", "eval_id": "eval_1141", "message": "[WinError 10054] 远程主机强迫关闭了一个现有的连接。"}
-{"event": "failed", "eval_id": "eval_0505", "message": "HTTPError: HTTP Error 404: Not Found"}
-{"event": "failed", "eval_id": "eval_1216", "message": "HTTPError: HTTP Error 404: Not Found"}

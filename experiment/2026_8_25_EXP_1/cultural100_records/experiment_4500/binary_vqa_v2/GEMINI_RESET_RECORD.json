@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-08-25T21:00:32.8419055+08:00",
+  "action": "Gemini active rating reset requested by user",
+  "deleted_valid_records": 6,
+  "deleted_rating_files": 4,
+  "deleted_log_files": 22,
+  "order_file_preserved": true
+}

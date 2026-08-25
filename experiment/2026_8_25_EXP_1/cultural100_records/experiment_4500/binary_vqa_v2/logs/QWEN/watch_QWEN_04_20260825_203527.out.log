@@ -42,3 +42,13 @@
 {"event": "rated", "eval_id": "eval_1711"}
 {"event": "rated", "eval_id": "eval_1391"}
 {"event": "rated", "eval_id": "eval_1360"}
+{"event": "rated", "eval_id": "eval_0949"}
+{"event": "rated", "eval_id": "eval_1267"}
+{"event": "rated", "eval_id": "eval_1232"}
+{"event": "rated", "eval_id": "eval_0189"}
+{"event": "failed", "eval_id": "eval_0071", "message": "Remote end closed connection without response"}
+{"event": "rated", "eval_id": "eval_0909"}
+{"event": "rated", "eval_id": "eval_0993"}
+{"event": "rated", "eval_id": "eval_1528"}
+{"event": "rated", "eval_id": "eval_1392"}
+{"event": "rated", "eval_id": "eval_1775"}
