@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-08-25T22:24:10.105194+08:00",
+  "snapshot_time": "2026-08-25T23:47:39.186833+08:00",
   "status": "interim_partial_blind_review",
   "unit": "one pair-seed image",
   "drift_definition": "left_choice != A or right_choice != B",
@@ -41,39 +41,39 @@
       }
     },
     "GEMINI": {
-      "valid_total": 834,
+      "valid_total": 1800,
       "conditions": {
         "native_SS": {
-          "n": 431,
-          "correct": 210,
-          "drift": 221,
-          "drift_rate": 0.5127610208816705,
+          "n": 900,
+          "correct": 434,
+          "drift": 466,
+          "drift_rate": 0.5177777777777778,
           "drift_rate_wilson95": [
-            0.4656683560351263,
-            0.5596282199395571
+            0.48512616805277575,
+            0.5502782711746
           ],
-          "A_to_B_leakage": 178,
-          "B_to_A_leakage": 99
+          "A_to_B_leakage": 384,
+          "B_to_A_leakage": 193
         },
         "lsda_clean": {
-          "n": 403,
-          "correct": 348,
-          "drift": 55,
-          "drift_rate": 0.13647642679900746,
+          "n": 900,
+          "correct": 773,
+          "drift": 127,
+          "drift_rate": 0.1411111111111111,
           "drift_rate_wilson95": [
-            0.10637463465849158,
-            0.17344310847586064
+            0.11988915226991495,
+            0.165383730827435
           ],
-          "A_to_B_leakage": 41,
-          "B_to_A_leakage": 35
+          "A_to_B_leakage": 107,
+          "B_to_A_leakage": 73
         }
       },
       "paired": {
-        "n": 189,
-        "restored_native_drift_to_lsda_correct": 83,
-        "worsened_native_correct_to_lsda_drift": 2,
-        "both_drift": 23,
-        "both_correct": 81
+        "n": 900,
+        "restored_native_drift_to_lsda_correct": 366,
+        "worsened_native_correct_to_lsda_drift": 27,
+        "both_drift": 100,
+        "both_correct": 407
       }
     }
   }

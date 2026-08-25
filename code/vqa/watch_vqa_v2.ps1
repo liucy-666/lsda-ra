@@ -18,7 +18,7 @@ $StateDir = Join-Path $Root 'watchdog'
 New-Item -ItemType Directory -Force -Path $StateDir | Out-Null
 
 $configs = @(
-    @{ Rater='GEMINI'; Model='gemini-3.5-flash-lite'; Chunks=2 },
+    @{ Rater='GEMINI'; Model='gemini-3.5-flash-lite'; Chunks=6 },
     @{ Rater='QWEN'; Model='qwen3-vl-235b-a22b-instruct'; Chunks=6 }
 )
 
