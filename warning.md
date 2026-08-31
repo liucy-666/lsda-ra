@@ -159,6 +159,8 @@ experiment\YYYY_M_D_EXP_N\
 ## 6. 后台任务与看门狗
 
 - 启动生图、下载或 VLM 评审前，必须记录脚本、参数、并发数、PID 和日志路径；
+- 远程长任务必须使用 `setsid nohup command </dev/null >log 2>&1 &`，不得让
+  stdout/stderr 或 stdin 继续依附 SSH 通道；启动后必须立即验证 PID 存活、日志文件存在；
 - 看门狗只能恢复缺失任务，不得重复已成功的 image ID；
 - 断点续跑必须扫描全局有效结果，而不是只检查当前 chunk；
 - API 连续失败时应降低并发并保留错误，不得无限创建新 worker；
@@ -174,6 +176,13 @@ experiment\YYYY_M_D_EXP_N\
 - SSH 密码、旧服务器凭据和带签名的临时 URL 不得写入长期文件；
 - 远程实验只允许写入用户指定工作区；其他远程目录按只读处理；
 - 本地和远程副本必须通过 manifest、文件数或哈希建立对应关系后，才能删除源副本。
+- `s3.v100.vip:36111` 存在公网 pre-auth 连接拥塞；客户端默认使用
+  `ConnectionAttempts=8`、`ConnectTimeout=10`、`ServerAliveInterval=10`、
+  `ServerAliveCountMax=6`，并减少并行短连接、尽量合并传输。
+- Windows OpenSSH 在本机实测不支持 ControlMaster（`getsockname failed: Not a socket`），
+  因此不得把 Unix 的 `/tmp/ssh-ctrl-*` 配置直接复制到 Windows 客户端。
+- 修改共享服务器的 `MaxStartups`、`LoginGraceTime`、fail2ban 或防火墙属于全局管理操作，
+  必须由服务器管理员授权并先通过 `sshd -t`；普通实验 Agent 不得自行修改或重启 SSHD。
 
 ---
 
@@ -204,3 +213,20 @@ experiment\YYYY_M_D_EXP_N\
 - [ ] 已阅读相关方法目录中的 README。
 
 违反本规范生成的数据必须在报告中标记为 protocol deviation；严重情况下不得进入正式统计。
+
+---
+
+## 10. 重复问题停止规则（实验负责人 2026-08-31 要求）
+
+**当一个类似的问题重复出现三次未能解决时，Agent 必须及时停止当前操作并立即向实验负责人汇报，不得继续重试或绕路。**
+
+适用情形包括但不限于：SSH/网络连接反复被掐断、API 连续失败、同一脚本反复报错、文件访问反复被拒、服务器资源反复不足等。
+
+执行要点：
+
+- "重复出现三次"指同类问题（同一根因、同一现象）连续或累计出现 3 次仍未解决；
+- 停止后必须汇报：问题现象、已尝试的手段（含次数）、当前状态、以及你认为需要的决策或授权；
+- 汇报后等待负责人指示，不得自行决定继续重试、换命令、换方式绕过；
+- 本规则优先于"完成任务"的目标：连接不稳时宁可暂停，也不得通过高频重试加重服务器负担。
+
+违反本规则的 Agent 行为将被视为 protocol deviation 记录。

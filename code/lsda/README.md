@@ -147,7 +147,17 @@ partition_min = partition_max = 1
 对应的 SAM mask 根目录和输出目录。mask 可以来自早期分割任务，但这里只将其作为同 seed
 原生 SS 的分割产物读取；旧 LSDA/RA 图像、latent 或 hidden state 不会被读取。
 
-`helpers-dir` 中的辅助模块目前尚未收录进本仓库，这是完整复现前必须补齐并锁定版本的外部依赖。
+`helpers-dir` 已收录并锁定以下历史辅助模块：
+
+- `phase1_common.py`
+- `phase28_trainfree.py`
+- `phase212_regional_score.py`
+- `phase213_multidiffusion_crop.py`
+- `phase221_group_overlap_arbitration.py`
+
+其中 `phase28_trainfree.py` 是历史 training-free 入口；当前 `lsda_pipeline.py`
+直接导入其余四个模块中的函数。五个文件均须保留，不能把“当前入口未直接导入”
+误解为可以删除。
 
 ## 11. 历史代码清理记录
 
@@ -155,3 +165,12 @@ partition_min = partition_max = 1
 这些脚本依赖已经废弃的目录结构，且不属于 LSDA clean v1 正式实现，已从代码区移除。
 其生成图像、原始评分、日志与实验元数据仍完整保留在 `data` 和 `experiment` 中，
 不得据此将历史探索结果并入 clean v1 的正式统计。
+
+## 12. LSDA v2 放弃记录（2026-08-31）
+
+LSDA v2（scene-planned early-binding + soft-kernel nursing 原型）经 1 seed（1011）× 5 pair
+pilot 验证：结构完整性优于 clean v1（t*=4），但色彩/纹理属性保持显著弱于 clean v1，
+nursing 补测（t_fade=24, w_max=3.0）未能恢复至 clean v1 水平。经实验负责人决定，
+LSDA v2 方向于 2026-08-31 放弃，正式方法保持为 LSDA clean v1。
+v2 本地代码与生成数据已按负责人批准删除；服务器副本（`/science/wx/pry/MMDIT`）
+保留失败证据。不得将 v2 的任何结果并入 clean v1 正式统计。

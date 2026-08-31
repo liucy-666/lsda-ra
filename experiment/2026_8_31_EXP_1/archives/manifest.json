@@ -1,0 +1,92 @@
+[
+  {
+    "run_id": "pair_101_delftware_qallaline_s1011_lsda_v1",
+    "image": "data\\SS\\2026_8_31_EXP_1\\pair_101_delftware_qallaline_s1011_lsda_v1.png",
+    "sha256": "17cf27b464189cd0898c2d3828de5b18ba0e7480af5cb7af2522359ec28f3c3b",
+    "size": 2182994
+  },
+  {
+    "run_id": "pair_101_delftware_qallaline_s1011_lsda_v1",
+    "image": "data\\LSDA\\2026_8_31_EXP_1\\pair_101_delftware_qallaline_s1011_lsda_v1.png",
+    "sha256": "404b4fbb663426fd9e29896570c37ad058d1e90574a7526980086a7f037f09f7",
+    "size": 2160644
+  },
+  {
+    "run_id": "pair_101_delftware_qallaline_s1011_native_SS",
+    "image": "data\\SS\\2026_8_31_EXP_1\\pair_101_delftware_qallaline_s1011_native_SS.png",
+    "sha256": "17cf27b464189cd0898c2d3828de5b18ba0e7480af5cb7af2522359ec28f3c3b",
+    "size": 2182994
+  },
+  {
+    "run_id": "pair_102_murano_hebron_s1011_lsda_v1",
+    "image": "data\\LSDA\\2026_8_31_EXP_1\\pair_102_murano_hebron_s1011_lsda_v1.png",
+    "sha256": "b0e72a9adddce59a9b48ed68e6141fae6a082930cd3f969dc4c2f42fd85457e9",
+    "size": 1293650
+  },
+  {
+    "run_id": "pair_102_murano_hebron_s1011_lsda_v1",
+    "image": "data\\SS\\2026_8_31_EXP_1\\pair_102_murano_hebron_s1011_lsda_v1.png",
+    "sha256": "9a2c81d7b1c240b4a3d32224b2bec160fefe30daf5b5187d8429b003ea26f40a",
+    "size": 1345264
+  },
+  {
+    "run_id": "pair_102_murano_hebron_s1011_native_SS",
+    "image": "data\\SS\\2026_8_31_EXP_1\\pair_102_murano_hebron_s1011_native_SS.png",
+    "sha256": "9a2c81d7b1c240b4a3d32224b2bec160fefe30daf5b5187d8429b003ea26f40a",
+    "size": 1345264
+  },
+  {
+    "run_id": "pair_103_chinese_bencharong_s1011_lsda_v1",
+    "image": "data\\SS\\2026_8_31_EXP_1\\pair_103_chinese_bencharong_s1011_lsda_v1.png",
+    "sha256": "66b9e328d2ddb2378a3e5ef80883ab616185084a180a6c4cffd3bd31ad7bf7d5",
+    "size": 1833434
+  },
+  {
+    "run_id": "pair_103_chinese_bencharong_s1011_lsda_v1",
+    "image": "data\\LSDA\\2026_8_31_EXP_1\\pair_103_chinese_bencharong_s1011_lsda_v1.png",
+    "sha256": "e504f02f70ae8da85b940af8433216b38848fc82ce11febd48c0248b0e55cf89",
+    "size": 1798012
+  },
+  {
+    "run_id": "pair_103_chinese_bencharong_s1011_native_SS",
+    "image": "data\\SS\\2026_8_31_EXP_1\\pair_103_chinese_bencharong_s1011_native_SS.png",
+    "sha256": "66b9e328d2ddb2378a3e5ef80883ab616185084a180a6c4cffd3bd31ad7bf7d5",
+    "size": 1833434
+  },
+  {
+    "run_id": "pair_104_bizen_puisaye_s1011_lsda_v1",
+    "image": "data\\SS\\2026_8_31_EXP_1\\pair_104_bizen_puisaye_s1011_lsda_v1.png",
+    "sha256": "2d378f5fd863745ddabc37671169669a399a93cabd21461470c5e01fff740095",
+    "size": 1436138
+  },
+  {
+    "run_id": "pair_104_bizen_puisaye_s1011_lsda_v1",
+    "image": "data\\LSDA\\2026_8_31_EXP_1\\pair_104_bizen_puisaye_s1011_lsda_v1.png",
+    "sha256": "51f47b2394c4e7861858b6bc8d29f90902b1ab25e0b2d00578af06c9e279613d",
+    "size": 1415218
+  },
+  {
+    "run_id": "pair_104_bizen_puisaye_s1011_native_SS",
+    "image": "data\\SS\\2026_8_31_EXP_1\\pair_104_bizen_puisaye_s1011_native_SS.png",
+    "sha256": "2d378f5fd863745ddabc37671169669a399a93cabd21461470c5e01fff740095",
+    "size": 1436138
+  },
+  {
+    "run_id": "pair_105_toledo_nunome_s1011_lsda_v1",
+    "image": "data\\LSDA\\2026_8_31_EXP_1\\pair_105_toledo_nunome_s1011_lsda_v1.png",
+    "sha256": "0c550716f23131f6b2957c12d113a513224f5a38d74d129bb83ddcc31a8594c0",
+    "size": 1832157
+  },
+  {
+    "run_id": "pair_105_toledo_nunome_s1011_lsda_v1",
+    "image": "data\\SS\\2026_8_31_EXP_1\\pair_105_toledo_nunome_s1011_lsda_v1.png",
+    "sha256": "b8e0d7bd36b26f7131df232d48d6bb74088b820063697780b23f359a8ec4e184",
+    "size": 1852954
+  },
+  {
+    "run_id": "pair_105_toledo_nunome_s1011_native_SS",
+    "image": "data\\SS\\2026_8_31_EXP_1\\pair_105_toledo_nunome_s1011_native_SS.png",
+    "sha256": "b8e0d7bd36b26f7131df232d48d6bb74088b820063697780b23f359a8ec4e184",
+    "size": 1852954
+  }
+]
