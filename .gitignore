@@ -1,0 +1,8 @@
+.hf_cache/
+.pdf_tmp/
+.venv/
+pyenv/
+models/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/

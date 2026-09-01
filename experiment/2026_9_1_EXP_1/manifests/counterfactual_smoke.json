@@ -1,0 +1,256 @@
+{
+  "schema_version": "agentic_lsda_replay_v1",
+  "experiment_id": "2026_9_1_EXP_1",
+  "purpose": "counterfactual timing sweep for sequential LSDA tool use",
+  "source_manifest": "experiment\\2026_8_25_EXP_1\\cultural100_records\\experiment_4500\\lsda_manifest.json",
+  "source_transitions": "experiment\\2026_8_25_EXP_1\\cultural100_records\\experiment_4500\\binary_vqa_v2\\source_data\\qwen_paired_transitions.csv",
+  "selection": {
+    "seed": 20260901,
+    "strata": {
+      "restored": 1,
+      "both_correct": 1
+    },
+    "selected_samples": 2,
+    "selected_transition_counts": {
+      "restored": 1,
+      "both_correct": 1
+    },
+    "mask_qc_root": "experiment\\2026_8_31_EXP_2\\segmentation\\masks_native_SS",
+    "mask_qc_rejected_count": 28,
+    "selected_samples_passed_mask_qc": true
+  },
+  "generation": {
+    "model": "stable-diffusion-3.5-large",
+    "scheduler": "FlowMatchEulerDiscreteScheduler",
+    "num_inference_steps": 28,
+    "guidance_scale": 4.5,
+    "intervention_steps": [
+      0,
+      12,
+      20
+    ],
+    "targets": [
+      "AB"
+    ],
+    "checkpoint_semantics": "WAIT follows the frozen native trajectory. INVOKE starts from the native state immediately before intervention_step; selected owners follow local experts and all other owners follow the native trajectory."
+  },
+  "task_count": 8,
+  "tasks": [
+    {
+      "replay_id": "sample_0798__wait",
+      "sample_id": "sample_0798",
+      "pair_id": "pair_065",
+      "pair_index": 65,
+      "seed_group": 2,
+      "replicate": 2,
+      "latent_seed": 2022,
+      "global_prompt": "Neutral studio background: a Chinese silk-embroidery panel on the left, a Vietnamese silk-embroidery panel on the right; both fully visible, separate, and similar in size.",
+      "entity_A_prompt": "a Chinese silk-embroidery panel",
+      "entity_B_prompt": "a Vietnamese silk-embroidery panel",
+      "native_task_id": "pair_065_native_SS_g2_r2_s2022",
+      "source_lsda_task_id": "pair_065_lsda_ra_g2_r2_s2022",
+      "source_transition": "restored",
+      "cohort": "timing_oracle",
+      "split": "pilot",
+      "action": {
+        "kind": "wait",
+        "intervention_step": null,
+        "target": "none"
+      },
+      "metadata": {
+        "native_correct": 0,
+        "lsda_step0_correct": 1,
+        "selection_seed": 20260901
+      }
+    },
+    {
+      "replay_id": "sample_0798__t00__AB",
+      "sample_id": "sample_0798",
+      "pair_id": "pair_065",
+      "pair_index": 65,
+      "seed_group": 2,
+      "replicate": 2,
+      "latent_seed": 2022,
+      "global_prompt": "Neutral studio background: a Chinese silk-embroidery panel on the left, a Vietnamese silk-embroidery panel on the right; both fully visible, separate, and similar in size.",
+      "entity_A_prompt": "a Chinese silk-embroidery panel",
+      "entity_B_prompt": "a Vietnamese silk-embroidery panel",
+      "native_task_id": "pair_065_native_SS_g2_r2_s2022",
+      "source_lsda_task_id": "pair_065_lsda_ra_g2_r2_s2022",
+      "source_transition": "restored",
+      "cohort": "timing_oracle",
+      "split": "pilot",
+      "action": {
+        "kind": "invoke_lsda",
+        "intervention_step": 0,
+        "target": "AB"
+      },
+      "metadata": {
+        "native_correct": 0,
+        "lsda_step0_correct": 1,
+        "selection_seed": 20260901
+      }
+    },
+    {
+      "replay_id": "sample_0798__t12__AB",
+      "sample_id": "sample_0798",
+      "pair_id": "pair_065",
+      "pair_index": 65,
+      "seed_group": 2,
+      "replicate": 2,
+      "latent_seed": 2022,
+      "global_prompt": "Neutral studio background: a Chinese silk-embroidery panel on the left, a Vietnamese silk-embroidery panel on the right; both fully visible, separate, and similar in size.",
+      "entity_A_prompt": "a Chinese silk-embroidery panel",
+      "entity_B_prompt": "a Vietnamese silk-embroidery panel",
+      "native_task_id": "pair_065_native_SS_g2_r2_s2022",
+      "source_lsda_task_id": "pair_065_lsda_ra_g2_r2_s2022",
+      "source_transition": "restored",
+      "cohort": "timing_oracle",
+      "split": "pilot",
+      "action": {
+        "kind": "invoke_lsda",
+        "intervention_step": 12,
+        "target": "AB"
+      },
+      "metadata": {
+        "native_correct": 0,
+        "lsda_step0_correct": 1,
+        "selection_seed": 20260901
+      }
+    },
+    {
+      "replay_id": "sample_0798__t20__AB",
+      "sample_id": "sample_0798",
+      "pair_id": "pair_065",
+      "pair_index": 65,
+      "seed_group": 2,
+      "replicate": 2,
+      "latent_seed": 2022,
+      "global_prompt": "Neutral studio background: a Chinese silk-embroidery panel on the left, a Vietnamese silk-embroidery panel on the right; both fully visible, separate, and similar in size.",
+      "entity_A_prompt": "a Chinese silk-embroidery panel",
+      "entity_B_prompt": "a Vietnamese silk-embroidery panel",
+      "native_task_id": "pair_065_native_SS_g2_r2_s2022",
+      "source_lsda_task_id": "pair_065_lsda_ra_g2_r2_s2022",
+      "source_transition": "restored",
+      "cohort": "timing_oracle",
+      "split": "pilot",
+      "action": {
+        "kind": "invoke_lsda",
+        "intervention_step": 20,
+        "target": "AB"
+      },
+      "metadata": {
+        "native_correct": 0,
+        "lsda_step0_correct": 1,
+        "selection_seed": 20260901
+      }
+    },
+    {
+      "replay_id": "sample_0323__wait",
+      "sample_id": "sample_0323",
+      "pair_id": "pair_042",
+      "pair_index": 42,
+      "seed_group": 3,
+      "replicate": 3,
+      "latent_seed": 3033,
+      "global_prompt": "Neutral studio background: a Chinese cloisonné box on the left, a Korean chilbo enamel box on the right; both fully visible, separate, and similar in size.",
+      "entity_A_prompt": "a Chinese cloisonné box",
+      "entity_B_prompt": "a Korean chilbo enamel box",
+      "native_task_id": "pair_042_native_SS_g3_r3_s3033",
+      "source_lsda_task_id": "pair_042_lsda_ra_g3_r3_s3033",
+      "source_transition": "both_correct",
+      "cohort": "false_positive_control",
+      "split": "pilot",
+      "action": {
+        "kind": "wait",
+        "intervention_step": null,
+        "target": "none"
+      },
+      "metadata": {
+        "native_correct": 1,
+        "lsda_step0_correct": 1,
+        "selection_seed": 20260901
+      }
+    },
+    {
+      "replay_id": "sample_0323__t00__AB",
+      "sample_id": "sample_0323",
+      "pair_id": "pair_042",
+      "pair_index": 42,
+      "seed_group": 3,
+      "replicate": 3,
+      "latent_seed": 3033,
+      "global_prompt": "Neutral studio background: a Chinese cloisonné box on the left, a Korean chilbo enamel box on the right; both fully visible, separate, and similar in size.",
+      "entity_A_prompt": "a Chinese cloisonné box",
+      "entity_B_prompt": "a Korean chilbo enamel box",
+      "native_task_id": "pair_042_native_SS_g3_r3_s3033",
+      "source_lsda_task_id": "pair_042_lsda_ra_g3_r3_s3033",
+      "source_transition": "both_correct",
+      "cohort": "false_positive_control",
+      "split": "pilot",
+      "action": {
+        "kind": "invoke_lsda",
+        "intervention_step": 0,
+        "target": "AB"
+      },
+      "metadata": {
+        "native_correct": 1,
+        "lsda_step0_correct": 1,
+        "selection_seed": 20260901
+      }
+    },
+    {
+      "replay_id": "sample_0323__t12__AB",
+      "sample_id": "sample_0323",
+      "pair_id": "pair_042",
+      "pair_index": 42,
+      "seed_group": 3,
+      "replicate": 3,
+      "latent_seed": 3033,
+      "global_prompt": "Neutral studio background: a Chinese cloisonné box on the left, a Korean chilbo enamel box on the right; both fully visible, separate, and similar in size.",
+      "entity_A_prompt": "a Chinese cloisonné box",
+      "entity_B_prompt": "a Korean chilbo enamel box",
+      "native_task_id": "pair_042_native_SS_g3_r3_s3033",
+      "source_lsda_task_id": "pair_042_lsda_ra_g3_r3_s3033",
+      "source_transition": "both_correct",
+      "cohort": "false_positive_control",
+      "split": "pilot",
+      "action": {
+        "kind": "invoke_lsda",
+        "intervention_step": 12,
+        "target": "AB"
+      },
+      "metadata": {
+        "native_correct": 1,
+        "lsda_step0_correct": 1,
+        "selection_seed": 20260901
+      }
+    },
+    {
+      "replay_id": "sample_0323__t20__AB",
+      "sample_id": "sample_0323",
+      "pair_id": "pair_042",
+      "pair_index": 42,
+      "seed_group": 3,
+      "replicate": 3,
+      "latent_seed": 3033,
+      "global_prompt": "Neutral studio background: a Chinese cloisonné box on the left, a Korean chilbo enamel box on the right; both fully visible, separate, and similar in size.",
+      "entity_A_prompt": "a Chinese cloisonné box",
+      "entity_B_prompt": "a Korean chilbo enamel box",
+      "native_task_id": "pair_042_native_SS_g3_r3_s3033",
+      "source_lsda_task_id": "pair_042_lsda_ra_g3_r3_s3033",
+      "source_transition": "both_correct",
+      "cohort": "false_positive_control",
+      "split": "pilot",
+      "action": {
+        "kind": "invoke_lsda",
+        "intervention_step": 20,
+        "target": "AB"
+      },
+      "metadata": {
+        "native_correct": 1,
+        "lsda_step0_correct": 1,
+        "selection_seed": 20260901
+      }
+    }
+  ]
+}
