@@ -1,0 +1,372 @@
+{
+  "replay_id": "sample_0602__t04__AB",
+  "sample_id": "sample_0602",
+  "pair_id": "pair_084",
+  "pair_index": 84,
+  "seed_group": 1,
+  "replicate": 1,
+  "latent_seed": 1011,
+  "global_prompt": "Neutral studio background: a Moroccan Beni Ourain wool rug on the left, a Ukrainian Hutsul lizhnyk wool rug on the right; both fully visible, separate, and similar in size.",
+  "entity_A_prompt": "a Moroccan Beni Ourain wool rug",
+  "entity_B_prompt": "a Ukrainian Hutsul lizhnyk wool rug",
+  "native_task_id": "pair_084_native_SS_g1_r1_s1011",
+  "source_lsda_task_id": "pair_084_lsda_ra_g1_r1_s1011",
+  "source_transition": "restored",
+  "cohort": "timing_oracle",
+  "split": "pilot",
+  "action": {
+    "kind": "invoke_lsda",
+    "intervention_step": 4,
+    "target": "AB"
+  },
+  "metadata": {
+    "native_correct": 0,
+    "lsda_step0_correct": 1,
+    "selection_seed": 20260901
+  },
+  "status": "generated",
+  "image_path": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/images/sample_0602/candidates/sample_0602__t04__AB.png",
+  "source_native_image": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/native_images/sample_0602.jpg",
+  "source_native_sha256": "bd90b969b7d988699051199fa8ecfc21739bbeda504f5d410d8aeaaa424e0d7d",
+  "latent_sha256": "54f01c2b59bbb7f25a833e0ca5622ad9ff4893fd16534c7faaf8498b38a89beb",
+  "native_mu": null,
+  "checkpoint": {
+    "sample_id": "sample_0602",
+    "decision_step": 4,
+    "latent_sha256": "2857f7b34d8b8b8632c90c3bef0b1c2601685ddd78f81f04d4956f2bcccd2f1f",
+    "image_path": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/images/sample_0602/checkpoints/native_before_t04.png",
+    "online_internal_metrics": null,
+    "missing_metric_reason": "MM-DiT MLP/attention/residual hooks are not yet implemented"
+  },
+  "segmentation": {
+    "source": "matching native SS image segmented by SAM; packaged immutable NPZ",
+    "mask_archive": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/masks/sample_0602_mask.npz",
+    "mask_archive_sha256": "8efede3cb243fc214275b46352a4c03438f40e39b2717c34a7adbf05ba344bba",
+    "owner_fractions_image": [
+      0.2839420483241506,
+      0.4218911415289256
+    ],
+    "background_fraction_image": 0.2941668101469238,
+    "partition_min_image": 1,
+    "partition_max_image": 1
+  },
+  "denoising": {
+    "mu": null,
+    "intervention_step": 4,
+    "target": "AB",
+    "selected_entity_indices": [
+      0,
+      1
+    ],
+    "bounds": [
+      [
+        0,
+        8,
+        56,
+        124
+      ],
+      [
+        0,
+        0,
+        128,
+        128
+      ]
+    ],
+    "step_audit": [
+      {
+        "step": 4,
+        "timestep": 945.3875122070312,
+        "target": "AB",
+        "state_rms": 0.9306640625,
+        "native_delta_rms": 0.004608154296875,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 5,
+        "timestep": 929.8179321289062,
+        "target": "AB",
+        "state_rms": 0.916015625,
+        "native_delta_rms": 0.008270263671875,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 6,
+        "timestep": 913.3489990234375,
+        "target": "AB",
+        "state_rms": 0.900390625,
+        "native_delta_rms": 0.012725830078125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 7,
+        "timestep": 895.9003295898438,
+        "target": "AB",
+        "state_rms": 0.884765625,
+        "native_delta_rms": 0.017608642578125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 8,
+        "timestep": 877.3818969726562,
+        "target": "AB",
+        "state_rms": 0.86865234375,
+        "native_delta_rms": 0.0233001708984375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 9,
+        "timestep": 857.6923217773438,
+        "target": "AB",
+        "state_rms": 0.85205078125,
+        "native_delta_rms": 0.029388427734375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 10,
+        "timestep": 836.7166748046875,
+        "target": "AB",
+        "state_rms": 0.83544921875,
+        "native_delta_rms": 0.035797119140625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 11,
+        "timestep": 814.3247680664062,
+        "target": "AB",
+        "state_rms": 0.81884765625,
+        "native_delta_rms": 0.04241943359375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 12,
+        "timestep": 790.3682861328125,
+        "target": "AB",
+        "state_rms": 0.80224609375,
+        "native_delta_rms": 0.049652099609375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 13,
+        "timestep": 764.6771240234375,
+        "target": "AB",
+        "state_rms": 0.7861328125,
+        "native_delta_rms": 0.057647705078125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 14,
+        "timestep": 737.0558471679688,
+        "target": "AB",
+        "state_rms": 0.77001953125,
+        "native_delta_rms": 0.06646728515625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 15,
+        "timestep": 707.2785034179688,
+        "target": "AB",
+        "state_rms": 0.755859375,
+        "native_delta_rms": 0.076171875,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 16,
+        "timestep": 675.0823364257812,
+        "target": "AB",
+        "state_rms": 0.74365234375,
+        "native_delta_rms": 0.0867919921875,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 17,
+        "timestep": 640.1602172851562,
+        "target": "AB",
+        "state_rms": 0.7333984375,
+        "native_delta_rms": 0.09869384765625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 18,
+        "timestep": 602.1505737304688,
+        "target": "AB",
+        "state_rms": 0.72802734375,
+        "native_delta_rms": 0.11187744140625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 19,
+        "timestep": 560.625,
+        "target": "AB",
+        "state_rms": 0.72705078125,
+        "native_delta_rms": 0.126953125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 20,
+        "timestep": 515.0720825195312,
+        "target": "AB",
+        "state_rms": 0.73291015625,
+        "native_delta_rms": 0.1441650390625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 21,
+        "timestep": 464.87603759765625,
+        "target": "AB",
+        "state_rms": 0.748046875,
+        "native_delta_rms": 0.163818359375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 22,
+        "timestep": 409.288818359375,
+        "target": "AB",
+        "state_rms": 0.7744140625,
+        "native_delta_rms": 0.186279296875,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 23,
+        "timestep": 347.39263916015625,
+        "target": "AB",
+        "state_rms": 0.81494140625,
+        "native_delta_rms": 0.212158203125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 24,
+        "timestep": 278.0487976074219,
+        "target": "AB",
+        "state_rms": 0.8720703125,
+        "native_delta_rms": 0.2420654296875,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 25,
+        "timestep": 199.8269805908203,
+        "target": "AB",
+        "state_rms": 0.94921875,
+        "native_delta_rms": 0.276611328125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 26,
+        "timestep": 110.90573120117188,
+        "target": "AB",
+        "state_rms": 1.0498046875,
+        "native_delta_rms": 0.31591796875,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 27,
+        "timestep": 8.928571701049805,
+        "target": "AB",
+        "state_rms": 1.0595703125,
+        "native_delta_rms": 0.31884765625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      }
+    ]
+  },
+  "seconds": 34.64552569389343,
+  "max_memory_gib": 39.258026123046875,
+  "binding_score": null,
+  "structure_score": null,
+  "oracle_eligible": false,
+  "oracle_blocker": "binding and structure scores have not been computed"
+}

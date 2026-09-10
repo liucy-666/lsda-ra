@@ -1,0 +1,228 @@
+{
+  "replay_id": "sample_0798__t16__AB",
+  "sample_id": "sample_0798",
+  "pair_id": "pair_065",
+  "pair_index": 65,
+  "seed_group": 2,
+  "replicate": 2,
+  "latent_seed": 2022,
+  "global_prompt": "Neutral studio background: a Chinese silk-embroidery panel on the left, a Vietnamese silk-embroidery panel on the right; both fully visible, separate, and similar in size.",
+  "entity_A_prompt": "a Chinese silk-embroidery panel",
+  "entity_B_prompt": "a Vietnamese silk-embroidery panel",
+  "native_task_id": "pair_065_native_SS_g2_r2_s2022",
+  "source_lsda_task_id": "pair_065_lsda_ra_g2_r2_s2022",
+  "source_transition": "restored",
+  "cohort": "timing_oracle",
+  "split": "pilot",
+  "action": {
+    "kind": "invoke_lsda",
+    "intervention_step": 16,
+    "target": "AB"
+  },
+  "metadata": {
+    "native_correct": 0,
+    "lsda_step0_correct": 1,
+    "selection_seed": 20260901
+  },
+  "status": "generated",
+  "image_path": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/images/sample_0798/candidates/sample_0798__t16__AB.png",
+  "source_native_image": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/native_images/sample_0798.jpg",
+  "source_native_sha256": "a329f465b6dee2e55f03c7efe1096d40f49f314372e34ed7abffbec8370cd849",
+  "latent_sha256": "74fdedbf2ca0911f2abae131226ff622b71440553335f9e3c367d449786277a0",
+  "native_mu": null,
+  "checkpoint": {
+    "sample_id": "sample_0798",
+    "decision_step": 16,
+    "latent_sha256": "e70f904d9d8545df56b7dd21d1a9b8fd2bdf596136a6274cd17079b645e12bfa",
+    "image_path": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/images/sample_0798/checkpoints/native_before_t16.png",
+    "online_internal_metrics": null,
+    "missing_metric_reason": "MM-DiT MLP/attention/residual hooks are not yet implemented"
+  },
+  "segmentation": {
+    "source": "matching native SS image segmented by SAM; packaged immutable NPZ",
+    "mask_archive": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/masks/sample_0798_mask.npz",
+    "mask_archive_sha256": "37311e388efe8f278fd9ec10917816cca1935ed695cd7fb0b2c4a07059e951e8",
+    "owner_fractions_image": [
+      0.3874917498852158,
+      0.3587078168044077
+    ],
+    "background_fraction_image": 0.2538004333103765,
+    "partition_min_image": 1,
+    "partition_max_image": 1
+  },
+  "denoising": {
+    "mu": null,
+    "intervention_step": 16,
+    "target": "AB",
+    "selected_entity_indices": [
+      0,
+      1
+    ],
+    "bounds": [
+      [
+        6,
+        0,
+        68,
+        128
+      ],
+      [
+        64,
+        0,
+        124,
+        128
+      ]
+    ],
+    "step_audit": [
+      {
+        "step": 16,
+        "timestep": 675.0823364257812,
+        "target": "AB",
+        "state_rms": 0.72607421875,
+        "native_delta_rms": 0.004764556884765625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 17,
+        "timestep": 640.1602172851562,
+        "target": "AB",
+        "state_rms": 0.7109375,
+        "native_delta_rms": 0.00969696044921875,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 18,
+        "timestep": 602.1505737304688,
+        "target": "AB",
+        "state_rms": 0.69921875,
+        "native_delta_rms": 0.01519775390625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 19,
+        "timestep": 560.625,
+        "target": "AB",
+        "state_rms": 0.69140625,
+        "native_delta_rms": 0.0212860107421875,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 20,
+        "timestep": 515.0720825195312,
+        "target": "AB",
+        "state_rms": 0.689453125,
+        "native_delta_rms": 0.0283050537109375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 21,
+        "timestep": 464.87603759765625,
+        "target": "AB",
+        "state_rms": 0.6953125,
+        "native_delta_rms": 0.03668212890625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 22,
+        "timestep": 409.288818359375,
+        "target": "AB",
+        "state_rms": 0.71142578125,
+        "native_delta_rms": 0.04742431640625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 23,
+        "timestep": 347.39263916015625,
+        "target": "AB",
+        "state_rms": 0.74072265625,
+        "native_delta_rms": 0.060577392578125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 24,
+        "timestep": 278.0487976074219,
+        "target": "AB",
+        "state_rms": 0.78662109375,
+        "native_delta_rms": 0.07672119140625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 25,
+        "timestep": 199.8269805908203,
+        "target": "AB",
+        "state_rms": 0.85205078125,
+        "native_delta_rms": 0.09600830078125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 26,
+        "timestep": 110.90573120117188,
+        "target": "AB",
+        "state_rms": 0.93994140625,
+        "native_delta_rms": 0.1173095703125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 27,
+        "timestep": 8.928571701049805,
+        "target": "AB",
+        "state_rms": 0.94873046875,
+        "native_delta_rms": 0.11846923828125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      }
+    ]
+  },
+  "seconds": 6.610543966293335,
+  "max_memory_gib": 39.258026123046875,
+  "binding_score": null,
+  "structure_score": null,
+  "oracle_eligible": false,
+  "oracle_blocker": "binding and structure scores have not been computed"
+}

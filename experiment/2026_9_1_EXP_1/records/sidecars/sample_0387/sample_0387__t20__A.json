@@ -1,0 +1,171 @@
+{
+  "replay_id": "sample_0387__t20__A",
+  "sample_id": "sample_0387",
+  "pair_id": "pair_080",
+  "pair_index": 80,
+  "seed_group": 2,
+  "replicate": 2,
+  "latent_seed": 2022,
+  "global_prompt": "Neutral studio background: a Ghanaian kente cloth on the left, a Bhutanese yathra wool textile on the right; both fully visible, separate, and similar in size.",
+  "entity_A_prompt": "a Ghanaian kente cloth",
+  "entity_B_prompt": "a Bhutanese yathra wool textile",
+  "native_task_id": "pair_080_native_SS_g2_r2_s2022",
+  "source_lsda_task_id": "pair_080_lsda_ra_g2_r2_s2022",
+  "source_transition": "both_correct",
+  "cohort": "false_positive_control",
+  "split": "pilot",
+  "action": {
+    "kind": "invoke_lsda",
+    "intervention_step": 20,
+    "target": "A"
+  },
+  "metadata": {
+    "native_correct": 1,
+    "lsda_step0_correct": 1,
+    "selection_seed": 20260901
+  },
+  "status": "generated",
+  "image_path": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/images/sample_0387/candidates/sample_0387__t20__A.png",
+  "source_native_image": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/native_images/sample_0387.jpg",
+  "source_native_sha256": "5562f1a4cf121fc93f650b2dbfd4dcf41f2a49f26c77568ac931d540da501e23",
+  "latent_sha256": "74fdedbf2ca0911f2abae131226ff622b71440553335f9e3c367d449786277a0",
+  "native_mu": null,
+  "checkpoint": {
+    "sample_id": "sample_0387",
+    "decision_step": 20,
+    "latent_sha256": "64fd33733da9352cffb5be79981bbc084a693e97372dc5abae9344591f9c1a9e",
+    "image_path": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/images/sample_0387/checkpoints/native_before_t20.png",
+    "online_internal_metrics": null,
+    "missing_metric_reason": "MM-DiT MLP/attention/residual hooks are not yet implemented"
+  },
+  "segmentation": {
+    "source": "matching native SS image segmented by SAM; packaged immutable NPZ",
+    "mask_archive": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/masks/sample_0387_mask.npz",
+    "mask_archive_sha256": "9bac2c31777437855504f9d7fad854b4a3d1156adfcba94e4061cf0d00e79865",
+    "owner_fractions_image": [
+      0.1307356232782369,
+      0.05371900826446281
+    ],
+    "background_fraction_image": 0.8155453684573003,
+    "partition_min_image": 1,
+    "partition_max_image": 1
+  },
+  "denoising": {
+    "mu": null,
+    "intervention_step": 20,
+    "target": "A",
+    "selected_entity_indices": [
+      0
+    ],
+    "bounds": [
+      [
+        2,
+        0,
+        34,
+        122
+      ],
+      [
+        92,
+        12,
+        114,
+        110
+      ]
+    ],
+    "step_audit": [
+      {
+        "step": 20,
+        "timestep": 515.0720825195312,
+        "target": "A",
+        "state_rms": 0.70166015625,
+        "native_delta_rms": 0.004840850830078125,
+        "outside_write_rms": {
+          "0": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 21,
+        "timestep": 464.87603759765625,
+        "target": "A",
+        "state_rms": 0.708984375,
+        "native_delta_rms": 0.009765625,
+        "outside_write_rms": {
+          "0": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 22,
+        "timestep": 409.288818359375,
+        "target": "A",
+        "state_rms": 0.7275390625,
+        "native_delta_rms": 0.01471710205078125,
+        "outside_write_rms": {
+          "0": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 23,
+        "timestep": 347.39263916015625,
+        "target": "A",
+        "state_rms": 0.75927734375,
+        "native_delta_rms": 0.0202789306640625,
+        "outside_write_rms": {
+          "0": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 24,
+        "timestep": 278.0487976074219,
+        "target": "A",
+        "state_rms": 0.8076171875,
+        "native_delta_rms": 0.02618408203125,
+        "outside_write_rms": {
+          "0": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 25,
+        "timestep": 199.8269805908203,
+        "target": "A",
+        "state_rms": 0.8759765625,
+        "native_delta_rms": 0.03240966796875,
+        "outside_write_rms": {
+          "0": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 26,
+        "timestep": 110.90573120117188,
+        "target": "A",
+        "state_rms": 0.966796875,
+        "native_delta_rms": 0.0391845703125,
+        "outside_write_rms": {
+          "0": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 27,
+        "timestep": 8.928571701049805,
+        "target": "A",
+        "state_rms": 0.9755859375,
+        "native_delta_rms": 0.03955078125,
+        "outside_write_rms": {
+          "0": 0.0
+        },
+        "background_native_match_rms": 0.0
+      }
+    ]
+  },
+  "seconds": 1.5227890014648438,
+  "max_memory_gib": 39.258026123046875,
+  "binding_score": null,
+  "structure_score": null,
+  "oracle_eligible": false,
+  "oracle_blocker": "binding and structure scores have not been computed"
+}

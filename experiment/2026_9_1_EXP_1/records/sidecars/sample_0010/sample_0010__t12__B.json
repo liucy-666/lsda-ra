@@ -1,0 +1,259 @@
+{
+  "replay_id": "sample_0010__t12__B",
+  "sample_id": "sample_0010",
+  "pair_id": "pair_084",
+  "pair_index": 84,
+  "seed_group": 3,
+  "replicate": 3,
+  "latent_seed": 3033,
+  "global_prompt": "Neutral studio background: a Moroccan Beni Ourain wool rug on the left, a Ukrainian Hutsul lizhnyk wool rug on the right; both fully visible, separate, and similar in size.",
+  "entity_A_prompt": "a Moroccan Beni Ourain wool rug",
+  "entity_B_prompt": "a Ukrainian Hutsul lizhnyk wool rug",
+  "native_task_id": "pair_084_native_SS_g3_r3_s3033",
+  "source_lsda_task_id": "pair_084_lsda_ra_g3_r3_s3033",
+  "source_transition": "restored",
+  "cohort": "timing_oracle",
+  "split": "pilot",
+  "action": {
+    "kind": "invoke_lsda",
+    "intervention_step": 12,
+    "target": "B"
+  },
+  "metadata": {
+    "native_correct": 0,
+    "lsda_step0_correct": 1,
+    "selection_seed": 20260901
+  },
+  "status": "generated",
+  "image_path": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/images/sample_0010/candidates/sample_0010__t12__B.png",
+  "source_native_image": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/native_images/sample_0010.jpg",
+  "source_native_sha256": "ccb560bbd760d3a67a731f86eca412f2fed43801b6f7c75ccc4c0f842df1cc9f",
+  "latent_sha256": "db1712de26c10d1b8902c53cc2a7fe18d2ee9c085693d0520ebab95db80cbc22",
+  "native_mu": null,
+  "checkpoint": {
+    "sample_id": "sample_0010",
+    "decision_step": 12,
+    "latent_sha256": "2e0d9aec9bd89d8e7374a608e24d06223458e767b0ba1842c7933b228b20c15e",
+    "image_path": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/images/sample_0010/checkpoints/native_before_t12.png",
+    "online_internal_metrics": null,
+    "missing_metric_reason": "MM-DiT MLP/attention/residual hooks are not yet implemented"
+  },
+  "segmentation": {
+    "source": "matching native SS image segmented by SAM; packaged immutable NPZ",
+    "mask_archive": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/masks/sample_0010_mask.npz",
+    "mask_archive_sha256": "75045ef9423ca6a1889902897bc64cf3b0f323e4c649c9785295098e96ed17a7",
+    "owner_fractions_image": [
+      0.0711231634527089,
+      0.2855472337006428
+    ],
+    "background_fraction_image": 0.6433296028466483,
+    "partition_min_image": 1,
+    "partition_max_image": 1
+  },
+  "denoising": {
+    "mu": null,
+    "intervention_step": 12,
+    "target": "B",
+    "selected_entity_indices": [
+      1
+    ],
+    "bounds": [
+      [
+        14,
+        28,
+        60,
+        98
+      ],
+      [
+        68,
+        2,
+        118,
+        124
+      ]
+    ],
+    "step_audit": [
+      {
+        "step": 12,
+        "timestep": 790.3682861328125,
+        "target": "B",
+        "state_rms": 0.79833984375,
+        "native_delta_rms": 0.00534820556640625,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 13,
+        "timestep": 764.6771240234375,
+        "target": "B",
+        "state_rms": 0.7802734375,
+        "native_delta_rms": 0.00995635986328125,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 14,
+        "timestep": 737.0558471679688,
+        "target": "B",
+        "state_rms": 0.7626953125,
+        "native_delta_rms": 0.01416778564453125,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 15,
+        "timestep": 707.2785034179688,
+        "target": "B",
+        "state_rms": 0.74609375,
+        "native_delta_rms": 0.018829345703125,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 16,
+        "timestep": 675.0823364257812,
+        "target": "B",
+        "state_rms": 0.73095703125,
+        "native_delta_rms": 0.02374267578125,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 17,
+        "timestep": 640.1602172851562,
+        "target": "B",
+        "state_rms": 0.7177734375,
+        "native_delta_rms": 0.0292205810546875,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 18,
+        "timestep": 602.1505737304688,
+        "target": "B",
+        "state_rms": 0.7080078125,
+        "native_delta_rms": 0.035308837890625,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 19,
+        "timestep": 560.625,
+        "target": "B",
+        "state_rms": 0.70263671875,
+        "native_delta_rms": 0.042236328125,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 20,
+        "timestep": 515.0720825195312,
+        "target": "B",
+        "state_rms": 0.70361328125,
+        "native_delta_rms": 0.050048828125,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 21,
+        "timestep": 464.87603759765625,
+        "target": "B",
+        "state_rms": 0.712890625,
+        "native_delta_rms": 0.058929443359375,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 22,
+        "timestep": 409.288818359375,
+        "target": "B",
+        "state_rms": 0.73291015625,
+        "native_delta_rms": 0.0692138671875,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 23,
+        "timestep": 347.39263916015625,
+        "target": "B",
+        "state_rms": 0.7666015625,
+        "native_delta_rms": 0.08111572265625,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 24,
+        "timestep": 278.0487976074219,
+        "target": "B",
+        "state_rms": 0.81689453125,
+        "native_delta_rms": 0.0947265625,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 25,
+        "timestep": 199.8269805908203,
+        "target": "B",
+        "state_rms": 0.88671875,
+        "native_delta_rms": 0.1107177734375,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 26,
+        "timestep": 110.90573120117188,
+        "target": "B",
+        "state_rms": 0.97900390625,
+        "native_delta_rms": 0.1287841796875,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 27,
+        "timestep": 8.928571701049805,
+        "target": "B",
+        "state_rms": 0.98779296875,
+        "native_delta_rms": 0.1300048828125,
+        "outside_write_rms": {
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      }
+    ]
+  },
+  "seconds": 6.9163055419921875,
+  "max_memory_gib": 39.258026123046875,
+  "binding_score": null,
+  "structure_score": null,
+  "oracle_eligible": false,
+  "oracle_blocker": "binding and structure scores have not been computed"
+}

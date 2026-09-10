@@ -1,0 +1,57 @@
+{
+  "original": "D:\\Python\\MMDIT\\data\\LSDA_Timed\\2026_9_1_bind\\seed11_bw\\native.png",
+  "rebuilt": "D:\\Python\\MMDIT\\data\\LSDA_Timed\\2026_9_1_bind\\seed11_bw\\bound.png",
+  "threshold": 16,
+  "width": 512,
+  "height": 512,
+  "differingPixels": 7055,
+  "totalPixels": 262144,
+  "diffRatio": 0.0269,
+  "worstRegions": [
+    {
+      "x1": 0,
+      "y1": 192,
+      "x2": 64,
+      "y2": 256,
+      "ratio": 0.3757,
+      "differing": 1539,
+      "total": 4096
+    },
+    {
+      "x1": 128,
+      "y1": 192,
+      "x2": 192,
+      "y2": 256,
+      "ratio": 0.2334,
+      "differing": 956,
+      "total": 4096
+    },
+    {
+      "x1": 64,
+      "y1": 192,
+      "x2": 128,
+      "y2": 256,
+      "ratio": 0.1873,
+      "differing": 767,
+      "total": 4096
+    },
+    {
+      "x1": 192,
+      "y1": 320,
+      "x2": 256,
+      "y2": 384,
+      "ratio": 0.0728,
+      "differing": 298,
+      "total": 4096
+    },
+    {
+      "x1": 0,
+      "y1": 128,
+      "x2": 64,
+      "y2": 192,
+      "ratio": 0.0686,
+      "differing": 281,
+      "total": 4096
+    }
+  ]
+}

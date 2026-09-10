@@ -1,0 +1,132 @@
+{
+  "replay_id": "sample_0387__t24__AB",
+  "sample_id": "sample_0387",
+  "pair_id": "pair_080",
+  "pair_index": 80,
+  "seed_group": 2,
+  "replicate": 2,
+  "latent_seed": 2022,
+  "global_prompt": "Neutral studio background: a Ghanaian kente cloth on the left, a Bhutanese yathra wool textile on the right; both fully visible, separate, and similar in size.",
+  "entity_A_prompt": "a Ghanaian kente cloth",
+  "entity_B_prompt": "a Bhutanese yathra wool textile",
+  "native_task_id": "pair_080_native_SS_g2_r2_s2022",
+  "source_lsda_task_id": "pair_080_lsda_ra_g2_r2_s2022",
+  "source_transition": "both_correct",
+  "cohort": "false_positive_control",
+  "split": "pilot",
+  "action": {
+    "kind": "invoke_lsda",
+    "intervention_step": 24,
+    "target": "AB"
+  },
+  "metadata": {
+    "native_correct": 1,
+    "lsda_step0_correct": 1,
+    "selection_seed": 20260901
+  },
+  "status": "generated",
+  "image_path": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/images/sample_0387/candidates/sample_0387__t24__AB.png",
+  "source_native_image": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/native_images/sample_0387.jpg",
+  "source_native_sha256": "5562f1a4cf121fc93f650b2dbfd4dcf41f2a49f26c77568ac931d540da501e23",
+  "latent_sha256": "74fdedbf2ca0911f2abae131226ff622b71440553335f9e3c367d449786277a0",
+  "native_mu": null,
+  "checkpoint": {
+    "sample_id": "sample_0387",
+    "decision_step": 24,
+    "latent_sha256": "0472c4a47d5fd73c89f2962142d52bfd654bafb49005f1deafab6892c52d452c",
+    "image_path": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/images/sample_0387/checkpoints/native_before_t24.png",
+    "online_internal_metrics": null,
+    "missing_metric_reason": "MM-DiT MLP/attention/residual hooks are not yet implemented"
+  },
+  "segmentation": {
+    "source": "matching native SS image segmented by SAM; packaged immutable NPZ",
+    "mask_archive": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/masks/sample_0387_mask.npz",
+    "mask_archive_sha256": "9bac2c31777437855504f9d7fad854b4a3d1156adfcba94e4061cf0d00e79865",
+    "owner_fractions_image": [
+      0.1307356232782369,
+      0.05371900826446281
+    ],
+    "background_fraction_image": 0.8155453684573003,
+    "partition_min_image": 1,
+    "partition_max_image": 1
+  },
+  "denoising": {
+    "mu": null,
+    "intervention_step": 24,
+    "target": "AB",
+    "selected_entity_indices": [
+      0,
+      1
+    ],
+    "bounds": [
+      [
+        2,
+        0,
+        34,
+        122
+      ],
+      [
+        92,
+        12,
+        114,
+        110
+      ]
+    ],
+    "step_audit": [
+      {
+        "step": 24,
+        "timestep": 278.0487976074219,
+        "target": "AB",
+        "state_rms": 0.8076171875,
+        "native_delta_rms": 0.00991058349609375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 25,
+        "timestep": 199.8269805908203,
+        "target": "AB",
+        "state_rms": 0.87548828125,
+        "native_delta_rms": 0.017303466796875,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 26,
+        "timestep": 110.90573120117188,
+        "target": "AB",
+        "state_rms": 0.96630859375,
+        "native_delta_rms": 0.024505615234375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 27,
+        "timestep": 8.928571701049805,
+        "target": "AB",
+        "state_rms": 0.97509765625,
+        "native_delta_rms": 0.024749755859375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      }
+    ]
+  },
+  "seconds": 1.3394889831542969,
+  "max_memory_gib": 39.258026123046875,
+  "binding_score": null,
+  "structure_score": null,
+  "oracle_eligible": false,
+  "oracle_blocker": "binding and structure scores have not been computed"
+}

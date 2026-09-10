@@ -1,0 +1,276 @@
+{
+  "replay_id": "sample_0559__t12__AB",
+  "sample_id": "sample_0559",
+  "pair_id": "pair_018",
+  "pair_index": 18,
+  "seed_group": 3,
+  "replicate": 3,
+  "latent_seed": 3033,
+  "global_prompt": "Neutral studio background: a Moroccan Fes ceramic bowl on the left, an Algerian Kabyle pottery bowl on the right; both fully visible, separate, and similar in size.",
+  "entity_A_prompt": "a Moroccan Fes ceramic bowl",
+  "entity_B_prompt": "an Algerian Kabyle pottery bowl",
+  "native_task_id": "pair_018_native_SS_g3_r3_s3033",
+  "source_lsda_task_id": "pair_018_lsda_ra_g3_r3_s3033",
+  "source_transition": "persistent_failure",
+  "cohort": "timing_oracle",
+  "split": "pilot",
+  "action": {
+    "kind": "invoke_lsda",
+    "intervention_step": 12,
+    "target": "AB"
+  },
+  "metadata": {
+    "native_correct": 0,
+    "lsda_step0_correct": 0,
+    "selection_seed": 20260901
+  },
+  "status": "generated",
+  "image_path": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/images/sample_0559/candidates/sample_0559__t12__AB.png",
+  "source_native_image": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/native_images/sample_0559.jpg",
+  "source_native_sha256": "eef0f36c980edc1b37791d56409f2c2b45d0c2fcbba6edb36868e53edc622d0c",
+  "latent_sha256": "db1712de26c10d1b8902c53cc2a7fe18d2ee9c085693d0520ebab95db80cbc22",
+  "native_mu": null,
+  "checkpoint": {
+    "sample_id": "sample_0559",
+    "decision_step": 12,
+    "latent_sha256": "354b79aa46930cb66ea74c273cf87f1481b9a5985f03e5efd7a873ead7d06ce0",
+    "image_path": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/images/sample_0559/checkpoints/native_before_t12.png",
+    "online_internal_metrics": null,
+    "missing_metric_reason": "MM-DiT MLP/attention/residual hooks are not yet implemented"
+  },
+  "segmentation": {
+    "source": "matching native SS image segmented by SAM; packaged immutable NPZ",
+    "mask_archive": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/masks/sample_0559_mask.npz",
+    "mask_archive_sha256": "077a8b53c565eb19fe2847f40b88883baa61281ebb9ef179040eaebd5454fe52",
+    "owner_fractions_image": [
+      0.16051136363636365,
+      0.2607681932966024
+    ],
+    "background_fraction_image": 0.578720443067034,
+    "partition_min_image": 1,
+    "partition_max_image": 1
+  },
+  "denoising": {
+    "mu": null,
+    "intervention_step": 12,
+    "target": "AB",
+    "selected_entity_indices": [
+      0,
+      1
+    ],
+    "bounds": [
+      [
+        6,
+        58,
+        72,
+        126
+      ],
+      [
+        60,
+        10,
+        122,
+        124
+      ]
+    ],
+    "step_audit": [
+      {
+        "step": 12,
+        "timestep": 790.3682861328125,
+        "target": "AB",
+        "state_rms": 0.81591796875,
+        "native_delta_rms": 0.006500244140625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 13,
+        "timestep": 764.6771240234375,
+        "target": "AB",
+        "state_rms": 0.80322265625,
+        "native_delta_rms": 0.010833740234375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 14,
+        "timestep": 737.0558471679688,
+        "target": "AB",
+        "state_rms": 0.79150390625,
+        "native_delta_rms": 0.015167236328125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 15,
+        "timestep": 707.2785034179688,
+        "target": "AB",
+        "state_rms": 0.78173828125,
+        "native_delta_rms": 0.02032470703125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 16,
+        "timestep": 675.0823364257812,
+        "target": "AB",
+        "state_rms": 0.77490234375,
+        "native_delta_rms": 0.0249786376953125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 17,
+        "timestep": 640.1602172851562,
+        "target": "AB",
+        "state_rms": 0.77197265625,
+        "native_delta_rms": 0.030364990234375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 18,
+        "timestep": 602.1505737304688,
+        "target": "AB",
+        "state_rms": 0.7734375,
+        "native_delta_rms": 0.036651611328125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 19,
+        "timestep": 560.625,
+        "target": "AB",
+        "state_rms": 0.78173828125,
+        "native_delta_rms": 0.04425048828125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 20,
+        "timestep": 515.0720825195312,
+        "target": "AB",
+        "state_rms": 0.7978515625,
+        "native_delta_rms": 0.0531005859375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 21,
+        "timestep": 464.87603759765625,
+        "target": "AB",
+        "state_rms": 0.82421875,
+        "native_delta_rms": 0.0634765625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 22,
+        "timestep": 409.288818359375,
+        "target": "AB",
+        "state_rms": 0.86279296875,
+        "native_delta_rms": 0.07574462890625,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 23,
+        "timestep": 347.39263916015625,
+        "target": "AB",
+        "state_rms": 0.9169921875,
+        "native_delta_rms": 0.09027099609375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 24,
+        "timestep": 278.0487976074219,
+        "target": "AB",
+        "state_rms": 0.98828125,
+        "native_delta_rms": 0.10736083984375,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 25,
+        "timestep": 199.8269805908203,
+        "target": "AB",
+        "state_rms": 1.080078125,
+        "native_delta_rms": 0.126953125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 26,
+        "timestep": 110.90573120117188,
+        "target": "AB",
+        "state_rms": 1.197265625,
+        "native_delta_rms": 0.1483154296875,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      },
+      {
+        "step": 27,
+        "timestep": 8.928571701049805,
+        "target": "AB",
+        "state_rms": 1.2080078125,
+        "native_delta_rms": 0.149658203125,
+        "outside_write_rms": {
+          "0": 0.0,
+          "1": 0.0
+        },
+        "background_native_match_rms": 0.0
+      }
+    ]
+  },
+  "seconds": 6.710969924926758,
+  "max_memory_gib": 39.258026123046875,
+  "binding_score": null,
+  "structure_score": null,
+  "oracle_eligible": false,
+  "oracle_blocker": "binding and structure scores have not been computed"
+}

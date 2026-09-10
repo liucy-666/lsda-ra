@@ -6,3 +6,7 @@ models/
 **/__pycache__/
 *.py[cod]
 .pytest_cache/
+.codex_home/
+.codex_tmp/
+.vscode/
+tmp/

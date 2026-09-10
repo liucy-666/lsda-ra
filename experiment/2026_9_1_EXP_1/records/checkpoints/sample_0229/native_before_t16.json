@@ -1,0 +1,8 @@
+{
+  "sample_id": "sample_0229",
+  "decision_step": 16,
+  "latent_sha256": "2150242b1bd9fc0b3cd45e2bf9d8cbf8b52c9e17362cc3c9f1b67fcb7726a14a",
+  "image_path": "/science/wx/pry/MMDIT/experiment/2026_9_1_EXP_1/images/sample_0229/checkpoints/native_before_t16.png",
+  "online_internal_metrics": null,
+  "missing_metric_reason": "MM-DiT MLP/attention/residual hooks are not yet implemented"
+}

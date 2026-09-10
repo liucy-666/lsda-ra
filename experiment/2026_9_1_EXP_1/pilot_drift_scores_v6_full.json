@@ -1,0 +1,1850 @@
+{
+ "sample_0798__wait": {
+  "sample": "sample_0798",
+  "step": null,
+  "target": "none",
+  "kind": "wait",
+  "drift_p": 0.4607679843902588
+ },
+ "sample_0798__t00__A": {
+  "sample": "sample_0798",
+  "step": 0,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4414318799972534
+ },
+ "sample_0798__t00__B": {
+  "sample": "sample_0798",
+  "step": 0,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.44142913818359375
+ },
+ "sample_0798__t00__AB": {
+  "sample": "sample_0798",
+  "step": 0,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.44530415534973145
+ },
+ "sample_0798__t04__A": {
+  "sample": "sample_0798",
+  "step": 4,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4337063431739807
+ },
+ "sample_0798__t04__B": {
+  "sample": "sample_0798",
+  "step": 4,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4375678300857544
+ },
+ "sample_0798__t04__AB": {
+  "sample": "sample_0798",
+  "step": 4,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.42988860607147217
+ },
+ "sample_0798__t08__A": {
+  "sample": "sample_0798",
+  "step": 8,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4375576972961426
+ },
+ "sample_0798__t08__B": {
+  "sample": "sample_0798",
+  "step": 8,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4337178170681
+ },
+ "sample_0798__t08__AB": {
+  "sample": "sample_0798",
+  "step": 8,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.43757137656211853
+ },
+ "sample_0798__t12__A": {
+  "sample": "sample_0798",
+  "step": 12,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4298821985721588
+ },
+ "sample_0798__t12__B": {
+  "sample": "sample_0798",
+  "step": 12,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.42605501413345337
+ },
+ "sample_0798__t12__AB": {
+  "sample": "sample_0798",
+  "step": 12,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4184386432170868
+ },
+ "sample_0798__t16__A": {
+  "sample": "sample_0798",
+  "step": 16,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4298696517944336
+ },
+ "sample_0798__t16__B": {
+  "sample": "sample_0798",
+  "step": 16,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.43757709860801697
+ },
+ "sample_0798__t16__AB": {
+  "sample": "sample_0798",
+  "step": 16,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4337204098701477
+ },
+ "sample_0798__t20__A": {
+  "sample": "sample_0798",
+  "step": 20,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4413953721523285
+ },
+ "sample_0798__t20__B": {
+  "sample": "sample_0798",
+  "step": 20,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.44913193583488464
+ },
+ "sample_0798__t20__AB": {
+  "sample": "sample_0798",
+  "step": 20,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.44526517391204834
+ },
+ "sample_0798__t24__A": {
+  "sample": "sample_0798",
+  "step": 24,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4414016008377075
+ },
+ "sample_0798__t24__B": {
+  "sample": "sample_0798",
+  "step": 24,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.44912466406822205
+ },
+ "sample_0798__t24__AB": {
+  "sample": "sample_0798",
+  "step": 24,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.44525232911109924
+ },
+ "sample_0154__wait": {
+  "sample": "sample_0154",
+  "step": null,
+  "target": "none",
+  "kind": "wait",
+  "drift_p": 0.4223175346851349
+ },
+ "sample_0154__t00__A": {
+  "sample": "sample_0154",
+  "step": 0,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41851168870925903
+ },
+ "sample_0154__t00__B": {
+  "sample": "sample_0154",
+  "step": 0,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4108995199203491
+ },
+ "sample_0154__t00__AB": {
+  "sample": "sample_0154",
+  "step": 0,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4146876931190491
+ },
+ "sample_0154__t04__A": {
+  "sample": "sample_0154",
+  "step": 4,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4223075807094574
+ },
+ "sample_0154__t04__B": {
+  "sample": "sample_0154",
+  "step": 4,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4223075807094574
+ },
+ "sample_0154__t04__AB": {
+  "sample": "sample_0154",
+  "step": 4,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4185014069080353
+ },
+ "sample_0154__t08__A": {
+  "sample": "sample_0154",
+  "step": 8,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4185086488723755
+ },
+ "sample_0154__t08__B": {
+  "sample": "sample_0154",
+  "step": 8,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4223189651966095
+ },
+ "sample_0154__t08__AB": {
+  "sample": "sample_0154",
+  "step": 8,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4185023605823517
+ },
+ "sample_0154__t12__A": {
+  "sample": "sample_0154",
+  "step": 12,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41850030422210693
+ },
+ "sample_0154__t12__B": {
+  "sample": "sample_0154",
+  "step": 12,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.418510764837265
+ },
+ "sample_0154__t12__AB": {
+  "sample": "sample_0154",
+  "step": 12,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.42231395840644836
+ },
+ "sample_0154__t16__A": {
+  "sample": "sample_0154",
+  "step": 16,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41850745677948
+ },
+ "sample_0154__t16__B": {
+  "sample": "sample_0154",
+  "step": 16,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.42231592535972595
+ },
+ "sample_0154__t16__AB": {
+  "sample": "sample_0154",
+  "step": 16,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4185076057910919
+ },
+ "sample_0154__t20__A": {
+  "sample": "sample_0154",
+  "step": 20,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41469672322273254
+ },
+ "sample_0154__t20__B": {
+  "sample": "sample_0154",
+  "step": 20,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.42231231927871704
+ },
+ "sample_0154__t20__AB": {
+  "sample": "sample_0154",
+  "step": 20,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4109084904193878
+ },
+ "sample_0154__t24__A": {
+  "sample": "sample_0154",
+  "step": 24,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.42232152819633484
+ },
+ "sample_0154__t24__B": {
+  "sample": "sample_0154",
+  "step": 24,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.422315388917923
+ },
+ "sample_0154__t24__AB": {
+  "sample": "sample_0154",
+  "step": 24,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41851428151130676
+ },
+ "sample_0196__wait": {
+  "sample": "sample_0196",
+  "step": null,
+  "target": "none",
+  "kind": "wait",
+  "drift_p": 0.41855400800704956
+ },
+ "sample_0196__t00__A": {
+  "sample": "sample_0196",
+  "step": 0,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.40343743562698364
+ },
+ "sample_0196__t00__B": {
+  "sample": "sample_0196",
+  "step": 0,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.3737463355064392
+ },
+ "sample_0196__t00__AB": {
+  "sample": "sample_0196",
+  "step": 0,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.37375667691230774
+ },
+ "sample_0196__t04__A": {
+  "sample": "sample_0196",
+  "step": 4,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41097861528396606
+ },
+ "sample_0196__t04__B": {
+  "sample": "sample_0196",
+  "step": 4,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.384782075881958
+ },
+ "sample_0196__t04__AB": {
+  "sample": "sample_0196",
+  "step": 4,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.38478174805641174
+ },
+ "sample_0196__t08__A": {
+  "sample": "sample_0196",
+  "step": 8,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41856229305267334
+ },
+ "sample_0196__t08__B": {
+  "sample": "sample_0196",
+  "step": 8,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.40719524025917053
+ },
+ "sample_0196__t08__AB": {
+  "sample": "sample_0196",
+  "step": 8,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.3959355056285858
+ },
+ "sample_0196__t12__A": {
+  "sample": "sample_0196",
+  "step": 12,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41476091742515564
+ },
+ "sample_0196__t12__B": {
+  "sample": "sample_0196",
+  "step": 12,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4109721779823303
+ },
+ "sample_0196__t12__AB": {
+  "sample": "sample_0196",
+  "step": 12,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.40342751145362854
+ },
+ "sample_0196__t16__A": {
+  "sample": "sample_0196",
+  "step": 16,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4223666787147522
+ },
+ "sample_0196__t16__B": {
+  "sample": "sample_0196",
+  "step": 16,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.3996753394603729
+ },
+ "sample_0196__t16__AB": {
+  "sample": "sample_0196",
+  "step": 16,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.39592960476875305
+ },
+ "sample_0196__t20__A": {
+  "sample": "sample_0196",
+  "step": 20,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41476261615753174
+ },
+ "sample_0196__t20__B": {
+  "sample": "sample_0196",
+  "step": 20,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41855672001838684
+ },
+ "sample_0196__t20__AB": {
+  "sample": "sample_0196",
+  "step": 20,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41476356983184814
+ },
+ "sample_0196__t24__A": {
+  "sample": "sample_0196",
+  "step": 24,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.42236313223838806
+ },
+ "sample_0196__t24__B": {
+  "sample": "sample_0196",
+  "step": 24,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4185560345649719
+ },
+ "sample_0196__t24__AB": {
+  "sample": "sample_0196",
+  "step": 24,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4261811673641205
+ },
+ "sample_0010__wait": {
+  "sample": "sample_0010",
+  "step": null,
+  "target": "none",
+  "kind": "wait",
+  "drift_p": 0.4959443211555481
+ },
+ "sample_0010__t00__A": {
+  "sample": "sample_0010",
+  "step": 0,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4764389097690582
+ },
+ "sample_0010__t00__B": {
+  "sample": "sample_0010",
+  "step": 0,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.42618528008461
+ },
+ "sample_0010__t00__AB": {
+  "sample": "sample_0010",
+  "step": 0,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4338412582874298
+ },
+ "sample_0010__t04__A": {
+  "sample": "sample_0010",
+  "step": 4,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48424533009529114
+ },
+ "sample_0010__t04__B": {
+  "sample": "sample_0010",
+  "step": 4,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48423799872398376
+ },
+ "sample_0010__t04__AB": {
+  "sample": "sample_0010",
+  "step": 4,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48033782839775085
+ },
+ "sample_0010__t08__A": {
+  "sample": "sample_0010",
+  "step": 8,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4881431758403778
+ },
+ "sample_0010__t08__B": {
+  "sample": "sample_0010",
+  "step": 8,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4492553472518921
+ },
+ "sample_0010__t08__AB": {
+  "sample": "sample_0010",
+  "step": 8,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.464765340089798
+ },
+ "sample_0010__t12__A": {
+  "sample": "sample_0010",
+  "step": 12,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.47644174098968506
+ },
+ "sample_0010__t12__B": {
+  "sample": "sample_0010",
+  "step": 12,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.45700356364250183
+ },
+ "sample_0010__t12__AB": {
+  "sample": "sample_0010",
+  "step": 12,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.45700550079345703
+ },
+ "sample_0010__t16__A": {
+  "sample": "sample_0010",
+  "step": 16,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4842425286769867
+ },
+ "sample_0010__t16__B": {
+  "sample": "sample_0010",
+  "step": 16,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.464761883020401
+ },
+ "sample_0010__t16__AB": {
+  "sample": "sample_0010",
+  "step": 16,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.46864578127861023
+ },
+ "sample_0010__t20__A": {
+  "sample": "sample_0010",
+  "step": 20,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48424333333969116
+ },
+ "sample_0010__t20__B": {
+  "sample": "sample_0010",
+  "step": 20,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.49985554814338684
+ },
+ "sample_0010__t20__AB": {
+  "sample": "sample_0010",
+  "step": 20,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.49204739928245544
+ },
+ "sample_0010__t24__A": {
+  "sample": "sample_0010",
+  "step": 24,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48424193263053894
+ },
+ "sample_0010__t24__B": {
+  "sample": "sample_0010",
+  "step": 24,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48033928871154785
+ },
+ "sample_0010__t24__AB": {
+  "sample": "sample_0010",
+  "step": 24,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4803369343280792
+ },
+ "sample_0602__wait": {
+  "sample": "sample_0602",
+  "step": null,
+  "target": "none",
+  "kind": "wait",
+  "drift_p": 0.4647514820098877
+ },
+ "sample_0602__t00__A": {
+  "sample": "sample_0602",
+  "step": 0,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4764372408390045
+ },
+ "sample_0602__t00__B": {
+  "sample": "sample_0602",
+  "step": 0,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4376876652240753
+ },
+ "sample_0602__t00__AB": {
+  "sample": "sample_0602",
+  "step": 0,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4569866359233856
+ },
+ "sample_0602__t04__A": {
+  "sample": "sample_0602",
+  "step": 4,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4842306673526764
+ },
+ "sample_0602__t04__B": {
+  "sample": "sample_0602",
+  "step": 4,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.45312315225601196
+ },
+ "sample_0602__t04__AB": {
+  "sample": "sample_0602",
+  "step": 4,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4570005238056183
+ },
+ "sample_0602__t08__A": {
+  "sample": "sample_0602",
+  "step": 8,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4725378155708313
+ },
+ "sample_0602__t08__B": {
+  "sample": "sample_0602",
+  "step": 8,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4608800411224365
+ },
+ "sample_0602__t08__AB": {
+  "sample": "sample_0602",
+  "step": 8,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4531164765357971
+ },
+ "sample_0602__t12__A": {
+  "sample": "sample_0602",
+  "step": 12,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48423296213150024
+ },
+ "sample_0602__t12__B": {
+  "sample": "sample_0602",
+  "step": 12,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48423269391059875
+ },
+ "sample_0602__t12__AB": {
+  "sample": "sample_0602",
+  "step": 12,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.47254249453544617
+ },
+ "sample_0602__t16__A": {
+  "sample": "sample_0602",
+  "step": 16,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4920410215854645
+ },
+ "sample_0602__t16__B": {
+  "sample": "sample_0602",
+  "step": 16,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4881335496902466
+ },
+ "sample_0602__t16__AB": {
+  "sample": "sample_0602",
+  "step": 16,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4725402295589447
+ },
+ "sample_0602__t20__A": {
+  "sample": "sample_0602",
+  "step": 20,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4881371557712555
+ },
+ "sample_0602__t20__B": {
+  "sample": "sample_0602",
+  "step": 20,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4842275381088257
+ },
+ "sample_0602__t20__AB": {
+  "sample": "sample_0602",
+  "step": 20,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4842343330383301
+ },
+ "sample_0602__t24__A": {
+  "sample": "sample_0602",
+  "step": 24,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4842318594455719
+ },
+ "sample_0602__t24__B": {
+  "sample": "sample_0602",
+  "step": 24,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4842310845851898
+ },
+ "sample_0602__t24__AB": {
+  "sample": "sample_0602",
+  "step": 24,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4803306460380554
+ },
+ "sample_0559__wait": {
+  "sample": "sample_0559",
+  "step": null,
+  "target": "none",
+  "kind": "wait",
+  "drift_p": 0.558163046836853
+ },
+ "sample_0559__t00__A": {
+  "sample": "sample_0559",
+  "step": 0,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5232458710670471
+ },
+ "sample_0559__t00__B": {
+  "sample": "sample_0559",
+  "step": 0,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.550462007522583
+ },
+ "sample_0559__t00__AB": {
+  "sample": "sample_0559",
+  "step": 0,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.49985459446907043
+ },
+ "sample_0559__t04__A": {
+  "sample": "sample_0559",
+  "step": 4,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5037432312965393
+ },
+ "sample_0559__t04__B": {
+  "sample": "sample_0559",
+  "step": 4,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5193490386009216
+ },
+ "sample_0559__t04__AB": {
+  "sample": "sample_0559",
+  "step": 4,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4802996814250946
+ },
+ "sample_0559__t08__A": {
+  "sample": "sample_0559",
+  "step": 8,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5465986728668213
+ },
+ "sample_0559__t08__B": {
+  "sample": "sample_0559",
+  "step": 8,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5076097249984741
+ },
+ "sample_0559__t08__AB": {
+  "sample": "sample_0559",
+  "step": 8,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5154237151145935
+ },
+ "sample_0559__t12__A": {
+  "sample": "sample_0559",
+  "step": 12,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5658771395683289
+ },
+ "sample_0559__t12__B": {
+  "sample": "sample_0559",
+  "step": 12,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5504613518714905
+ },
+ "sample_0559__t12__AB": {
+  "sample": "sample_0559",
+  "step": 12,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5773470997810364
+ },
+ "sample_0559__t16__A": {
+  "sample": "sample_0559",
+  "step": 16,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5581852793693542
+ },
+ "sample_0559__t16__B": {
+  "sample": "sample_0559",
+  "step": 16,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5388403534889221
+ },
+ "sample_0559__t16__AB": {
+  "sample": "sample_0559",
+  "step": 16,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5504553914070129
+ },
+ "sample_0559__t20__A": {
+  "sample": "sample_0559",
+  "step": 20,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5581862330436707
+ },
+ "sample_0559__t20__B": {
+  "sample": "sample_0559",
+  "step": 20,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5543187856674194
+ },
+ "sample_0559__t20__AB": {
+  "sample": "sample_0559",
+  "step": 20,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5543312430381775
+ },
+ "sample_0559__t24__A": {
+  "sample": "sample_0559",
+  "step": 24,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5543208718299866
+ },
+ "sample_0559__t24__B": {
+  "sample": "sample_0559",
+  "step": 24,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5581763982772827
+ },
+ "sample_0559__t24__AB": {
+  "sample": "sample_0559",
+  "step": 24,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5581721067428589
+ },
+ "sample_0790__wait": {
+  "sample": "sample_0790",
+  "step": null,
+  "target": "none",
+  "kind": "wait",
+  "drift_p": 0.877001166343689
+ },
+ "sample_0790__t00__A": {
+  "sample": "sample_0790",
+  "step": 0,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.6581774353981018
+ },
+ "sample_0790__t00__B": {
+  "sample": "sample_0790",
+  "step": 0,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7546206712722778
+ },
+ "sample_0790__t00__AB": {
+  "sample": "sample_0790",
+  "step": 0,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7182405591011047
+ },
+ "sample_0790__t04__A": {
+  "sample": "sample_0790",
+  "step": 4,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7769729495048523
+ },
+ "sample_0790__t04__B": {
+  "sample": "sample_0790",
+  "step": 4,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7849671244621277
+ },
+ "sample_0790__t04__AB": {
+  "sample": "sample_0790",
+  "step": 4,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7603533864021301
+ },
+ "sample_0790__t08__A": {
+  "sample": "sample_0790",
+  "step": 8,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7796735763549805
+ },
+ "sample_0790__t08__B": {
+  "sample": "sample_0790",
+  "step": 8,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7769654989242554
+ },
+ "sample_0790__t08__AB": {
+  "sample": "sample_0790",
+  "step": 8,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7823522686958313
+ },
+ "sample_0790__t12__A": {
+  "sample": "sample_0790",
+  "step": 12,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7575188279151917
+ },
+ "sample_0790__t12__B": {
+  "sample": "sample_0790",
+  "step": 12,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7849758863449097
+ },
+ "sample_0790__t12__AB": {
+  "sample": "sample_0790",
+  "step": 12,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7659923434257507
+ },
+ "sample_0790__t16__A": {
+  "sample": "sample_0790",
+  "step": 16,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7742688059806824
+ },
+ "sample_0790__t16__B": {
+  "sample": "sample_0790",
+  "step": 16,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7875844240188599
+ },
+ "sample_0790__t16__AB": {
+  "sample": "sample_0790",
+  "step": 16,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7742519378662109
+ },
+ "sample_0790__t20__A": {
+  "sample": "sample_0790",
+  "step": 20,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7796609997749329
+ },
+ "sample_0790__t20__B": {
+  "sample": "sample_0790",
+  "step": 20,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7901872992515564
+ },
+ "sample_0790__t20__AB": {
+  "sample": "sample_0790",
+  "step": 20,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7742729783058167
+ },
+ "sample_0790__t24__A": {
+  "sample": "sample_0790",
+  "step": 24,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7849780917167664
+ },
+ "sample_0790__t24__B": {
+  "sample": "sample_0790",
+  "step": 24,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7769943475723267
+ },
+ "sample_0790__t24__AB": {
+  "sample": "sample_0790",
+  "step": 24,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.7849631905555725
+ },
+ "sample_0180__wait": {
+  "sample": "sample_0180",
+  "step": null,
+  "target": "none",
+  "kind": "wait",
+  "drift_p": 0.47641363739967346
+ },
+ "sample_0180__t00__A": {
+  "sample": "sample_0180",
+  "step": 0,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.49593573808670044
+ },
+ "sample_0180__t00__B": {
+  "sample": "sample_0180",
+  "step": 0,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.47641149163246155
+ },
+ "sample_0180__t00__AB": {
+  "sample": "sample_0180",
+  "step": 0,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4569777250289917
+ },
+ "sample_0180__t04__A": {
+  "sample": "sample_0180",
+  "step": 4,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.49593427777290344
+ },
+ "sample_0180__t04__B": {
+  "sample": "sample_0180",
+  "step": 4,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4881223142147064
+ },
+ "sample_0180__t04__AB": {
+  "sample": "sample_0180",
+  "step": 4,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4881291687488556
+ },
+ "sample_0180__t08__A": {
+  "sample": "sample_0180",
+  "step": 8,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.503741979598999
+ },
+ "sample_0180__t08__B": {
+  "sample": "sample_0180",
+  "step": 8,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4881262481212616
+ },
+ "sample_0180__t08__AB": {
+  "sample": "sample_0180",
+  "step": 8,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.49592670798301697
+ },
+ "sample_0180__t12__A": {
+  "sample": "sample_0180",
+  "step": 12,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5037447810173035
+ },
+ "sample_0180__t12__B": {
+  "sample": "sample_0180",
+  "step": 12,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5037431120872498
+ },
+ "sample_0180__t12__AB": {
+  "sample": "sample_0180",
+  "step": 12,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5037404298782349
+ },
+ "sample_0180__t16__A": {
+  "sample": "sample_0180",
+  "step": 16,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4959332346916199
+ },
+ "sample_0180__t16__B": {
+  "sample": "sample_0180",
+  "step": 16,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5076465010643005
+ },
+ "sample_0180__t16__AB": {
+  "sample": "sample_0180",
+  "step": 16,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4998367428779602
+ },
+ "sample_0180__t20__A": {
+  "sample": "sample_0180",
+  "step": 20,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5076417326927185
+ },
+ "sample_0180__t20__B": {
+  "sample": "sample_0180",
+  "step": 20,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.511547863483429
+ },
+ "sample_0180__t20__AB": {
+  "sample": "sample_0180",
+  "step": 20,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5115445256233215
+ },
+ "sample_0180__t24__A": {
+  "sample": "sample_0180",
+  "step": 24,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.511549711227417
+ },
+ "sample_0180__t24__B": {
+  "sample": "sample_0180",
+  "step": 24,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.507644534111023
+ },
+ "sample_0180__t24__AB": {
+  "sample": "sample_0180",
+  "step": 24,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.5037403702735901
+ },
+ "sample_0791__wait": {
+  "sample": "sample_0791",
+  "step": null,
+  "target": "none",
+  "kind": "wait",
+  "drift_p": 0.4725404381752014
+ },
+ "sample_0791__t00__A": {
+  "sample": "sample_0791",
+  "step": 0,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.46864691376686096
+ },
+ "sample_0791__t00__B": {
+  "sample": "sample_0791",
+  "step": 0,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.44152653217315674
+ },
+ "sample_0791__t00__AB": {
+  "sample": "sample_0791",
+  "step": 0,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4453926682472229
+ },
+ "sample_0791__t04__A": {
+  "sample": "sample_0791",
+  "step": 4,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.46864810585975647
+ },
+ "sample_0791__t04__B": {
+  "sample": "sample_0791",
+  "step": 4,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.45311862230300903
+ },
+ "sample_0791__t04__AB": {
+  "sample": "sample_0791",
+  "step": 4,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.44924962520599365
+ },
+ "sample_0791__t08__A": {
+  "sample": "sample_0791",
+  "step": 8,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4686475694179535
+ },
+ "sample_0791__t08__B": {
+  "sample": "sample_0791",
+  "step": 8,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.47253814339637756
+ },
+ "sample_0791__t08__AB": {
+  "sample": "sample_0791",
+  "step": 8,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.47253525257110596
+ },
+ "sample_0791__t12__A": {
+  "sample": "sample_0791",
+  "step": 12,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.46476230025291443
+ },
+ "sample_0791__t12__B": {
+  "sample": "sample_0791",
+  "step": 12,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.47643858194351196
+ },
+ "sample_0791__t12__AB": {
+  "sample": "sample_0791",
+  "step": 12,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.47254061698913574
+ },
+ "sample_0791__t16__A": {
+  "sample": "sample_0791",
+  "step": 16,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4725438356399536
+ },
+ "sample_0791__t16__B": {
+  "sample": "sample_0791",
+  "step": 16,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48033687472343445
+ },
+ "sample_0791__t16__AB": {
+  "sample": "sample_0791",
+  "step": 16,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.47643935680389404
+ },
+ "sample_0791__t20__A": {
+  "sample": "sample_0791",
+  "step": 20,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4725383520126343
+ },
+ "sample_0791__t20__B": {
+  "sample": "sample_0791",
+  "step": 20,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4764370024204254
+ },
+ "sample_0791__t20__AB": {
+  "sample": "sample_0791",
+  "step": 20,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.47254228591918945
+ },
+ "sample_0791__t24__A": {
+  "sample": "sample_0791",
+  "step": 24,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4764363765716553
+ },
+ "sample_0791__t24__B": {
+  "sample": "sample_0791",
+  "step": 24,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.47253793478012085
+ },
+ "sample_0791__t24__AB": {
+  "sample": "sample_0791",
+  "step": 24,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4725363254547119
+ },
+ "sample_0229__wait": {
+  "sample": "sample_0229",
+  "step": null,
+  "target": "none",
+  "kind": "wait",
+  "drift_p": 0.41473615169525146
+ },
+ "sample_0229__t00__A": {
+  "sample": "sample_0229",
+  "step": 0,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4071449041366577
+ },
+ "sample_0229__t00__B": {
+  "sample": "sample_0229",
+  "step": 0,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4223364293575287
+ },
+ "sample_0229__t00__AB": {
+  "sample": "sample_0229",
+  "step": 0,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.43379244208335876
+ },
+ "sample_0229__t04__A": {
+  "sample": "sample_0229",
+  "step": 4,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.39590731263160706
+ },
+ "sample_0229__t04__B": {
+  "sample": "sample_0229",
+  "step": 4,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41851934790611267
+ },
+ "sample_0229__t04__AB": {
+  "sample": "sample_0229",
+  "step": 4,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.3921778202056885
+ },
+ "sample_0229__t08__A": {
+  "sample": "sample_0229",
+  "step": 8,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4261432886123657
+ },
+ "sample_0229__t08__B": {
+  "sample": "sample_0229",
+  "step": 8,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.44536420702934265
+ },
+ "sample_0229__t08__AB": {
+  "sample": "sample_0229",
+  "step": 8,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.44150879979133606
+ },
+ "sample_0229__t12__A": {
+  "sample": "sample_0229",
+  "step": 12,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4261416792869568
+ },
+ "sample_0229__t12__B": {
+  "sample": "sample_0229",
+  "step": 12,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.433820515871048
+ },
+ "sample_0229__t12__AB": {
+  "sample": "sample_0229",
+  "step": 12,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4376557171344757
+ },
+ "sample_0229__t16__A": {
+  "sample": "sample_0229",
+  "step": 16,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.414728581905365
+ },
+ "sample_0229__t16__B": {
+  "sample": "sample_0229",
+  "step": 16,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4147307872772217
+ },
+ "sample_0229__t16__AB": {
+  "sample": "sample_0229",
+  "step": 16,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4223293662071228
+ },
+ "sample_0229__t20__A": {
+  "sample": "sample_0229",
+  "step": 20,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41472285985946655
+ },
+ "sample_0229__t20__B": {
+  "sample": "sample_0229",
+  "step": 20,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4071679711341858
+ },
+ "sample_0229__t20__AB": {
+  "sample": "sample_0229",
+  "step": 20,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.41093894839286804
+ },
+ "sample_0229__t24__A": {
+  "sample": "sample_0229",
+  "step": 24,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.42232614755630493
+ },
+ "sample_0229__t24__B": {
+  "sample": "sample_0229",
+  "step": 24,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4147311747074127
+ },
+ "sample_0229__t24__AB": {
+  "sample": "sample_0229",
+  "step": 24,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4223281145095825
+ },
+ "sample_0387__wait": {
+  "sample": "sample_0387",
+  "step": null,
+  "target": "none",
+  "kind": "wait",
+  "drift_p": 0.3774113953113556
+ },
+ "sample_0387__t00__A": {
+  "sample": "sample_0387",
+  "step": 0,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.3810912072658539
+ },
+ "sample_0387__t00__B": {
+  "sample": "sample_0387",
+  "step": 0,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.38109302520751953
+ },
+ "sample_0387__t00__AB": {
+  "sample": "sample_0387",
+  "step": 0,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.38848865032196045
+ },
+ "sample_0387__t04__A": {
+  "sample": "sample_0387",
+  "step": 4,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.38849398493766785
+ },
+ "sample_0387__t04__B": {
+  "sample": "sample_0387",
+  "step": 4,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.377415269613266
+ },
+ "sample_0387__t04__AB": {
+  "sample": "sample_0387",
+  "step": 4,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.3959406018257141
+ },
+ "sample_0387__t08__A": {
+  "sample": "sample_0387",
+  "step": 8,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.38109371066093445
+ },
+ "sample_0387__t08__B": {
+  "sample": "sample_0387",
+  "step": 8,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.37741219997406006
+ },
+ "sample_0387__t08__AB": {
+  "sample": "sample_0387",
+  "step": 8,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.39594343304634094
+ },
+ "sample_0387__t12__A": {
+  "sample": "sample_0387",
+  "step": 12,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.3556479215621948
+ },
+ "sample_0387__t12__B": {
+  "sample": "sample_0387",
+  "step": 12,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.3774081766605377
+ },
+ "sample_0387__t12__AB": {
+  "sample": "sample_0387",
+  "step": 12,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.36284399032592773
+ },
+ "sample_0387__t16__A": {
+  "sample": "sample_0387",
+  "step": 16,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.3810928463935852
+ },
+ "sample_0387__t16__B": {
+  "sample": "sample_0387",
+  "step": 16,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.37374407052993774
+ },
+ "sample_0387__t16__AB": {
+  "sample": "sample_0387",
+  "step": 16,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.3737494945526123
+ },
+ "sample_0387__t20__A": {
+  "sample": "sample_0387",
+  "step": 20,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.381089448928833
+ },
+ "sample_0387__t20__B": {
+  "sample": "sample_0387",
+  "step": 20,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.3700968623161316
+ },
+ "sample_0387__t20__AB": {
+  "sample": "sample_0387",
+  "step": 20,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.37375012040138245
+ },
+ "sample_0387__t24__A": {
+  "sample": "sample_0387",
+  "step": 24,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.3847828507423401
+ },
+ "sample_0387__t24__B": {
+  "sample": "sample_0387",
+  "step": 24,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.37374475598335266
+ },
+ "sample_0387__t24__AB": {
+  "sample": "sample_0387",
+  "step": 24,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.37741175293922424
+ },
+ "sample_0452__wait": {
+  "sample": "sample_0452",
+  "step": null,
+  "target": "none",
+  "kind": "wait",
+  "drift_p": 0.4959319531917572
+ },
+ "sample_0452__t00__A": {
+  "sample": "sample_0452",
+  "step": 0,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48811429738998413
+ },
+ "sample_0452__t00__B": {
+  "sample": "sample_0452",
+  "step": 0,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4530986249446869
+ },
+ "sample_0452__t00__AB": {
+  "sample": "sample_0452",
+  "step": 0,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.46862491965293884
+ },
+ "sample_0452__t04__A": {
+  "sample": "sample_0452",
+  "step": 4,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.49202093482017517
+ },
+ "sample_0452__t04__B": {
+  "sample": "sample_0452",
+  "step": 4,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48030421137809753
+ },
+ "sample_0452__t04__AB": {
+  "sample": "sample_0452",
+  "step": 4,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48030710220336914
+ },
+ "sample_0452__t08__A": {
+  "sample": "sample_0452",
+  "step": 8,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4881259799003601
+ },
+ "sample_0452__t08__B": {
+  "sample": "sample_0452",
+  "step": 8,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4647359251976013
+ },
+ "sample_0452__t08__AB": {
+  "sample": "sample_0452",
+  "step": 8,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4492506682872772
+ },
+ "sample_0452__t12__A": {
+  "sample": "sample_0452",
+  "step": 12,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4842223823070526
+ },
+ "sample_0452__t12__B": {
+  "sample": "sample_0452",
+  "step": 12,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.46862491965293884
+ },
+ "sample_0452__t12__AB": {
+  "sample": "sample_0452",
+  "step": 12,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.46086087822914124
+ },
+ "sample_0452__t16__A": {
+  "sample": "sample_0452",
+  "step": 16,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48031896352767944
+ },
+ "sample_0452__t16__B": {
+  "sample": "sample_0452",
+  "step": 16,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48031798005104065
+ },
+ "sample_0452__t16__AB": {
+  "sample": "sample_0452",
+  "step": 16,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4842173755168915
+ },
+ "sample_0452__t20__A": {
+  "sample": "sample_0452",
+  "step": 20,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.4959239661693573
+ },
+ "sample_0452__t20__B": {
+  "sample": "sample_0452",
+  "step": 20,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48421844840049744
+ },
+ "sample_0452__t20__AB": {
+  "sample": "sample_0452",
+  "step": 20,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.492017537355423
+ },
+ "sample_0452__t24__A": {
+  "sample": "sample_0452",
+  "step": 24,
+  "target": "A",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48421981930732727
+ },
+ "sample_0452__t24__B": {
+  "sample": "sample_0452",
+  "step": 24,
+  "target": "B",
+  "kind": "invoke_lsda",
+  "drift_p": 0.48421427607536316
+ },
+ "sample_0452__t24__AB": {
+  "sample": "sample_0452",
+  "step": 24,
+  "target": "AB",
+  "kind": "invoke_lsda",
+  "drift_p": 0.47641226649284363
+ }
+}

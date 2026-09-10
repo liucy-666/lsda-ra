@@ -11,6 +11,7 @@ D:\Python\MMDIT\
 ├── code\
 ├── data\
 └── experiment\
+└── temp\
 ```
 
 `.claude`、`.codex` 等点号目录属于工具配置，不是实验数据目录，不得随意移动或删除。
@@ -143,7 +144,34 @@ experiment\YYYY_M_D_EXP_N\
 ```
 
 ---
+## 5. `temp`：临时脚本
 
+### 目录命名
+
+每个Agent开的脚本必须创建独立目录：
+
+```text
+agent_name
+```
+
+示例：
+
+```text
+experiment\GPT-5.6_sol\
+experiment\Deepseek_v4_flash\
+```
+
+同一Agent脚本在子文件夹下递增 `N`，不得把不同目的的实验混入同一目录。
+
+### 禁止放置
+
+- 大批正式生成图像；图像应存放在 `data`；
+- 方法源代码；代码应存放在 `code`；
+- API key、HF token、SSH 密码或其他秘密；
+- 来源不明、无法追溯 Prompt/seed 的结果；
+- 不同实验版本共用同一个可变结果文件并互相覆盖。
+
+---
 ## 5. 原始数据与结果纪律
 
 1. **V1 原始数据只增不改。** 原图、原始 activation、原始 VLM 回复和初始日志不得在分析时改写。

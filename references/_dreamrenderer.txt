@@ -1,0 +1,675 @@
+                                        DreamRenderer: Taming Multi-Instance Attribute Control in Large-Scale
+                                                                         Text-to-Image Models
+
+                                                                     Dewei Zhou1, Mingwei Li1, Zongxin Yang2, Yi Yang1∗
+                                                         RELER, CCAI, Zhejiang University 1 DBMI, HMS, Harvard University 2
+                                        {zdw1999,mingweili,yangyics}@zju.edu.cn {Zongxin Yang}@hms.harvard.edu
+
+                                                         Project Page: https://limuloo.github.io/DreamRenderer/
+
+arXiv:2503.12885v2 [cs.CV] 12 Apr 2025  Depth Map + Layout (with 16 Instances)            FLUX                                                                   3DIS                 Ours
+
+                                        1         2  34
+
+                                        5678
+
+                                        9 10 11 12
+
+                                        13 14 15 16
+
+                                        “A shiny {color} pool ball with number {number}”, with combinations as follows:
+                                        1) Red, number ‘1’; 2) Blue, number ‘2’; 3) Yellow, number ‘3’; 4) Green, number ‘4’; 5) Purple, number ‘5’; 6) Orange, number ‘6’; 7) Magenta, number ‘7’; 8) Black, number ‘8’;
+                                        9) Pink, number ‘9’; 10) Turquoise, number ‘10’; 11) Gold, number ‘11’; 12) Silver, number ‘12’; 13)Maroon, number ‘13’; 14) Teal, number ‘14’; 15) Lavender, number ‘15’; and 16) a pure white pool ball.
+
+                                        “many famous people in a tea gathering.“ 1) Caption America 2) Michelangelo-inspired marble statue 3) Black              1
+                                        Widow 4) Spider-Man with a pair of high-tech glasses                                                                                       2
+
+                                                                                                                                                                          3
+
+                                        “A black clock with seven birds evenly distributed around the clock’s edge.” 1) A black crow; 2) A purple bird; 3) A
+                                        green bird; 4) A golden eagle; 5) A red phoenix; 6) A white dove; 7) A brown sparrow.
+
+                                           3         4         5                                                                                              4        5
+
+                                        2                         6                                                                                                                 6
+
+                                                                          7                                                                                   “A regal queen on a gothic throne, holding a sword surrounded by skulls, in a dark
+                                        1                                                                                                                     medieval fantasy setting with dramatic lighting.”
+                                                                                                                                                              1) Fire sword. 2) Ice-covered frozen throne. 3) Brown & golden hair.
+                                                                                                                                                              4) White skull with mask. 5) Sleek black high-heeled boots. 6) Golden skull.
+
+                                                                                                   “The Brave Fights Three loongs.” 1) <loong1>; 2) <loong2>; 3) <loong3>;
+
+                                                                                          1     2
+
+                                                                                                                                                              3
+
+                                        <loong1>     <loong2>                   <loong3>
+
+                                        Figure 1. Images generated using DreamRenderer. DreamRenderer is a plug-and-play controller that grants users fine-grained control
+                                        over the content of each region and instance during depth- or canny-conditioned generation without any training. By leveraging Redux [3]
+                                        to translate images into text embeddings, it further allows users to seamlessly control generated content based directly on visual inputs.
+
+                                                                                                   1
+                        Abstract                                serving overall visual harmony.
+
+Image-conditioned generation methods, such as depth- and           When implementing DreamRenderer, we encounter two
+canny-conditioned approaches, have demonstrated remark-         main challenges. 1) Ensuring text embeddings bind the
+able abilities for precise image synthesis. However, exist-     correct visual information. Current state-of-the-art text-
+ing models still struggle to accurately control the content of  to-image models [3, 8] employ the T5 text encoder [37],
+multiple instances (or regions). Even state-of-the-art mod-     pre-trained purely on textual data, to extract text embed-
+els like FLUX and 3DIS face challenges, such as attribute       dings lacking intrinsic visual information. These embed-
+leakage between instances, which limits user control. To ad-    dings instead rely on Joint Attention [7, 16, 25, 51] with im-
+dress these issues, we introduce DreamRenderer, a training-     age embeddings to incorporate visual information [64]. In
+free approach built upon the FLUX model. DreamRenderer          scenarios where multiple instances are controlled, attribute
+enables users to control the content of each instance via       confusion can easily arise among different instances and re-
+bounding boxes or masks, while ensuring overall visual          gions. 2) Rendering each instance accurately while pre-
+harmony. We propose two key innovations: 1) Bridge Image        serving overall visual harmony. To accurately generate
+Tokens for Hard Text Attribute Binding, which uses repli-       controlled instances, it is necessary to constrain the image
+cated image tokens as bridge tokens to ensure that T5 text      tokens’ attention masks [34, 44, 47] during Joint Attention.
+embeddings, pre-trained solely on text data, bind the cor-      Yet overly restrictive constraints can undermine the result-
+rect visual attributes for each instance during Joint Atten-    ing image quality, highlighting the need for more nuanced
+tion; 2) Hard Image Attribute Binding applied only to vital     strategies to guide the attention masks of image tokens.
+layers. Through our analysis of FLUX, we identify the crit-
+ical layers responsible for instance attribute rendering and       A naive solution to ensure each instance’s text embed-
+apply Hard Image Attribute Binding only in these layers,        ding binds the correct visual information during Joint At-
+using soft binding in the others. This approach ensures pre-    tention is to constrain the tokens (both image and text) of a
+cise control while preserving image quality. Evaluations on     single instance to attend only to themselves. This strategy
+the COCO-POS and COCO-MIG benchmarks demonstrate                effectively simulates a single-instance generation process,
+that DreamRenderer improves the Image Success Ratio by          thereby preserving the intended visual attributes for each
+17.7% over FLUX and enhances the performance of layout-         text embedding. However, completely separating each in-
+to-image models like GLIGEN and 3DIS by up to 26.8%.            stance’s tokens from those of others significantly degrades
+Project Page: https://limuloo.github.io/DreamRenderer/.         the image quality, as shown in Fig. 7.
+
+1. Introduction                                                    To address the two challenges outlined above, Dream-
+                                                                Renderer introduces two key innovations: 1) Bridge tokens
+Beyond conventional text-to-image models, image-                for Hard Text Attribute Binding. Instead of directly using
+conditioned generation methods [31, 56], such as depth-         an instance’s original image tokens to help the text tokens
+and canny-conditioned approaches, have emerged as pow-          bind the correct attributes, we replicate the instance’s image
+erful tools for more controllable content creation, finding     tokens, referred to as Bridge Image Tokens. These bridge
+applications in animation, game development, visual             tokens are not included in the model’s final output but in-
+restoration, and virtual reality [18, 22, 27, 42, 49, 54, 56].  stead simulate a single-instance generation process during
+                                                                Joint Attention, thereby guiding the text embeddings to ac-
+   However, existing techniques cannot accurately con-          quire the correct visual attributes. In other words, each in-
+strain the content generated within each specific instance      stance’s text embedding and Bridge Image Tokens attend
+(or region), and their performance deteriorates significantly   only to each other, ignoring all other tokens. 2) Hard Im-
+as the number of controlled elements increases. As shown        age Binding only applied to vital layers. After ensuring
+in Fig. 1, even state-of-the-art methods such as FLUX [3]       each text embedding accurately captures its instance’s vi-
+and 3DIS [63, 64] often fail to follow user-specified inputs,   sual attributes through Hard Text Attribute Binding, we fur-
+leading to unsatisfactory outcomes in which attributes bleed    ther ensure each instance’s image embedding incorporates
+across different instances. Such limitations ultimately hin-    the correct visual information. We adopt two types of “im-
+der more refined and controllable user-directed creation.       age attribute binding”: a hard bind, where an instance’s im-
+                                                                age tokens attend exclusively to themselves, and a soft bind,
+   To address these challenges and grant users greater cre-     where they can attend to all tokens in the image. From ex-
+ative control, we introduce DreamRenderer, a training-          perimental observation, layers near the input and output of
+free approach built upon the FLUX model [3]. As illus-          FLUX primarily encode global information, while the in-
+trated in Fig. 1, DreamRenderer functions as a plug-and-        termediate layers are crucial for rendering each instance.
+play tool, allowing users to further regulate the content of    Therefore, we apply hard binding only in these middle lay-
+each instance via bounding boxes or masks, all while pre-       ers, and soft binding elsewhere, thus preserving overall vi-
+                                                                sual harmony while maintaining precise control over each
+                    (a) DreamRenderer                          Input Tokens                     FLUX                                 Image Tokens
+                             Input Layout                                                                                            Text Tokens
+ Dream                                             T5 Encdoer                              Joint Attention                     Bridge Image Tokens
+Renderer                                     1                                                     ...                     (b) Attention Masks
+                                             2                  Text         Bridge  Copy
+   ...                “an ice cat and a fire dog”              Tokens        Tokens        Joint Attention                    Hard Text Attribute Binding
+                       Instance1: “an ice cat”                                                     ...                  QK
+   ...                 Instance2: “a fire dog”
+ Dream                                                                                     Joint Attention                    Hard Image Attribute Binding
+Renderer               Depth or Canny                                                                                   QK
+                                                                       Copy
+                       Noise / Last Output
+                                                   VAE                                                    Drop
+                                                                                           Text Tokens & Bridge Tokens
+                                                                                                                              Soft Image Attribute Binding
+                                                                                                                        QK
+
+                                                                       Image Tokens        Output Tokens
+
+Figure 2. The overview of DreamRenderer. (§ 3.3) (a) The pipeline of DreamRenderer. (b) Attention maps in Joint Attention, which
+
+includes 1) Hard Text Attribute Binding (§ 3.5), 2) Hard Image Attribute Binding (§ 3.6), and 3) Soft Image Attribute Binding (§ 3.6).
+
+In the attention maps shown in (b), rows represent queries and columns represent keys. We use different patterns to distinguish between
+
+image tokens        , text tokens                  , and bridge image tokens               , while different colors (   for an ice cat,
+
+for a fire dog and  for the global text tokens and background image tokens) represent tokens from different instances.
+
+instance’s attributes.                                                                 FLUX model, clarifying which layers handle global oper-
+                                                                                       ations and which are pivotal for rendering individual in-
+   We evaluated DreamRenderer on two widely used                                       stances, offering fresh insights for subsequent research.
+benchmarks, COCO-POS [24] and COCO-MIG [61, 62],
+demonstrating its effectiveness in balancing image quality                           2. Related Works
+with fine-grained control. On COCO-POS, we extracted
+depth maps and canny maps from the COCO dataset as con-                              Text-to-Image Generation. In recent years, text-to-image
+ditional inputs and leveraged their layouts to guide Dream-                          generation has progressed rapidly [1, 4, 9, 12, 20, 21, 28–
+Renderer. The results show that DreamRenderer boosts                                 30, 32, 41, 48, 53], with generative models now producing
+the Image Success Ratio by 17.7% over the original FLUX                              high-quality images aligned with user descriptions. Early
+model, without sacrificing image quality. On COCO-MIG,                               approaches—such as SD1.5 [39] and SDXL [35]—adopted
+we applied DreamRenderer to re-render the outputs of sev-                            a U-Net-based [40, 57–60] architecture together with a
+eral state-of-the-art layout-to-image models, significantly                          CLIP text encoder [36] for extracting text embeddings,
+enhancing both image quality and controllability. Specif-                            injecting textual information into the network via cross-
+ically, DreamRenderer increases the Image Success Ratio                              attention [10, 43] to ensure correspondence between text
+for GLIGEN [19], InstanceDiffusion [44], MIGC [61], and                              and output content. Later, the Diffusion Transformer
+3DIS [63] by 26.8%, 19.9%, 8.3%, and 7.4%, respectively.                             (DiT) [6] structure was introduced, replacing the U-Net
+                                                                                     with a Transformer, and using AdaLN to incorporate text
+   The key contributions of this paper are as follows:                               information. To further refine text control, models like
+                                                                                     SD3 [8] and FLUX [3] switched to a T5-XXL [37] text
+• We propose DreamRenderer, a training-free method                                   encoder, employing Joint Attention to align image and text
+  that enables users to control the generation content for                           embeddings and thereby ensure that the final outputs adhere
+  each region and instance in depth-conditioned or canny-                            closely to the textual prompts.
+  conditioned generation.                                                            Controllable Text-to-Image Generation. With further
+                                                                                     improvements in image quality, users and researchers
+• We introduce a novel Hard Text Attribute Binding tech-                             have turned their attention to more controllable content
+  nique, ensuring that text embeddings bind the correct vi-                          generation. Image-conditioned generation methods, like
+  sual attributes during the Joint Attention process.
+
+• For multi-instance generation, we provide the first in-
+  depth analysis of each layer’s potential function in the
+depth- and canny-conditioned techniques [2, 18, 23, 33,                                    3   Input LayersLayer-wise Performance Analysis
+45, 52, 56], provide an outline-based or scene-level struc-                                                  Middle Layers Output Layers
+ture for generated images. However, current methods lack
+the ability to precisely regulate individual regions or in-      Accuracy Improvement (%)  2
+stances—particularly in complex scenes with multiple con-
+trolled elements—often leading to inaccurate or undesirable                                1
+results. To address this limitation, we introduce Dream-
+Renderer, a plug-and-play controller that empowers users                                   0
+to specify the generation content of each region or in-
+stance with heightened accuracy. In addition, DreamRen-                                    1   Avg: -0.22%   Avg: +0.64%  Avg: -0.21%
+derer can be applied to re-render the outputs of layout-to-                                2
+image [5, 11, 17, 19, 44, 46, 50, 55, 61, 63] models, further
+enhancing both content fidelity and overall image quality.                                 3   High Performance Layers
+                                                                                               Low Performance Layers
+3. Method                                                                                  4
+
+3.1. Preliminaries                                                                         50  10            20 Layer I3n0dex 40            50
+
+FLUX. The FLUX [3] model is a state-of-the-art text-to-          Figure 3. Vital Binding Layer Search (§ 3.6). We apply Hard
+image generation model that leverages the rectified flow [8,     Image Attribute Binding layer by layer and observe that applying it
+26] framework to iteratively generate images. In each itera-     in the FLUX model’s input or output layers degrades performance,
+tion, FLUX first encodes the text prompt into a text embed-      whereas applying it in the middle layers yields improvements.
+ding using a T5 text encoder [37], which is trained solely
+on textual data. This text embedding is then concatenated        global prompt, but also ensures that each controlled instance
+with a randomly sampled noise-based image embedding; if          accurately adheres the specified descriptions.
+needed, a control image embedding (e.g., depth or canny) is
+also included. Subsequently, multiple layers of Joint At-        Challenges. We build DreamRenderer upon the FLUX
+tention [7, 25, 64] iteratively refine both the image and        model (§ 3.1), and there are two main challenges in achiev-
+text embeddings, ensuring they remain in alignment. Fi-          ing our objectives: 1) Correctly binding text embedding at-
+nally, FLUX decodes the refined image embedding through          tributes in multi-instance scenarios. Unlike previous text-
+a Variational Autoencoder (VAE) [14], generating an output       to-image models that use CLIP [36], FLUX employs the
+image that faithfully reflects the user’s textual description.   T5 text encoder, which is pre-trained on pure text data and
+Joint Attention. In Joint Attention, both text and image         does not contain visual information. This creates a chal-
+embeddings are processed simultaneously. Each embed-             lenge in ensuring that the text embedding correctly binds the
+ding is first transformed into token representations via a lin-  visual attributes of each instance during the Joint Attention
+ear layer: the text embedding is converted into Qtext, Ktext,    process, particularly when multiple instances are involved.
+and Vtext, while the image embedding is mapped to Qimage,        2) Enhancing the overall harmony of the generated image
+Kimage, and Vimage. These token sets are then concatenated       while maintaining correct attributes for each instance. In
+as follows: Q = Qtext ⊕ Qimage, K = Ktext ⊕ Kimage, and          multi-instance scenarios, the image tokens corresponding
+V = Vtext ⊕ Vimage, where ⊕ denotes the concatenation op-        to different instances may inadvertently leak attributes [34]
+eration. The attention mechanism is subsequently applied         during Joint Attention. Our goal is to minimize such leak-
+to the concatenated tokens.                                      age while ensuring that the final generated image retains a
+                                                                 cohesive and harmonious composition across all instances.
+                                                  QK T
+        Attention(Q, K, V ) = Softmax √ V (1)                    3.3. Overview
+
+                                                     dk          Fig. 2 illustrates the overview of DreamRenderer. In
+                                                                 the Joint Attention mechanism, DreamRenderer intro-
+where dk is the dimension of the key vectors. This Joint         duces a novel Hard Text Attribute Binding (§3.5) algo-
+attention mechanism allows for bidirectional information         rithm to ensure that the text embedding for each in-
+flow between text and image embeddings, enabling the             stance correctly binds the relevant visual information.
+model to align visual content with textual descriptions.         Additionally, to enhance the overall harmony of the
+                                                                 generated image while maintaining accurate image em-
+3.2. Problem Definition and Challenges                           bedding attributes for each instance, we conducted an
+                                                                 experimental analysis (§3.6) of each layer in FLUX and
+Problem Definition. Given a depth/canny map, a global            decided to apply Hard Image Attribute Binding (§3.6)
+prompt, and detailed instance (or region) descriptions, the      only in the middle layers of the FLUX model. In all other
+objective is to generate an image that not only adheres to       layers, Soft Image Attribute Binding (§3.6) is used.
+the global structural constraints of the depth/canny map and
+3.4. Preparation                                                where q and k are the query and key indices respectively,
+                                                                Ti and Bi denote the token indices of the i-th instance’s text
+As shown in Fig. 2 (a), DreamRenderer first embeds the in-      and Bridge Image Tokens respectively.
+put text descriptions for each instance and the global prompt
+separately through the T5 text encoder. These encoded em-       3.6. Image Attribute Binding
+beddings are then concatenated to form the complete text
+embedding for the generation process. Our method requires       Overview. After ensuring the accuracy of the text embed-
+users to provide either a depth map or a canny edge map         ding’s attributes, the next step is to guarantee the correct-
+as structural guidance, which serves as the foundation for      ness of the visual attributes in each instance’s image tokens.
+the spatial arrangement of instances in the generated im-       As shown in Fig. 2, DreamRenderer employs Hard Image
+age. For instance localization, we utilize bounding boxes       Attribute Binding at the vital binding layer to ensure that
+or masks provided by the user to identify each instance’s       each instance is rendered with the correct attributes. In the
+region within this structural guidance.                         remaining layers, Soft Image Attribute Binding is used to
+                                                                ensure that all instances ultimately form a coherent image.
+3.5. Hard Text Attribute Binding                                In the following sections, we will detail the mechanisms of
+                                                                hard and soft image attribute binding and explain how we
+Motivation. When generating a single instance, the FLUX         identify the vital layers for Hard Image Attribute Binding.
+model generally produces images that align with the textual     Hard Image Attribute Binding. As shown in Fig. 2, the
+prompt, exhibiting minimal attribute errors. In such scenar-    Hard Image Attribute Binding imposes attention mask con-
+ios, image and text tokens in Joint Attention focus exclu-      straints on each instance’s image tokens during Joint At-
+sively on the information of that single instance, thereby en-  tention. First, it ensures that each instance attends only to
+abling the text embedding to bind accurate visual attributes.   its corresponding text token—which, following Hard Text
+Building on this insight, we propose that in multi-instance     Attribute Binding, contains the correct visual information.
+scenarios, the image and text tokens of each instance should    Second, to prevent attribute leakage across different image
+primarily attend to themselves rather than to tokens belong-    tokens, Hard Image Attribute Binding further restricts each
+ing to different instances, allowing the text embedding to      instance’s image tokens to attend its own image tokens. For
+effectively bind the correct visual information.                the i-th instance, the Hard Image Attribute Binding mask
+Naive Solution. A straightforward approach to ensure that       Mhiard is constructed as:
+each instance’s text embedding is bound to the correct at-
+tributes is to process each instance independently during       Mhiard[q, k] =  1,              if q ∈ Ii, k ∈ Ti ∪ Ii  (3)
+Joint Attention. In this method, both image and text tokens                     0,              otherwise
+for a given instance interact exclusively with themselves,
+remaining isolated from tokens of other instances. How-         where Ii represents the set of image token indices belong-
+ever, this complete isolation introduces a significant draw-    ing to the i-th instance, and Ti represents its corresponding
+back: it disrupts the visual harmony of the overall image       text token indices.
+and substantially lowers the quality of the generated result    Soft Image Attribute Binding. To ensure the overall co-
+(as shown in Fig. 7).                                           herence of the final generated image, Soft Image Attribute
+Bridge Image Token for Advanced Solution. Since                 Binding relaxes the constraints imposed by Hard Image At-
+strictly isolating original image tokens for each instance in   tribute Binding. Specifically, for each instance’s image to-
+joint Attention degrades the image quality, DreamRenderer       kens, Soft Image Attribute Binding allows it to attend to the
+proposes an advanced solution: during Joint Attention, an       image tokens of the entire image, thereby enhancing the co-
+additional copy of each instance’s image tokens are cre-        hesion of the entire scene. For the i-th instance, the Soft
+ated, referred to as Bridge Image Tokens. These Bridge          Image Attribute Binding mask Msioft is constructed as:
+Image Tokens do not contribute to the final output image
+but serves solely to assist each instance’s text embedding in   Msioft[q, k] =              1,  if q ∈ Ii, k ∈ Iall     (4)
+binding the correct visual attributes during the Joint Atten-                               0,  otherwise
+tion. As shown in Fig. 2, the Bridge Image Tokens and text
+tokens for each instance align exactly as in a single-instance  where Iall = Ibackground ∪      N    Ii  represents the set of all
+generation process, ensuring that the visual attributes in the                                  i=1
+final text embedding are consistent with the textual descrip-
+tion. Formally, for the i-th instance, the Hard Text Attribute  image token indices, Ibackground is the set of all image tokens
+Binding attention mask Mtiext is defined as:                    that are not associated with any instance.
+
+                                                                Search Vital Binding Layers. As shown in Fig. 3, we ap-
+
+                                                                plied Hard Image Attribute Binding layer by layer on the
+
+Mtiext[q, k] =  1,  if q, k ∈ Ti ∪ Bi  (2)                      FLUX network, which consists of 57 Joint Attention layers,
+                0,  otherwise
+                                                                and compared the result obtained using Soft Image Binding
+       Depth & Layout  FLUX-Depth                               Ours   Depth & Layout                                                                     3DIS-Depth  Ours
+
+             1
+                                                                                                                                        2
+
+23                                                                            3
+                                                                       1
+          4  5                                                                                                                                   4     5
+
+                1) Bread 2) Apple 3) Apple 4) Orange 5) Orange                                                                                1) Broccoli 2) Broccoli 3) Broccoli 4) Broccoli 5) Spoon
+
+       Canny & Layout  FLUX-Canny                               Ours   Canny & Layout                                                                     3DIS-Canny  Ours
+
+             14                                                                                                                               1        3
+
+2                                                                                                                                          2        5
+ 1
+    3  2
+
+          4  35                                                                                                                                            6
+                             5                                                                                                                                 4
+
+                   1) Chair 2) TV 3) Coach 4) Ship 5) Couch                                                                                1) Sandwich 2) Sandwich 3) Banana 4) Bowl 5) Apple 6) Apple
+
+                              Figure 4. Qualitative Comparison on the COCO-POS benchmark (§ 4.2).
+
+Table 1. Quantitative results on COCO-POS benchmark                    sample images over 20 steps. During depth-conditioned
+(§ 4.2). SR: Success Ratio of the Entire Image, ISR: Instance          generation, we set the Classifier-Free Guidance (CFG) [13]
+Success Ratio, MIoU: Mean Intersection over Union, AP: Aver-           scale to 10.0, while for canny-conditioned generation, the
+age Precision. ∗: canny-guided. †: depth-guided.                       CFG scale is set to 30. In our experiments, for instances
+                                                                       whose positions are specified by bounding boxes, we fur-
+    Method SR (%)↑ ISR (%)↑ MIoU (%)↑ AP (%)↑ CLIP↑                    ther segment them using the SAM-2 [15, 38] model to ob-
+                                                                       tain more precise instance masks, which is consistent with
+    FLUX∗       16.38  64.95  59.71  31.88                      19.03  previous work [63].
+     3DIS∗      18.07  68.78  62.97  31.36                      19.46
+      Ours∗     23.28  74.61  66.95  37.00                      20.03  Evaluation Benchmarks. We conduct experiments on two
+                44.83  85.13  76.86  50.72                      19.82  widely used benchmarks: 1) COCO-POS Benchmark,
+    FLUX†       53.88  90.33  81.26  54.26                      20.23  which requires generating images according to specified
+     3DIS†      62.50  94.51  84.36  58.95                      20.74  layouts. We extract depth maps or canny edges from
+      Ours†                                                            COCO dataset images as conditioning signals and utilize
+                                                                       the dataset’s inherent layouts for rendering. Models must
+across all layers to identify which layers are more suitable           generate results matching the instance categories at des-
+for binding specific instance attributes. The results from             ignated locations. Here we compare our approach with
+Fig. 3 indicate that applying Hard Image Binding near the              training-free rendering methods including Multi-Diffusion
+output and input layers of FLUX leads to a significant de-             and 3DIS. 2) COCO-MIG Benchmark, which tests multi-
+crease in performance. Conversely, we observed that imple-             instance generation with accurate position and attribute con-
+menting hard image attribute binding in the middle layers              trol. We evaluate DreamRenderer’s integration capabilities
+of FLUX often enhances attribute fidelity. Based on these              with state-of-the-art MIG models by first generating RGB
+findings, we argue that the layers at the input and output             images with these models, then extracting depth maps to
+of FLUX are primarily involved in handling global image                combine with layouts for instance rendering. This evalu-
+information, while the mid-layers play a critical role in ren-         ates DreamRenderer’s attribute control effectiveness when
+dering the attributes of instances within the image. There-            applied to existing MIG frameworks.
+fore, we perform Hard Image Binding in the mid-layers of
+FLUX, while employing Soft Image Binding in the remain-                Evaluation Metrics. We used the following metrics to eval-
+ing layers. This approach optimally balances the fidelity of           uate the model: 1) Mean Intersection over Union (MIoU):
+instance attributes with the overall coherence of the image.           Measures the overlap ratio between the rendered instance
+                                                                       positions and the target positions. 2) Local CLIP Score: As-
+4. Experiments                                                         sesses the visual consistency of the rendered instances with
+                                                                       their corresponding textual descriptions. 3) Average Preci-
+4.1. Experiment Setup                                                  sion (AP): Evaluates the accuracy of the rendered image’s
+                                                                       layout. 4) Instance Success Ratio (ISR): Calculates the ra-
+Baselines. Beside the FLUX model, we evaluate our                      tio of correctly rendered instances. 5) Image Success Ratio
+method against several state-of-the-art methods for multi-             (ISR): Measures the ratio of images where all instances are
+instance generation. Since DreamRenderer is designed as                correctly rendered.
+a plug-and-play solution, we conduct experiments by inte-
+grating it with existing methods: GLIGEN [19], InstanceD-
+iffusion [44], MIGC [61], and 3DIS [64].
+Implementation Details. We perform canny-conditioned
+and depth-conditioned generation using FLUX.1-Canny [3]
+and FLUX.1-Depth [3], respectively. For both cases, we
+Table 2. Quantitative results on COCO-MIG benchmark (§ 4.2). Li means that the count of instances needed to generate is i.
+
+                              Instance Success Ratio (%)↑          Mean Intersection over Union (%)↑                Image Success Ratio (%)↑
+
+Method                 L2 L3 L4 L5 L6 AVG L2 L3 L4 L5 L6 AVG L2 L3 L4 L5 L6 AVG
+
+ GLIGEN [CVPR23]       41.6   31.6   27.0   28.3   27.7    29.7    37.1   29.2   25.1   26.7   25.5   27.5   16.8    4.6    0.0    0.0    0.0    4.4
+        +Ours          75.5   73.6   67.9   62.6   66.2    67.8    64.3   63.5   58.1   54.2   56.6   58.2   57.4   45.1   27.0   11.4   13.0   31.2
+                       +33.9  +42.0  +40.9  +34.3  +38.5   +38.1   +27.2  +34.3  +33.0  +27.5  +31.1  +30.7  +40.6  +40.5  +27.0  +11.4  +13.0  +26.8
+    vs. GLIGEN         58.4   51.9   55.1   49.1   47.7    51.3    53.0   47.4   49.2   43.7   42.6   46.0   37.4   15.0   11.5    5.0    2.6   14.5
+InstanceDiff [CVPR24]  77.4   75.4   72.5   65.3   67.2    70.1    68.8   66.4   63.0   57.8   57.5   61.2   58.7   45.8   34.5   13.6   17.5   34.4
+                       +19.0  +23.5  +17.4  +16.2  +19.5   +18.8   +15.8  +19.0  +13.8  +14.1  +14.9  +15.2  +21.3  +30.8  +23.0  +8.6   +14.9  +19.9
+        +Ours          74.8   66.2   67.2   65.3   66.1    67.1    64.5   56.9   57.0   55.5   57.3   57.5   54.8   32.7   22.3   12.9   17.5   28.4
+  vs. InstanceDiff     79.7   76.3   70.6   67.7   69.4    71.4    68.8   65.0   60.3   57.6   59.3   61.0   64.5   47.7   30.4   18.6   20.1   36.7
+   MIGC [CVPR24]       +4.9   +10.1  +3.4   +2.4   +3.3    +4.3    +4.3   +8.1   +3.3   +2.1   +2.0   +3.5   +9.7   +15.0  +8.1   +5.7   +2.6   +8.3
+                       76.5   68.4   63.3   58.1   58.9    62.9    67.3   61.2   56.4   52.3   52.7   56.2   61.3   36.0   25.0   12.9   11.7   29.7
+        +Ours          79.0   77.3   71.8   68.7   69.4    71.9    69.8   68.2   63.7   61.4   61.2   63.7   63.2   52.9   29.7   18.6   18.8   37.1
+      vs. MIGC         +2.5   +8.9   +8.5   +10.6  +10.5   +9.0    +2.5   +7.0   +7.3   +9.1   +8.5   +7.5   +1.9   +16.9  +4.7   +5.7   +7.1   +7.4
+    3DIS [ICLR25]
+
+        +Ours
+       vs. 3DIS
+
+                              GLIGEN                       + Ours                                     InstanceDiffusion           + Ours
+
+                              MIGC                         + Ours                                            3DIS                 + Ours
+
+                              Figure 5. Qualitative comparison on the COCO-MIG benchmark (§ 4.2).
+
+4.2. Comparison with State-of-the-Art Methods                                    improvement becomes more pronounced as the number of
+                                                                                 instances to be controlled increases: for example, Dream-
+COCO-POS Benchmarks. Tab. 1 presents quantitative re-                            Renderer’s performance gain over 3DIS is only 2.5% when
+sults comparing our method against FLUX and 3DIS. Our                            controlling two instances, but rises to 10.5% when control-
+approach achieves consistent superiority across all metrics                      ling six. These benefits stem from our Hard Text Attribute
+in both depth-guided and canny-guided generation scenar-                         Binding algorithm, which ensures that each instance’s text
+ios. In the depth-guided setting, DreamRenderer shows                            embedding accurately binds its visual attributes during Joint
+a substantial improvement in SR (62.50% vs. 53.88%                               Attention, even for a large number of instances.
+for 3DIS), indicating more coherent scene structures. The
+high ISR (94.51%) and MIoU (84.36%) further corrob-                              Table 3. User study results with 31 participants (1-5 scale)(§ 4.2).
+orate its precise instance-level control. In the more de-                                  Method Layout Accuracy↑ Visual Quality↑
+manding canny-guided scenario, DreamRenderer also ex-
+ceeds the 3DIS by 5.21% in SR. Meanwhile, as shown in                                   FLUX                 3.51                 3.26
+Fig. 4, our method does not compromise the original FLUX
+model’s image generation quality—thanks to applying hard                                3DIS                 3.63                 3.31
+image attribute binding only within the vital layers.
+                                                                                        Ours                 4.04                 3.80
+COCO-MIG Benchmarks. Tab. 2 and Fig. 5 present
+the results of applying DreamRenderer to various state-                          User Study. Tab. 3 shows a user study with 31 partici-
+of-the-art layout-to-image methods. As shown, Dream-                             pants comparing our method to FLUX [3] and 3DIS [64] on
+Renderer substantially enhances the instance-attribute con-                      perceptual quality. Participants viewed paired outputs and
+trol accuracy, ultimately boosting the Image Success Ra-                         rated each on (1) Layout Accuracy and (2) Image Quality,
+tio by 26.8% over GLIGEN, 19.9% over InstanceDiffu-                              using a 5-point scale, in a blind comparison with random-
+sion, 8.3% over MIGC, and 7.4% over 3DIS. Notably, this                          ized presentation. Each participant evaluated 17 pairs, with
+                                                                                 the input layout and text descriptions displayed. The results
+                                                                                 show that our proposed DreamRenderer not only enhances
+Table 4. Ablation study on Hard Text Attribute Binding (§ 3.5). Li means that the count of instances needed to generate is i.
+
+                                        Instance Success Ratio (%)↑         Mean Intersection over Union (%)↑                Image Success Ratio (%)↑
+
+Method                           L2 L3 L4 L5 L6 AVG L2 L3 L4 L5 L6 AVG L2 L3 L4 L5 L6 AVG
+
+             Ours (Full)         79.0   77.3   71.8   68.7   69.4    71.9   69.8   68.2   63.7   61.4   61.2   63.7   63.2   52.9   29.7   18.6   18.8   37.1
+          Naive Solution         59.7   56.0   48.8   41.1   46.4    48.5   53.8   50.9   43.8   38.7   42.2   44.2   30.3   17.7    7.4    1.4    4.6   12.5
+                                 -19.3  -21.3  -23.0  -27.6  -23.0   -23.4  -16.0  -17.3  -19.9  -22.7  -19.0  -19.5  -32.9  -35.2  -22.3  -17.2  -14.2  -24.6
+               vs. Full          75.5   72.3   68.1   64.6   63.2    67.2   66.9   65.3   60.6   58.1   56.1   60.0   58.1   41.8   24.3   11.4    9.7   29.5
+w/o Hard Text Attribute Binding  -3.5   -5.0   -3.7   -4.1   -6.2    -4.7   -2.9   -2.9   -3.1   -3.3   -5.1   -3.7   -5.1   -11.1  -5.4   -7.2   -9.1   -7.6
+
+               vs. Full
+
+Table 5. Ablation study on Image Attribute Binding (§ 3.6). Li means that the count of instances needed to generate is i.
+
+                                               Instance Success Ratio (%)↑         Mean Intersection over Union (%)↑         Image Success Ratio (%)↑
+
+     Method                             L2 L3 L4 L5 L6 AVG L2 L3 L4 L5 L6 AVG L2 L3 L4 L5 L6 AVG
+
+w/o Hard Image Bind                     71.3 69.5 56.9 51.4 47.6 56.2 63.8 61.3 52.3 47.5 43.9 51.2 53.6 37.9 16.2 4.3 3.9 23.6
+
+Hard Image Bind Input Layer             71.0 68.4 56.6 52.9 50.3 57.1 62.4 60.5 50.4 47.2 45.4 50.9 51.0 34.0 14.9 5.7 5.2 22.5
+
+Hard Image Bind Middle Layer (Ours) 79.0 77.3 71.8 68.7 69.4 71.9 69.8 68.2 63.7 61.4 61.2 63.7 63.2 52.9 29.7 18.6 18.8 37.1
+
+Hard Image Bind Output Layer            64.5 63.8 57.4 49.4 58.3 57.6 56.9 57.2 51.8 45.0 52.1 51.7 43.9 28.8 14.9 2.9 7.8 20.0
+
+                                 Depth                       w/o                                                      Depth                       w/o
+
+Input Layers  Output Layers Mid Layers (ours)                                             Input Layers         Output Layers        Mid Layers (ours)
+
+                                 Figure 6. Ablation study on Hard Image Attribute Binding (§ 3.6).
+
+w/o           Naive Solution                                 Ours                  improving accuracy without compromising image quality.
+                                                                                   As the number of controlled instances increases, the benefit
+Figure 7. Ablation study on Hard Text Attribute Binding                            of Hard Text Attribute Binding becomes more pronounced:
+(§ 3.5). We use the same layout from Fig. 1 for testing. Due                       for example, moving from 2 to 6 instances raises the In-
+to space limitations in the main text, additional image results are                stance Success Ratio improvement from 3.5% to 6.2%.
+provided in the Supplementary Materials.
+                                                                                   Vital Layers for Image Attribute Binding. Tab. 5 and
+the FLUX model’s layout control capabilities but also gen-                         Fig. 6 present our ablation study on the Hard Image At-
+erates outputs that are more visually appealing to users.                          tribute Binding mechanism. Applying Hard Image At-
+                                                                                   tribute Binding at the FLUX input or output layers yields
+4.3. Ablation Study                                                                no clear performance gains and substantially degrades im-
+                                                                                   age quality, indicating that these layers are critical for the
+Bridge Image Tokens for Hard Text Attribute Binding.                               model’s global information processing. Imposing instance
+Tab. 4 and Fig. 7 present our ablation study on the Hard Text                      or region isolation at these stages severely disrupts the in-
+Attribute Binding mechanism. The Naive Solution (§ 3.5)                            termediate feature distribution, ultimately causing a sharp
+isolates each instance during Joint Attention, disrupting the                      drop in performance. In contrast, restricting Hard Image
+model’s inherent feature distribution and thus causing a per-                      Attribute Binding to the mid layers preserves image quality
+formance drop. Introducing Bridge Image Tokens—which                               while significantly improving performance—for instance,
+are not part of the final output—can effectively address this                      boosting the Instance Success Ratio by 15.7%. This finding
+issue, enabling text tokens to bind the correct attributes and                     shows that FLUX’s mid layers play a pivotal role in deter-
+                                                                                   mining each instance’s visual content, making them more
+                                                                                   suitable for binding instance’s attribute.
+5. Conclusion                                                               pace: Disentangled semantic editing in rectified flow trans-
+                                                                            formers. arXiv preprint arXiv:2412.09611, 2024. 2, 4
+We present DreamRenderer, a plug-and-play approach                     [8] Patrick Esser, Sumith Kulal, Andreas Blattmann, Rahim
+that enables depth- and canny-conditioned generation                        Entezari, Jonas Mu¨ller, Harry Saini, Yam Levi, Dominik
+to control the content of specific regions and instances,                   Lorenz, Axel Sauer, Frederic Boesel, et al. Scaling recti-
+without compromising the original model’s image quality.                    fied flow transformers for high-resolution image synthesis.
+Our work makes two key contributions. First, we introduce                   In Forty-first international conference on machine learning,
+a novel Hard Text Attribute Binding mechanism that                          2024. 2, 3, 4
+employs Bridge Image Tokens, ensuring each instance’s                  [9] Aditya Ramesh et al. Hierarchical text-conditional image
+text embedding binds the correct visual information during                  generation with clip latents, 2022. 3
+Joint Attention. Second, through an experimental analysis             [10] Weixi Feng, Xuehai He, Tsu-Jui Fu, Varun Jampani, Ar-
+of FLUX’s individual layers, we apply hard image attribute                  jun Reddy Akula, Pradyumna Narayana, Sugato Basu,
+binding only to the vital layers, maintaining precise                       Xin Eric Wang, and William Yang Wang. Training-
+instance-level control while preserving global image                        free structured diffusion guidance for compositional text-to-
+coherence. Extensive experiments on the COCO-POS and                        image synthesis. In ICLR, 2023. 3
+COCO-MIG benchmarks demonstrate DreamRenderer’s                       [11] Yutong Feng, Biao Gong, Di Chen, Yujun Shen, Yu Liu,
+superior performance. In the depth-guided setting, our                      and Jingren Zhou. Ranni: Taming text-to-image diffu-
+method achieves 62.50% SR, 94.51% ISR, and 84.36%                           sion for accurate instruction following. In Proceedings of
+MIoU, substantially outperforming existing approaches.                      the IEEE/CVF Conference on Computer Vision and Pattern
+Even under the more challenging canny-guided setting,                       Recognition, pages 4744–4753, 2024. 4
+DreamRenderer remains robust, achieving 74.61% ISR,                   [12] Daiheng Gao, Shilin Lu, Shaw Walters, Wenbo Zhou, Ji-
+and 66.95% MIoU. Furthermore, DreamRenderer can                             aming Chu, Jie Zhang, Bang Zhang, Mengxi Jia, Jian
+serve as a re-renderer, significantly improving the accuracy                Zhao, Zhaoxin Fan, et al. Eraseanything: Enabling con-
+of layout-to-image approaches. Its training-free nature                     cept erasure in rectified flow transformers. arXiv preprint
+allows DreamRenderer to be easily applied to various                        arXiv:2412.20413, 2024. 3
+foundation models, offering high flexibility. In the future,          [13] Jonathan Ho. Classifier-free diffusion guidance. ArXiv,
+we will further explore DreamRenderer’s integration                         abs/2207.12598, 2022. 6
+with additional image-conditioned generation approaches.              [14] Diederik P Kingma, Max Welling, et al. Auto-encoding vari-
+                                                                            ational bayes, 2013. 4
+References                                                            [15] Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao,
+                                                                            Chloe Rolland, Laura Gustafson, Tete Xiao, Spencer White-
+ [1] Yogesh Balaji, Seungjun Nah, Xun Huang, Arash Vahdat,                  head, Alexander C. Berg, Wan-Yen Lo, Piotr Dolla´r, and
+      Jiaming Song, Qinsheng Zhang, Karsten Kreis, Miika Ait-               Ross Girshick. Segment anything. arXiv:2304.02643, 2023.
+      tala, Timo Aila, Samuli Laine, Bryan Catanzaro, Tero Kar-             6
+      ras, and Ming-Yu Liu. ediff-i: Text-to-image diffusion          [16] Weijie Kong, Qi Tian, Zijian Zhang, Rox Min, Zuozhuo Dai,
+      models with ensemble of expert denoisers. arXiv preprint              Jin Zhou, Jiangfeng Xiong, Xin Li, Bo Wu, Jianwei Zhang,
+      arXiv:2211.01324, 2022. 3                                             et al. Hunyuanvideo: A systematic framework for large video
+                                                                            generative models. arXiv preprint arXiv:2412.03603, 2024.
+ [2] Shariq Farooq Bhat, Niloy Mitra, and Peter Wonka. Loosec-              2
+      ontrol: Lifting controlnet for generalized depth conditioning.  [17] Yuseung Lee, Taehoon Yoon, and Minhyuk Sung. Groundit:
+      In ACM SIGGRAPH 2024 Conference Papers, pages 1–11,                   Grounding diffusion transformers via noisy patch transplan-
+      2024. 4                                                               tation. Advances in Neural Information Processing Systems,
+                                                                            37:58610–58636, 2024. 4
+ [3] BlackForest. Black forest labs; frontier ai lab, 2024. 1, 2, 3,  [18] Ming Li, Taojiannan Yang, Huafeng Kuang, Jie Wu, Zhaon-
+      4, 6, 7                                                               ing Wang, Xuefeng Xiao, and Chen Chen. Controlnet++:
+                                                                            Improving conditional controls with efficient consistency
+ [4] Xi Chen, Lianghua Huang, Yu Liu, Yujun Shen, Deli Zhao,                feedback. arXiv preprint arXiv:2404.07987, 2024. 2, 4
+      and Hengshuang Zhao. Anydoor: Zero-shot object-level im-        [19] Yuheng Li, Haotian Liu, Qingyang Wu, Fangzhou Mu, Jian-
+      age customization. arXiv preprint arXiv:2307.09481, 2023.             wei Yang, Jianfeng Gao, Chunyuan Li, and Yong Jae Lee.
+      3                                                                     Gligen: Open-set grounded text-to-image generation. CVPR,
+                                                                            2023. 3, 4, 6
+ [5] Zhennan Chen, Yajie Li, Haofan Wang, Zhibo Chen,                 [20] You Li, Fan Ma, and Yi Yang. Anysynth: Harnessing the
+      Zhengkai Jiang, Jun Li, Qian Wang, Jian Yang, and Ying                power of image synthetic data generation for generalized
+      Tai. Region-aware text-to-image generation via hard binding           vision-language tasks. arXiv preprint arXiv:2411.16749,
+      and soft refinement. arXiv preprint arXiv:2411.06558, 2024.           2024. 3
+      4                                                               [21] You Li, Fan Ma, and Yi Yang. Imagine and seek: Improving
+                                                                            composed image retrieval with an imagined proxy. arXiv
+ [6] Guillaume Couairon, Jakob Verbeek, Holger Schwenk, and                 preprint arXiv:2411.16752, 2024. 3
+      Matthieu Cord. Diffedit: Diffusion-based semantic image
+      editing with mask guidance. In ICLR 2023 (Eleventh Inter-
+      national Conference on Learning Representations), 2023. 3
+
+ [7] Yusuf Dalva, Kavana Venkatesh, and Pinar Yanardag. Fluxs-
+[22] Chao Liang, Fan Ma, Linchao Zhu, Yingying Deng, and Yi            [36] Alec Radford, Jong Wook Kim, Chris Hallacy, A. Ramesh,
+      Yang. Caphuman: Capture your moments in parallel uni-                  Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda
+      verses. In CVPR, 2024. 2                                               Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, and
+                                                                             Ilya Sutskever. Learning transferable visual models from nat-
+[23] Han Lin, Jaemin Cho, Abhay Zala, and Mohit Bansal. Ctrl-                ural language supervision. In ICML, 2021. 3, 4
+      adapter: An efficient and versatile framework for adapt-
+      ing diverse controls to any diffusion model. arXiv preprint      [37] Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee,
+      arXiv:2404.09967, 2024. 4                                              Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and
+                                                                             Peter J. Liu. Exploring the limits of transfer learning with a
+[24] Tsung-Yi Lin, Michael Maire, Serge Belongie, Lubomir                    unified text-to-text transformer. Journal of Machine Learn-
+      Bourdev, Ross Girshick, James Hays, Pietro Perona, Deva                ing Research, 21(140):1–67, 2020. 2, 3, 4
+      Ramanan, C. Lawrence Zitnick, and Piotr Dolla´r. Microsoft
+      coco: Common objects in context, 2015. 3                         [38] Nikhila Ravi, Valentin Gabeur, Yuan-Ting Hu, Ronghang
+                                                                             Hu, Chaitanya Ryali, Tengyu Ma, Haitham Khedr, Roman
+[25] Bingchen Liu, Ehsan Akhgari, Alexander Visheratin, Aleks                Ra¨dle, Chloe Rolland, Laura Gustafson, et al. Sam 2:
+      Kamko, Linmiao Xu, Shivam Shrirao, Chase Lambert, Joao                 Segment anything in images and videos. arXiv preprint
+      Souza, Suhail Doshi, and Daiqing Li. Playground v3: Im-                arXiv:2408.00714, 2024. 6
+      proving text-to-image alignment with deep-fusion large lan-
+      guage models. arXiv preprint arXiv:2409.10695, 2024. 2,          [39] Robin Rombach, Andreas Blattmann, Dominik Lorenz,
+      4                                                                      Patrick Esser, and Bjo¨rn Ommer. High-resolution image syn-
+                                                                             thesis with latent diffusion models, 2022. 3
+[26] Xingchao Liu, Chengyue Gong, and Qiang Liu. Flow
+      straight and fast: Learning to generate and transfer data with   [40] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net:
+      rectified flow. arXiv preprint arXiv:2209.03003, 2022. 4               Convolutional networks for biomedical image segmentation.
+                                                                             MICCAI, abs/1505.04597, 2015. 3
+[27] Xiaoyu Liu, Yuxiang Wei, Ming Liu, Xianhui Lin, Peiran
+      Ren, Xuansong Xie, and Wangmeng Zuo. Smartcontrol:               [41] Chitwan Saharia, William Chan, Saurabh Saxena, Lala
+      Enhancing controlnet for handling rough visual conditions.             Li, Jay Whang, Emily L. Denton, Seyed Kamyar Seyed
+      In European Conference on Computer Vision, pages 1–17.                 Ghasemipour, Burcu Karagol Ayan, Seyedeh Sara Mahdavi,
+      Springer, 2024. 2                                                      Raphael Gontijo Lopes, Tim Salimans, Jonathan Ho, David
+                                                                             Fleet, and Mohammad Norouzi. Photorealistic text-to-image
+[28] Shilin Lu, Yanzhu Liu, and Adams Wai-Kin Kong. Tf-icon:                 diffusion models with deep language understanding. In
+      Diffusion-based training-free cross-domain image composi-              NIPS, 2022. 3
+      tion. In ICCV, 2023. 3
+                                                                       [42] Gabriela Ben Melech Stan, Diana Wofk, Scottie Fox, Alex
+[29] Shilin Lu, Zilan Wang, Leyang Li, Yanzhu Liu, and Adams                 Redden, Will Saxton, Jean Yu, Estelle Aflalo, Shao-Yen
+      Wai-Kin Kong. Mace: Mass concept erasure in diffusion                  Tseng, Fabio Nonato, Matthias Muller, et al. Ldm3d: Latent
+      models. CVPR, 2024.                                                    diffusion model for 3d. arXiv preprint arXiv:2305.10853,
+                                                                             2023. 2
+[30] Shilin Lu, Zihan Zhou, Jiayou Lu, Yuanzhi Zhu, and Adams
+      Wai-Kin Kong. Robust watermarking using generative pri-          [43] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszko-
+      ors against image editing: From benchmarking to advances.              reit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia
+      arXiv preprint arXiv:2410.18775, 2024. 3                               Polosukhin. Attention is all you need. Advances in neural
+                                                                             information processing systems, 30, 2017. 3
+[31] Chong Mou, Xintao Wang, Liangbin Xie, Yanze Wu, Jian
+      Zhang, Zhongang Qi, and Ying Shan. T2i-adapter: Learning         [44] Xudong Wang, Trevor Darrell, Sai Saketh Rambhatla, Rohit
+      adapters to dig out more controllable ability for text-to-image        Girdhar, and Ishan Misra. Instancediffusion: Instance-level
+      diffusion models. In Proceedings of the AAAI conference on             control for image generation, 2024. 2, 3, 4, 6
+      artificial intelligence, pages 4296–4304, 2024. 2
+                                                                       [45] Yilin Wang, Haiyang Xu, Xiang Zhang, Zeyuan Chen,
+[32] Alex Nichol, Prafulla Dhariwal, Aditya Ramesh, Pranav                   Zhizhou Sha, Zirui Wang, and Zhuowen Tu. Omnicontrol-
+      Shyam, Pamela Mishkin, Bob McGrew, Ilya Sutskever, and                 net: Dual-stage integration for conditional image generation.
+      Mark Chen. Glide: Towards photorealistic image generation              In Proceedings of the IEEE/CVF Conference on Computer
+      and editing with text-guided diffusion models. ICML, 2022.             Vision and Pattern Recognition, pages 7436–7448, 2024. 4
+      3
+                                                                       [46] Yinwei Wu, Xianpan Zhou, Bing Ma, Xuefeng Su, Kai
+[33] Bohao Peng, Jian Wang, Yuechen Zhang, Wenbo Li, Ming-                   Ma, and Xinchao Wang. Ifadapter: Instance feature con-
+      Chang Yang, and Jiaya Jia. Controlnext: Powerful and effi-             trol for grounded text-to-image generation. arXiv preprint
+      cient control for image and video generation. arXiv preprint           arXiv:2409.08240, 2024. 4
+      arXiv:2408.06070, 2024. 4
+                                                                       [47] Jiayu Xiao, Liang Li, Henglei Lv, Shuhui Wang, and Qing-
+[34] Quynh Phung, Songwei Ge, and Jia-Bin Huang. Grounded                    ming Huang. R&b: Region and boundary aware zero-
+      text-to-image synthesis with attention refocusing. In Pro-             shot grounded text-to-image generation. arXiv preprint
+      ceedings of the IEEE/CVF Conference on Computer Vision                 arXiv:2310.08872, 2023. 2
+      and Pattern Recognition, pages 7932–7942, 2024. 2, 4
+                                                                       [48] Rui Xie, Ying Tai, Kai Zhang, Zhenyu Zhang, Jun Zhou, and
+[35] Dustin Podell, Zion English, Kyle Lacey, Andreas                        Jian Yang. Addsr: Accelerating diffusion-based blind super-
+      Blattmann, Tim Dockhorn, Jonas Mu¨ller, Joe Penna, and                 resolution with adversarial diffusion distillation. ArXiv,
+      Robin Rombach. Sdxl: Improving latent diffusion mod-                   abs/2404.01717, 2024. 3
+      els for high-resolution image synthesis. arXiv preprint
+      arXiv:2307.01952, 2023. 3
+[49] Yifeng Xu, Zhenliang He, Shiguang Shan, and Xilin Chen.                generation. arXiv preprint arXiv:2410.12669, 2024. 2, 3, 4,
+      Ctrlora: An extensible and efficient framework for control-           6
+      lable image generation. arXiv preprint arXiv:2410.09400,        [64] Dewei Zhou, Ji Xie, Zongxin Yang, and Yi Yang. 3dis-flux:
+      2024. 2                                                               simple and efficient multi-instance generation with dit ren-
+                                                                            dering. arXiv preprint arXiv:2501.05131, 2025. 2, 4, 6, 7
+[50] Zhengyuan Yang, Jianfeng Wang, Zhe Gan, Linjie Li, Kevin
+      Lin, Chenfei Wu, Nan Duan, Zicheng Liu, Ce Liu, Michael
+      Zeng, and Lijuan Wang. Reco: Region-controlled text-to-
+      image generation. In CVPR, 2023. 4
+
+[51] Zhuoyi Yang, Jiayan Teng, Wendi Zheng, Ming Ding, Shiyu
+      Huang, Jiazheng Xu, Yuanming Yang, Wenyi Hong, Xiao-
+      han Zhang, Guanyu Feng, et al. Cogvideox: Text-to-video
+      diffusion models with an expert transformer. arXiv preprint
+      arXiv:2408.06072, 2024. 2
+
+[52] Hu Ye, Jun Zhang, Sibo Liu, Xiao Han, and Wei Yang. Ip-
+      adapter: Text compatible image prompt adapter for text-to-
+      image diffusion models. arXiv preprint arxiv:2308.06721,
+      2023. 4
+
+[53] Jiahui Yu, Yuanzhong Xu, Jing Yu Koh, Thang Luong, Gun-
+      jan Baid, Zirui Wang, Vijay Vasudevan, Alexander Ku, Yin-
+      fei Yang, Burcu Karagol Ayan, Ben Hutchinson, Wei Han,
+      Zarana Parekh, Xin Li, Han Zhang, Jason Baldridge, and
+      Yonghui Wu. Scaling autoregressive models for content-rich
+      text-to-image generation, 2022. 3
+
+[54] Fan Zhang, Shaodi You, Yu Li, and Ying Fu. Atlantis: En-
+      abling underwater depth estimation with stable diffusion. In
+      Proceedings of the IEEE/CVF conference on computer vi-
+      sion and pattern recognition, pages 11852–11861, 2024. 2
+
+[55] Hui Zhang, Dexiang Hong, Tingwei Gao, Yitong Wang,
+      Jie Shao, Xinglong Wu, Zuxuan Wu, and Yu-Gang Jiang.
+      Creatilayout: Siamese multimodal diffusion transformer
+      for creative layout-to-image generation. arXiv preprint
+      arXiv:2412.03859, 2024. 4
+
+[56] Lvmin Zhang, Anyi Rao, and Maneesh Agrawala. Adding
+      conditional control to text-to-image diffusion models. In
+      ICCV, pages 3836–3847, 2023. 2, 4
+
+[57] Chen Zhao, Weiling Cai, Chenyu Dong, and Chengwei
+      Hu. Wavelet-based fourier information interaction with fre-
+      quency diffusion adjustment for underwater image restora-
+      tion. CVPR, 2024. 3
+
+[58] Chen Zhao, Weiling Cai, Chengwei Hu, and Zheng Yuan.
+      Cycle contrastive adversarial learning with structural consis-
+      tency for unsupervised high-quality image deraining trans-
+      former. Neural Networks, 2024.
+
+[59] Chen Zhao, Chenyu Dong, and Weiling Cai. Learn-
+      ing a physical-aware diffusion model based on trans-
+      former for underwater image enhancement. arXiv preprint
+      arXiv:2403.01497, 2024.
+
+[60] Dewei Zhou, Zongxin Yang, and Yi Yang. Pyramid diffusion
+      models for low-light image enhancement. In IJCAI, 2023. 3
+
+[61] Dewei Zhou, You Li, Fan Ma, Zongxin Yang, and Yi Yang.
+      Migc: Multi-instance generation controller for text-to-image
+      synthesis. CVPR, 2024. 3, 4, 6
+
+[62] Dewei Zhou, You Li, Fan Ma, Zongxin Yang, and Yi Yang.
+      Migc++: Advanced multi-instance generation controller for
+      image synthesis, 2024. 3
+
+[63] Dewei Zhou, Ji Xie, Zongxin Yang, and Yi Yang. 3dis:
+      Depth-driven decoupled instance synthesis for text-to-image
+
