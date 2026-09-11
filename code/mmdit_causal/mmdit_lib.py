@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import time
 import types
 from pathlib import Path
@@ -51,7 +52,7 @@ class Controller:
     """Holds the patch config and per-forward state for an active (layer x step) window."""
 
     def __init__(self, grid: int, layers, steps, arm: str):
-        assert arm in ("baseline", "w_fix", "v_fix", "both_fix")
+        assert arm in ("baseline", "w_fix", "v_fix", "both_fix", "h_fix")
         self.grid = grid
         self.layers = tuple(int(x) for x in layers)
         self.steps = tuple(int(x) for x in steps)
@@ -59,6 +60,8 @@ class Controller:
         self.step_idx = -1
         self.capture: dict = {}
         self.capture_enabled = False
+        self.capture_roi_only = False
+        self.capture_branch = 2
 
     # ---- step bookkeeping -------------------------------------------------
     def pre(self, module, args, kwargs):
@@ -98,9 +101,38 @@ class Controller:
         out[2].index_copy_(1, idx, out[3].index_select(1, idx))
         return out
 
-    # ---- capture (E1 decomposition) --------------------------------------
+    def patch_h_in(self, layer, h_in):
+        """h_in: [B=4, image_tokens, d]; replace the target region's residual stream with the donor's.
+
+        Rationale: the cultural content accumulates in the residual stream (h_attn = h_in + attn_gated),
+        so replacing only the attention write is not enough; this arm replaces the content source itself.
+        """
+        if self.arm not in ("h_fix",) or not self.active(layer):
+            return h_in
+        idx = self.target_indices(h_in.device)
+        if os.environ.get("MMDIT_DEBUG"):
+            print(json.dumps({"dbg_h_in": list(h_in.shape), "idx_max": int(idx.max()), "idx_n": int(idx.numel()), "layer": layer, "step": self.step_idx}), flush=True)
+        out = h_in.clone()
+        # h_in is [batch, seq, d]; after out[2] the token dim is 0 (NOT 1, which is d).
+        out[2].index_copy_(0, idx, out[3].index_select(0, idx))
+        return out
+
+    # ---- capture (E1 decomposition / culture axis) -----------------------
     def maybe_capture(self, layer, name, tensor):
-        if self.capture_enabled and self.active(layer):
+        if not (self.capture_enabled and self.active(layer)):
+            return
+        if self.capture_roi_only:
+            b = self.capture_branch if tensor.shape[0] > self.capture_branch else tensor.shape[0] - 1
+            if tensor.ndim < 3:
+                # per-batch vectors (e.g. AdaLN gates gate_msa/gate_mlp): not token-level
+                self.capture.setdefault(layer, {}).setdefault(name, {})[self.step_idx] = (
+                    tensor[b].float().cpu().numpy()
+                )
+                return
+            idx = self.target_indices(tensor.device)
+            vec = tensor[b].index_select(0, idx).mean(dim=0).float().cpu().numpy()
+            self.capture.setdefault(layer, {}).setdefault(name, {})[self.step_idx] = vec
+        else:
             self.capture.setdefault(layer, {})[name] = tensor.detach().float().cpu()
 
 
@@ -160,22 +192,26 @@ class JointProcessor:
         return (combined, enc_out) if encoder_hidden_states is not None else combined
 
 
-def install(pipe, controller: Controller):
+def install(pipe, controller: Controller, patch_attention: bool = True):
     """Replace the active layers' attention processors and block forwards.
 
     The block forward mirrors diffusers JointTransformerBlock exactly, while
     exposing the decomposition tensors for capture. Safe to call repeatedly.
+    If patch_attention=False, the DEFAULT attention processor is kept (flash-
+    efficient) and only the forward is replaced for capture.
     """
     for layer in controller.layers:
         block = pipe.transformer.transformer_blocks[layer]
         if not hasattr(block, "_orig_forward"):
             block._orig_forward = block.forward
             block._orig_processor = block.attn.processor
-        block.attn.set_processor(JointProcessor(controller, layer))
+        if patch_attention:
+            block.attn.set_processor(JointProcessor(controller, layer))
 
         def forward(self, hidden_states, encoder_hidden_states, temb, joint_attention_kwargs=None, _layer=layer):
             joint_attention_kwargs = joint_attention_kwargs or {}
             h_in = hidden_states
+            h_in = controller.patch_h_in(_layer, h_in)
             if self.use_dual_attention:
                 norm_h, gate_msa, shift_mlp, scale_mlp, gate_mlp, norm_h2, gate_msa2 = self.norm1(h_in, emb=temb)
             else:

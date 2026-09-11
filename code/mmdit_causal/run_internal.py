@@ -102,8 +102,10 @@ def main():
     args = ap.parse_args()
     args.out.mkdir(parents=True, exist_ok=True)
 
-    torch.backends.cuda.enable_flash_sdp(False)
-    torch.backends.cuda.enable_mem_efficient_sdp(False)
+    # Keep flash / mem-efficient SDPA for the DEFAULT layers (memory-efficient at 1024);
+    # only the probe layers compute attention explicitly.
+    torch.backends.cuda.enable_flash_sdp(True)
+    torch.backends.cuda.enable_mem_efficient_sdp(True)
     torch.backends.cuda.enable_math_sdp(True)
 
     pipe = StableDiffusion3Pipeline.from_pretrained(

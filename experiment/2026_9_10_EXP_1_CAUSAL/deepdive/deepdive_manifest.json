@@ -1,0 +1,536 @@
+{
+ "target_pairs": [
+  "pair_003",
+  "pair_013",
+  "pair_015",
+  "pair_046",
+  "pair_084"
+ ],
+ "rule": "leaked = dual(left==B) OR dual(right==A)",
+ "pairs": {
+  "pair_003": {
+   "n_native": 9,
+   "n_fail": 7,
+   "failed_seeds": [
+    1011,
+    1012,
+    2021,
+    2022,
+    2023,
+    3031,
+    3032
+   ],
+   "normal_seeds": [
+    1013,
+    3033
+   ],
+   "detail": {
+    "1011": {
+     "eval_id": "eval_0067",
+     "sample_id": "sample_0883",
+     "seed_group": 1,
+     "replicate": 1,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "1012": {
+     "eval_id": "eval_0781",
+     "sample_id": "sample_0147",
+     "seed_group": 1,
+     "replicate": 2,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "2021": {
+     "eval_id": "eval_1458",
+     "sample_id": "sample_0172",
+     "seed_group": 2,
+     "replicate": 1,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "2022": {
+     "eval_id": "eval_0672",
+     "sample_id": "sample_0386",
+     "seed_group": 2,
+     "replicate": 2,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "2023": {
+     "eval_id": "eval_0144",
+     "sample_id": "sample_0095",
+     "seed_group": 2,
+     "replicate": 3,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "3031": {
+     "eval_id": "eval_0345",
+     "sample_id": "sample_0834",
+     "seed_group": 3,
+     "replicate": 1,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "3032": {
+     "eval_id": "eval_0216",
+     "sample_id": "sample_0431",
+     "seed_group": 3,
+     "replicate": 2,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    }
+   }
+  },
+  "pair_013": {
+   "n_native": 9,
+   "n_fail": 8,
+   "failed_seeds": [
+    1011,
+    1012,
+    2021,
+    2022,
+    2023,
+    3031,
+    3032,
+    3033
+   ],
+   "normal_seeds": [
+    1013
+   ],
+   "detail": {
+    "1011": {
+     "eval_id": "eval_0164",
+     "sample_id": "sample_0694",
+     "seed_group": 1,
+     "replicate": 1,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "1012": {
+     "eval_id": "eval_0208",
+     "sample_id": "sample_0868",
+     "seed_group": 1,
+     "replicate": 2,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "2021": {
+     "eval_id": "eval_1442",
+     "sample_id": "sample_0518",
+     "seed_group": 2,
+     "replicate": 1,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "2022": {
+     "eval_id": "eval_1554",
+     "sample_id": "sample_0535",
+     "seed_group": 2,
+     "replicate": 2,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "2023": {
+     "eval_id": "eval_0489",
+     "sample_id": "sample_0722",
+     "seed_group": 2,
+     "replicate": 3,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "3031": {
+     "eval_id": "eval_0096",
+     "sample_id": "sample_0003",
+     "seed_group": 3,
+     "replicate": 1,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "3032": {
+     "eval_id": "eval_0060",
+     "sample_id": "sample_0123",
+     "seed_group": 3,
+     "replicate": 2,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "3033": {
+     "eval_id": "eval_0693",
+     "sample_id": "sample_0889",
+     "seed_group": 3,
+     "replicate": 3,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    }
+   }
+  },
+  "pair_015": {
+   "n_native": 9,
+   "n_fail": 3,
+   "failed_seeds": [
+    1013,
+    3032,
+    3033
+   ],
+   "normal_seeds": [
+    1011,
+    1012,
+    2021,
+    2022,
+    2023,
+    3031
+   ],
+   "detail": {
+    "1013": {
+     "eval_id": "eval_0095",
+     "sample_id": "sample_0368",
+     "seed_group": 1,
+     "replicate": 3,
+     "qwen_left": "B",
+     "qwen_right": "B",
+     "gemini_left": "B",
+     "gemini_right": "A",
+     "left_fail_dual": true,
+     "right_fail_dual": false,
+     "leaked": true
+    },
+    "3032": {
+     "eval_id": "eval_1416",
+     "sample_id": "sample_0243",
+     "seed_group": 3,
+     "replicate": 2,
+     "qwen_left": "B",
+     "qwen_right": "B",
+     "gemini_left": "B",
+     "gemini_right": "A",
+     "left_fail_dual": true,
+     "right_fail_dual": false,
+     "leaked": true
+    },
+    "3033": {
+     "eval_id": "eval_0703",
+     "sample_id": "sample_0131",
+     "seed_group": 3,
+     "replicate": 3,
+     "qwen_left": "B",
+     "qwen_right": "A",
+     "gemini_left": "B",
+     "gemini_right": "B",
+     "left_fail_dual": true,
+     "right_fail_dual": false,
+     "leaked": true
+    }
+   }
+  },
+  "pair_046": {
+   "n_native": 9,
+   "n_fail": 7,
+   "failed_seeds": [
+    1012,
+    1013,
+    2021,
+    2022,
+    2023,
+    3031,
+    3032
+   ],
+   "normal_seeds": [
+    1011,
+    3033
+   ],
+   "detail": {
+    "1012": {
+     "eval_id": "eval_1464",
+     "sample_id": "sample_0644",
+     "seed_group": 1,
+     "replicate": 2,
+     "qwen_left": "B",
+     "qwen_right": "B",
+     "gemini_left": "B",
+     "gemini_right": "B",
+     "left_fail_dual": true,
+     "right_fail_dual": false,
+     "leaked": true
+    },
+    "1013": {
+     "eval_id": "eval_0413",
+     "sample_id": "sample_0526",
+     "seed_group": 1,
+     "replicate": 3,
+     "qwen_left": "B",
+     "qwen_right": "B",
+     "gemini_left": "B",
+     "gemini_right": "B",
+     "left_fail_dual": true,
+     "right_fail_dual": false,
+     "leaked": true
+    },
+    "2021": {
+     "eval_id": "eval_0460",
+     "sample_id": "sample_0183",
+     "seed_group": 2,
+     "replicate": 1,
+     "qwen_left": "B",
+     "qwen_right": "B",
+     "gemini_left": "B",
+     "gemini_right": "A",
+     "left_fail_dual": true,
+     "right_fail_dual": false,
+     "leaked": true
+    },
+    "2022": {
+     "eval_id": "eval_1600",
+     "sample_id": "sample_0054",
+     "seed_group": 2,
+     "replicate": 2,
+     "qwen_left": "B",
+     "qwen_right": "B",
+     "gemini_left": "B",
+     "gemini_right": "B",
+     "left_fail_dual": true,
+     "right_fail_dual": false,
+     "leaked": true
+    },
+    "2023": {
+     "eval_id": "eval_1217",
+     "sample_id": "sample_0774",
+     "seed_group": 2,
+     "replicate": 3,
+     "qwen_left": "B",
+     "qwen_right": "B",
+     "gemini_left": "B",
+     "gemini_right": "B",
+     "left_fail_dual": true,
+     "right_fail_dual": false,
+     "leaked": true
+    },
+    "3031": {
+     "eval_id": "eval_1207",
+     "sample_id": "sample_0463",
+     "seed_group": 3,
+     "replicate": 1,
+     "qwen_left": "B",
+     "qwen_right": "B",
+     "gemini_left": "B",
+     "gemini_right": "B",
+     "left_fail_dual": true,
+     "right_fail_dual": false,
+     "leaked": true
+    },
+    "3032": {
+     "eval_id": "eval_0090",
+     "sample_id": "sample_0895",
+     "seed_group": 3,
+     "replicate": 2,
+     "qwen_left": "B",
+     "qwen_right": "B",
+     "gemini_left": "B",
+     "gemini_right": "B",
+     "left_fail_dual": true,
+     "right_fail_dual": false,
+     "leaked": true
+    }
+   }
+  },
+  "pair_084": {
+   "n_native": 9,
+   "n_fail": 8,
+   "failed_seeds": [
+    1011,
+    1012,
+    1013,
+    2022,
+    2023,
+    3031,
+    3032,
+    3033
+   ],
+   "normal_seeds": [
+    2021
+   ],
+   "detail": {
+    "1011": {
+     "eval_id": "eval_1239",
+     "sample_id": "sample_0602",
+     "seed_group": 1,
+     "replicate": 1,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "1012": {
+     "eval_id": "eval_1386",
+     "sample_id": "sample_0695",
+     "seed_group": 1,
+     "replicate": 2,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "1013": {
+     "eval_id": "eval_0825",
+     "sample_id": "sample_0721",
+     "seed_group": 1,
+     "replicate": 3,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "2022": {
+     "eval_id": "eval_1533",
+     "sample_id": "sample_0461",
+     "seed_group": 2,
+     "replicate": 2,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "2023": {
+     "eval_id": "eval_0166",
+     "sample_id": "sample_0151",
+     "seed_group": 2,
+     "replicate": 3,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "3031": {
+     "eval_id": "eval_0467",
+     "sample_id": "sample_0209",
+     "seed_group": 3,
+     "replicate": 1,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "3032": {
+     "eval_id": "eval_1628",
+     "sample_id": "sample_0390",
+     "seed_group": 3,
+     "replicate": 2,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    },
+    "3033": {
+     "eval_id": "eval_0642",
+     "sample_id": "sample_0010",
+     "seed_group": 3,
+     "replicate": 3,
+     "qwen_left": "A",
+     "qwen_right": "A",
+     "gemini_left": "A",
+     "gemini_right": "A",
+     "left_fail_dual": false,
+     "right_fail_dual": true,
+     "leaked": true
+    }
+   }
+  }
+ }
+}

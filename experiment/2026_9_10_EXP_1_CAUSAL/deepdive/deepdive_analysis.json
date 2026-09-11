@@ -1,0 +1,722 @@
+{
+ "pair_003|1011": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.08,
+   0.3
+  ],
+  "left_vals": [
+   0.97,
+   0.8
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_003|1012": {
+  "a_ok": true,
+  "b_ok": true,
+  "right_vals": [
+   0.05,
+   0.25
+  ],
+  "left_vals": [
+   0.98,
+   0.75
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": true
+ },
+ "pair_003|1013": {
+  "a_ok": false,
+  "b_ok": false,
+  "right_vals": [
+   0.08,
+   0.3
+  ],
+  "left_vals": [
+   0.98,
+   0.8
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_003|2021": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.08,
+   0.3
+  ],
+  "left_vals": [
+   0.97,
+   0.8
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_003|2022": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.08,
+   0.25
+  ],
+  "left_vals": [
+   0.97,
+   0.75
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_003|2023": {
+  "a_ok": true,
+  "b_ok": true,
+  "right_vals": [
+   0.05,
+   0.2
+  ],
+  "left_vals": [
+   0.98,
+   0.8
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": true
+ },
+ "pair_003|3031": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.08,
+   0.3
+  ],
+  "left_vals": [
+   0.98,
+   0.8
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_003|3032": {
+  "a_ok": true,
+  "b_ok": true,
+  "right_vals": [
+   0.02,
+   0.2
+  ],
+  "left_vals": [
+   0.98,
+   0.8
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": true
+ },
+ "pair_003|3033": {
+  "a_ok": false,
+  "b_ok": false,
+  "right_vals": [
+   0.08,
+   0.2
+  ],
+  "left_vals": [
+   0.99,
+   0.8
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_013|1011": {
+  "a_ok": true,
+  "b_ok": true,
+  "right_vals": [
+   0.15,
+   0.35
+  ],
+  "left_vals": [
+   0.95,
+   0.75
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": true
+ },
+ "pair_013|1012": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.15,
+   0.35
+  ],
+  "left_vals": [
+   0.95,
+   0.75
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_013|1013": {
+  "a_ok": false,
+  "b_ok": false,
+  "right_vals": [
+   0.18,
+   0.42
+  ],
+  "left_vals": [
+   0.97,
+   0.72
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_013|2021": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.12,
+   0.35
+  ],
+  "left_vals": [
+   0.96,
+   0.75
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_013|2022": {
+  "a_ok": true,
+  "b_ok": true,
+  "right_vals": [
+   0.08,
+   0.35
+  ],
+  "left_vals": [
+   0.96,
+   0.75
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": true
+ },
+ "pair_013|2023": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.32,
+   0.65
+  ],
+  "left_vals": [
+   0.98,
+   0.75
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_013|3031": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.2,
+   0.4
+  ],
+  "left_vals": [
+   0.95,
+   0.75
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_013|3032": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.18,
+   0.4
+  ],
+  "left_vals": [
+   0.96,
+   0.75
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_013|3033": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.18,
+   0.35
+  ],
+  "left_vals": [
+   0.94,
+   0.75
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_015|1011": {
+  "a_ok": false,
+  "b_ok": false,
+  "right_vals": [
+   0.36,
+   0.4
+  ],
+  "left_vals": [
+   0.87,
+   0.75
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_015|1012": {
+  "a_ok": false,
+  "b_ok": false,
+  "right_vals": [
+   0.35,
+   0.7
+  ],
+  "left_vals": [
+   0.78,
+   0.75
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_015|1013": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.15,
+   0.4
+  ],
+  "left_vals": [
+   0.9,
+   0.7
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_015|2021": {
+  "a_ok": false,
+  "b_ok": false,
+  "right_vals": [
+   0.82,
+   0.7
+  ],
+  "left_vals": [
+   0.56,
+   0.4
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_015|2022": {
+  "a_ok": false,
+  "b_ok": false,
+  "right_vals": [
+   0.22,
+   0.7
+  ],
+  "left_vals": [
+   0.88,
+   0.75
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_015|2023": {
+  "a_ok": false,
+  "b_ok": false,
+  "right_vals": [
+   0.6,
+   0.7
+  ],
+  "left_vals": [
+   0.88,
+   0.7
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_015|3031": {
+  "a_ok": false,
+  "b_ok": false,
+  "right_vals": [
+   0.34,
+   0.6
+  ],
+  "left_vals": [
+   0.42,
+   0.4
+  ],
+  "right_fail": false,
+  "left_fail": true,
+  "leaked": true,
+  "included": false
+ },
+ "pair_015|3032": {
+  "a_ok": true,
+  "b_ok": true,
+  "right_vals": [
+   0.22,
+   0.4
+  ],
+  "left_vals": [
+   0.18,
+   0.3
+  ],
+  "right_fail": true,
+  "left_fail": true,
+  "leaked": true,
+  "included": true
+ },
+ "pair_015|3033": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.35,
+   0.5
+  ],
+  "left_vals": [
+   0.85,
+   0.6
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_046|1011": {
+  "a_ok": false,
+  "b_ok": false,
+  "right_vals": [
+   0.86,
+   0.6
+  ],
+  "left_vals": [
+   0.72,
+   0.4
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_046|1012": {
+  "a_ok": true,
+  "b_ok": true,
+  "right_vals": [
+   0.78,
+   0.7
+  ],
+  "left_vals": [
+   0.36,
+   0.4
+  ],
+  "right_fail": false,
+  "left_fail": true,
+  "leaked": true,
+  "included": true
+ },
+ "pair_046|1013": {
+  "a_ok": false,
+  "b_ok": true,
+  "right_vals": [
+   0.42,
+   0.4
+  ],
+  "left_vals": [
+   0.68,
+   0.35
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_046|2021": {
+  "a_ok": false,
+  "b_ok": true,
+  "right_vals": [
+   0.42,
+   0.4
+  ],
+  "left_vals": [
+   0.08,
+   0.35
+  ],
+  "right_fail": true,
+  "left_fail": true,
+  "leaked": true,
+  "included": false
+ },
+ "pair_046|2022": {
+  "a_ok": true,
+  "b_ok": true,
+  "right_vals": [
+   0.42,
+   0.7
+  ],
+  "left_vals": [
+   0.74,
+   0.4
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_046|2023": {
+  "a_ok": false,
+  "b_ok": true,
+  "right_vals": [
+   0.74,
+   0.7
+  ],
+  "left_vals": [
+   0.82,
+   0.4
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_046|3031": {
+  "a_ok": false,
+  "b_ok": false,
+  "right_vals": [
+   0.58,
+   0.5
+  ],
+  "left_vals": [
+   0.88,
+   0.4
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_046|3032": {
+  "a_ok": true,
+  "b_ok": true,
+  "right_vals": [
+   0.62,
+   0.6
+  ],
+  "left_vals": [
+   0.88,
+   0.4
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_046|3033": {
+  "a_ok": false,
+  "b_ok": false,
+  "right_vals": [
+   0.66,
+   0.6
+  ],
+  "left_vals": [
+   0.93,
+   0.4
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_084|1011": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.8,
+   0.4
+  ],
+  "left_vals": [
+   0.95,
+   0.75
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_084|1012": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.3,
+   0.35
+  ],
+  "left_vals": [
+   0.95,
+   0.75
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_084|1013": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.28,
+   0.35
+  ],
+  "left_vals": [
+   0.95,
+   0.75
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_084|2021": {
+  "a_ok": false,
+  "b_ok": false,
+  "right_vals": [
+   0.28,
+   0.4
+  ],
+  "left_vals": [
+   0.96,
+   0.8
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_084|2022": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.25,
+   0.4
+  ],
+  "left_vals": [
+   0.95,
+   0.8
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_084|2023": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.72,
+   0.7
+  ],
+  "left_vals": [
+   1.0,
+   0.8
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_084|3031": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.18,
+   0.35
+  ],
+  "left_vals": [
+   0.95,
+   0.72
+  ],
+  "right_fail": true,
+  "left_fail": false,
+  "leaked": true,
+  "included": false
+ },
+ "pair_084|3032": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.83,
+   0.68
+  ],
+  "left_vals": [
+   0.96,
+   0.72
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ },
+ "pair_084|3033": {
+  "a_ok": true,
+  "b_ok": false,
+  "right_vals": [
+   0.68,
+   0.32
+  ],
+  "left_vals": [
+   0.95,
+   0.75
+  ],
+  "right_fail": false,
+  "left_fail": false,
+  "leaked": false,
+  "included": false
+ }
+}

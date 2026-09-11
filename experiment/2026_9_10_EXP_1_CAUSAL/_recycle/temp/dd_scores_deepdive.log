@@ -1,0 +1,295 @@
+{"call": "dd_pair_003_s2023_A", "rater": "GPT54", "seconds": 4.7}
+{"call": "dd_pair_003_s2023_A", "rater": "GEMINI35", "seconds": 3.0}
+{"scored": "dd_pair_003_s2023_A"}
+{"call": "dd_pair_003_s2023_B", "rater": "GPT54", "seconds": 5.4}
+{"call": "dd_pair_003_s2023_B", "rater": "GEMINI35", "seconds": 7.0}
+{"scored": "dd_pair_003_s2023_B"}
+{"call": "dd_pair_003_s2023_SS", "rater": "GPT54", "seconds": 4.6}
+{"call": "dd_pair_003_s2023_SS", "rater": "GEMINI35", "seconds": 4.2}
+{"scored": "dd_pair_003_s2023_SS"}
+{"call": "dd_pair_003_s3031_A", "rater": "GPT54", "seconds": 4.3}
+{"call": "dd_pair_003_s3031_A", "rater": "GEMINI35", "seconds": 3.8}
+{"scored": "dd_pair_003_s3031_A"}
+{"call": "dd_pair_003_s3031_B", "rater": "GPT54", "seconds": 4.7}
+{"call": "dd_pair_003_s3031_B", "rater": "GEMINI35", "seconds": 4.0}
+{"scored": "dd_pair_003_s3031_B"}
+{"call": "dd_pair_003_s3031_SS", "rater": "GPT54", "seconds": 6.6}
+{"call": "dd_pair_003_s3031_SS", "rater": "GEMINI35", "seconds": 3.7}
+{"scored": "dd_pair_003_s3031_SS"}
+{"call": "dd_pair_003_s3032_A", "rater": "GPT54", "seconds": 4.6}
+{"call": "dd_pair_003_s3032_A", "rater": "GEMINI35", "seconds": 3.8}
+{"scored": "dd_pair_003_s3032_A"}
+{"call": "dd_pair_003_s3032_B", "rater": "GPT54", "seconds": 7.4}
+{"call": "dd_pair_003_s3032_B", "rater": "GEMINI35", "seconds": 3.6}
+{"scored": "dd_pair_003_s3032_B"}
+{"call": "dd_pair_003_s3032_SS", "rater": "GPT54", "seconds": 6.2}
+{"call": "dd_pair_003_s3032_SS", "rater": "GEMINI35", "seconds": 4.3}
+{"scored": "dd_pair_003_s3032_SS"}
+{"call": "dd_pair_003_s3033_SS", "rater": "GPT54", "seconds": 5.5}
+{"call": "dd_pair_003_s3033_SS", "rater": "GEMINI35", "seconds": 6.4}
+{"scored": "dd_pair_003_s3033_SS"}
+{"call": "dd_pair_013_s1011_A", "rater": "GPT54", "seconds": 6.3}
+{"call": "dd_pair_013_s1011_A", "rater": "GEMINI35", "seconds": 10.2}
+{"scored": "dd_pair_013_s1011_A"}
+{"call": "dd_pair_013_s1011_B", "rater": "GPT54", "seconds": 5.1}
+{"call": "dd_pair_013_s1011_B", "rater": "GEMINI35", "seconds": 4.0}
+{"scored": "dd_pair_013_s1011_B"}
+{"call": "dd_pair_013_s1011_SS", "rater": "GPT54", "seconds": 7.5}
+{"call": "dd_pair_013_s1011_SS", "rater": "GEMINI35", "seconds": 4.7}
+{"scored": "dd_pair_013_s1011_SS"}
+{"call": "dd_pair_013_s1012_A", "rater": "GPT54", "seconds": 6.3}
+{"call": "dd_pair_013_s1012_A", "rater": "GEMINI35", "seconds": 21.7}
+{"scored": "dd_pair_013_s1012_A"}
+{"call": "dd_pair_013_s1012_B", "rater": "GPT54", "seconds": 4.5}
+{"call": "dd_pair_013_s1012_B", "rater": "GEMINI35", "seconds": 33.7}
+{"scored": "dd_pair_013_s1012_B"}
+{"call": "dd_pair_013_s1012_SS", "rater": "GPT54", "seconds": 3.9}
+{"call": "dd_pair_013_s1012_SS", "rater": "GEMINI35", "seconds": 4.4}
+{"scored": "dd_pair_013_s1012_SS"}
+{"call": "dd_pair_013_s1013_SS", "rater": "GPT54", "seconds": 4.5}
+{"call": "dd_pair_013_s1013_SS", "rater": "GEMINI35", "seconds": 4.7}
+{"scored": "dd_pair_013_s1013_SS"}
+{"call": "dd_pair_013_s2021_A", "rater": "GPT54", "seconds": 4.2}
+{"call": "dd_pair_013_s2021_A", "rater": "GEMINI35", "seconds": 6.7}
+{"scored": "dd_pair_013_s2021_A"}
+{"call": "dd_pair_013_s2021_B", "rater": "GPT54", "seconds": 5.5}
+{"call": "dd_pair_013_s2021_B", "rater": "GEMINI35", "seconds": 6.0}
+{"scored": "dd_pair_013_s2021_B"}
+{"call": "dd_pair_013_s2021_SS", "rater": "GPT54", "seconds": 5.5}
+{"call": "dd_pair_013_s2021_SS", "rater": "GEMINI35", "seconds": 6.1}
+{"scored": "dd_pair_013_s2021_SS"}
+{"call": "dd_pair_013_s2022_A", "rater": "GPT54", "seconds": 5.0}
+{"call": "dd_pair_013_s2022_A", "rater": "GEMINI35", "seconds": 19.0}
+{"scored": "dd_pair_013_s2022_A"}
+{"call": "dd_pair_013_s2022_B", "rater": "GPT54", "seconds": 10.5}
+{"call": "dd_pair_013_s2022_B", "rater": "GEMINI35", "seconds": 6.3}
+{"scored": "dd_pair_013_s2022_B"}
+{"call": "dd_pair_013_s2022_SS", "rater": "GPT54", "seconds": 5.0}
+{"call": "dd_pair_013_s2022_SS", "rater": "GEMINI35", "seconds": 5.4}
+{"scored": "dd_pair_013_s2022_SS"}
+{"call": "dd_pair_013_s2023_A", "rater": "GPT54", "seconds": 9.6}
+{"call": "dd_pair_013_s2023_A", "rater": "GEMINI35", "seconds": 3.8}
+{"scored": "dd_pair_013_s2023_A"}
+{"call": "dd_pair_013_s2023_B", "rater": "GPT54", "seconds": 4.3}
+{"call": "dd_pair_013_s2023_B", "rater": "GEMINI35", "seconds": 5.1}
+{"scored": "dd_pair_013_s2023_B"}
+{"call": "dd_pair_013_s2023_SS", "rater": "GPT54", "seconds": 4.2}
+{"call": "dd_pair_013_s2023_SS", "rater": "GEMINI35", "seconds": 3.3}
+{"scored": "dd_pair_013_s2023_SS"}
+{"call": "dd_pair_013_s3031_A", "rater": "GPT54", "seconds": 4.0}
+{"call": "dd_pair_013_s3031_A", "rater": "GEMINI35", "seconds": 3.3}
+{"scored": "dd_pair_013_s3031_A"}
+{"call": "dd_pair_013_s3031_B", "rater": "GPT54", "seconds": 4.6}
+{"call": "dd_pair_013_s3031_B", "rater": "GEMINI35", "seconds": 29.1}
+{"scored": "dd_pair_013_s3031_B"}
+{"call": "dd_pair_013_s3031_SS", "rater": "GPT54", "seconds": 4.0}
+{"call": "dd_pair_013_s3031_SS", "rater": "GEMINI35", "seconds": 22.1}
+{"scored": "dd_pair_013_s3031_SS"}
+{"call": "dd_pair_013_s3032_A", "rater": "GPT54", "seconds": 4.5}
+{"call": "dd_pair_013_s3032_A", "rater": "GEMINI35", "seconds": 3.1}
+{"scored": "dd_pair_013_s3032_A"}
+{"call": "dd_pair_013_s3032_B", "rater": "GPT54", "seconds": 4.4}
+{"call": "dd_pair_013_s3032_B", "rater": "GEMINI35", "seconds": 3.4}
+{"scored": "dd_pair_013_s3032_B"}
+{"call": "dd_pair_013_s3032_SS", "rater": "GPT54", "seconds": 4.8}
+{"call": "dd_pair_013_s3032_SS", "rater": "GEMINI35", "seconds": 3.5}
+{"scored": "dd_pair_013_s3032_SS"}
+{"call": "dd_pair_013_s3033_A", "rater": "GPT54", "seconds": 4.1}
+{"call": "dd_pair_013_s3033_A", "rater": "GEMINI35", "seconds": 4.1}
+{"scored": "dd_pair_013_s3033_A"}
+{"call": "dd_pair_013_s3033_B", "rater": "GPT54", "seconds": 4.5}
+{"call": "dd_pair_013_s3033_B", "rater": "GEMINI35", "seconds": 4.2}
+{"scored": "dd_pair_013_s3033_B"}
+{"call": "dd_pair_013_s3033_SS", "rater": "GPT54", "seconds": 5.0}
+{"call": "dd_pair_013_s3033_SS", "rater": "GEMINI35", "seconds": 3.8}
+{"scored": "dd_pair_013_s3033_SS"}
+{"call": "dd_pair_015_s1011_SS", "rater": "GPT54", "seconds": 5.5}
+{"call": "dd_pair_015_s1011_SS", "rater": "GEMINI35", "seconds": 6.1}
+{"scored": "dd_pair_015_s1011_SS"}
+{"call": "dd_pair_015_s1012_SS", "rater": "GPT54", "seconds": 3.9}
+{"call": "dd_pair_015_s1012_SS", "rater": "GEMINI35", "seconds": 25.2}
+{"scored": "dd_pair_015_s1012_SS"}
+{"call": "dd_pair_015_s1013_A", "rater": "GPT54", "seconds": 5.6}
+{"call": "dd_pair_015_s1013_A", "rater": "GEMINI35", "seconds": 37.6}
+{"scored": "dd_pair_015_s1013_A"}
+{"call": "dd_pair_015_s1013_B", "rater": "GPT54", "seconds": 4.0}
+{"call": "dd_pair_015_s1013_B", "rater": "GEMINI35", "seconds": 4.0}
+{"scored": "dd_pair_015_s1013_B"}
+{"call": "dd_pair_015_s1013_SS", "rater": "GPT54", "seconds": 4.5}
+{"call": "dd_pair_015_s1013_SS", "rater": "GEMINI35", "seconds": 11.0}
+{"scored": "dd_pair_015_s1013_SS"}
+{"call": "dd_pair_015_s2021_SS", "rater": "GPT54", "seconds": 4.0}
+{"call": "dd_pair_015_s2021_SS", "rater": "GEMINI35", "seconds": 3.9}
+{"scored": "dd_pair_015_s2021_SS"}
+{"call": "dd_pair_015_s2022_SS", "rater": "GPT54", "seconds": 4.6}
+{"call": "dd_pair_015_s2022_SS", "rater": "GEMINI35", "seconds": 5.1}
+{"scored": "dd_pair_015_s2022_SS"}
+{"call": "dd_pair_015_s2023_SS", "rater": "GPT54", "seconds": 5.6}
+{"call": "dd_pair_015_s2023_SS", "rater": "GEMINI35", "seconds": 3.4}
+{"scored": "dd_pair_015_s2023_SS"}
+{"call": "dd_pair_015_s3031_SS", "rater": "GPT54", "seconds": 6.4}
+{"call": "dd_pair_015_s3031_SS", "rater": "GEMINI35", "seconds": 3.3}
+{"scored": "dd_pair_015_s3031_SS"}
+{"call": "dd_pair_015_s3032_A", "rater": "GPT54", "seconds": 6.3}
+{"call": "dd_pair_015_s3032_A", "rater": "GEMINI35", "seconds": 3.1}
+{"scored": "dd_pair_015_s3032_A"}
+{"call": "dd_pair_015_s3032_B", "rater": "GPT54", "seconds": 4.3}
+{"call": "dd_pair_015_s3032_B", "rater": "GEMINI35", "seconds": 3.7}
+{"scored": "dd_pair_015_s3032_B"}
+{"call": "dd_pair_015_s3032_SS", "rater": "GPT54", "seconds": 5.7}
+{"call": "dd_pair_015_s3032_SS", "rater": "GEMINI35", "seconds": 5.1}
+{"scored": "dd_pair_015_s3032_SS"}
+{"call": "dd_pair_015_s3033_A", "rater": "GPT54", "seconds": 5.5}
+{"call": "dd_pair_015_s3033_A", "rater": "GEMINI35", "seconds": 4.2}
+{"scored": "dd_pair_015_s3033_A"}
+{"call": "dd_pair_015_s3033_B", "rater": "GPT54", "seconds": 4.6}
+{"call": "dd_pair_015_s3033_B", "rater": "GEMINI35", "seconds": 5.5}
+{"scored": "dd_pair_015_s3033_B"}
+{"call": "dd_pair_015_s3033_SS", "rater": "GPT54", "seconds": 4.2}
+{"call": "dd_pair_015_s3033_SS", "rater": "GEMINI35", "seconds": 4.9}
+{"scored": "dd_pair_015_s3033_SS"}
+{"call": "dd_pair_046_s1011_SS", "rater": "GPT54", "seconds": 5.9}
+{"call": "dd_pair_046_s1011_SS", "rater": "GEMINI35", "seconds": 4.7}
+{"scored": "dd_pair_046_s1011_SS"}
+{"call": "dd_pair_046_s1012_A", "rater": "GPT54", "seconds": 5.4}
+{"call": "dd_pair_046_s1012_A", "rater": "GEMINI35", "seconds": 4.7}
+{"scored": "dd_pair_046_s1012_A"}
+{"call": "dd_pair_046_s1012_B", "rater": "GPT54", "seconds": 19.2}
+{"call": "dd_pair_046_s1012_B", "rater": "GEMINI35", "seconds": 4.0}
+{"scored": "dd_pair_046_s1012_B"}
+{"call": "dd_pair_046_s1012_SS", "rater": "GPT54", "seconds": 5.5}
+{"call": "dd_pair_046_s1012_SS", "rater": "GEMINI35", "seconds": 3.9}
+{"scored": "dd_pair_046_s1012_SS"}
+{"call": "dd_pair_046_s1013_A", "rater": "GPT54", "seconds": 7.4}
+{"call": "dd_pair_046_s1013_A", "rater": "GEMINI35", "seconds": 3.9}
+{"scored": "dd_pair_046_s1013_A"}
+{"call": "dd_pair_046_s1013_B", "rater": "GPT54", "seconds": 4.1}
+{"call": "dd_pair_046_s1013_B", "rater": "GEMINI35", "seconds": 4.1}
+{"scored": "dd_pair_046_s1013_B"}
+{"call": "dd_pair_046_s1013_SS", "rater": "GPT54", "seconds": 5.9}
+{"call": "dd_pair_046_s1013_SS", "rater": "GEMINI35", "seconds": 4.5}
+{"scored": "dd_pair_046_s1013_SS"}
+{"call": "dd_pair_046_s2021_A", "rater": "GPT54", "seconds": 13.8}
+{"call": "dd_pair_046_s2021_A", "rater": "GEMINI35", "seconds": 4.4}
+{"scored": "dd_pair_046_s2021_A"}
+{"call": "dd_pair_046_s2021_B", "rater": "GPT54", "seconds": 5.8}
+{"call": "dd_pair_046_s2021_B", "rater": "GEMINI35", "seconds": 3.3}
+{"scored": "dd_pair_046_s2021_B"}
+{"call": "dd_pair_046_s2021_SS", "rater": "GPT54", "seconds": 7.0}
+{"call": "dd_pair_046_s2021_SS", "rater": "GEMINI35", "seconds": 3.0}
+{"scored": "dd_pair_046_s2021_SS"}
+{"call": "dd_pair_046_s2022_A", "rater": "GPT54", "seconds": 5.0}
+{"call": "dd_pair_046_s2022_A", "rater": "GEMINI35", "seconds": 4.1}
+{"scored": "dd_pair_046_s2022_A"}
+{"call": "dd_pair_046_s2022_B", "rater": "GPT54", "seconds": 29.9}
+{"call": "dd_pair_046_s2022_B", "rater": "GEMINI35", "seconds": 4.1}
+{"scored": "dd_pair_046_s2022_B"}
+{"call": "dd_pair_046_s2022_SS", "rater": "GPT54", "seconds": 4.5}
+{"call": "dd_pair_046_s2022_SS", "rater": "GEMINI35", "seconds": 4.0}
+{"scored": "dd_pair_046_s2022_SS"}
+{"call": "dd_pair_046_s2023_A", "rater": "GPT54", "seconds": 5.2}
+{"call": "dd_pair_046_s2023_A", "rater": "GEMINI35", "seconds": 4.3}
+{"scored": "dd_pair_046_s2023_A"}
+{"call": "dd_pair_046_s2023_B", "rater": "GPT54", "seconds": 4.8}
+{"call": "dd_pair_046_s2023_B", "rater": "GEMINI35", "seconds": 3.5}
+{"scored": "dd_pair_046_s2023_B"}
+{"call": "dd_pair_046_s2023_SS", "rater": "GPT54", "seconds": 5.1}
+{"call": "dd_pair_046_s2023_SS", "rater": "GEMINI35", "seconds": 4.0}
+{"scored": "dd_pair_046_s2023_SS"}
+{"call": "dd_pair_046_s3031_A", "rater": "GPT54", "seconds": 17.3}
+{"call": "dd_pair_046_s3031_A", "rater": "GEMINI35", "seconds": 3.7}
+{"scored": "dd_pair_046_s3031_A"}
+{"call": "dd_pair_046_s3031_B", "rater": "GPT54", "seconds": 4.3}
+{"call": "dd_pair_046_s3031_B", "rater": "GEMINI35", "seconds": 4.9}
+{"scored": "dd_pair_046_s3031_B"}
+{"call": "dd_pair_046_s3031_SS", "rater": "GPT54", "seconds": 5.0}
+{"call": "dd_pair_046_s3031_SS", "rater": "GEMINI35", "seconds": 3.6}
+{"scored": "dd_pair_046_s3031_SS"}
+{"call": "dd_pair_046_s3032_A", "rater": "GPT54", "seconds": 4.9}
+{"call": "dd_pair_046_s3032_A", "rater": "GEMINI35", "seconds": 7.3}
+{"scored": "dd_pair_046_s3032_A"}
+{"call": "dd_pair_046_s3032_B", "rater": "GPT54", "seconds": 4.2}
+{"call": "dd_pair_046_s3032_B", "rater": "GEMINI35", "seconds": 2.9}
+{"scored": "dd_pair_046_s3032_B"}
+{"call": "dd_pair_046_s3032_SS", "rater": "GPT54", "seconds": 5.2}
+{"call": "dd_pair_046_s3032_SS", "rater": "GEMINI35", "seconds": 4.4}
+{"scored": "dd_pair_046_s3032_SS"}
+{"call": "dd_pair_046_s3033_SS", "rater": "GPT54", "seconds": 5.5}
+{"call": "dd_pair_046_s3033_SS", "rater": "GEMINI35", "seconds": 4.6}
+{"scored": "dd_pair_046_s3033_SS"}
+{"call": "dd_pair_084_s1011_A", "rater": "GPT54", "seconds": 4.5}
+{"call": "dd_pair_084_s1011_A", "rater": "GEMINI35", "seconds": 4.2}
+{"scored": "dd_pair_084_s1011_A"}
+{"call": "dd_pair_084_s1011_B", "rater": "GPT54", "seconds": 5.3}
+{"call": "dd_pair_084_s1011_B", "rater": "GEMINI35", "seconds": 4.4}
+{"scored": "dd_pair_084_s1011_B"}
+{"call": "dd_pair_084_s1011_SS", "rater": "GPT54", "seconds": 8.1}
+{"call": "dd_pair_084_s1011_SS", "rater": "GEMINI35", "seconds": 3.7}
+{"scored": "dd_pair_084_s1011_SS"}
+{"call": "dd_pair_084_s1012_A", "rater": "GPT54", "seconds": 4.7}
+{"retry": "GEMINI35", "attempt": 0, "err": "TimeoutError: The read operation timed out"}
+{"call": "dd_pair_084_s1012_A", "rater": "GEMINI35", "seconds": 52.8}
+{"scored": "dd_pair_084_s1012_A"}
+{"call": "dd_pair_084_s1012_B", "rater": "GPT54", "seconds": 7.6}
+{"call": "dd_pair_084_s1012_B", "rater": "GEMINI35", "seconds": 3.9}
+{"scored": "dd_pair_084_s1012_B"}
+{"call": "dd_pair_084_s1012_SS", "rater": "GPT54", "seconds": 5.3}
+{"call": "dd_pair_084_s1012_SS", "rater": "GEMINI35", "seconds": 3.6}
+{"scored": "dd_pair_084_s1012_SS"}
+{"call": "dd_pair_084_s1013_A", "rater": "GPT54", "seconds": 4.5}
+{"call": "dd_pair_084_s1013_A", "rater": "GEMINI35", "seconds": 4.0}
+{"scored": "dd_pair_084_s1013_A"}
+{"call": "dd_pair_084_s1013_B", "rater": "GPT54", "seconds": 6.9}
+{"call": "dd_pair_084_s1013_B", "rater": "GEMINI35", "seconds": 4.3}
+{"scored": "dd_pair_084_s1013_B"}
+{"call": "dd_pair_084_s1013_SS", "rater": "GPT54", "seconds": 7.0}
+{"call": "dd_pair_084_s1013_SS", "rater": "GEMINI35", "seconds": 4.0}
+{"scored": "dd_pair_084_s1013_SS"}
+{"call": "dd_pair_084_s2021_SS", "rater": "GPT54", "seconds": 12.5}
+{"call": "dd_pair_084_s2021_SS", "rater": "GEMINI35", "seconds": 6.9}
+{"scored": "dd_pair_084_s2021_SS"}
+{"call": "dd_pair_084_s2022_A", "rater": "GPT54", "seconds": 5.9}
+{"call": "dd_pair_084_s2022_A", "rater": "GEMINI35", "seconds": 5.1}
+{"scored": "dd_pair_084_s2022_A"}
+{"call": "dd_pair_084_s2022_B", "rater": "GPT54", "seconds": 5.7}
+{"call": "dd_pair_084_s2022_B", "rater": "GEMINI35", "seconds": 4.3}
+{"scored": "dd_pair_084_s2022_B"}
+{"call": "dd_pair_084_s2022_SS", "rater": "GPT54", "seconds": 6.5}
+{"call": "dd_pair_084_s2022_SS", "rater": "GEMINI35", "seconds": 4.4}
+{"scored": "dd_pair_084_s2022_SS"}
+{"call": "dd_pair_084_s2023_A", "rater": "GPT54", "seconds": 4.9}
+{"call": "dd_pair_084_s2023_A", "rater": "GEMINI35", "seconds": 28.2}
+{"scored": "dd_pair_084_s2023_A"}
+{"call": "dd_pair_084_s2023_B", "rater": "GPT54", "seconds": 6.4}
+{"call": "dd_pair_084_s2023_B", "rater": "GEMINI35", "seconds": 5.3}
+{"scored": "dd_pair_084_s2023_B"}
+{"call": "dd_pair_084_s2023_SS", "rater": "GPT54", "seconds": 6.7}
+{"call": "dd_pair_084_s2023_SS", "rater": "GEMINI35", "seconds": 4.7}
+{"scored": "dd_pair_084_s2023_SS"}
+{"call": "dd_pair_084_s3031_A", "rater": "GPT54", "seconds": 4.9}
+{"call": "dd_pair_084_s3031_A", "rater": "GEMINI35", "seconds": 3.7}
+{"scored": "dd_pair_084_s3031_A"}
+{"call": "dd_pair_084_s3031_B", "rater": "GPT54", "seconds": 9.1}
+{"call": "dd_pair_084_s3031_B", "rater": "GEMINI35", "seconds": 5.5}
+{"scored": "dd_pair_084_s3031_B"}
+{"call": "dd_pair_084_s3031_SS", "rater": "GPT54", "seconds": 6.1}
+{"call": "dd_pair_084_s3031_SS", "rater": "GEMINI35", "seconds": 5.1}
+{"scored": "dd_pair_084_s3031_SS"}
+{"call": "dd_pair_084_s3032_A", "rater": "GPT54", "seconds": 5.1}
+{"call": "dd_pair_084_s3032_A", "rater": "GEMINI35", "seconds": 4.8}
+{"scored": "dd_pair_084_s3032_A"}
+{"call": "dd_pair_084_s3032_B", "rater": "GPT54", "seconds": 6.3}
+{"call": "dd_pair_084_s3032_B", "rater": "GEMINI35", "seconds": 7.6}
+{"scored": "dd_pair_084_s3032_B"}
+{"call": "dd_pair_084_s3032_SS", "rater": "GPT54", "seconds": 8.6}
+{"call": "dd_pair_084_s3032_SS", "rater": "GEMINI35", "seconds": 6.2}
+{"scored": "dd_pair_084_s3032_SS"}
+{"call": "dd_pair_084_s3033_A", "rater": "GPT54", "seconds": 5.6}
+{"call": "dd_pair_084_s3033_A", "rater": "GEMINI35", "seconds": 4.6}
+{"scored": "dd_pair_084_s3033_A"}
+{"call": "dd_pair_084_s3033_B", "rater": "GPT54", "seconds": 5.8}
+{"call": "dd_pair_084_s3033_B", "rater": "GEMINI35", "seconds": 4.7}
+{"scored": "dd_pair_084_s3033_B"}
+{"call": "dd_pair_084_s3033_SS", "rater": "GPT54", "seconds": 6.2}
+{"call": "dd_pair_084_s3033_SS", "rater": "GEMINI35", "seconds": 4.9}
+{"scored": "dd_pair_084_s3033_SS"}

@@ -18,6 +18,19 @@ ARM_LABEL = {"baseline": "baseline", "w_fix": "W-fix\n(route)", "v_fix": "V-fix\
 COLORS = {"baseline": "#9e9e9e", "w_fix": "#4c72b0", "v_fix": "#dd8452", "both_fix": "#55a868"}
 
 
+def binding_of(rater_row) -> float | None:
+    """right_is_b, or 1 - right_is_a if the rater returned the swapped key."""
+    if not isinstance(rater_row, dict):
+        return None
+    v = rater_row.get("right_is_b")
+    if isinstance(v, (int, float)) and not isinstance(v, bool):
+        return float(v)
+    a = rater_row.get("right_is_a")
+    if isinstance(a, (int, float)) and not isinstance(a, bool):
+        return 1.0 - float(a)
+    return None
+
+
 def parse_scores(path: Path) -> dict:
     rows = {}
     for line in path.read_text(encoding="utf-8").splitlines():
@@ -29,11 +42,13 @@ def parse_scores(path: Path) -> dict:
             continue
         pair, seed, arm = int(m.group(1)), int(m.group(2)), m.group(3)
         vals, raters = [], {}
-        for rater in ("qwen", "gemini"):
-            v = r.get(rater, {}).get("right_is_b") if isinstance(r.get(rater), dict) else None
-            if isinstance(v, (int, float)):
-                vals.append(float(v))
-                raters[rater] = float(v)
+        for key, val in r.items():
+            if key in ("id", "image"):
+                continue
+            v = binding_of(val)
+            if v is not None:
+                vals.append(v)
+                raters[key] = v
         if vals:
             rows.setdefault(pair, {}).setdefault(seed, {})[arm] = {
                 "mean": float(np.mean(vals)),

@@ -9,11 +9,33 @@ import re
 from pathlib import Path
 
 
-def get(rater_row: dict, key: str):
-    if not isinstance(rater_row, dict):
-        return None
-    v = rater_row.get(key)
-    return float(v) if isinstance(v, (int, float)) and not isinstance(v, bool) else None
+def rater_values(rec: dict, key: str) -> list:
+    """All numeric values for `key` across rater sub-dicts."""
+    vals = []
+    for k, v in rec.items():
+        if k in ("id", "image"):
+            continue
+        if isinstance(v, dict):
+            x = v.get(key)
+            if isinstance(x, (int, float)) and not isinstance(x, bool):
+                vals.append(float(x))
+    return vals
+
+
+def binding_values(rec: dict) -> list:
+    """right_is_b, falling back to 1 - right_is_a when the rater swapped the key."""
+    vals = []
+    for k, v in rec.items():
+        if k in ("id", "image") or not isinstance(v, dict):
+            continue
+        b = v.get("right_is_b")
+        if isinstance(b, (int, float)) and not isinstance(b, bool):
+            vals.append(float(b))
+            continue
+        a = v.get("right_is_a")
+        if isinstance(a, (int, float)) and not isinstance(a, bool):
+            vals.append(1.0 - float(a))
+    return vals
 
 
 def main():
@@ -41,16 +63,16 @@ def main():
         if not all(c in conds for c in ("A", "B", "SS")):
             continue
         a, b, ss = conds["A"], conds["B"], conds["SS"]
-        aq, ag = get(a.get("qwen"), "matches"), get(a.get("gemini"), "matches")
-        bq, bg = get(b.get("qwen"), "matches"), get(b.get("gemini"), "matches")
-        sq, sg = get(ss.get("qwen"), "right_is_b"), get(ss.get("gemini"), "right_is_b")
-        a_ok = aq is not None and ag is not None and aq >= args.thr and ag >= args.thr
-        b_ok = bq is not None and bg is not None and bq >= args.thr and bg >= args.thr
-        ss_fail = sq is not None and sg is not None and sq < args.thr and sg < args.thr
+        a_vals = rater_values(a, "matches")
+        b_vals = rater_values(b, "matches")
+        ss_vals = binding_values(ss)
+        a_ok = len(a_vals) > 0 and all(v >= args.thr for v in a_vals)
+        b_ok = len(b_vals) > 0 and all(v >= args.thr for v in b_vals)
+        ss_fail = len(ss_vals) > 0 and all(v < args.thr for v in ss_vals)
         row = {
             "pair": pair, "seed": seed, "a_ok": a_ok, "b_ok": b_ok, "ss_fail": ss_fail,
-            "ss_qwen": sq, "ss_gemini": sg,
-            "struct_qwen": get(ss.get("qwen"), "structure"), "struct_gemini": get(ss.get("gemini"), "structure"),
+            "a_vals": a_vals, "b_vals": b_vals, "ss_vals": ss_vals,
+            "struct_vals": rater_values(ss, "structure"),
         }
         detail.append(row)
         if a_ok and b_ok and ss_fail:

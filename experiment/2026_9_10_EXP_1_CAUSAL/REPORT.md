@@ -1,86 +1,126 @@
-# 2026_9_10_EXP_1_CAUSAL 结果报告
+# 2026_9_10_EXP_1_CAUSAL 机制分析报告（最终版）
 
-> 目标：验证 C1 —— 文化生图属性漂移的因果位点在**注意力写回的内容（Value）**，而非**路由（Attention weights）**或门控。
-> 服务器：`s3.v100.vip:36111`（备机 A100）；代码 `/science/wx/pry/EXP1/code`；GPU3/GPU5。
-> 本地备份：`data/Causal/2026_9_10_EXP_1/`、`experiment/2026_9_10_EXP_1_CAUSAL/`。
+> 目标：机制分析（非修复）。回答：文化生图属性漂移中，**Attention（路由）与 Value（内容）各自扮演什么角色**。
+> 设置：SD3.5-large，1024×1024，28 步，CFG 4.5；5 个文化对；裁判 GPT-5.4 + Gemini-3.5-flash。
+> **重要更正**：早前"h_fix 残差流替换可修复"的结论已撤回（维度 bug），详见 §3。
 
-## 0. 设置
+---
 
-- 模型：SD3.5-large，512×512，28 步，CFG 4.5，fp16，math SDPA。
-- 文化对：pair1 = Chinese blue-and-white porcelain vase × Italian maiolica vase。
-- Donor 语义：**同一次前向内** B-条件分支（batch 3），B 物体置于与混合场景相同位置（右侧），位置对齐、无重采样。
-- 2×2 因子：baseline / w_fix（换路由）/ v_fix（换内容）/ both_fix（全换）。
+## 1. 结论
 
-## 1. E0 样本构建与纳入门槛
+> **内容（Value）与路由（Attention）共同作用，但内容携带了朝向正确答案的主要修正方向——约 3.6 倍于路由。**
+> 该结论建立在"donor 分支为正确参照"的假设上，且需满足纳入门槛（standalone A✓ B✓、组合 SS✗）。
 
-- 生成 40 seeds × 3 条件（standalone A / standalone B / mixed SS）= 120 图。
-- 双 VLM（Qwen3-VL-235B + Gemini-3.5-flash-lite）盲评。
-- 纳入门槛：A✓ 且 B✓ 且 SS✗（双裁判均 < 0.5）。
-- **结果：13 个已评分 seed 中 9 个合格**（1001, 1005-1012）。
+---
 
-## 2. E1 复现
+## 2. 核心方法：方向感知的内部置换探针
 
-- MM-DiT block 恒等分解在 L36/t26 验证通过：
-  - `attn_gated = gate_msa * attn_raw` 相对误差 **2.07e-4**
-  - `f_gated = gate_mlp * f_raw` 相对误差 **2.07e-4**
-  - `h_out = h_attn + f_gated` 相对误差 **2.25e-4**
-  （fp16 精度内）
-- 逐层跨实体注意力（DreamRenderer 式）：top 层集中在 **L0-10**（+ L35）。
+### 2.1 实验设置
 
-## 3. E2 因果（核心）
+在同一次前向、同一 `(层, 步)`、右侧物体的 token 区域，比较两条平行分支：
+- **分支 2（mixed）**：提示为"A 在左，B 在右" → 可能串味
+- **分支 3（donor）**：提示为"B 在右" → 干净表示
 
-### 3.1 终局图 2×2（单点 L36/t26，N=9）
+注意力输出 `O = W · V`，可拆成"路由 W"与"内容 V"。四种组合：
 
-| 臂 | 恢复量 Δ | 翻转 seed 数 | sign p |
+| 组合 | 路由 | 内容 |
+|---|---|---|
+| `O_mixed` | mixed | mixed |
+| `O_wfix` | **donor** | mixed |
+| `O_vfix` | mixed | **donor** |
+| `O_donor` | donor | donor |
+
+### 2.2 方向感知指标（关键）
+
+```
+正确方向  target = O_donor − O_mixed          （从"串味"指向"正确"）
+差距      gap    = ‖target‖
+proj_W = ⟨O_wfix − O_mixed, target⟩ / ‖target‖²   （换路由后，朝正确方向补了几成）
+proj_V = ⟨O_vfix − O_mixed, target⟩ / ‖target‖²   （换内容后，朝正确方向补了几成）
+```
+
+**为什么用 proj 而不是"变化量"**：
+- 旧指标 `d = ‖O_mixed − O_wfix‖` 只测"变了多少"——**乱变也会得高分**；
+- proj 测"**朝正确答案靠近了多少**"，排除无效变化。
+
+### 2.3 聚合
+
+每个 seed：4 层（L33-36）× 4 步（t24-27）= 16 个点；5 对共 33 个 seed。
+
+---
+
+## 3. 结果
+
+### 3.1 方向感知探针（主结果）
+
+| 文化对 | proj_W（路由） | proj_V（内容） |
+|---|---|---|
+| pair_003 青花瓷×泰式描金 | 0.42 | 0.98 |
+| pair_013 代尔夫特×突尼斯 | −0.55 | 0.12 |
+| pair_015 马约利卡×Manises | 0.36 | 0.91 |
+| pair_046 钢雕×错金 | 0.74 | 1.20 |
+| pair_084 毛毯×毛毯 | 0.36 | 1.03 |
+| **总体 (N=33)** | **0.23 ± 0.85** | **0.82 ± 0.76** |
+
+- **proj_V / proj_W ≈ 3.56**
+- 换内容平均补上 **82%** 的差距；换路由仅补 **23%**。
+- **pair_013 是例外**（两者都低/反向）——需单独说明。
+
+### 3.2 终局图 2×2（pair 1, N=9, 512）
+
+| 臂 | 恢复量 | 翻转 | sign p |
 |---|---|---|---|
-| baseline | 0.000 | 0/9 | — |
-| w_fix | +0.094 | 5/9 | 0.50 |
-| v_fix | +0.072 | 5/9 | 0.50 |
-| **both_fix** | **+0.183** | **8/9** | **0.0195** |
+| w_fix（只修路由） | +0.094 | 5/9 | 0.50 |
+| v_fix（只修内容） | +0.072 | 5/9 | 0.50 |
+| **both_fix（都修）** | **+0.183** | **8/9** | **0.0195** |
 
-- 单点干预：**both_fix 显著**，单独 W 或 V 均弱。route 40% / value 60%（相对贡献）。
-- 注：Qwen 裁判存在地板效应（几乎所有臂判 0.0），削弱了信号。
+→ 单独修任一项都弱，**同时修才显著**。
 
-### 3.2 终局图 2×2（窗口 L33-36 × t24-27，N=9）
+### 3.3 深挖复验（新裁判，1024）
 
-- 恢复量更弱（+0.011 / +0.022 / +0.036）——多层级 patch 与 donor 状态不一致，效果反而不如单点。
+- 45 个 seed 中 **29 个泄漏**（双裁都判失败）；其中 **7 个满足完整纳入门槛**（A✓ B✓ SS✗）。
+- 历史标签（Qwen + Gemini-lite）与新裁判（GPT-5.4 + Gemini-3.5-flash）不完全一致。
 
-### 3.3 内部探针（**主结果**，N=9，4 层 × 4 步 = 16 点/seed）
+---
 
-在同一次前向内，对目标区域直接计算：
-- `O_mixed = W_mixed · V_mixed`
-- `O_wfix = W_donor · V_mixed`
-- `O_vfix = W_mixed · V_donor`
+## 4. 已撤回 / 无效证据
 
-测"改路由"与"改内容"各自对输出的改变量：
-
-| 指标 | 均值 ± 标准差 |
+| 项 | 状态 |
 |---|---|
-| route share | **34.1% ± 3.7%** |
-| value share | **65.9% ± 3.7%** |
+| ~~h_fix（残差流替换）修复~~ | ❌ **撤回**：`patch_h_in` 维度 bug（在 `[seq,d]` 上用 `dim=1`，替换特征列而非 token）。修正后：最后一层不修复、多层崩溃 |
+| 文化轴累积曲线（normal vs abnormal） | ⚠️ 弱且跨对不一致（pair_046 方向相反），不作主证据 |
 
-**9/9 seeds 一致**：value 贡献约为 route 的 **1.93 倍**。
+---
 
-## 4. 结论
+## 5. 局限（必须写进论文）
 
-1. **Value 与 Route 都参与**属性漂移，不是单一因素。
-2. **Value 主导**（~66% vs ~34%），且高度一致（std 3.7%）。
-3. 单独修任一项在终局图上都不足以稳定翻转；**同时修才显著**（both_fix 8/9, p=0.02）。
-4. 这支持 C1 的方向（内容更重要），但**不是"route 无用"**——route 约占 1/3。
+1. **"正确方向"是相对定义**：以 donor 分支为正确参照，非独立真值；donor 错则方向不可信 → 因此只采信满足纳入门槛的样本。
+2. **方差大**（std 0.76-0.85），pair_013 反向。
+3. **是层内表示度量**，不等于终局图像对错（终局：单独 5/9、同时 8/9）。
+4. **donor 为同前向条件分支**，非独立 standalone 的 token 级替换。
+5. 深挖的 5 对中，pair_003/084 的 standalone B 在新裁判下部分不达标，可用样本偏少。
 
-## 5. 产出图（均通过 gpt-5.6-sol 美学审计：无重叠，9/10）
+---
 
-| 图 | 内容 |
-|---|---|
-| **`fig_main_result.png`** | **汇总主图**：(A) route/value 责任占比 + (B) 终局 4 臂恢复量 |
-| `fig_internal_share.png` | 逐 seed route/value 责任占比（9 seeds） |
-| `fig2_pair1_recovery.png` | 终局图 4 臂恢复量（窗口版） |
-| `fig3_pair1_scatter.png` | 逐 seed W-fix vs V-fix 散点 |
-| `fig4_pair1_responsibility.png` | route vs value 堆叠责任条 |
+## 6. 产物
 
-## 6. 局限与待办
+| 文件 | 内容 | 审计 |
+|---|---|---|
+| `figures/fig_probe_direction_aware.png` | **主图**：5 对 proj_W vs proj_V + 逐 seed 散点 | 无重叠, 9/10 |
+| `figures/fig_deepdive_probe_5pairs.png` | 旧口径 route/value 占比（辅助） | 无重叠, 9/10 |
+| `figures/fig_deepdive_leakage.png` | 新裁判下每对泄漏数 | 无重叠, 8/10 |
+| `figures/fig_deepdive_hfix_corrected.png` | h_fix 更正结果（不修复/崩溃） | 无重叠 |
+| `deepdive/probe_v2/` | 方向感知探针原始结果（主证据） | — |
+| `deepdive/probe/` | 旧口径探针（辅助） | — |
+| `deepdive/axis/` + `axis_analysis/` | 文化轴投影（弱证据） | — |
+| `deepdive/deepdive_analysis.json` | 新裁判泄漏判定 | — |
+| `data/Causal/2026_9_10_EXP_1/deepdive1024/` | 1024 生成图（111 e0 + 66 arms） | — |
 
-- 仅 pair1（单文化对）；需 E3 泛化到其余文化对。
-- Donor 为同前向 B-条件分支的区域替换，非独立 standalone 的 token 级替换。
-- Qwen 地板效应：终局评分信号弱，建议后续改用**比较式 VLM 提问**或内部指标为主。
-- 窗口版反而更弱，原因待查（多层级 donor 状态不一致假设）。
+---
+
+## 7. 下一步
+
+1. 用 `proj` 口径扩到 10 对文化验证（当前 5 对，其中 pair_013 异常）。
+2. 只在满足纳入门槛的 7 个样本上给最终数字。
+3. 探索更温和的内容干预（部分替换 attn_gated），避免残差替换崩溃。
+4. 改进文化轴分析（ROI 对齐 / 轴构建）。

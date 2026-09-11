@@ -32,8 +32,11 @@ def main():
     ap.add_argument("--out", type=Path, default=Path("/science/wx/pry/EXP1/data/e2"))
     args = ap.parse_args()
 
-    torch.backends.cuda.enable_flash_sdp(False)
-    torch.backends.cuda.enable_mem_efficient_sdp(False)
+    # Keep flash / mem-efficient SDPA for the DEFAULT layers (memory-efficient at 1024).
+    # Only the active layers use the custom JointProcessor, which computes attention
+    # explicitly (matmul+softmax) and therefore does not depend on these backends.
+    torch.backends.cuda.enable_flash_sdp(True)
+    torch.backends.cuda.enable_mem_efficient_sdp(True)
     torch.backends.cuda.enable_math_sdp(True)
 
     pipe = StableDiffusion3Pipeline.from_pretrained(

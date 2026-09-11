@@ -1,0 +1,902 @@
+[
+  {
+    "文化物体A": "a Chinese blue-and-white porcelain vase",
+    "文化物体B": "a Vietnamese Bát Tràng blue-and-white ceramic vase",
+    "文化物体A的长文本描述": "a Chinese blue-and-white porcelain vase with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+    "文化物体B的长文本描述": "a Vietnamese Bát Tràng blue-and-white ceramic vase with cobalt-blue hand-painted decoration on pale glaze, showing stylized lotus, fish, and scrolling foliage",
+    "组合Prompt SS": "Neutral studio background: a Chinese blue-and-white porcelain vase on the left, a Vietnamese Bát Tràng blue-and-white ceramic vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese blue-and-white porcelain vase on the left, a Vietnamese Bát Tràng blue-and-white ceramic vase with cobalt-blue hand-painted decoration on pale glaze, showing stylized lotus, fish, and scrolling foliage on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese blue-and-white porcelain vase with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs on the left, a Vietnamese Bát Tràng blue-and-white ceramic vase with cobalt-blue hand-painted decoration on pale glaze, showing stylized lotus, fish, and scrolling foliage on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese blue-and-white porcelain plate",
+    "文化物体B": "a Japanese Nabeshima porcelain plate",
+    "文化物体A的长文本描述": "a Chinese blue-and-white porcelain plate with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+    "文化物体B的长文本描述": "a Japanese Nabeshima porcelain plate with underglaze-blue outlines and sparse overglaze color, showing asymmetrical flowers, textiles, and geometric border motifs",
+    "组合Prompt SS": "Neutral studio background: a Chinese blue-and-white porcelain plate on the left, a Japanese Nabeshima porcelain plate on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese blue-and-white porcelain plate on the left, a Japanese Nabeshima porcelain plate with underglaze-blue outlines and sparse overglaze color, showing asymmetrical flowers, textiles, and geometric border motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese blue-and-white porcelain plate with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs on the left, a Japanese Nabeshima porcelain plate with underglaze-blue outlines and sparse overglaze color, showing asymmetrical flowers, textiles, and geometric border motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese blue-and-white porcelain vase",
+    "文化物体B": "a Thai Bencharong porcelain vase",
+    "文化物体A的长文本描述": "a Chinese blue-and-white porcelain vase with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+    "文化物体B的长文本描述": "a Thai Bencharong porcelain vase with polychrome overglaze enamel and gold outlines, showing repeating flame, deity, and floral motifs on a dark ground",
+    "组合Prompt SS": "Neutral studio background: a Chinese blue-and-white porcelain vase on the left, a Thai Bencharong porcelain vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese blue-and-white porcelain vase on the left, a Thai Bencharong porcelain vase with polychrome overglaze enamel and gold outlines, showing repeating flame, deity, and floral motifs on a dark ground on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese blue-and-white porcelain vase with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs on the left, a Thai Bencharong porcelain vase with polychrome overglaze enamel and gold outlines, showing repeating flame, deity, and floral motifs on a dark ground on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese Imari porcelain jar",
+    "文化物体B": "a Korean Joseon iron-painted porcelain jar",
+    "文化物体A的长文本描述": "a Japanese Imari porcelain jar with cobalt-blue underglaze and iron-red and gold overglaze decoration, showing floral panels and patterned reserves",
+    "文化物体B的长文本描述": "a Korean Joseon iron-painted porcelain jar with freely brushed iron-brown decoration on white porcelain, showing dragons, bamboo, or abbreviated floral motifs",
+    "组合Prompt SS": "Neutral studio background: a Japanese Imari porcelain jar on the left, a Korean Joseon iron-painted porcelain jar on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese Imari porcelain jar on the left, a Korean Joseon iron-painted porcelain jar with freely brushed iron-brown decoration on white porcelain, showing dragons, bamboo, or abbreviated floral motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese Imari porcelain jar with cobalt-blue underglaze and iron-red and gold overglaze decoration, showing floral panels and patterned reserves on the left, a Korean Joseon iron-painted porcelain jar with freely brushed iron-brown decoration on white porcelain, showing dragons, bamboo, or abbreviated floral motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese Imari porcelain plate",
+    "文化物体B": "a Japanese Kutani porcelain plate",
+    "文化物体A的长文本描述": "a Japanese Imari porcelain plate with cobalt-blue underglaze and iron-red and gold overglaze decoration, showing radial floral panels and patterned reserves",
+    "文化物体B的长文本描述": "a Japanese Kutani porcelain plate with polychrome overglaze enamels in green, yellow, red, purple, and blue, showing floral and landscape panels",
+    "组合Prompt SS": "Neutral studio background: a Japanese Imari porcelain plate on the left, a Japanese Kutani porcelain plate on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese Imari porcelain plate on the left, a Japanese Kutani porcelain plate with polychrome overglaze enamels in green, yellow, red, purple, and blue, showing floral and landscape panels on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese Imari porcelain plate with cobalt-blue underglaze and iron-red and gold overglaze decoration, showing radial floral panels and patterned reserves on the left, a Japanese Kutani porcelain plate with polychrome overglaze enamels in green, yellow, red, purple, and blue, showing floral and landscape panels on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a German Meissen porcelain figurine",
+    "文化物体B": "an Italian Capodimonte porcelain figurine",
+    "文化物体A的长文本描述": "a German Meissen porcelain figurine with modeled forms, painted in overglaze colors with gilded Rococo details",
+    "文化物体B的长文本描述": "an Italian Capodimonte porcelain figurine with modeled porcelain drapery and flowers, painted in pastel colors with theatrical Baroque gestures",
+    "组合Prompt SS": "Neutral studio background: a German Meissen porcelain figurine on the left, an Italian Capodimonte porcelain figurine on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a German Meissen porcelain figurine on the left, an Italian Capodimonte porcelain figurine with modeled porcelain drapery and flowers, painted in pastel colors with theatrical Baroque gestures on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a German Meissen porcelain figurine with modeled forms, painted in overglaze colors with gilded Rococo details on the left, an Italian Capodimonte porcelain figurine with modeled porcelain drapery and flowers, painted in pastel colors with theatrical Baroque gestures on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a French Sèvres porcelain vase",
+    "文化物体B": "a Russian Imperial Porcelain cobalt-net vase",
+    "文化物体A的长文本描述": "a French Sèvres porcelain vase with a bleu-céleste ground, gilded bronze-like ornament, and painted floral or courtly reserve panels",
+    "文化物体B的长文本描述": "a Russian Imperial Porcelain cobalt-net vase with cobalt-blue lattice, gold intersections, and radiating rosette motifs",
+    "组合Prompt SS": "Neutral studio background: a French Sèvres porcelain vase on the left, a Russian Imperial Porcelain cobalt-net vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a French Sèvres porcelain vase on the left, a Russian Imperial Porcelain cobalt-net vase with cobalt-blue lattice, gold intersections, and radiating rosette motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a French Sèvres porcelain vase with a bleu-céleste ground, gilded bronze-like ornament, and painted floral or courtly reserve panels on the left, a Russian Imperial Porcelain cobalt-net vase with cobalt-blue lattice, gold intersections, and radiating rosette motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese famille-rose porcelain vase",
+    "文化物体B": "a Hungarian Herend porcelain vase",
+    "文化物体A的长文本描述": "a Chinese famille-rose porcelain vase with opaque pink, green, yellow, and turquoise overglaze enamels, showing peonies, birds, and auspicious garden scenes",
+    "文化物体B的长文本描述": "a Hungarian Herend porcelain vase with polychrome enamel painting and gilded rims, showing stylized butterflies, flowers, and scale-like fishnet patterns",
+    "组合Prompt SS": "Neutral studio background: a Chinese famille-rose porcelain vase on the left, a Hungarian Herend porcelain vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese famille-rose porcelain vase on the left, a Hungarian Herend porcelain vase with polychrome enamel painting and gilded rims, showing stylized butterflies, flowers, and scale-like fishnet patterns on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese famille-rose porcelain vase with opaque pink, green, yellow, and turquoise overglaze enamels, showing peonies, birds, and auspicious garden scenes on the left, a Hungarian Herend porcelain vase with polychrome enamel painting and gilded rims, showing stylized butterflies, flowers, and scale-like fishnet patterns on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese Dehua blanc-de-Chine porcelain figurine",
+    "文化物体B": "a Japanese Hirado porcelain figurine",
+    "文化物体A的长文本描述": "a Chinese Dehua blanc-de-Chine porcelain figurine with an ivory-white surface, modeled robes, and carved details without painted color",
+    "文化物体B的长文本描述": "a Japanese Hirado porcelain figurine with delicate underglaze-blue accents, showing miniature modeling and textile details",
+    "组合Prompt SS": "Neutral studio background: a Chinese Dehua blanc-de-Chine porcelain figurine on the left, a Japanese Hirado porcelain figurine on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese Dehua blanc-de-Chine porcelain figurine on the left, a Japanese Hirado porcelain figurine with delicate underglaze-blue accents, showing miniature modeling and textile details on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese Dehua blanc-de-Chine porcelain figurine with an ivory-white surface, modeled robes, and carved details without painted color on the left, a Japanese Hirado porcelain figurine with delicate underglaze-blue accents, showing miniature modeling and textile details on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese celadon ceramic bowl",
+    "文化物体B": "a Vietnamese Lý–Trần celadon ceramic bowl",
+    "文化物体A的长文本描述": "a Chinese celadon ceramic bowl with translucent blue-green glaze, showing carved lotus petals beneath the glaze",
+    "文化物体B的长文本描述": "a Vietnamese Lý–Trần celadon ceramic bowl with a pale jade-green glaze and lightly crackled surface, showing carved lotus petals and combed floral decoration",
+    "组合Prompt SS": "Neutral studio background: a Chinese celadon ceramic bowl on the left, a Vietnamese Lý–Trần celadon ceramic bowl on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese celadon ceramic bowl on the left, a Vietnamese Lý–Trần celadon ceramic bowl with a pale jade-green glaze and lightly crackled surface, showing carved lotus petals and combed floral decoration on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese celadon ceramic bowl with translucent blue-green glaze, showing carved lotus petals beneath the glaze on the left, a Vietnamese Lý–Trần celadon ceramic bowl with a pale jade-green glaze and lightly crackled surface, showing carved lotus petals and combed floral decoration on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Korean Goryeo celadon maebyeong vase",
+    "文化物体B": "a Thai Sawankhalok celadon jar",
+    "文化物体A的长文本描述": "a Korean Goryeo celadon maebyeong vase with a green celadon glaze and pale slip inlay, showing cranes, clouds, and chrysanthemum medallions",
+    "文化物体B的长文本描述": "a Thai Sawankhalok celadon jar with an olive-green crackled glaze on a stoneware body, showing incised lotus petals and simple ring bands",
+    "组合Prompt SS": "Neutral studio background: a Korean Goryeo celadon maebyeong vase on the left, a Thai Sawankhalok celadon jar on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Korean Goryeo celadon maebyeong vase on the left, a Thai Sawankhalok celadon jar with an olive-green crackled glaze on a stoneware body, showing incised lotus petals and simple ring bands on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Korean Goryeo celadon maebyeong vase with a green celadon glaze and pale slip inlay, showing cranes, clouds, and chrysanthemum medallions on the left, a Thai Sawankhalok celadon jar with an olive-green crackled glaze on a stoneware body, showing incised lotus petals and simple ring bands on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Dutch blue-and-white Delftware plate",
+    "文化物体B": "a Slovak Modra faience plate",
+    "文化物体A的长文本描述": "a Dutch blue-and-white Delftware plate with opaque white tin glaze, painted in cobalt blue with canal-house, tulip, and ornamental border motifs",
+    "文化物体B的长文本描述": "a Slovak Modra faience plate made of pale glazed earthenware, painted in cobalt blue, green, yellow, and manganese with stylized birds and folk flowers",
+    "组合Prompt SS": "Neutral studio background: a Dutch blue-and-white Delftware plate on the left, a Slovak Modra faience plate on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Dutch blue-and-white Delftware plate on the left, a Slovak Modra faience plate made of pale glazed earthenware, painted in cobalt blue, green, yellow, and manganese with stylized birds and folk flowers on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Dutch blue-and-white Delftware plate with opaque white tin glaze, painted in cobalt blue with canal-house, tulip, and ornamental border motifs on the left, a Slovak Modra faience plate made of pale glazed earthenware, painted in cobalt blue, green, yellow, and manganese with stylized birds and folk flowers on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Dutch blue-and-white Delftware vase",
+    "文化物体B": "a Tunisian Qallaline faience vase",
+    "文化物体A的长文本描述": "a Dutch blue-and-white Delftware vase with opaque white tin glaze, painted in cobalt blue with canal-house, tulip, and ornamental border motifs",
+    "文化物体B的长文本描述": "a Tunisian Qallaline faience vase with tin glaze, painted in cobalt blue, green, ochre, and manganese with cypress, arch, and floral motifs",
+    "组合Prompt SS": "Neutral studio background: a Dutch blue-and-white Delftware vase on the left, a Tunisian Qallaline faience vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Dutch blue-and-white Delftware vase on the left, a Tunisian Qallaline faience vase with tin glaze, painted in cobalt blue, green, ochre, and manganese with cypress, arch, and floral motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Dutch blue-and-white Delftware vase with opaque white tin glaze, painted in cobalt blue with canal-house, tulip, and ornamental border motifs on the left, a Tunisian Qallaline faience vase with tin glaze, painted in cobalt blue, green, ochre, and manganese with cypress, arch, and floral motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Italian Renaissance maiolica plate",
+    "文化物体B": "a French Nevers faience plate",
+    "文化物体A的长文本描述": "an Italian Renaissance maiolica plate with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+    "文化物体B的长文本描述": "a French Nevers faience plate with white tin glaze, painted in deep blue, yellow, and manganese with heraldic, pastoral, and symmetrical floral motifs",
+    "组合Prompt SS": "Neutral studio background: an Italian Renaissance maiolica plate on the left, a French Nevers faience plate on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Italian Renaissance maiolica plate on the left, a French Nevers faience plate with white tin glaze, painted in deep blue, yellow, and manganese with heraldic, pastoral, and symmetrical floral motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Italian Renaissance maiolica plate with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage on the left, a French Nevers faience plate with white tin glaze, painted in deep blue, yellow, and manganese with heraldic, pastoral, and symmetrical floral motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Italian Renaissance maiolica vase",
+    "文化物体B": "a Spanish Manises lusterware vase",
+    "文化物体A的长文本描述": "an Italian Renaissance maiolica vase with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+    "文化物体B的长文本描述": "a Spanish Manises lusterware vase made of tin-glazed earthenware with coppery metallic luster, showing cobalt-blue vines, heraldic shields, and repeating leaf motifs",
+    "组合Prompt SS": "Neutral studio background: an Italian Renaissance maiolica vase on the left, a Spanish Manises lusterware vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Italian Renaissance maiolica vase on the left, a Spanish Manises lusterware vase made of tin-glazed earthenware with coppery metallic luster, showing cobalt-blue vines, heraldic shields, and repeating leaf motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Italian Renaissance maiolica vase with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage on the left, a Spanish Manises lusterware vase made of tin-glazed earthenware with coppery metallic luster, showing cobalt-blue vines, heraldic shields, and repeating leaf motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Mexican Talavera de Puebla plate",
+    "文化物体B": "a Romanian Horezu pottery plate",
+    "文化物体A的长文本描述": "a Mexican Talavera de Puebla plate with opaque white tin glaze, decorated with cobalt-blue, yellow, green, and orange painted floral and geometric bands",
+    "文化物体B的长文本描述": "a Romanian Horezu pottery plate made of glazed earthenware with combed slip decoration, showing brown, green, blue, and ochre spirals, rosettes, and the Horezu rooster",
+    "组合Prompt SS": "Neutral studio background: a Mexican Talavera de Puebla plate on the left, a Romanian Horezu pottery plate on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Mexican Talavera de Puebla plate on the left, a Romanian Horezu pottery plate made of glazed earthenware with combed slip decoration, showing brown, green, blue, and ochre spirals, rosettes, and the Horezu rooster on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Mexican Talavera de Puebla plate with opaque white tin glaze, decorated with cobalt-blue, yellow, green, and orange painted floral and geometric bands on the left, a Romanian Horezu pottery plate made of glazed earthenware with combed slip decoration, showing brown, green, blue, and ochre spirals, rosettes, and the Horezu rooster on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Ottoman İznik ceramic plate",
+    "文化物体B": "an Armenian Kütahya ceramic plate",
+    "文化物体A的长文本描述": "an Ottoman İznik ceramic plate with a white fritware body, cobalt blue, turquoise, emerald green, and raised bole-red painting, showing tulips, carnations, and saz leaves",
+    "文化物体B的长文本描述": "an Armenian Kütahya ceramic plate with a white glazed body and blue, green, yellow, and red painting, showing rosettes, crosses, birds, and floral borders",
+    "组合Prompt SS": "Neutral studio background: an Ottoman İznik ceramic plate on the left, an Armenian Kütahya ceramic plate on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Ottoman İznik ceramic plate on the left, an Armenian Kütahya ceramic plate with a white glazed body and blue, green, yellow, and red painting, showing rosettes, crosses, birds, and floral borders on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Ottoman İznik ceramic plate with a white fritware body, cobalt blue, turquoise, emerald green, and raised bole-red painting, showing tulips, carnations, and saz leaves on the left, an Armenian Kütahya ceramic plate with a white glazed body and blue, green, yellow, and red painting, showing rosettes, crosses, birds, and floral borders on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Moroccan Fes ceramic bowl",
+    "文化物体B": "an Algerian Kabyle pottery bowl",
+    "文化物体A的长文本描述": "a Moroccan Fes ceramic bowl with a white glazed body painted in cobalt blue, green, and yellow, showing organized star, arabesque, and palmette motifs",
+    "文化物体B的长文本描述": "an Algerian Kabyle pottery bowl made of hand-built earthenware with red, black, and white painted decoration, showing triangles, chevrons, and protective geometric signs",
+    "组合Prompt SS": "Neutral studio background: a Moroccan Fes ceramic bowl on the left, an Algerian Kabyle pottery bowl on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Moroccan Fes ceramic bowl on the left, an Algerian Kabyle pottery bowl made of hand-built earthenware with red, black, and white painted decoration, showing triangles, chevrons, and protective geometric signs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Moroccan Fes ceramic bowl with a white glazed body painted in cobalt blue, green, and yellow, showing organized star, arabesque, and palmette motifs on the left, an Algerian Kabyle pottery bowl made of hand-built earthenware with red, black, and white painted decoration, showing triangles, chevrons, and protective geometric signs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese Raku tea bowl",
+    "文化物体B": "a Japanese Onta ware bowl",
+    "文化物体A的长文本描述": "a Japanese Raku tea bowl with a hand-shaped low-fired body and irregular black glaze, showing a warped rim and tactile matte-to-gloss surface",
+    "文化物体B的长文本描述": "a Japanese Onta ware bowl made of stoneware with slip-trailed and combed decoration, showing rhythmic white, brown, and ochre bands made by wheel techniques",
+    "组合Prompt SS": "Neutral studio background: a Japanese Raku tea bowl on the left, a Japanese Onta ware bowl on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese Raku tea bowl on the left, a Japanese Onta ware bowl made of stoneware with slip-trailed and combed decoration, showing rhythmic white, brown, and ochre bands made by wheel techniques on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese Raku tea bowl with a hand-shaped low-fired body and irregular black glaze, showing a warped rim and tactile matte-to-gloss surface on the left, a Japanese Onta ware bowl made of stoneware with slip-trailed and combed decoration, showing rhythmic white, brown, and ochre bands made by wheel techniques on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Polish Bolesławiec stoneware jug",
+    "文化物体B": "a Bulgarian Troyan pottery jug",
+    "文化物体A的长文本描述": "a Polish Bolesławiec stoneware jug with a cream glazed body stamped in cobalt blue, showing repeated dots, peacock-eye rosettes, and circular folk patterns",
+    "文化物体B的长文本描述": "a Bulgarian Troyan pottery jug with a dark glazed earthenware body and feathered slip decoration, showing brown, green, yellow, and cream wave patterns",
+    "组合Prompt SS": "Neutral studio background: a Polish Bolesławiec stoneware jug on the left, a Bulgarian Troyan pottery jug on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Polish Bolesławiec stoneware jug on the left, a Bulgarian Troyan pottery jug with a dark glazed earthenware body and feathered slip decoration, showing brown, green, yellow, and cream wave patterns on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Polish Bolesławiec stoneware jug with a cream glazed body stamped in cobalt blue, showing repeated dots, peacock-eye rosettes, and circular folk patterns on the left, a Bulgarian Troyan pottery jug with a dark glazed earthenware body and feathered slip decoration, showing brown, green, yellow, and cream wave patterns on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese Raku tea bowl",
+    "文化物体B": "a Korean buncheong tea bowl",
+    "文化物体A的长文本描述": "a Japanese Raku tea bowl with a hand-shaped low-fired body and irregular black glaze, showing a warped rim and tactile matte-to-gloss surface",
+    "文化物体B的长文本描述": "a Korean buncheong tea bowl made of gray stoneware brushed with white slip, showing stamped, incised, or freely painted decoration beneath a translucent glaze",
+    "组合Prompt SS": "Neutral studio background: a Japanese Raku tea bowl on the left, a Korean buncheong tea bowl on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese Raku tea bowl on the left, a Korean buncheong tea bowl made of gray stoneware brushed with white slip, showing stamped, incised, or freely painted decoration beneath a translucent glaze on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese Raku tea bowl with a hand-shaped low-fired body and irregular black glaze, showing a warped rim and tactile matte-to-gloss surface on the left, a Korean buncheong tea bowl made of gray stoneware brushed with white slip, showing stamped, incised, or freely painted decoration beneath a translucent glaze on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese sancai glazed ceramic jar",
+    "文化物体B": "a Peruvian Chulucanas pottery jar",
+    "文化物体A的长文本描述": "a Chinese sancai glazed ceramic jar with amber, green, and cream lead glazes over a rounded earthenware body, showing drips and molded relief bands",
+    "文化物体B的长文本描述": "a Peruvian Chulucanas pottery jar with a burnished clay surface in black, cream, and brown, showing negative-painted geometric bands and abstract figures",
+    "组合Prompt SS": "Neutral studio background: a Chinese sancai glazed ceramic jar on the left, a Peruvian Chulucanas pottery jar on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese sancai glazed ceramic jar on the left, a Peruvian Chulucanas pottery jar with a burnished clay surface in black, cream, and brown, showing negative-painted geometric bands and abstract figures on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese sancai glazed ceramic jar with amber, green, and cream lead glazes over a rounded earthenware body, showing drips and molded relief bands on the left, a Peruvian Chulucanas pottery jar with a burnished clay surface in black, cream, and brown, showing negative-painted geometric bands and abstract figures on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an ancient Greek black-figure ceramic amphora",
+    "文化物体B": "an ancient Cypriot bichrome ceramic amphora",
+    "文化物体A的长文本描述": "an ancient Greek black-figure ceramic amphora with black silhouettes on red clay, showing mythological figures arranged in horizontal narrative registers",
+    "文化物体B的长文本描述": "an ancient Cypriot bichrome ceramic amphora with red and black painted lines on a pale clay body, showing concentric circles, birds, and compact geometric panels",
+    "组合Prompt SS": "Neutral studio background: an ancient Greek black-figure ceramic amphora on the left, an ancient Cypriot bichrome ceramic amphora on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an ancient Greek black-figure ceramic amphora on the left, an ancient Cypriot bichrome ceramic amphora with red and black painted lines on a pale clay body, showing concentric circles, birds, and compact geometric panels on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an ancient Greek black-figure ceramic amphora with black silhouettes on red clay, showing mythological figures arranged in horizontal narrative registers on the left, an ancient Cypriot bichrome ceramic amphora with red and black painted lines on a pale clay body, showing concentric circles, birds, and compact geometric panels on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Acoma Pueblo pottery jar",
+    "文化物体B": "a Catawba burnished pottery jar",
+    "文化物体A的长文本描述": "an Acoma Pueblo pottery jar with a pale clay body and black-and-red painting, showing -line rain, stepped-cloud, and interlocking geometric motifs",
+    "文化物体B的长文本描述": "a Catawba burnished pottery jar made of unglazed hand-coiled clay with a smoky brown surface, showing a polished finish and incised details",
+    "组合Prompt SS": "Neutral studio background: an Acoma Pueblo pottery jar on the left, a Catawba burnished pottery jar on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Acoma Pueblo pottery jar on the left, a Catawba burnished pottery jar made of unglazed hand-coiled clay with a smoky brown surface, showing a polished finish and incised details on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Acoma Pueblo pottery jar with a pale clay body and black-and-red painting, showing -line rain, stepped-cloud, and interlocking geometric motifs on the left, a Catawba burnished pottery jar made of unglazed hand-coiled clay with a smoky brown surface, showing a polished finish and incised details on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Mexican Mata Ortiz pottery jar",
+    "文化物体B": "a Serbian Zlakusa pottery jar",
+    "文化物体A的长文本描述": "a Mexican Mata Ortiz pottery jar with a thin-walled polished clay body and black-and-red painting, showing interlocking geometric and Mimbres-inspired animal motifs",
+    "文化物体B的长文本描述": "a Serbian Zlakusa pottery jar made from clay mixed with ground calcite, showing a unglazed surface, rounded cooking-vessel form, and sparse incised bands",
+    "组合Prompt SS": "Neutral studio background: a Mexican Mata Ortiz pottery jar on the left, a Serbian Zlakusa pottery jar on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Mexican Mata Ortiz pottery jar on the left, a Serbian Zlakusa pottery jar made from clay mixed with ground calcite, showing a unglazed surface, rounded cooking-vessel form, and sparse incised bands on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Mexican Mata Ortiz pottery jar with a thin-walled polished clay body and black-and-red painting, showing interlocking geometric and Mimbres-inspired animal motifs on the left, a Serbian Zlakusa pottery jar made from clay mixed with ground calcite, showing a unglazed surface, rounded cooking-vessel form, and sparse incised bands on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Moroccan Safi pottery vase",
+    "文化物体B": "a Tunisian Nabeul pottery vase",
+    "文化物体A的长文本描述": "a Moroccan Safi pottery vase with a glazed earthenware body painted in blue, green, yellow, and brown, showing arabesques and floral medallions",
+    "文化物体B的长文本描述": "a Tunisian Nabeul pottery vase with a white glazed body painted in cobalt blue, turquoise, yellow, and green, showing fish, flowers, and Mediterranean geometric borders",
+    "组合Prompt SS": "Neutral studio background: a Moroccan Safi pottery vase on the left, a Tunisian Nabeul pottery vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Moroccan Safi pottery vase on the left, a Tunisian Nabeul pottery vase with a white glazed body painted in cobalt blue, turquoise, yellow, and green, showing fish, flowers, and Mediterranean geometric borders on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Moroccan Safi pottery vase with a glazed earthenware body painted in blue, green, yellow, and brown, showing arabesques and floral medallions on the left, a Tunisian Nabeul pottery vase with a white glazed body painted in cobalt blue, turquoise, yellow, and green, showing fish, flowers, and Mediterranean geometric borders on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an English Wedgwood jasperware vase",
+    "文化物体B": "a Portuguese Caldas da Rainha ceramic vase",
+    "文化物体A的长文本描述": "an English Wedgwood jasperware vase with a matte blue stoneware body and white relief decoration, showing classical figures, laurel swags, and geometric borders",
+    "文化物体B的长文本描述": "a Portuguese Caldas da Rainha ceramic vase with brightly glazed sculptural earthenware, showing naturalistic leaves, fruit, insects, and textured relief surfaces",
+    "组合Prompt SS": "Neutral studio background: an English Wedgwood jasperware vase on the left, a Portuguese Caldas da Rainha ceramic vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an English Wedgwood jasperware vase on the left, a Portuguese Caldas da Rainha ceramic vase with brightly glazed sculptural earthenware, showing naturalistic leaves, fruit, insects, and textured relief surfaces on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an English Wedgwood jasperware vase with a matte blue stoneware body and white relief decoration, showing classical figures, laurel swags, and geometric borders on the left, a Portuguese Caldas da Rainha ceramic vase with brightly glazed sculptural earthenware, showing naturalistic leaves, fruit, insects, and textured relief surfaces on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese Jun ware ceramic bowl",
+    "文化物体B": "a Japanese Hagi ware tea bowl",
+    "文化物体A的长文本描述": "a Chinese Jun ware ceramic bowl with a thick opalescent blue glaze and irregular purple splashes, showing a simple rounded form and pooled color",
+    "文化物体B的长文本描述": "a Japanese Hagi ware tea bowl with a porous stoneware body and milky white crackled glaze, showing a irregular foot and ash-toned surface",
+    "组合Prompt SS": "Neutral studio background: a Chinese Jun ware ceramic bowl on the left, a Japanese Hagi ware tea bowl on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese Jun ware ceramic bowl on the left, a Japanese Hagi ware tea bowl with a porous stoneware body and milky white crackled glaze, showing a irregular foot and ash-toned surface on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese Jun ware ceramic bowl with a thick opalescent blue glaze and irregular purple splashes, showing a simple rounded form and pooled color on the left, a Japanese Hagi ware tea bowl with a porous stoneware body and milky white crackled glaze, showing a irregular foot and ash-toned surface on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese Bizen stoneware vase",
+    "文化物体B": "a French Puisaye stoneware vase",
+    "文化物体A的长文本描述": "a Japanese Bizen stoneware vase with an unglazed reddish-brown body marked by natural ash deposits and flame flashes, showing an austere asymmetrical form",
+    "文化物体B的长文本描述": "a French Puisaye stoneware vase with a dark salt-glazed stoneware body and earthy brown-to-gray surface, showing incised bands and robust hand-thrown proportions",
+    "组合Prompt SS": "Neutral studio background: a Japanese Bizen stoneware vase on the left, a French Puisaye stoneware vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese Bizen stoneware vase on the left, a French Puisaye stoneware vase with a dark salt-glazed stoneware body and earthy brown-to-gray surface, showing incised bands and robust hand-thrown proportions on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese Bizen stoneware vase with an unglazed reddish-brown body marked by natural ash deposits and flame flashes, showing an austere asymmetrical form on the left, a French Puisaye stoneware vase with a dark salt-glazed stoneware body and earthy brown-to-gray surface, showing incised bands and robust hand-thrown proportions on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese Longquan celadon vase",
+    "文化物体B": "a Thai Si Satchanalai celadon vase",
+    "文化物体A的长文本描述": "a Chinese Longquan celadon vase with a thick translucent sea-green glaze over a balanced stoneware form, showing carved lotus petals and defined ridges",
+    "文化物体B的长文本描述": "a Thai Si Satchanalai celadon vase with an olive-green crackled glaze over gray stoneware, showing incised lotus petals, ring bands, and a high-shouldered profile",
+    "组合Prompt SS": "Neutral studio background: a Chinese Longquan celadon vase on the left, a Thai Si Satchanalai celadon vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese Longquan celadon vase on the left, a Thai Si Satchanalai celadon vase with an olive-green crackled glaze over gray stoneware, showing incised lotus petals, ring bands, and a high-shouldered profile on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese Longquan celadon vase with a thick translucent sea-green glaze over a balanced stoneware form, showing carved lotus petals and defined ridges on the left, a Thai Si Satchanalai celadon vase with an olive-green crackled glaze over gray stoneware, showing incised lotus petals, ring bands, and a high-shouldered profile on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese maki-e lacquerware box",
+    "文化物体B": "a Thai lai rod nam lacquerware box",
+    "文化物体A的长文本描述": "a Japanese maki-e lacquerware box with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs",
+    "文化物体B的长文本描述": "a Thai lai rod nam lacquerware box with black lacquer covered by gold-leaf resist decoration, showing flame, deity, and scrolling vegetal patterns",
+    "组合Prompt SS": "Neutral studio background: a Japanese maki-e lacquerware box on the left, a Thai lai rod nam lacquerware box on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese maki-e lacquerware box on the left, a Thai lai rod nam lacquerware box with black lacquer covered by gold-leaf resist decoration, showing flame, deity, and scrolling vegetal patterns on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese maki-e lacquerware box with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs on the left, a Thai lai rod nam lacquerware box with black lacquer covered by gold-leaf resist decoration, showing flame, deity, and scrolling vegetal patterns on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese maki-e lacquerware tray",
+    "文化物体B": "a Burmese shwe zawa lacquerware tray",
+    "文化物体A的长文本描述": "a Japanese maki-e lacquerware tray with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs",
+    "文化物体B的长文本描述": "a Burmese shwe zawa lacquerware tray with a black lacquer ground and engraved gold-leaf decoration, showing courtly figures, mythical animals, and filled borders",
+    "组合Prompt SS": "Neutral studio background: a Japanese maki-e lacquerware tray on the left, a Burmese shwe zawa lacquerware tray on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese maki-e lacquerware tray on the left, a Burmese shwe zawa lacquerware tray with a black lacquer ground and engraved gold-leaf decoration, showing courtly figures, mythical animals, and filled borders on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese maki-e lacquerware tray with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs on the left, a Burmese shwe zawa lacquerware tray with a black lacquer ground and engraved gold-leaf decoration, showing courtly figures, mythical animals, and filled borders on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese carved cinnabar-lacquer box",
+    "文化物体B": "a Bhutanese lacquered wooden box",
+    "文化物体A的长文本描述": "a Chinese carved cinnabar-lacquer box with thick vermilion lacquer carved in deep relief, showing peonies, dragons, and layered landscape scenes over geometric grounds",
+    "文化物体B的长文本描述": "a Bhutanese lacquered wooden box with a red or black lacquer surface, showing hand-painted lotus petals, cloud bands, and Buddhist auspicious motifs",
+    "组合Prompt SS": "Neutral studio background: a Chinese carved cinnabar-lacquer box on the left, a Bhutanese lacquered wooden box on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese carved cinnabar-lacquer box on the left, a Bhutanese lacquered wooden box with a red or black lacquer surface, showing hand-painted lotus petals, cloud bands, and Buddhist auspicious motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese carved cinnabar-lacquer box with thick vermilion lacquer carved in deep relief, showing peonies, dragons, and layered landscape scenes over geometric grounds on the left, a Bhutanese lacquered wooden box with a red or black lacquer surface, showing hand-painted lotus petals, cloud bands, and Buddhist auspicious motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese raden lacquerware lidded box",
+    "文化物体B": "a Mexican Olinalá lacquerware lidded box",
+    "文化物体A的长文本描述": "a Japanese raden lacquerware lidded box with deep black lacquer and iridescent mother-of-pearl shell inlay forming bird, flower, and geometric motifs",
+    "文化物体B的长文本描述": "a Mexican Olinalá lacquerware lidded box made from linaloe wood, with red, ochre, green, blue, and white floral and animal decoration and incised rayado patterns",
+    "组合Prompt SS": "Neutral studio background: a Japanese raden lacquerware lidded box on the left, a Mexican Olinalá lacquerware lidded box on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese raden lacquerware lidded box on the left, a Mexican Olinalá lacquerware lidded box made from linaloe wood, with red, ochre, green, blue, and white floral and animal decoration and incised rayado patterns on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese raden lacquerware lidded box with deep black lacquer and iridescent mother-of-pearl shell inlay forming bird, flower, and geometric motifs on the left, a Mexican Olinalá lacquerware lidded box made from linaloe wood, with red, ochre, green, blue, and white floral and animal decoration and incised rayado patterns on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese raden lacquerware tray",
+    "文化物体B": "a Korean najeonchilgi lacquerware tray",
+    "文化物体A的长文本描述": "a Japanese raden lacquerware tray with deep black lacquer and iridescent mother-of-pearl shell inlay forming bird, flower, and geometric motifs",
+    "文化物体B的长文本描述": "a Korean najeonchilgi lacquerware tray with black lacquer and mother-of-pearl inlay, showing chrysanthemum scrolls, cranes, and repeated geometric borders",
+    "组合Prompt SS": "Neutral studio background: a Japanese raden lacquerware tray on the left, a Korean najeonchilgi lacquerware tray on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese raden lacquerware tray on the left, a Korean najeonchilgi lacquerware tray with black lacquer and mother-of-pearl inlay, showing chrysanthemum scrolls, cranes, and repeated geometric borders on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese raden lacquerware tray with deep black lacquer and iridescent mother-of-pearl shell inlay forming bird, flower, and geometric motifs on the left, a Korean najeonchilgi lacquerware tray with black lacquer and mother-of-pearl inlay, showing chrysanthemum scrolls, cranes, and repeated geometric borders on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese maki-e lacquerware vase",
+    "文化物体B": "a Vietnamese sơn mài lacquerware vase",
+    "文化物体A的长文本描述": "a Japanese maki-e lacquerware vase with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs",
+    "文化物体B的长文本描述": "a Vietnamese sơn mài lacquerware vase with layered black, red, and gold lacquer polished to depth, showing stylized bamboo, village, and eggshell-inlay motifs",
+    "组合Prompt SS": "Neutral studio background: a Japanese maki-e lacquerware vase on the left, a Vietnamese sơn mài lacquerware vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese maki-e lacquerware vase on the left, a Vietnamese sơn mài lacquerware vase with layered black, red, and gold lacquer polished to depth, showing stylized bamboo, village, and eggshell-inlay motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese maki-e lacquerware vase with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs on the left, a Vietnamese sơn mài lacquerware vase with layered black, red, and gold lacquer polished to depth, showing stylized bamboo, village, and eggshell-inlay motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese black-lacquer wooden bowl",
+    "文化物体B": "a Burmese yun lacquerware bowl",
+    "文化物体A的长文本描述": "a Chinese black-lacquer wooden bowl with a deep-black lacquer surface and red or gold linear decoration, showing a thin balanced profile",
+    "文化物体B的长文本描述": "a Burmese yun lacquerware bowl with black lacquer incised and filled with red, green, and yellow pigments, showing zodiac figures and geometric bands",
+    "组合Prompt SS": "Neutral studio background: a Chinese black-lacquer wooden bowl on the left, a Burmese yun lacquerware bowl on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese black-lacquer wooden bowl on the left, a Burmese yun lacquerware bowl with black lacquer incised and filled with red, green, and yellow pigments, showing zodiac figures and geometric bands on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese black-lacquer wooden bowl with a deep-black lacquer surface and red or gold linear decoration, showing a thin balanced profile on the left, a Burmese yun lacquerware bowl with black lacquer incised and filled with red, green, and yellow pigments, showing zodiac figures and geometric bands on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Russian Khokhloma painted wooden bowl",
+    "文化物体B": "a Ryukyuan lacquerware bowl",
+    "文化物体A的长文本描述": "a Russian Khokhloma painted wooden bowl with a black and gold ground painted in red, showing curling berries, leaves, and sweeping floral stems",
+    "文化物体B的长文本描述": "a Ryukyuan lacquerware bowl with a vermilion lacquer surface and delicate gold decoration, showing hibiscus, birds, and island landscape motifs",
+    "组合Prompt SS": "Neutral studio background: a Russian Khokhloma painted wooden bowl on the left, a Ryukyuan lacquerware bowl on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Russian Khokhloma painted wooden bowl on the left, a Ryukyuan lacquerware bowl with a vermilion lacquer surface and delicate gold decoration, showing hibiscus, birds, and island landscape motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Russian Khokhloma painted wooden bowl with a black and gold ground painted in red, showing curling berries, leaves, and sweeping floral stems on the left, a Ryukyuan lacquerware bowl with a vermilion lacquer surface and delicate gold decoration, showing hibiscus, birds, and island landscape motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese Tsugaru-nuri lacquerware box",
+    "文化物体B": "a Kashmiri papier-mâché lacquer box",
+    "文化物体A的长文本描述": "a Japanese Tsugaru-nuri lacquerware box with many polished lacquer layers forming mottled red, black, yellow, and green patterns across a geometric form",
+    "文化物体B的长文本描述": "a Kashmiri papier-mâché lacquer box with a lacquered paper-pulp body painted in gold and jewel colors, showing chinar leaves, flowers, and arabesques",
+    "组合Prompt SS": "Neutral studio background: a Japanese Tsugaru-nuri lacquerware box on the left, a Kashmiri papier-mâché lacquer box on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese Tsugaru-nuri lacquerware box on the left, a Kashmiri papier-mâché lacquer box with a lacquered paper-pulp body painted in gold and jewel colors, showing chinar leaves, flowers, and arabesques on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese Tsugaru-nuri lacquerware box with many polished lacquer layers forming mottled red, black, yellow, and green patterns across a geometric form on the left, a Kashmiri papier-mâché lacquer box with a lacquered paper-pulp body painted in gold and jewel colors, showing chinar leaves, flowers, and arabesques on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese lacquered folding screen",
+    "文化物体B": "a Vietnamese sơn mài lacquer screen",
+    "文化物体A的长文本描述": "a Chinese lacquered folding screen with deep black lacquer, gilded outlines, and carved or painted garden scenes showing pavilions, birds, and flowering trees",
+    "文化物体B的长文本描述": "a Vietnamese sơn mài lacquer screen with layered black, red, and gold lacquer polished to depth, showing stylized village scenes, bamboo, and eggshell inlay",
+    "组合Prompt SS": "Neutral studio background: a Chinese lacquered folding screen on the left, a Vietnamese sơn mài lacquer screen on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese lacquered folding screen on the left, a Vietnamese sơn mài lacquer screen with layered black, red, and gold lacquer polished to depth, showing stylized village scenes, bamboo, and eggshell inlay on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese lacquered folding screen with deep black lacquer, gilded outlines, and carved or painted garden scenes showing pavilions, birds, and flowering trees on the left, a Vietnamese sơn mài lacquer screen with layered black, red, and gold lacquer polished to depth, showing stylized village scenes, bamboo, and eggshell inlay on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese cloisonné vase",
+    "文化物体B": "a Georgian Minankari enamel vase",
+    "文化物体A的长文本描述": "a Chinese cloisonné vase with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs",
+    "文化物体B的长文本描述": "a Georgian Minankari enamel vase with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork",
+    "组合Prompt SS": "Neutral studio background: a Chinese cloisonné vase on the left, a Georgian Minankari enamel vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese cloisonné vase on the left, a Georgian Minankari enamel vase with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese cloisonné vase with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs on the left, a Georgian Minankari enamel vase with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese cloisonné box",
+    "文化物体B": "a Korean chilbo enamel box",
+    "文化物体A的长文本描述": "a Chinese cloisonné box with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs",
+    "文化物体B的长文本描述": "a Korean chilbo enamel box with colored enamel over a metal base, showing simplified plum blossoms, cranes, and geometric motifs in compact panels",
+    "组合Prompt SS": "Neutral studio background: a Chinese cloisonné box on the left, a Korean chilbo enamel box on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese cloisonné box on the left, a Korean chilbo enamel box with colored enamel over a metal base, showing simplified plum blossoms, cranes, and geometric motifs in compact panels on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese cloisonné box with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs on the left, a Korean chilbo enamel box with colored enamel over a metal base, showing simplified plum blossoms, cranes, and geometric motifs in compact panels on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Russian Fabergé-style guilloché enamel box",
+    "文化物体B": "an Indian Jaipur meenakari enamel box",
+    "文化物体A的长文本描述": "a Russian Fabergé-style guilloché enamel box with translucent enamel over machine-engraved radiating patterns, showing pastel color fields, gold mounts, and jeweled accents",
+    "文化物体B的长文本描述": "an Indian Jaipur meenakari enamel box with opaque red, green, blue, and white enamel on gilded metal, showing peacocks, flowers, and scrolling foliage",
+    "组合Prompt SS": "Neutral studio background: a Russian Fabergé-style guilloché enamel box on the left, an Indian Jaipur meenakari enamel box on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Russian Fabergé-style guilloché enamel box on the left, an Indian Jaipur meenakari enamel box with opaque red, green, blue, and white enamel on gilded metal, showing peacocks, flowers, and scrolling foliage on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Russian Fabergé-style guilloché enamel box with translucent enamel over machine-engraved radiating patterns, showing pastel color fields, gold mounts, and jeweled accents on the left, an Indian Jaipur meenakari enamel box with opaque red, green, blue, and white enamel on gilded metal, showing peacocks, flowers, and scrolling foliage on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese shippō cloisonné enamel box",
+    "文化物体B": "a Russian Rostov finift painted-enamel box",
+    "文化物体A的长文本描述": "a Japanese shippō cloisonné enamel box with colored enamel cells divided by silver wires, showing chrysanthemums, butterflies, and graded pictorial grounds",
+    "文化物体B的长文本描述": "a Russian Rostov finift painted-enamel box with miniature enamel painting on a white metal-mounted plaque, showing delicate flowers, saints, or pastoral scenes in pastel colors",
+    "组合Prompt SS": "Neutral studio background: a Japanese shippō cloisonné enamel box on the left, a Russian Rostov finift painted-enamel box on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese shippō cloisonné enamel box on the left, a Russian Rostov finift painted-enamel box with miniature enamel painting on a white metal-mounted plaque, showing delicate flowers, saints, or pastoral scenes in pastel colors on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese shippō cloisonné enamel box with colored enamel cells divided by silver wires, showing chrysanthemums, butterflies, and graded pictorial grounds on the left, a Russian Rostov finift painted-enamel box with miniature enamel painting on a white metal-mounted plaque, showing delicate flowers, saints, or pastoral scenes in pastel colors on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Spanish Toledo damascened box",
+    "文化物体B": "a Japanese nunome-zōgan metal-inlay box",
+    "文化物体A的长文本描述": "a Spanish Toledo damascened box made of blackened steel inlaid with gold and silver, showing Moorish arabesques and geometric filigree patterns",
+    "文化物体B的长文本描述": "a Japanese nunome-zōgan metal-inlay box made of dark iron overlaid with gold and silver textile-like inlay, showing waves, flowers, and geometric bands",
+    "组合Prompt SS": "Neutral studio background: a Spanish Toledo damascened box on the left, a Japanese nunome-zōgan metal-inlay box on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Spanish Toledo damascened box on the left, a Japanese nunome-zōgan metal-inlay box made of dark iron overlaid with gold and silver textile-like inlay, showing waves, flowers, and geometric bands on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Spanish Toledo damascened box made of blackened steel inlaid with gold and silver, showing Moorish arabesques and geometric filigree patterns on the left, a Japanese nunome-zōgan metal-inlay box made of dark iron overlaid with gold and silver textile-like inlay, showing waves, flowers, and geometric bands on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Spanish Toledo damascened vase",
+    "文化物体B": "a Korean ipsa metal-inlay vase",
+    "文化物体A的长文本描述": "a Spanish Toledo damascened vase made of blackened steel inlaid with gold and silver, showing Moorish arabesques and geometric filigree patterns",
+    "文化物体B的长文本描述": "a Korean ipsa metal-inlay vase made of dark patinated metal inlaid with silver wire, showing cranes, clouds, and sparse linear landscape motifs",
+    "组合Prompt SS": "Neutral studio background: a Spanish Toledo damascened vase on the left, a Korean ipsa metal-inlay vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Spanish Toledo damascened vase on the left, a Korean ipsa metal-inlay vase made of dark patinated metal inlaid with silver wire, showing cranes, clouds, and sparse linear landscape motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Spanish Toledo damascened vase made of blackened steel inlaid with gold and silver, showing Moorish arabesques and geometric filigree patterns on the left, a Korean ipsa metal-inlay vase made of dark patinated metal inlaid with silver wire, showing cranes, clouds, and sparse linear landscape motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Indian Bidriware vase",
+    "文化物体B": "a Syrian Damascene inlaid-brass vase",
+    "文化物体A的长文本描述": "an Indian Bidriware vase made of blackened zinc alloy inlaid with silver, showing poppy flowers, geometric lattices, and arabesques",
+    "文化物体B的长文本描述": "a Syrian Damascene inlaid-brass vase made of darkened brass inlaid with silver and copper, showing calligraphic bands, interlaced stars, and scrolling arabesques",
+    "组合Prompt SS": "Neutral studio background: an Indian Bidriware vase on the left, a Syrian Damascene inlaid-brass vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Indian Bidriware vase on the left, a Syrian Damascene inlaid-brass vase made of darkened brass inlaid with silver and copper, showing calligraphic bands, interlaced stars, and scrolling arabesques on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Indian Bidriware vase made of blackened zinc alloy inlaid with silver, showing poppy flowers, geometric lattices, and arabesques on the left, a Syrian Damascene inlaid-brass vase made of darkened brass inlaid with silver and copper, showing calligraphic bands, interlaced stars, and scrolling arabesques on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Indian Bidriware box",
+    "文化物体B": "an Egyptian Mamluk-style inlaid-brass box",
+    "文化物体A的长文本描述": "an Indian Bidriware box made of blackened zinc alloy inlaid with silver, showing poppy flowers, geometric lattices, and arabesques",
+    "文化物体B的长文本描述": "an Egyptian Mamluk-style inlaid-brass box made of brass inlaid with silver and copper, showing monumental calligraphy, interlaced medallions, and geometric borders",
+    "组合Prompt SS": "Neutral studio background: an Indian Bidriware box on the left, an Egyptian Mamluk-style inlaid-brass box on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Indian Bidriware box on the left, an Egyptian Mamluk-style inlaid-brass box made of brass inlaid with silver and copper, showing monumental calligraphy, interlaced medallions, and geometric borders on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Indian Bidriware box made of blackened zinc alloy inlaid with silver, showing poppy flowers, geometric lattices, and arabesques on the left, an Egyptian Mamluk-style inlaid-brass box made of brass inlaid with silver and copper, showing monumental calligraphy, interlaced medallions, and geometric borders on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese cloisonné enamel plate",
+    "文化物体B": "a French Limoges painted-enamel plate",
+    "文化物体A的长文本描述": "a Chinese cloisonné enamel plate with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs",
+    "文化物体B的长文本描述": "a French Limoges painted-enamel plate with opaque and translucent enamel painted over copper, showing Renaissance figures, grisaille shading, and jewel-toned borders",
+    "组合Prompt SS": "Neutral studio background: a Chinese cloisonné enamel plate on the left, a French Limoges painted-enamel plate on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese cloisonné enamel plate on the left, a French Limoges painted-enamel plate with opaque and translucent enamel painted over copper, showing Renaissance figures, grisaille shading, and jewel-toned borders on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese cloisonné enamel plate with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs on the left, a French Limoges painted-enamel plate with opaque and translucent enamel painted over copper, showing Renaissance figures, grisaille shading, and jewel-toned borders on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Persian minakari enamel plate",
+    "文化物体B": "a Georgian Minankari enamel plate",
+    "文化物体A的长文本描述": "a Persian minakari enamel plate with blue, turquoise, red, and white enamel over copper, showing floral arabesques and central medallions",
+    "文化物体B的长文本描述": "a Georgian Minankari enamel plate with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork",
+    "组合Prompt SS": "Neutral studio background: a Persian minakari enamel plate on the left, a Georgian Minankari enamel plate on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Persian minakari enamel plate on the left, a Georgian Minankari enamel plate with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Persian minakari enamel plate with blue, turquoise, red, and white enamel over copper, showing floral arabesques and central medallions on the left, a Georgian Minankari enamel plate with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Moroccan engraved-brass tray",
+    "文化物体B": "a Persian qalamzani copper tray",
+    "文化物体A的长文本描述": "a Moroccan engraved-brass tray with a polished brass surface densely chased with radiating stars, arabesques, and scalloped geometric borders",
+    "文化物体B的长文本描述": "a Persian qalamzani copper tray with a darkened chased copper surface, showing hunting scenes, birds, flowers, and concentric arabesque bands",
+    "组合Prompt SS": "Neutral studio background: a Moroccan engraved-brass tray on the left, a Persian qalamzani copper tray on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Moroccan engraved-brass tray on the left, a Persian qalamzani copper tray with a darkened chased copper surface, showing hunting scenes, birds, flowers, and concentric arabesque bands on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Moroccan engraved-brass tray with a polished brass surface densely chased with radiating stars, arabesques, and scalloped geometric borders on the left, a Persian qalamzani copper tray with a darkened chased copper surface, showing hunting scenes, birds, flowers, and concentric arabesque bands on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Ottoman tinned-copper ewer",
+    "文化物体B": "a Bosnian engraved-copper coffee ewer",
+    "文化物体A的长文本描述": "an Ottoman tinned-copper ewer with a reflective silver-toned tinned surface, tall curved spout, and chased tulip, cypress, and arabesque decoration",
+    "文化物体B的长文本描述": "a Bosnian engraved-copper coffee ewer with a copper body, long curved spout, and hand-hammered rosette, star, and interlaced geometric motifs",
+    "组合Prompt SS": "Neutral studio background: an Ottoman tinned-copper ewer on the left, a Bosnian engraved-copper coffee ewer on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Ottoman tinned-copper ewer on the left, a Bosnian engraved-copper coffee ewer with a copper body, long curved spout, and hand-hammered rosette, star, and interlaced geometric motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Ottoman tinned-copper ewer with a reflective silver-toned tinned surface, tall curved spout, and chased tulip, cypress, and arabesque decoration on the left, a Bosnian engraved-copper coffee ewer with a copper body, long curved spout, and hand-hammered rosette, star, and interlaced geometric motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Persian silver-filigree box",
+    "文化物体B": "a Yemeni silver-filigree box",
+    "文化物体A的长文本描述": "a Persian silver-filigree box with delicate silver wire scrollwork forming an airy surface, showing repeated palmettes, rosettes, and geometric borders",
+    "文化物体B的长文本描述": "a Yemeni silver-filigree box with twisted silver wire, granulation, and applied bosses, showing compact geometric and amuletic patterns",
+    "组合Prompt SS": "Neutral studio background: a Persian silver-filigree box on the left, a Yemeni silver-filigree box on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Persian silver-filigree box on the left, a Yemeni silver-filigree box with twisted silver wire, granulation, and applied bosses, showing compact geometric and amuletic patterns on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Persian silver-filigree box with delicate silver wire scrollwork forming an airy surface, showing repeated palmettes, rosettes, and geometric borders on the left, a Yemeni silver-filigree box with twisted silver wire, granulation, and applied bosses, showing compact geometric and amuletic patterns on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Mexican Taxco silver bowl",
+    "文化物体B": "an Indonesian Kotagede silver bowl",
+    "文化物体A的长文本描述": "a Mexican Taxco silver bowl with a polished hand-hammered silver surface and modern curves, showing geometric or pre-Columbian-inspired accents",
+    "文化物体B的长文本描述": "an Indonesian Kotagede silver bowl with a oxidized silver surface worked in repoussé and filigree, showing lotus scrolls, vines, and stippled grounds",
+    "组合Prompt SS": "Neutral studio background: a Mexican Taxco silver bowl on the left, an Indonesian Kotagede silver bowl on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Mexican Taxco silver bowl on the left, an Indonesian Kotagede silver bowl with a oxidized silver surface worked in repoussé and filigree, showing lotus scrolls, vines, and stippled grounds on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Mexican Taxco silver bowl with a polished hand-hammered silver surface and modern curves, showing geometric or pre-Columbian-inspired accents on the left, an Indonesian Kotagede silver bowl with a oxidized silver surface worked in repoussé and filigree, showing lotus scrolls, vines, and stippled grounds on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Indian Dhokra bronze figurine",
+    "文化物体B": "a Ghanaian Asante brass goldweight figurine",
+    "文化物体A的长文本描述": "an Indian Dhokra bronze figurine made by lost-wax casting with an earthy bronze surface, showing elongated limbs, coiled-wire textures, and stylized tribal ornament",
+    "文化物体B的长文本描述": "a Ghanaian Asante brass goldweight figurine made by lost-wax casting in compact geometric form, showing a proverb-inspired human, animal, or tool motif with textured details",
+    "组合Prompt SS": "Neutral studio background: an Indian Dhokra bronze figurine on the left, a Ghanaian Asante brass goldweight figurine on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Indian Dhokra bronze figurine on the left, a Ghanaian Asante brass goldweight figurine made by lost-wax casting in compact geometric form, showing a proverb-inspired human, animal, or tool motif with textured details on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Indian Dhokra bronze figurine made by lost-wax casting with an earthy bronze surface, showing elongated limbs, coiled-wire textures, and stylized tribal ornament on the left, a Ghanaian Asante brass goldweight figurine made by lost-wax casting in compact geometric form, showing a proverb-inspired human, animal, or tool motif with textured details on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Benin bronze relief plaque",
+    "文化物体B": "a Nepalese repoussé copper plaque",
+    "文化物体A的长文本描述": "a Benin bronze relief plaque made of cast brass with high-relief court figures, showing patterned robes, coral regalia, and a hierarchical composition",
+    "文化物体B的长文本描述": "a Nepalese repoussé copper plaque made of hammered copper worked from the reverse, showing a Buddhist deity, lotus throne, and flame-like halo with gilded details",
+    "组合Prompt SS": "Neutral studio background: a Benin bronze relief plaque on the left, a Nepalese repoussé copper plaque on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Benin bronze relief plaque on the left, a Nepalese repoussé copper plaque made of hammered copper worked from the reverse, showing a Buddhist deity, lotus throne, and flame-like halo with gilded details on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Benin bronze relief plaque made of cast brass with high-relief court figures, showing patterned robes, coral regalia, and a hierarchical composition on the left, a Nepalese repoussé copper plaque made of hammered copper worked from the reverse, showing a Buddhist deity, lotus throne, and flame-like halo with gilded details on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese cast-iron tetsubin teapot",
+    "文化物体B": "an Azerbaijani engraved-copper teapot",
+    "文化物体A的长文本描述": "a Japanese cast-iron tetsubin teapot with a dark textured iron body, arched handle, and relief decoration showing hailstone, pine, or geometric motifs",
+    "文化物体B的长文本描述": "an Azerbaijani engraved-copper teapot with a hammered copper body, curved spout, and incised floral medallions, boteh motifs, and geometric borders",
+    "组合Prompt SS": "Neutral studio background: a Japanese cast-iron tetsubin teapot on the left, an Azerbaijani engraved-copper teapot on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese cast-iron tetsubin teapot on the left, an Azerbaijani engraved-copper teapot with a hammered copper body, curved spout, and incised floral medallions, boteh motifs, and geometric borders on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese cast-iron tetsubin teapot with a dark textured iron body, arched handle, and relief decoration showing hailstone, pine, or geometric motifs on the left, an Azerbaijani engraved-copper teapot with a hammered copper body, curved spout, and incised floral medallions, boteh motifs, and geometric borders on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Russian brass samovar",
+    "文化物体B": "an Iranian Qajar brass samovar",
+    "文化物体A的长文本描述": "a Russian brass samovar with a polished urn-shaped body, side handles, and ornate spigot, showing engraved floral bands and architectural details",
+    "文化物体B的长文本描述": "an Iranian Qajar brass samovar with a tall faceted brass body, curved handles, and engraved panels showing birds, flowers, and courtly motifs",
+    "组合Prompt SS": "Neutral studio background: a Russian brass samovar on the left, an Iranian Qajar brass samovar on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Russian brass samovar on the left, an Iranian Qajar brass samovar with a tall faceted brass body, curved handles, and engraved panels showing birds, flowers, and courtly motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Russian brass samovar with a polished urn-shaped body, side handles, and ornate spigot, showing engraved floral bands and architectural details on the left, an Iranian Qajar brass samovar with a tall faceted brass body, curved handles, and engraved panels showing birds, flowers, and courtly motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Tibetan silver ritual box",
+    "文化物体B": "a Balkan silver-filigree reliquary box",
+    "文化物体A的长文本描述": "a Tibetan silver ritual box with repoussé silver, turquoise settings, and gilded details, showing lotus petals, cloud scrolls, and Buddhist auspicious symbols",
+    "文化物体B的长文本描述": "a Balkan silver-filigree reliquary box with twisted silver wire and granulated bosses, showing crosses, rosettes, and compact geometric latticework",
+    "组合Prompt SS": "Neutral studio background: a Tibetan silver ritual box on the left, a Balkan silver-filigree reliquary box on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Tibetan silver ritual box on the left, a Balkan silver-filigree reliquary box with twisted silver wire and granulated bosses, showing crosses, rosettes, and compact geometric latticework on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Tibetan silver ritual box with repoussé silver, turquoise settings, and gilded details, showing lotus petals, cloud scrolls, and Buddhist auspicious symbols on the left, a Balkan silver-filigree reliquary box with twisted silver wire and granulated bosses, showing crosses, rosettes, and compact geometric latticework on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese bronze ritual bowl",
+    "文化物体B": "a Korean bangjja bronze bowl",
+    "文化物体A的长文本描述": "a Chinese bronze ritual bowl with a dark patinated bronze surface and cast relief, showing taotie-like masks, leiwen spirals, and symmetrical handles",
+    "文化物体B的长文本描述": "a Korean bangjja bronze bowl made of hand-hammered bronze with a golden surface, showing a clean resonant form, hammer marks, and minimal ornament",
+    "组合Prompt SS": "Neutral studio background: a Chinese bronze ritual bowl on the left, a Korean bangjja bronze bowl on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese bronze ritual bowl on the left, a Korean bangjja bronze bowl made of hand-hammered bronze with a golden surface, showing a clean resonant form, hammer marks, and minimal ornament on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese bronze ritual bowl with a dark patinated bronze surface and cast relief, showing taotie-like masks, leiwen spirals, and symmetrical handles on the left, a Korean bangjja bronze bowl made of hand-hammered bronze with a golden surface, showing a clean resonant form, hammer marks, and minimal ornament on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese silk kimono",
+    "文化物体B": "a Lao sinh silk skirt",
+    "文化物体A的长文本描述": "a Japanese silk kimono with a lustrous woven ground and dyed or embroidered decoration, showing cranes, cherry blossoms, water, and seasonal motifs",
+    "文化物体B的长文本描述": "a Lao sinh silk skirt with supplementary-weft silk bands and patterned borders, showing diamonds, serpents, temple forms, and jewel colors",
+    "组合Prompt SS": "Neutral studio background: a Japanese silk kimono on the left, a Lao sinh silk skirt on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese silk kimono on the left, a Lao sinh silk skirt with supplementary-weft silk bands and patterned borders, showing diamonds, serpents, temple forms, and jewel colors on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese silk kimono with a lustrous woven ground and dyed or embroidered decoration, showing cranes, cherry blossoms, water, and seasonal motifs on the left, a Lao sinh silk skirt with supplementary-weft silk bands and patterned borders, showing diamonds, serpents, temple forms, and jewel colors on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese silk kimono",
+    "文化物体B": "a Cambodian hol silk robe",
+    "文化物体A的长文本描述": "a Japanese silk kimono with a lustrous woven ground and dyed or embroidered decoration, showing cranes, cherry blossoms, water, and seasonal motifs",
+    "文化物体B的长文本描述": "a Cambodian hol silk robe made from weft-ikat silk with feathered pattern edges, showing repeating lozenges, flowers, and temple-inspired motifs",
+    "组合Prompt SS": "Neutral studio background: a Japanese silk kimono on the left, a Cambodian hol silk robe on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese silk kimono on the left, a Cambodian hol silk robe made from weft-ikat silk with feathered pattern edges, showing repeating lozenges, flowers, and temple-inspired motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese silk kimono with a lustrous woven ground and dyed or embroidered decoration, showing cranes, cherry blossoms, water, and seasonal motifs on the left, a Cambodian hol silk robe made from weft-ikat silk with feathered pattern edges, showing repeating lozenges, flowers, and temple-inspired motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Indian Banarasi brocade sari",
+    "文化物体B": "a Bhutanese kushuthara silk kira",
+    "文化物体A的长文本描述": "an Indian Banarasi brocade sari woven in rich silk with gold zari, showing floral buta, scrolling vines, and elaborate architectural borders",
+    "文化物体B的长文本描述": "a Bhutanese kushuthara silk kira woven in silk with supplementary-weft patterning, showing geometric flowers, diamonds, and horizontal bands",
+    "组合Prompt SS": "Neutral studio background: an Indian Banarasi brocade sari on the left, a Bhutanese kushuthara silk kira on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Indian Banarasi brocade sari on the left, a Bhutanese kushuthara silk kira woven in silk with supplementary-weft patterning, showing geometric flowers, diamonds, and horizontal bands on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Indian Banarasi brocade sari woven in rich silk with gold zari, showing floral buta, scrolling vines, and elaborate architectural borders on the left, a Bhutanese kushuthara silk kira woven in silk with supplementary-weft patterning, showing geometric flowers, diamonds, and horizontal bands on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Indian Banarasi brocade textile panel",
+    "文化物体B": "a Turkmen keteni silk textile panel",
+    "文化物体A的长文本描述": "an Indian Banarasi brocade textile panel woven in rich silk with gold zari, showing floral buta, scrolling vines, and elaborate architectural borders",
+    "文化物体B的长文本描述": "a Turkmen keteni silk textile panel woven in narrow bands of red, yellow, green, and purple silk, showing stripes and geometric accents",
+    "组合Prompt SS": "Neutral studio background: an Indian Banarasi brocade textile panel on the left, a Turkmen keteni silk textile panel on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Indian Banarasi brocade textile panel on the left, a Turkmen keteni silk textile panel woven in narrow bands of red, yellow, green, and purple silk, showing stripes and geometric accents on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Indian Banarasi brocade textile panel woven in rich silk with gold zari, showing floral buta, scrolling vines, and elaborate architectural borders on the left, a Turkmen keteni silk textile panel woven in narrow bands of red, yellow, green, and purple silk, showing stripes and geometric accents on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese silk-embroidery panel",
+    "文化物体B": "a Vietnamese silk-embroidery panel",
+    "文化物体A的长文本描述": "a Chinese silk-embroidery panel worked in multicolored silk thread, showing peonies, birds, butterflies, and long-and-short stitch shading",
+    "文化物体B的长文本描述": "a Vietnamese silk-embroidery panel worked in colored silk thread with delicate tonal blending, showing village landscapes, lotus ponds, and graceful birds",
+    "组合Prompt SS": "Neutral studio background: a Chinese silk-embroidery panel on the left, a Vietnamese silk-embroidery panel on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese silk-embroidery panel on the left, a Vietnamese silk-embroidery panel worked in colored silk thread with delicate tonal blending, showing village landscapes, lotus ponds, and graceful birds on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese silk-embroidery panel worked in multicolored silk thread, showing peonies, birds, butterflies, and long-and-short stitch shading on the left, a Vietnamese silk-embroidery panel worked in colored silk thread with delicate tonal blending, showing village landscapes, lotus ponds, and graceful birds on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese silk-brocade robe",
+    "文化物体B": "an Assamese muga-silk robe",
+    "文化物体A的长文本描述": "a Chinese silk-brocade robe woven with colored silk and gold thread, showing dragons, clouds, waves, and organized auspicious emblems",
+    "文化物体B的长文本描述": "an Assamese muga-silk robe woven from naturally golden silk with red, green, and black supplementary motifs, showing stylized flowers and geometric borders",
+    "组合Prompt SS": "Neutral studio background: a Chinese silk-brocade robe on the left, an Assamese muga-silk robe on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese silk-brocade robe on the left, an Assamese muga-silk robe woven from naturally golden silk with red, green, and black supplementary motifs, showing stylized flowers and geometric borders on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese silk-brocade robe woven with colored silk and gold thread, showing dragons, clouds, waves, and organized auspicious emblems on the left, an Assamese muga-silk robe woven from naturally golden silk with red, green, and black supplementary motifs, showing stylized flowers and geometric borders on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese brocade obi sash",
+    "文化物体B": "a Korean gold-thread brocade sash",
+    "文化物体A的长文本描述": "a Japanese brocade obi sash woven in silk and metallic thread, showing large chrysanthemums, cranes, fans, and rhythmic geometric grounds",
+    "文化物体B的长文本描述": "a Korean gold-thread brocade sash woven in colored silk with metallic thread, showing compact clouds, peonies, phoenixes, and repeating geometric borders",
+    "组合Prompt SS": "Neutral studio background: a Japanese brocade obi sash on the left, a Korean gold-thread brocade sash on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese brocade obi sash on the left, a Korean gold-thread brocade sash woven in colored silk with metallic thread, showing compact clouds, peonies, phoenixes, and repeating geometric borders on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese brocade obi sash woven in silk and metallic thread, showing large chrysanthemums, cranes, fans, and rhythmic geometric grounds on the left, a Korean gold-thread brocade sash woven in colored silk with metallic thread, showing compact clouds, peonies, phoenixes, and repeating geometric borders on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Indonesian ikat textile panel",
+    "文化物体B": "an Iban pua kumbu textile panel",
+    "文化物体A的长文本描述": "an Indonesian ikat textile panel woven from resist-dyed threads with feathered edges, showing diamonds, ancestor figures, and rhythmic color bands",
+    "文化物体B的长文本描述": "an Iban pua kumbu textile panel woven in warp ikat with deep red, black, and cream yarns, showing powerful hooked figures, spirit motifs, and mirrored geometric bands",
+    "组合Prompt SS": "Neutral studio background: an Indonesian ikat textile panel on the left, an Iban pua kumbu textile panel on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Indonesian ikat textile panel on the left, an Iban pua kumbu textile panel woven in warp ikat with deep red, black, and cream yarns, showing powerful hooked figures, spirit motifs, and mirrored geometric bands on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Indonesian ikat textile panel woven from resist-dyed threads with feathered edges, showing diamonds, ancestor figures, and rhythmic color bands on the left, an Iban pua kumbu textile panel woven in warp ikat with deep red, black, and cream yarns, showing powerful hooked figures, spirit motifs, and mirrored geometric bands on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Indonesian ikat textile panel",
+    "文化物体B": "a Sumbanese hinggi textile panel",
+    "文化物体A的长文本描述": "an Indonesian ikat textile panel woven from resist-dyed threads with feathered edges, showing diamonds, ancestor figures, and rhythmic color bands",
+    "文化物体B的长文本描述": "a Sumbanese hinggi textile panel woven in warp ikat with indigo, rust red, and cream, showing horses, roosters, skull trees, and large heraldic figures",
+    "组合Prompt SS": "Neutral studio background: an Indonesian ikat textile panel on the left, a Sumbanese hinggi textile panel on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Indonesian ikat textile panel on the left, a Sumbanese hinggi textile panel woven in warp ikat with indigo, rust red, and cream, showing horses, roosters, skull trees, and large heraldic figures on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Indonesian ikat textile panel woven from resist-dyed threads with feathered edges, showing diamonds, ancestor figures, and rhythmic color bands on the left, a Sumbanese hinggi textile panel woven in warp ikat with indigo, rust red, and cream, showing horses, roosters, skull trees, and large heraldic figures on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Indian Patola double-ikat textile panel",
+    "文化物体B": "a Timorese tais textile panel",
+    "文化物体A的长文本描述": "an Indian Patola double-ikat textile panel woven from precisely resist-dyed silk warp and weft, showing dancing figures, elephants, flowers, and geometric grids",
+    "文化物体B的长文本描述": "a Timorese tais textile panel woven in cotton warp ikat with red, black, yellow, and white bands, showing hooks, diamonds, and locally specific ancestral motifs",
+    "组合Prompt SS": "Neutral studio background: an Indian Patola double-ikat textile panel on the left, a Timorese tais textile panel on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Indian Patola double-ikat textile panel on the left, a Timorese tais textile panel woven in cotton warp ikat with red, black, yellow, and white bands, showing hooks, diamonds, and locally specific ancestral motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Indian Patola double-ikat textile panel woven from precisely resist-dyed silk warp and weft, showing dancing figures, elephants, flowers, and geometric grids on the left, a Timorese tais textile panel woven in cotton warp ikat with red, black, yellow, and white bands, showing hooks, diamonds, and locally specific ancestral motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Indonesian batik cloth",
+    "文化物体B": "a Nigerian adire cloth",
+    "文化物体A的长文本描述": "an Indonesian batik cloth with wax-resist dyeing in indigo, brown, and cream, showing parang diagonals, kawung rosettes, and densely repeated floral motifs",
+    "文化物体B的长文本描述": "a Nigerian adire cloth with indigo resist-dyed cotton, showing white circles, grids, comb-like marks, and hand-drawn or stitched geometric patterns",
+    "组合Prompt SS": "Neutral studio background: an Indonesian batik cloth on the left, a Nigerian adire cloth on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Indonesian batik cloth on the left, a Nigerian adire cloth with indigo resist-dyed cotton, showing white circles, grids, comb-like marks, and hand-drawn or stitched geometric patterns on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Indonesian batik cloth with wax-resist dyeing in indigo, brown, and cream, showing parang diagonals, kawung rosettes, and densely repeated floral motifs on the left, a Nigerian adire cloth with indigo resist-dyed cotton, showing white circles, grids, comb-like marks, and hand-drawn or stitched geometric patterns on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Indonesian batik textile panel",
+    "文化物体B": "a Japanese katazome textile panel",
+    "文化物体A的长文本描述": "an Indonesian batik textile panel with wax-resist dyeing in indigo, brown, and cream, showing parang diagonals, kawung rosettes, and densely repeated floral motifs",
+    "文化物体B的长文本描述": "a Japanese katazome textile panel with stencil-resist dyeing on cotton in indigo and white, showing waves, chrysanthemums, birds, and repeating geometric motifs",
+    "组合Prompt SS": "Neutral studio background: an Indonesian batik textile panel on the left, a Japanese katazome textile panel on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Indonesian batik textile panel on the left, a Japanese katazome textile panel with stencil-resist dyeing on cotton in indigo and white, showing waves, chrysanthemums, birds, and repeating geometric motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Indonesian batik textile panel with wax-resist dyeing in indigo, brown, and cream, showing parang diagonals, kawung rosettes, and densely repeated floral motifs on the left, a Japanese katazome textile panel with stencil-resist dyeing on cotton in indigo and white, showing waves, chrysanthemums, birds, and repeating geometric motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Indian Ajrakh block-printed cloth",
+    "文化物体B": "a Chinese Nantong blue-calico cloth",
+    "文化物体A的长文本描述": "an Indian Ajrakh block-printed cloth with layered resist printing in indigo, madder red, black, and white, showing precisely repeated stars and interlocking geometry",
+    "文化物体B的长文本描述": "a Chinese Nantong blue-calico cloth with indigo resist dyeing on cotton, showing white flowers, birds, fish, and auspicious folk motifs against a deep-blue ground",
+    "组合Prompt SS": "Neutral studio background: an Indian Ajrakh block-printed cloth on the left, a Chinese Nantong blue-calico cloth on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Indian Ajrakh block-printed cloth on the left, a Chinese Nantong blue-calico cloth with indigo resist dyeing on cotton, showing white flowers, birds, fish, and auspicious folk motifs against a deep-blue ground on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Indian Ajrakh block-printed cloth with layered resist printing in indigo, madder red, black, and white, showing precisely repeated stars and interlocking geometry on the left, a Chinese Nantong blue-calico cloth with indigo resist dyeing on cotton, showing white flowers, birds, fish, and auspicious folk motifs against a deep-blue ground on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Mexican Otomi embroidery panel",
+    "文化物体B": "a Palestinian tatreez embroidery panel",
+    "文化物体A的长文本描述": "a Mexican Otomi embroidery panel worked in flat satin stitch on pale cotton, showing mirrored birds, deer, flowers, and fantastical animals",
+    "文化物体B的长文本描述": "a Palestinian tatreez embroidery panel worked in red and multicolored cross-stitch, showing cypress trees, stars, feathers, and region-specific geometric motifs",
+    "组合Prompt SS": "Neutral studio background: a Mexican Otomi embroidery panel on the left, a Palestinian tatreez embroidery panel on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Mexican Otomi embroidery panel on the left, a Palestinian tatreez embroidery panel worked in red and multicolored cross-stitch, showing cypress trees, stars, feathers, and region-specific geometric motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Mexican Otomi embroidery panel worked in flat satin stitch on pale cotton, showing mirrored birds, deer, flowers, and fantastical animals on the left, a Palestinian tatreez embroidery panel worked in red and multicolored cross-stitch, showing cypress trees, stars, feathers, and region-specific geometric motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Mexican Otomi embroidered blouse",
+    "文化物体B": "a Guatemalan huipil blouse",
+    "文化物体A的长文本描述": "a Mexican Otomi embroidered blouse worked in flat satin stitch, showing mirrored birds, deer, flowers, and fantastical animals around the neckline and sleeves",
+    "文化物体B的长文本描述": "a Guatemalan huipil blouse woven and embroidered in colors, showing diamonds, birds, maize, and community-specific geometric bands",
+    "组合Prompt SS": "Neutral studio background: a Mexican Otomi embroidered blouse on the left, a Guatemalan huipil blouse on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Mexican Otomi embroidered blouse on the left, a Guatemalan huipil blouse woven and embroidered in colors, showing diamonds, birds, maize, and community-specific geometric bands on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Mexican Otomi embroidered blouse worked in flat satin stitch, showing mirrored birds, deer, flowers, and fantastical animals around the neckline and sleeves on the left, a Guatemalan huipil blouse woven and embroidered in colors, showing diamonds, birds, maize, and community-specific geometric bands on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese sashiko textile panel",
+    "文化物体B": "a Romanian ie-embroidery textile panel",
+    "文化物体A的长文本描述": "a Japanese sashiko textile panel stitched with white running thread on indigo cotton, showing repeating hemp-leaf, wave, and linked-diamond reinforcement patterns",
+    "文化物体B的长文本描述": "a Romanian ie-embroidery textile panel worked in red, black, blue, and metallic thread, showing vertical floral bands, diamonds, and region-specific geometric motifs",
+    "组合Prompt SS": "Neutral studio background: a Japanese sashiko textile panel on the left, a Romanian ie-embroidery textile panel on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese sashiko textile panel on the left, a Romanian ie-embroidery textile panel worked in red, black, blue, and metallic thread, showing vertical floral bands, diamonds, and region-specific geometric motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese sashiko textile panel stitched with white running thread on indigo cotton, showing repeating hemp-leaf, wave, and linked-diamond reinforcement patterns on the left, a Romanian ie-embroidery textile panel worked in red, black, blue, and metallic thread, showing vertical floral bands, diamonds, and region-specific geometric motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Hungarian Matyó embroidery panel",
+    "文化物体B": "a Slovak Detva embroidery panel",
+    "文化物体A的长文本描述": "a Hungarian Matyó embroidery panel worked in red, pink, blue, yellow, and green thread, showing densely packed roses and curling floral sprays",
+    "文化物体B的长文本描述": "a Slovak Detva embroidery panel worked in chain stitch and satin stitch, showing compact geometric flowers, hearts, and rhythmic folk borders",
+    "组合Prompt SS": "Neutral studio background: a Hungarian Matyó embroidery panel on the left, a Slovak Detva embroidery panel on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Hungarian Matyó embroidery panel on the left, a Slovak Detva embroidery panel worked in chain stitch and satin stitch, showing compact geometric flowers, hearts, and rhythmic folk borders on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Hungarian Matyó embroidery panel worked in red, pink, blue, yellow, and green thread, showing densely packed roses and curling floral sprays on the left, a Slovak Detva embroidery panel worked in chain stitch and satin stitch, showing compact geometric flowers, hearts, and rhythmic folk borders on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Indian kantha quilt",
+    "文化物体B": "a Korean bojagi patchwork wrapping cloth",
+    "文化物体A的长文本描述": "an Indian kantha quilt made from layered cotton joined by running stitches, showing rippling lines, lotus flowers, animals, and narrative folk scenes",
+    "文化物体B的长文本描述": "a Korean bojagi patchwork wrapping cloth assembled from translucent or opaque fabric rectangles, showing asymmetrical geometric seams and jewel-toned color blocks",
+    "组合Prompt SS": "Neutral studio background: an Indian kantha quilt on the left, a Korean bojagi patchwork wrapping cloth on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Indian kantha quilt on the left, a Korean bojagi patchwork wrapping cloth assembled from translucent or opaque fabric rectangles, showing asymmetrical geometric seams and jewel-toned color blocks on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Indian kantha quilt made from layered cotton joined by running stitches, showing rippling lines, lotus flowers, animals, and narrative folk scenes on the left, a Korean bojagi patchwork wrapping cloth assembled from translucent or opaque fabric rectangles, showing asymmetrical geometric seams and jewel-toned color blocks on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Panamanian mola textile panel",
+    "文化物体B": "a Ukrainian Hutsul embroidery panel",
+    "文化物体A的长文本描述": "a Panamanian mola textile panel made with layered reverse appliqué in colors, showing animals, plants, and maze-like geometric contours",
+    "文化物体B的长文本描述": "a Ukrainian Hutsul embroidery panel worked in cross-stitch with red, orange, black, and green thread, showing diamonds, hooks, and repeated geometric bands",
+    "组合Prompt SS": "Neutral studio background: a Panamanian mola textile panel on the left, a Ukrainian Hutsul embroidery panel on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Panamanian mola textile panel on the left, a Ukrainian Hutsul embroidery panel worked in cross-stitch with red, orange, black, and green thread, showing diamonds, hooks, and repeated geometric bands on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Panamanian mola textile panel made with layered reverse appliqué in colors, showing animals, plants, and maze-like geometric contours on the left, a Ukrainian Hutsul embroidery panel worked in cross-stitch with red, orange, black, and green thread, showing diamonds, hooks, and repeated geometric bands on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Ghanaian kente cloth",
+    "文化物体B": "a Bhutanese yathra wool textile",
+    "文化物体A的长文本描述": "a Ghanaian kente cloth woven in narrow strips of silk or rayon, showing alternating geometric blocks in gold, green, red, blue, and black",
+    "文化物体B的长文本描述": "a Bhutanese yathra wool textile woven in thick colored wool with supplementary-weft motifs, showing repeating diamonds, flowers, and horizontal geometric bands",
+    "组合Prompt SS": "Neutral studio background: a Ghanaian kente cloth on the left, a Bhutanese yathra wool textile on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Ghanaian kente cloth on the left, a Bhutanese yathra wool textile woven in thick colored wool with supplementary-weft motifs, showing repeating diamonds, flowers, and horizontal geometric bands on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Ghanaian kente cloth woven in narrow strips of silk or rayon, showing alternating geometric blocks in gold, green, red, blue, and black on the left, a Bhutanese yathra wool textile woven in thick colored wool with supplementary-weft motifs, showing repeating diamonds, flowers, and horizontal geometric bands on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Persian floral carpet",
+    "文化物体B": "a Turkmen Tekke carpet",
+    "文化物体A的长文本描述": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+    "文化物体B的长文本描述": "a Turkmen Tekke carpet with a deep red wool pile and repeated octagonal guls, showing compact black, white, and dark-blue tribal geometry",
+    "组合Prompt SS": "Neutral studio background: a Persian floral carpet on the left, a Turkmen Tekke carpet on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Persian floral carpet on the left, a Turkmen Tekke carpet with a deep red wool pile and repeated octagonal guls, showing compact black, white, and dark-blue tribal geometry on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory on the left, a Turkmen Tekke carpet with a deep red wool pile and repeated octagonal guls, showing compact black, white, and dark-blue tribal geometry on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Persian floral carpet",
+    "文化物体B": "an Azerbaijani Kuba carpet",
+    "文化物体A的长文本描述": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+    "文化物体B的长文本描述": "an Azerbaijani Kuba carpet with a knotted wool pile, showing angular medallions, stylized animals, and blue, red, and ivory geometric borders",
+    "组合Prompt SS": "Neutral studio background: a Persian floral carpet on the left, an Azerbaijani Kuba carpet on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Persian floral carpet on the left, an Azerbaijani Kuba carpet with a knotted wool pile, showing angular medallions, stylized animals, and blue, red, and ivory geometric borders on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory on the left, an Azerbaijani Kuba carpet with a knotted wool pile, showing angular medallions, stylized animals, and blue, red, and ivory geometric borders on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Persian floral carpet",
+    "文化物体B": "an Armenian Karabakh carpet",
+    "文化物体A的长文本描述": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+    "文化物体B的长文本描述": "an Armenian Karabakh carpet with a wool pile in red, blue, green, and cream, showing floral medallions and elongated geometric forms",
+    "组合Prompt SS": "Neutral studio background: a Persian floral carpet on the left, an Armenian Karabakh carpet on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Persian floral carpet on the left, an Armenian Karabakh carpet with a wool pile in red, blue, green, and cream, showing floral medallions and elongated geometric forms on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory on the left, an Armenian Karabakh carpet with a wool pile in red, blue, green, and cream, showing floral medallions and elongated geometric forms on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Moroccan Beni Ourain wool rug",
+    "文化物体B": "a Ukrainian Hutsul lizhnyk wool rug",
+    "文化物体A的长文本描述": "a Moroccan Beni Ourain wool rug with a thick cream wool pile and sparse dark-brown lines, showing large asymmetrical diamonds and open geometric spacing",
+    "文化物体B的长文本描述": "a Ukrainian Hutsul lizhnyk wool rug with a shaggy woven wool surface in gray, cream, brown, and muted color, showing stepped diamonds and rhythmic zigzag bands",
+    "组合Prompt SS": "Neutral studio background: a Moroccan Beni Ourain wool rug on the left, a Ukrainian Hutsul lizhnyk wool rug on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Moroccan Beni Ourain wool rug on the left, a Ukrainian Hutsul lizhnyk wool rug with a shaggy woven wool surface in gray, cream, brown, and muted color, showing stepped diamonds and rhythmic zigzag bands on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Moroccan Beni Ourain wool rug with a thick cream wool pile and sparse dark-brown lines, showing large asymmetrical diamonds and open geometric spacing on the left, a Ukrainian Hutsul lizhnyk wool rug with a shaggy woven wool surface in gray, cream, brown, and muted color, showing stepped diamonds and rhythmic zigzag bands on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Turkish flat-woven kilim",
+    "文化物体B": "a Romanian Oltenian kilim",
+    "文化物体A的长文本描述": "a Turkish flat-woven kilim with interlocked wool wefts in red, blue, orange, and cream, showing hooked diamonds, ram horns, and stepped medallions",
+    "文化物体B的长文本描述": "a Romanian Oltenian kilim with a flat-woven wool surface in red, green, blue, and cream, showing stylized flowers, birds, and vertical bouquet arrangements",
+    "组合Prompt SS": "Neutral studio background: a Turkish flat-woven kilim on the left, a Romanian Oltenian kilim on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Turkish flat-woven kilim on the left, a Romanian Oltenian kilim with a flat-woven wool surface in red, green, blue, and cream, showing stylized flowers, birds, and vertical bouquet arrangements on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Turkish flat-woven kilim with interlocked wool wefts in red, blue, orange, and cream, showing hooked diamonds, ram horns, and stepped medallions on the left, a Romanian Oltenian kilim with a flat-woven wool surface in red, green, blue, and cream, showing stylized flowers, birds, and vertical bouquet arrangements on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Turkish flat-woven kilim",
+    "文化物体B": "a Serbian Pirot kilim",
+    "文化物体A的长文本描述": "a Turkish flat-woven kilim with interlocked wool wefts in red, blue, orange, and cream, showing hooked diamonds, ram horns, and stepped medallions",
+    "文化物体B的长文本描述": "a Serbian Pirot kilim with a reversible flat weave and red, black, blue, and white geometry, showing turtles, hooks, and repeated protective motifs",
+    "组合Prompt SS": "Neutral studio background: a Turkish flat-woven kilim on the left, a Serbian Pirot kilim on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Turkish flat-woven kilim on the left, a Serbian Pirot kilim with a reversible flat weave and red, black, blue, and white geometry, showing turtles, hooks, and repeated protective motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Turkish flat-woven kilim with interlocked wool wefts in red, blue, orange, and cream, showing hooked diamonds, ram horns, and stepped medallions on the left, a Serbian Pirot kilim with a reversible flat weave and red, black, blue, and white geometry, showing turtles, hooks, and repeated protective motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Scottish tartan wool blanket",
+    "文化物体B": "a Swedish rya wool rug",
+    "文化物体A的长文本描述": "a Scottish tartan wool blanket woven in colored wool with intersecting horizontal and vertical stripes, forming a balanced repeating clan-associated check pattern",
+    "文化物体B的长文本描述": "a Swedish rya wool rug with a long wool pile and woven backing, showing geometric diamonds, stripes, and abstract color fields",
+    "组合Prompt SS": "Neutral studio background: a Scottish tartan wool blanket on the left, a Swedish rya wool rug on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Scottish tartan wool blanket on the left, a Swedish rya wool rug with a long wool pile and woven backing, showing geometric diamonds, stripes, and abstract color fields on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Scottish tartan wool blanket woven in colored wool with intersecting horizontal and vertical stripes, forming a balanced repeating clan-associated check pattern on the left, a Swedish rya wool rug with a long wool pile and woven backing, showing geometric diamonds, stripes, and abstract color fields on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Navajo wool rug",
+    "文化物体B": "a Kyrgyz shyrdak felt rug",
+    "文化物体A的长文本描述": "a Navajo wool rug with a woven flat surface and red, black, gray, and cream geometry, showing stepped diamonds and serrated bands",
+    "文化物体B的长文本描述": "a Kyrgyz shyrdak felt rug made from cut and inlaid wool felt in contrasting colors, showing mirrored horn motifs, scrolling forms, and outlined geometry",
+    "组合Prompt SS": "Neutral studio background: a Navajo wool rug on the left, a Kyrgyz shyrdak felt rug on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Navajo wool rug on the left, a Kyrgyz shyrdak felt rug made from cut and inlaid wool felt in contrasting colors, showing mirrored horn motifs, scrolling forms, and outlined geometry on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Navajo wool rug with a woven flat surface and red, black, gray, and cream geometry, showing stepped diamonds and serrated bands on the left, a Kyrgyz shyrdak felt rug made from cut and inlaid wool felt in contrasting colors, showing mirrored horn motifs, scrolling forms, and outlined geometry on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Persian floral carpet",
+    "文化物体B": "a Tibetan khaden carpet",
+    "文化物体A的长文本描述": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+    "文化物体B的长文本描述": "a Tibetan khaden carpet with a compact wool pile in red, blue, yellow, and cream, showing snow lions, lotus flowers, clouds, or checkerboard motifs",
+    "组合Prompt SS": "Neutral studio background: a Persian floral carpet on the left, a Tibetan khaden carpet on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Persian floral carpet on the left, a Tibetan khaden carpet with a compact wool pile in red, blue, yellow, and cream, showing snow lions, lotus flowers, clouds, or checkerboard motifs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory on the left, a Tibetan khaden carpet with a compact wool pile in red, blue, yellow, and cream, showing snow lions, lotus flowers, clouds, or checkerboard motifs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Moroccan geometric wool rug",
+    "文化物体B": "an Afghan Baluch wool rug",
+    "文化物体A的长文本描述": "a Moroccan geometric wool rug with a hand-knotted or flat-woven wool surface, showing diamonds, zigzags, and irregular bands in earth colors",
+    "文化物体B的长文本描述": "an Afghan Baluch wool rug with a dark wool pile in deep red, brown, navy, and ivory, showing repeated prayer niches, hooked medallions, and compact tribal borders",
+    "组合Prompt SS": "Neutral studio background: a Moroccan geometric wool rug on the left, an Afghan Baluch wool rug on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Moroccan geometric wool rug on the left, an Afghan Baluch wool rug with a dark wool pile in deep red, brown, navy, and ivory, showing repeated prayer niches, hooked medallions, and compact tribal borders on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Moroccan geometric wool rug with a hand-knotted or flat-woven wool surface, showing diamonds, zigzags, and irregular bands in earth colors on the left, an Afghan Baluch wool rug with a dark wool pile in deep red, brown, navy, and ivory, showing repeated prayer niches, hooked medallions, and compact tribal borders on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Venetian Murano glass vase",
+    "文化物体B": "a Palestinian Hebron blown-glass vase",
+    "文化物体A的长文本描述": "a Venetian Murano glass vase made from vividly colored blown glass with layered canes, showing curves, millefiori accents, and polished translucent depth",
+    "文化物体B的长文本描述": "a Palestinian Hebron blown-glass vase made from recycled glass in translucent turquoise and green, showing a irregular hand-blown body, bubbles, and applied glass trails",
+    "组合Prompt SS": "Neutral studio background: a Venetian Murano glass vase on the left, a Palestinian Hebron blown-glass vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Venetian Murano glass vase on the left, a Palestinian Hebron blown-glass vase made from recycled glass in translucent turquoise and green, showing a irregular hand-blown body, bubbles, and applied glass trails on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Venetian Murano glass vase made from vividly colored blown glass with layered canes, showing curves, millefiori accents, and polished translucent depth on the left, a Palestinian Hebron blown-glass vase made from recycled glass in translucent turquoise and green, showing a irregular hand-blown body, bubbles, and applied glass trails on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Bohemian cut-glass vase",
+    "文化物体B": "a Czech Železný Brod art-glass vase",
+    "文化物体A的长文本描述": "a Bohemian cut-glass vase made from clear or ruby-overlaid crystal with deep wheel-cut facets, showing stars, fans, and sharply sparkling geometric panels",
+    "文化物体B的长文本描述": "a Czech Železný Brod art-glass vase made from hand-shaped colored glass with clean modern curves, showing layered transparent tones, internal bubbles, and sculptural forms",
+    "组合Prompt SS": "Neutral studio background: a Bohemian cut-glass vase on the left, a Czech Železný Brod art-glass vase on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Bohemian cut-glass vase on the left, a Czech Železný Brod art-glass vase made from hand-shaped colored glass with clean modern curves, showing layered transparent tones, internal bubbles, and sculptural forms on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Bohemian cut-glass vase made from clear or ruby-overlaid crystal with deep wheel-cut facets, showing stars, fans, and sharply sparkling geometric panels on the left, a Czech Železný Brod art-glass vase made from hand-shaped colored glass with clean modern curves, showing layered transparent tones, internal bubbles, and sculptural forms on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Venetian millefiori glass-bead necklace",
+    "文化物体B": "a Ghanaian Krobo powder-glass-bead necklace",
+    "文化物体A的长文本描述": "a Venetian millefiori glass-bead necklace made from multicolored glass canes sliced into flower-like beads, showing red, blue, yellow, white, and green mosaic patterns",
+    "文化物体B的长文本描述": "a Ghanaian Krobo powder-glass-bead necklace made from molded recycled glass powder, showing opaque hand-painted stripes, dots, chevrons, and earth and jewel colors",
+    "组合Prompt SS": "Neutral studio background: a Venetian millefiori glass-bead necklace on the left, a Ghanaian Krobo powder-glass-bead necklace on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Venetian millefiori glass-bead necklace on the left, a Ghanaian Krobo powder-glass-bead necklace made from molded recycled glass powder, showing opaque hand-painted stripes, dots, chevrons, and earth and jewel colors on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Venetian millefiori glass-bead necklace made from multicolored glass canes sliced into flower-like beads, showing red, blue, yellow, white, and green mosaic patterns on the left, a Ghanaian Krobo powder-glass-bead necklace made from molded recycled glass powder, showing opaque hand-painted stripes, dots, chevrons, and earth and jewel colors on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Japanese woven-bamboo basket",
+    "文化物体B": "a Philippine nito-vine basket",
+    "文化物体A的长文本描述": "a Japanese woven-bamboo basket made from split bamboo in a open weave, showing hexagonal plaiting, curved handles, and an asymmetrical sculptural profile",
+    "文化物体B的长文本描述": "a Philippine nito-vine basket woven from dark nito vine over a lighter structural frame, showing tight black-and-tan spirals, diamonds, and rhythmic geometric bands",
+    "组合Prompt SS": "Neutral studio background: a Japanese woven-bamboo basket on the left, a Philippine nito-vine basket on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Japanese woven-bamboo basket on the left, a Philippine nito-vine basket woven from dark nito vine over a lighter structural frame, showing tight black-and-tan spirals, diamonds, and rhythmic geometric bands on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Japanese woven-bamboo basket made from split bamboo in a open weave, showing hexagonal plaiting, curved handles, and an asymmetrical sculptural profile on the left, a Philippine nito-vine basket woven from dark nito vine over a lighter structural frame, showing tight black-and-tan spirals, diamonds, and rhythmic geometric bands on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Navajo coiled basket",
+    "文化物体B": "a Panamanian Wounaan chunga basket",
+    "文化物体A的长文本描述": "a Navajo coiled basket woven from plant fibers in a shallow circular form, showing a central opening and radiating red, black, and natural spiral motifs",
+    "文化物体B的长文本描述": "a Panamanian Wounaan chunga basket coiled from palm fiber, showing exceptionally tight weaving and animal, plant, or geometric motifs in black and colors",
+    "组合Prompt SS": "Neutral studio background: a Navajo coiled basket on the left, a Panamanian Wounaan chunga basket on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Navajo coiled basket on the left, a Panamanian Wounaan chunga basket coiled from palm fiber, showing exceptionally tight weaving and animal, plant, or geometric motifs in black and colors on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Navajo coiled basket woven from plant fibers in a shallow circular form, showing a central opening and radiating red, black, and natural spiral motifs on the left, a Panamanian Wounaan chunga basket coiled from palm fiber, showing exceptionally tight weaving and animal, plant, or geometric motifs in black and colors on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Moroccan tooled-leather box",
+    "文化物体B": "a Tuareg tooled-leather box",
+    "文化物体A的长文本描述": "a Moroccan tooled-leather box covered in brown leather with stamped and painted ornament, showing stars, arabesques, and scalloped geometric borders",
+    "文化物体B的长文本描述": "a Tuareg tooled-leather box covered in dark leather with incised and colored decoration, showing triangles, crosses, zigzags, and applied metal studs",
+    "组合Prompt SS": "Neutral studio background: a Moroccan tooled-leather box on the left, a Tuareg tooled-leather box on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Moroccan tooled-leather box on the left, a Tuareg tooled-leather box covered in dark leather with incised and colored decoration, showing triangles, crosses, zigzags, and applied metal studs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Moroccan tooled-leather box covered in brown leather with stamped and painted ornament, showing stars, arabesques, and scalloped geometric borders on the left, a Tuareg tooled-leather box covered in dark leather with incised and colored decoration, showing triangles, crosses, zigzags, and applied metal studs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Italian tooled-leather wall panel",
+    "文化物体B": "a Spanish Córdoba guadamecí leather panel",
+    "文化物体A的长文本描述": "an Italian tooled-leather wall panel made from embossed and gilded leather, showing scrolling acanthus leaves, heraldic forms, and brown-and-gold relief",
+    "文化物体B的长文本描述": "a Spanish Córdoba guadamecí leather panel made from silvered, painted, and embossed leather, showing Renaissance arabesques, flowers, and richly colored metallic relief",
+    "组合Prompt SS": "Neutral studio background: an Italian tooled-leather wall panel on the left, a Spanish Córdoba guadamecí leather panel on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Italian tooled-leather wall panel on the left, a Spanish Córdoba guadamecí leather panel made from silvered, painted, and embossed leather, showing Renaissance arabesques, flowers, and richly colored metallic relief on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Italian tooled-leather wall panel made from embossed and gilded leather, showing scrolling acanthus leaves, heraldic forms, and brown-and-gold relief on the left, a Spanish Córdoba guadamecí leather panel made from silvered, painted, and embossed leather, showing Renaissance arabesques, flowers, and richly colored metallic relief on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Russian matryoshka wooden doll",
+    "文化物体B": "a Japanese Tsugaru kokeshi wooden doll",
+    "文化物体A的长文本描述": "a Russian matryoshka wooden doll with a turned wooden body painted in colors, showing a smiling figure in a floral headscarf and apron",
+    "文化物体B的长文本描述": "a Japanese Tsugaru kokeshi wooden doll with a lathe-turned cylindrical body and rounded head, showing painted rings, chrysanthemum motifs, and a simple face",
+    "组合Prompt SS": "Neutral studio background: a Russian matryoshka wooden doll on the left, a Japanese Tsugaru kokeshi wooden doll on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Russian matryoshka wooden doll on the left, a Japanese Tsugaru kokeshi wooden doll with a lathe-turned cylindrical body and rounded head, showing painted rings, chrysanthemum motifs, and a simple face on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Russian matryoshka wooden doll with a turned wooden body painted in colors, showing a smiling figure in a floral headscarf and apron on the left, a Japanese Tsugaru kokeshi wooden doll with a lathe-turned cylindrical body and rounded head, showing painted rings, chrysanthemum motifs, and a simple face on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "a Chinese carved-jade pendant",
+    "文化物体B": "a Māori pounamu hei tiki pendant",
+    "文化物体A的长文本描述": "a Chinese carved-jade pendant made from polished pale green or white jade, showing pierced clouds, dragons, or floral scrolls in low relief",
+    "文化物体B的长文本描述": "a Māori pounamu hei tiki pendant carved from translucent greenstone in a compact ancestral figure, showing an inclined head, large eyes, and curved limbs",
+    "组合Prompt SS": "Neutral studio background: a Chinese carved-jade pendant on the left, a Māori pounamu hei tiki pendant on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: a Chinese carved-jade pendant on the left, a Māori pounamu hei tiki pendant carved from translucent greenstone in a compact ancestral figure, showing an inclined head, large eyes, and curved limbs on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: a Chinese carved-jade pendant made from polished pale green or white jade, showing pierced clouds, dragons, or floral scrolls in low relief on the left, a Māori pounamu hei tiki pendant carved from translucent greenstone in a compact ancestral figure, showing an inclined head, large eyes, and curved limbs on the right; both fully visible, separate, and similar in size."
+  },
+  {
+    "文化物体A": "an Inuit soapstone figurine",
+    "文化物体B": "a Kenyan Kisii soapstone figurine",
+    "文化物体A的长文本描述": "an Inuit soapstone figurine carved from dark gray-green stone with rounded tactile surfaces, showing a compact animal or human figure with incised details",
+    "文化物体B的长文本描述": "a Kenyan Kisii soapstone figurine carved from pale soapstone and polished, showing an abstract intertwined human or animal form with rounded contours",
+    "组合Prompt SS": "Neutral studio background: an Inuit soapstone figurine on the left, a Kenyan Kisii soapstone figurine on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt SL": "Neutral studio background: an Inuit soapstone figurine on the left, a Kenyan Kisii soapstone figurine carved from pale soapstone and polished, showing an abstract intertwined human or animal form with rounded contours on the right; both fully visible, separate, and similar in size.",
+    "组合Prompt LL": "Neutral studio background: an Inuit soapstone figurine carved from dark gray-green stone with rounded tactile surfaces, showing a compact animal or human figure with incised details on the left, a Kenyan Kisii soapstone figurine carved from pale soapstone and polished, showing an abstract intertwined human or animal form with rounded contours on the right; both fully visible, separate, and similar in size."
+  }
+]
