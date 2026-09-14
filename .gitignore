@@ -10,3 +10,4 @@ models/
 .codex_tmp/
 .vscode/
 tmp/
+data/
