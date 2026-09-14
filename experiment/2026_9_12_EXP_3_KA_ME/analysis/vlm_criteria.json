@@ -1,0 +1,53 @@
+{
+ "c1_rater_strict": {
+  "SS": {
+   "n": 300,
+   "success": 100,
+   "drift": 0.6666666666666667
+  },
+  "LSDA": {
+   "n": 299,
+   "success": 253,
+   "drift": 0.15384615384615385
+  },
+  "Binding": {
+   "n": 300,
+   "success": 92,
+   "drift": 0.6933333333333334
+  }
+ },
+ "c2_side_consensus": {
+  "SS": {
+   "n": 300,
+   "success": 109,
+   "drift": 0.6366666666666667
+  },
+  "LSDA": {
+   "n": 299,
+   "success": 254,
+   "drift": 0.1505016722408027
+  },
+  "Binding": {
+   "n": 300,
+   "success": 97,
+   "drift": 0.6766666666666667
+  }
+ },
+ "c3_strict_both": {
+  "SS": {
+   "n": 300,
+   "success": 44,
+   "drift": 0.8533333333333333
+  },
+  "LSDA": {
+   "n": 299,
+   "success": 153,
+   "drift": 0.4882943143812709
+  },
+  "Binding": {
+   "n": 300,
+   "success": 27,
+   "drift": 0.91
+  }
+ }
+}

@@ -1,0 +1,33 @@
+Loading weights:   0%|          | 0/448 [00:00<?, ?it/s]Loading weights:   6%|¨„         | 25/448 [00:00<00:01, 249.03it/s]Loading weights:  11%|¨€¨‡        | 51/448 [00:00<00:01, 230.48it/s]Loading weights:  17%|¨€¨ƒ        | 75/448 [00:00<00:01, 225.34it/s]Loading weights:  22%|¨€¨€¨‡       | 98/448 [00:00<00:01, 207.17it/s]Loading weights:  29%|¨€¨€¨       | 129/448 [00:00<00:01, 209.47it/s]Loading weights:  35%|¨€¨€¨€¨„      | 158/448 [00:00<00:01, 227.43it/s]Loading weights:  41%|¨€¨€¨€¨€¨‡     | 185/448 [00:00<00:01, 237.26it/s]Loading weights:  47%|¨€¨€¨€¨€¨ƒ     | 210/448 [00:00<00:01, 221.89it/s]Loading weights:  54%|¨€¨€¨€¨€¨€¨…    | 241/448 [00:01<00:00, 222.87it/s]Loading weights:  61%|¨€¨€¨€¨€¨€¨€¨‡   | 275/448 [00:01<00:00, 231.96it/s]Loading weights:  68%|¨€¨€¨€¨€¨€¨€¨‚   | 305/448 [00:01<00:00, 225.36it/s]Loading weights:  75%|¨€¨€¨€¨€¨€¨€¨€¨„  | 337/448 [00:01<00:00, 232.41it/s]Loading weights:  82%|¨€¨€¨€¨€¨€¨€¨€¨€¨‡ | 366/448 [00:01<00:00, 244.74it/s]Loading weights:  87%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 391/448 [00:01<00:00, 235.07it/s]Loading weights:  93%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨†| 417/448 [00:01<00:00, 220.03it/s]Loading weights:  98%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚| 440/448 [00:01<00:00, 220.40it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 448/448 [00:01<00:00, 229.57it/s]
+[transformers] [1mSiglip2VisionModel LOAD REPORT[0m from: D:\Python\MMDIT\models\google__siglip2-so400m-patch16-naflex
+Key                                                          | Status     |  | 
+-------------------------------------------------------------+------------+--+-
+text_model.encoder.layers.{0...26}.self_attn.k_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.self_attn.k_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.self_attn.q_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.self_attn.out_proj.bias   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.layer_norm1.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.self_attn.out_proj.weight | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.self_attn.q_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.mlp.fc2.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.layer_norm2.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.layer_norm2.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.mlp.fc1.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.mlp.fc1.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.mlp.fc2.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.self_attn.v_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.layer_norm1.weight        | UNEXPECTED |  | 
+text_model.final_layer_norm.bias                             | UNEXPECTED |  | 
+text_model.encoder.layers.{0...26}.self_attn.v_proj.bias     | UNEXPECTED |  | 
+text_model.head.weight                                       | UNEXPECTED |  | 
+logit_scale                                                  | UNEXPECTED |  | 
+logit_bias                                                   | UNEXPECTED |  | 
+text_model.embeddings.token_embedding.weight                 | UNEXPECTED |  | 
+text_model.head.bias                                         | UNEXPECTED |  | 
+text_model.final_layer_norm.weight                           | UNEXPECTED |  | 
+text_model.embeddings.position_embedding.weight              | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.

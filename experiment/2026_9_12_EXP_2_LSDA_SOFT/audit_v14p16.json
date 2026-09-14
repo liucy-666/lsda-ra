@@ -1,0 +1,444 @@
+{
+  "run_id": "demo_p1_bluewhite_maiolica_s42_lsda_v14rect_p16",
+  "seed": 42,
+  "latent_sha256": "ce96561913a364036b93f3f507213099ecc0626fbdac06676c8f3927797c17e9",
+  "steps": 28,
+  "guidance": 4.5,
+  "specialist_count": 3,
+  "entity_prompts": [
+    "a Chinese blue-and-white porcelain vase",
+    "an Italian maiolica vase"
+  ],
+  "background_expert": "same-seed native SS trajectory, mask complement only",
+  "native_mu": null,
+  "external_visual_information": "native SS contour only",
+  "standalone_sl_ll_image_or_latent_used": false,
+  "segmentation": {
+    "raw_overlap_fraction": 0.0,
+    "owner_fractions_image": [
+      0.2175140380859375,
+      0.23031139373779297
+    ],
+    "background_fraction_image": 0.5521745681762695,
+    "partition_min_image": 1,
+    "partition_max_image": 1,
+    "chosen": [
+      {
+        "point": [
+          276,
+          512
+        ],
+        "sam_iou": 0.923270583152771,
+        "selection_score": 2.0147519579326523,
+        "candidate_area": 0.2175140380859375,
+        "bbox": [
+          69,
+          141,
+          464,
+          947
+        ]
+      },
+      {
+        "point": [
+          748,
+          512
+        ],
+        "sam_iou": 0.9591595530509949,
+        "selection_score": 2.0516994658674474,
+        "candidate_area": 0.2163410186767578,
+        "bbox": [
+          550,
+          166,
+          955,
+          949
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "name": "A",
+        "area": 0.2175140380859375,
+        "bbox": [
+          69,
+          141,
+          464,
+          947
+        ],
+        "centroid": [
+          267.4665687478078,
+          546.207098386531
+        ]
+      },
+      {
+        "name": "B",
+        "area": 0.23031139373779297,
+        "bbox": [
+          550,
+          166,
+          955,
+          949
+        ],
+        "centroid": [
+          749.6966405657995,
+          548.8107031499095
+        ]
+      }
+    ]
+  },
+  "denoising": {
+    "mu": null,
+    "bounds": [
+      [
+        2,
+        12,
+        64,
+        124
+      ],
+      [
+        62,
+        14,
+        126,
+        126
+      ]
+    ],
+    "step_audit": [
+      {
+        "step": 0,
+        "timestep": 1000.0,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0006340534891933203,
+          0.0005672363913618028
+        ],
+        "background_native_match_rms": 0.000613920739851892,
+        "state_rms": 0.98779296875
+      },
+      {
+        "step": 1,
+        "timestep": 987.380615234375,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0006877246778458357,
+          0.0007414513966068625
+        ],
+        "background_native_match_rms": 0.0008415632764808834,
+        "state_rms": 0.974609375
+      },
+      {
+        "step": 2,
+        "timestep": 974.1077270507812,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.000683652819134295,
+          0.0007111465674825013
+        ],
+        "background_native_match_rms": 0.0009240043582394719,
+        "state_rms": 0.9619140625
+      },
+      {
+        "step": 3,
+        "timestep": 960.1293334960938,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0006557491724379361,
+          0.0007012333371676505
+        ],
+        "background_native_match_rms": 0.0007762560271658003,
+        "state_rms": 0.9482421875
+      },
+      {
+        "step": 4,
+        "timestep": 945.3875122070312,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0006946049979887903,
+          0.0007568337023258209
+        ],
+        "background_native_match_rms": 0.0007283405284397304,
+        "state_rms": 0.9345703125
+      },
+      {
+        "step": 5,
+        "timestep": 929.8179321289062,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.000741722178645432,
+          0.0008056120714172721
+        ],
+        "background_native_match_rms": 0.0007195195648819208,
+        "state_rms": 0.9208984375
+      },
+      {
+        "step": 6,
+        "timestep": 913.3489990234375,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0008043653215281665,
+          0.0008672171388752759
+        ],
+        "background_native_match_rms": 0.0007996410131454468,
+        "state_rms": 0.90673828125
+      },
+      {
+        "step": 7,
+        "timestep": 895.9003295898438,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0008655857527628541,
+          0.0009295932832174003
+        ],
+        "background_native_match_rms": 0.0009009097120724618,
+        "state_rms": 0.89208984375
+      },
+      {
+        "step": 8,
+        "timestep": 877.3818969726562,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0009172226418741047,
+          0.0009921087184920907
+        ],
+        "background_native_match_rms": 0.0009793710196390748,
+        "state_rms": 0.87744140625
+      },
+      {
+        "step": 9,
+        "timestep": 857.6923217773438,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0009749174932949245,
+          0.001058613182976842
+        ],
+        "background_native_match_rms": 0.001049199840053916,
+        "state_rms": 0.86279296875
+      },
+      {
+        "step": 10,
+        "timestep": 836.7166748046875,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0010393435368314385,
+          0.001121158478781581
+        ],
+        "background_native_match_rms": 0.0010551254963502288,
+        "state_rms": 0.84814453125
+      },
+      {
+        "step": 11,
+        "timestep": 814.3247680664062,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0011215904960408807,
+          0.0011792602017521858
+        ],
+        "background_native_match_rms": 0.0009232431184500456,
+        "state_rms": 0.83447265625
+      },
+      {
+        "step": 12,
+        "timestep": 790.3682861328125,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0012036300031468272,
+          0.0012585708172991872
+        ],
+        "background_native_match_rms": 0.0008233406697399914,
+        "state_rms": 0.8212890625
+      },
+      {
+        "step": 13,
+        "timestep": 764.6771240234375,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.001284198951907456,
+          0.0013527052942663431
+        ],
+        "background_native_match_rms": 0.0007578033255413175,
+        "state_rms": 0.80908203125
+      },
+      {
+        "step": 14,
+        "timestep": 737.0558471679688,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0013784958282485604,
+          0.0014658791478723288
+        ],
+        "background_native_match_rms": 0.0007139255758374929,
+        "state_rms": 0.79833984375
+      },
+      {
+        "step": 15,
+        "timestep": 707.2785034179688,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0014886899152770638,
+          0.0015899651916697621
+        ],
+        "background_native_match_rms": 0.0006383855943568051,
+        "state_rms": 0.7900390625
+      },
+      {
+        "step": 16,
+        "timestep": 675.0823364257812,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0016141269588842988,
+          0.0017236432759091258
+        ],
+        "background_native_match_rms": 0.0005943691357970238,
+        "state_rms": 0.78515625
+      },
+      {
+        "step": 17,
+        "timestep": 640.1602172851562,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0017543142894282937,
+          0.001869997475296259
+        ],
+        "background_native_match_rms": 0.000581839180085808,
+        "state_rms": 0.78369140625
+      },
+      {
+        "step": 18,
+        "timestep": 602.1505737304688,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0019177967915311456,
+          0.00204444769769907
+        ],
+        "background_native_match_rms": 0.0005995469400659204,
+        "state_rms": 0.7880859375
+      },
+      {
+        "step": 19,
+        "timestep": 560.625,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0021026255562901497,
+          0.0022397423163056374
+        ],
+        "background_native_match_rms": 0.0006440569995902479,
+        "state_rms": 0.79931640625
+      },
+      {
+        "step": 20,
+        "timestep": 515.0720825195312,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0023103486746549606,
+          0.0024598378222435713
+        ],
+        "background_native_match_rms": 0.0007077621994540095,
+        "state_rms": 0.81884765625
+      },
+      {
+        "step": 21,
+        "timestep": 464.87603759765625,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0025510929990559816,
+          0.0027198679745197296
+        ],
+        "background_native_match_rms": 0.0007907922845333815,
+        "state_rms": 0.84912109375
+      },
+      {
+        "step": 22,
+        "timestep": 409.288818359375,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0028350723441690207,
+          0.0030228416435420513
+        ],
+        "background_native_match_rms": 0.0009031077497638762,
+        "state_rms": 0.89208984375
+      },
+      {
+        "step": 23,
+        "timestep": 347.39263916015625,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.003177404636517167,
+          0.003384235082194209
+        ],
+        "background_native_match_rms": 0.001069041551090777,
+        "state_rms": 0.9501953125
+      },
+      {
+        "step": 24,
+        "timestep": 278.0487976074219,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0035669009666889906,
+          0.003803120693191886
+        ],
+        "background_native_match_rms": 0.0013108710991218686,
+        "state_rms": 1.02734375
+      },
+      {
+        "step": 25,
+        "timestep": 199.8269805908203,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.004033009987324476,
+          0.004320906475186348
+        ],
+        "background_native_match_rms": 0.001645003561861813,
+        "state_rms": 1.125
+      },
+      {
+        "step": 26,
+        "timestep": 110.90573120117188,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.004576636478304863,
+          0.004918290302157402
+        ],
+        "background_native_match_rms": 0.002202204894274473,
+        "state_rms": 1.2490234375
+      },
+      {
+        "step": 27,
+        "timestep": 8.928571701049805,
+        "partition_min": 1.0,
+        "partition_max": 1.0,
+        "outside_write_rms": [
+          0.0003738658269867301,
+          0.0004083273815922439
+        ],
+        "background_native_match_rms": 0.0011098652612417936,
+        "state_rms": 1.2607421875
+      }
+    ]
+  },
+  "seconds": 36.88479948043823
+}

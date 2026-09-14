@@ -1,0 +1,17 @@
+{
+  "run_id": "demo_p1_bluewhite_maiolica_s42_lsda_v12softdilate",
+  "seed": 42,
+  "ss_prompt": "Neutral studio background: a Chinese blue-and-white porcelain vase on the left, an Italian maiolica vase on the right; both fully visible, separate, and similar in size.",
+  "entities": [
+    {
+      "name": "A",
+      "prompt": "a Chinese blue-and-white porcelain vase",
+      "position": "left"
+    },
+    {
+      "name": "B",
+      "prompt": "an Italian maiolica vase",
+      "position": "right"
+    }
+  ]
+}

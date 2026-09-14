@@ -1,0 +1,9002 @@
+{
+ "1|1011": {
+  "pair": 1,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.43,
+   0.6
+  ],
+  "right_vals": [
+   0.34,
+   0.4
+  ],
+  "left_vals": [
+   0.93,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "1|1012": {
+  "pair": 1,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.69,
+   0.85
+  ],
+  "right_vals": [
+   0.42,
+   0.4
+  ],
+  "left_vals": [
+   0.96,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "1|1013": {
+  "pair": 1,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.82,
+   0.85
+  ],
+  "right_vals": [
+   0.24,
+   0.4
+  ],
+  "left_vals": [
+   0.97,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "2|1011": {
+  "pair": 2,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   1.0
+  ],
+  "b_vals": [
+   0.46,
+   0.4
+  ],
+  "right_vals": [
+   0.28,
+   0.1
+  ],
+  "left_vals": [
+   0.93,
+   1.0
+  ],
+  "struct_ss": [
+   0.98,
+   0.8
+  ]
+ },
+ "2|1012": {
+  "pair": 2,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.68,
+   0.85
+  ],
+  "right_vals": [
+   0.1,
+   0.1
+  ],
+  "left_vals": [
+   0.98,
+   1.0
+  ],
+  "struct_ss": [
+   1.0,
+   0.8
+  ]
+ },
+ "2|1013": {
+  "pair": 2,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.42,
+   0.4
+  ],
+  "right_vals": [
+   0.42,
+   0.2
+  ],
+  "left_vals": [
+   0.97,
+   1.0
+  ],
+  "struct_ss": [
+   0.95,
+   0.9
+  ]
+ },
+ "3|1011": {
+  "pair": 3,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.32,
+   0.4
+  ],
+  "right_vals": [
+   0.08,
+   0.0
+  ],
+  "left_vals": [
+   0.98,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "3|1012": {
+  "pair": 3,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.99,
+   1.0
+  ],
+  "b_vals": [
+   0.83,
+   0.85
+  ],
+  "right_vals": [
+   0.0,
+   0.0
+  ],
+  "left_vals": [
+   1.0,
+   1.0
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "3|1013": {
+  "pair": 3,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.68,
+   0.4
+  ],
+  "right_vals": [
+   0.08,
+   0.1
+  ],
+  "left_vals": [
+   0.99,
+   1.0
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "4|1011": {
+  "pair": 4,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.93,
+   0.95
+  ],
+  "b_vals": [
+   0.2,
+   0.1
+  ],
+  "right_vals": [
+   0.0,
+   0.1
+  ],
+  "left_vals": [
+   0.05,
+   0.2
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "4|1012": {
+  "pair": 4,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.96,
+   0.9
+  ],
+  "b_vals": [
+   0.28,
+   0.3
+  ],
+  "right_vals": [
+   0.35,
+   0.1
+  ],
+  "left_vals": [
+   0.05,
+   0.2
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "4|1013": {
+  "pair": 4,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.95,
+   0.95
+  ],
+  "b_vals": [
+   0.23,
+   0.1
+  ],
+  "right_vals": [
+   0.08,
+   0.1
+  ],
+  "left_vals": [
+   0.12,
+   0.2
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "5|1011": {
+  "pair": 5,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.2,
+   0.3
+  ],
+  "b_vals": [
+   0.18,
+   0.2
+  ],
+  "right_vals": [
+   0.1,
+   0.2
+  ],
+  "left_vals": [
+   0.7,
+   0.8
+  ],
+  "struct_ss": [
+   1.0,
+   0.9
+  ]
+ },
+ "5|1012": {
+  "pair": 5,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.36,
+   0.4
+  ],
+  "b_vals": [
+   0.26,
+   0.4
+  ],
+  "right_vals": [
+   0.2,
+   0.2
+  ],
+  "left_vals": [
+   0.95,
+   0.9
+  ],
+  "struct_ss": [
+   0.95,
+   0.5
+  ]
+ },
+ "5|1013": {
+  "pair": 5,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.33,
+   0.95
+  ],
+  "right_vals": [
+   0.7,
+   0.7
+  ],
+  "left_vals": [
+   0.1,
+   0.4
+  ],
+  "struct_ss": [
+   0.0,
+   0.0
+  ]
+ },
+ "6|1011": {
+  "pair": 6,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   1.0
+  ],
+  "b_vals": [
+   0.97,
+   0.95
+  ],
+  "right_vals": [
+   0.74,
+   0.85
+  ],
+  "left_vals": [
+   0.82,
+   0.95
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "6|1012": {
+  "pair": 6,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   1.0
+  ],
+  "b_vals": [
+   0.9,
+   0.9
+  ],
+  "right_vals": [
+   0.62,
+   0.4
+  ],
+  "left_vals": [
+   0.84,
+   0.95
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "6|1013": {
+  "pair": 6,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.95,
+   0.95
+  ],
+  "right_vals": [
+   0.86,
+   0.8
+  ],
+  "left_vals": [
+   0.94,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "7|1011": {
+  "pair": 7,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   0.95
+  ],
+  "b_vals": [
+   0.38,
+   0.4
+  ],
+  "right_vals": [
+   0.92,
+   1.0
+  ],
+  "left_vals": [
+   0.56,
+   0.8
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "7|1012": {
+  "pair": 7,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.73,
+   0.9
+  ],
+  "right_vals": [
+   0.98,
+   0.95
+  ],
+  "left_vals": [
+   0.9,
+   0.95
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "7|1013": {
+  "pair": 7,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.9,
+   0.4
+  ],
+  "right_vals": [
+   0.72,
+   0.4
+  ],
+  "left_vals": [
+   0.93,
+   0.9
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "8|1011": {
+  "pair": 8,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   1.0
+  ],
+  "b_vals": [
+   0.86,
+   0.9
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.95,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "8|1012": {
+  "pair": 8,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.93,
+   0.95
+  ],
+  "b_vals": [
+   0.58,
+   0.4
+  ],
+  "right_vals": [
+   0.05,
+   0.1
+  ],
+  "left_vals": [
+   0.35,
+   0.4
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "8|1013": {
+  "pair": 8,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.9,
+   0.85
+  ],
+  "right_vals": [
+   0.1,
+   0.0
+  ],
+  "left_vals": [
+   0.15,
+   0.0
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "9|1011": {
+  "pair": 9,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   0.95
+  ],
+  "b_vals": [
+   0.86,
+   0.95
+  ],
+  "right_vals": [
+   0.41,
+   0.8
+  ],
+  "left_vals": [
+   0.94,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "9|1012": {
+  "pair": 9,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   1.0
+  ],
+  "b_vals": [
+   0.72,
+   0.9
+  ],
+  "right_vals": [
+   0.42,
+   0.4
+  ],
+  "left_vals": [
+   0.88,
+   0.9
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "9|1013": {
+  "pair": 9,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.96,
+   1.0
+  ],
+  "b_vals": [
+   0.92,
+   0.9
+  ],
+  "right_vals": [
+   0.28,
+   0.3
+  ],
+  "left_vals": [
+   0.42,
+   0.4
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "10|1011": {
+  "pair": 10,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   0.95
+  ],
+  "b_vals": [
+   0.68,
+   0.85
+  ],
+  "right_vals": [
+   0.45,
+   0.3
+  ],
+  "left_vals": [
+   0.7,
+   0.9
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "10|1012": {
+  "pair": 10,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.31,
+   1.0
+  ],
+  "b_vals": [
+   0.71,
+   0.85
+  ],
+  "right_vals": [
+   0.56,
+   0.4
+  ],
+  "left_vals": [
+   0.88,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "10|1013": {
+  "pair": 10,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.33,
+   0.9
+  ],
+  "b_vals": [
+   0.82,
+   0.85
+  ],
+  "right_vals": [
+   0.56,
+   0.85
+  ],
+  "left_vals": [
+   0.84,
+   0.95
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "11|1011": {
+  "pair": 11,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.42,
+   0.6
+  ],
+  "b_vals": [
+   0.62,
+   0.85
+  ],
+  "right_vals": [
+   0.22,
+   0.3
+  ],
+  "left_vals": [
+   0.42,
+   0.4
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "11|1012": {
+  "pair": 11,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.46,
+   0.4
+  ],
+  "b_vals": [
+   0.22,
+   0.3
+  ],
+  "right_vals": [
+   0.38,
+   0.7
+  ],
+  "left_vals": [
+   0.78,
+   0.4
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "11|1013": {
+  "pair": 11,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.55,
+   0.85
+  ],
+  "b_vals": [
+   0.55,
+   0.4
+  ],
+  "right_vals": [
+   0.55,
+   0.8
+  ],
+  "left_vals": [
+   0.8,
+   0.8
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "12|1011": {
+  "pair": 12,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   0.95
+  ],
+  "b_vals": [
+   0.32,
+   0.4
+  ],
+  "right_vals": [
+   0.12,
+   0.1
+  ],
+  "left_vals": [
+   0.88,
+   0.9
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "12|1012": {
+  "pair": 12,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   1.0
+  ],
+  "b_vals": [
+   0.29,
+   0.3
+  ],
+  "right_vals": [
+   0.08,
+   0.1
+  ],
+  "left_vals": [
+   0.97,
+   0.95
+  ],
+  "struct_ss": [
+   0.98,
+   0.9
+  ]
+ },
+ "12|1013": {
+  "pair": 12,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   1.0
+  ],
+  "b_vals": [
+   0.63,
+   0.4
+  ],
+  "right_vals": [
+   0.06,
+   0.0
+  ],
+  "left_vals": [
+   0.78,
+   0.9
+  ],
+  "struct_ss": [
+   0.08,
+   0.0
+  ]
+ },
+ "13|1011": {
+  "pair": 13,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   1.0
+  ],
+  "b_vals": [
+   0.57,
+   0.85
+  ],
+  "right_vals": [
+   0.28,
+   0.1
+  ],
+  "left_vals": [
+   0.95,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "13|1012": {
+  "pair": 13,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.18,
+   0.4
+  ],
+  "right_vals": [
+   0.22,
+   0.3
+  ],
+  "left_vals": [
+   0.98,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "13|1013": {
+  "pair": 13,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.4,
+   0.85
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.98,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "14|1011": {
+  "pair": 14,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.31,
+   0.85
+  ],
+  "right_vals": [
+   0.78,
+   0.8
+  ],
+  "left_vals": [
+   0.22,
+   0.1
+  ],
+  "struct_ss": [
+   0.94,
+   0.8
+  ]
+ },
+ "14|1012": {
+  "pair": 14,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.97,
+   0.95
+  ],
+  "b_vals": [
+   0.42,
+   0.95
+  ],
+  "right_vals": [
+   0.08,
+   0.2
+  ],
+  "left_vals": [
+   0.18,
+   0.1
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "14|1013": {
+  "pair": 14,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.8,
+   1.0
+  ],
+  "b_vals": [
+   0.35,
+   0.85
+  ],
+  "right_vals": [
+   0.38,
+   0.2
+  ],
+  "left_vals": [
+   0.22,
+   0.3
+  ],
+  "struct_ss": [
+   0.48,
+   0.1
+  ]
+ },
+ "15|1011": {
+  "pair": 15,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   0.95
+  ],
+  "b_vals": [
+   0.26,
+   0.2
+  ],
+  "right_vals": [
+   0.45,
+   0.4
+  ],
+  "left_vals": [
+   0.84,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "15|1012": {
+  "pair": 15,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.46,
+   0.85
+  ],
+  "right_vals": [
+   0.2,
+   0.9
+  ],
+  "left_vals": [
+   0.55,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "15|1013": {
+  "pair": 15,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.21,
+   0.3
+  ],
+  "right_vals": [
+   0.18,
+   0.3
+  ],
+  "left_vals": [
+   0.72,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "16|1011": {
+  "pair": 16,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.78,
+   0.9
+  ],
+  "b_vals": [
+   0.42,
+   0.3
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.93,
+   0.9
+  ],
+  "struct_ss": [
+   0.97,
+   0.8
+  ]
+ },
+ "16|1012": {
+  "pair": 16,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.9,
+   0.9
+  ],
+  "b_vals": [
+   0.42,
+   0.3
+  ],
+  "right_vals": [
+   0.58,
+   0.2
+  ],
+  "left_vals": [
+   0.92,
+   0.9
+  ],
+  "struct_ss": [
+   1.0,
+   0.8
+  ]
+ },
+ "16|1013": {
+  "pair": 16,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.93,
+   0.95
+  ],
+  "b_vals": [
+   0.7,
+   0.3
+  ],
+  "right_vals": [
+   0.35,
+   0.1
+  ],
+  "left_vals": [
+   0.9,
+   0.8
+  ],
+  "struct_ss": [
+   0.78,
+   0.4
+  ]
+ },
+ "17|1011": {
+  "pair": 17,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.8,
+   0.85
+  ],
+  "b_vals": [
+   0.82,
+   0.9
+  ],
+  "right_vals": [
+   0.45,
+   0.5
+  ],
+  "left_vals": [
+   0.35,
+   0.4
+  ],
+  "struct_ss": [
+   0.92,
+   0.9
+  ]
+ },
+ "17|1012": {
+  "pair": 17,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.77,
+   0.9
+  ],
+  "b_vals": [
+   0.84,
+   0.95
+  ],
+  "right_vals": [
+   0.06,
+   0.1
+  ],
+  "left_vals": [
+   0.33,
+   0.4
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "17|1013": {
+  "pair": 17,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.86,
+   0.95
+  ],
+  "b_vals": [
+   0.86,
+   0.9
+  ],
+  "right_vals": [
+   0.58,
+   0.5
+  ],
+  "left_vals": [
+   0.82,
+   0.4
+  ],
+  "struct_ss": [
+   0.18,
+   0.0
+  ]
+ },
+ "18|1011": {
+  "pair": 18,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.92,
+   0.95
+  ],
+  "b_vals": [
+   0.42,
+   0.2
+  ],
+  "right_vals": [
+   0.72,
+   0.9
+  ],
+  "left_vals": [
+   0.12,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "18|1012": {
+  "pair": 18,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.84,
+   0.95
+  ],
+  "b_vals": [
+   0.88,
+   0.95
+  ],
+  "right_vals": [
+   0.83,
+   0.9
+  ],
+  "left_vals": [
+   0.18,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "18|1013": {
+  "pair": 18,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.89,
+   0.9
+  ],
+  "b_vals": [
+   0.94,
+   0.4
+  ],
+  "right_vals": [
+   0.79,
+   0.9
+  ],
+  "left_vals": [
+   0.38,
+   0.2
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "19|1011": {
+  "pair": 19,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.35,
+   0.9
+  ],
+  "b_vals": [
+   0.2,
+   0.1
+  ],
+  "right_vals": [
+   0.7,
+   0.3
+  ],
+  "left_vals": [
+   0.25,
+   0.8
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "19|1012": {
+  "pair": 19,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.42,
+   0.85
+  ],
+  "b_vals": [
+   0.14,
+   0.1
+  ],
+  "right_vals": [
+   0.6,
+   0.3
+  ],
+  "left_vals": [
+   0.44,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "19|1013": {
+  "pair": 19,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.45,
+   0.85
+  ],
+  "b_vals": [
+   0.34,
+   0.2
+  ],
+  "right_vals": [
+   0.7,
+   0.2
+  ],
+  "left_vals": [
+   0.22,
+   0.8
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "20|1011": {
+  "pair": 20,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.12,
+   0.2
+  ],
+  "b_vals": [
+   0.02,
+   0.0
+  ],
+  "right_vals": [
+   0.0,
+   0.0
+  ],
+  "left_vals": [
+   0.0,
+   0.0
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "20|1012": {
+  "pair": 20,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.02,
+   0.0
+  ],
+  "b_vals": [
+   0.16,
+   0.1
+  ],
+  "right_vals": [
+   0.62,
+   0.1
+  ],
+  "left_vals": [
+   0.07,
+   0.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "20|1013": {
+  "pair": 20,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.52,
+   0.3
+  ],
+  "b_vals": [
+   0.09,
+   0.1
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.08,
+   0.0
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "21|1011": {
+  "pair": 21,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.44,
+   0.9
+  ],
+  "b_vals": [
+   0.42,
+   0.3
+  ],
+  "right_vals": [
+   0.62,
+   0.8
+  ],
+  "left_vals": [
+   0.18,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "21|1012": {
+  "pair": 21,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.24,
+   0.85
+  ],
+  "b_vals": [
+   0.48,
+   0.9
+  ],
+  "right_vals": [
+   0.78,
+   0.8
+  ],
+  "left_vals": [
+   0.92,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "21|1013": {
+  "pair": 21,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.56,
+   0.85
+  ],
+  "b_vals": [
+   0.32,
+   0.2
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.86,
+   0.95
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "22|1011": {
+  "pair": 22,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.23,
+   0.2
+  ],
+  "b_vals": [
+   0.34,
+   0.2
+  ],
+  "right_vals": [
+   0.18,
+   0.2
+  ],
+  "left_vals": [
+   0.34,
+   0.3
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "22|1012": {
+  "pair": 22,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.29,
+   0.3
+  ],
+  "b_vals": [
+   0.29,
+   0.2
+  ],
+  "right_vals": [
+   0.88,
+   0.2
+  ],
+  "left_vals": [
+   0.2,
+   0.3
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "22|1013": {
+  "pair": 22,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.36,
+   0.85
+  ],
+  "b_vals": [
+   0.38,
+   0.2
+  ],
+  "right_vals": [
+   0.42,
+   0.1
+  ],
+  "left_vals": [
+   0.18,
+   0.1
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "23|1011": {
+  "pair": 23,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.36,
+   0.4
+  ],
+  "b_vals": [
+   0.4,
+   0.9
+  ],
+  "right_vals": [
+   0.12,
+   0.0
+  ],
+  "left_vals": [
+   0.96,
+   0.4
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "23|1012": {
+  "pair": 23,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.93,
+   0.95
+  ],
+  "b_vals": [
+   0.23,
+   0.2
+  ],
+  "right_vals": [
+   0.08,
+   0.1
+  ],
+  "left_vals": [
+   0.97,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "23|1013": {
+  "pair": 23,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   0.95
+  ],
+  "b_vals": [
+   0.12,
+   0.2
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.92,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "24|1011": {
+  "pair": 24,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.93,
+   0.95
+  ],
+  "b_vals": [
+   0.08,
+   0.2
+  ],
+  "right_vals": [
+   0.08,
+   0.1
+  ],
+  "left_vals": [
+   0.78,
+   0.9
+  ],
+  "struct_ss": [
+   0.96,
+   1.0
+  ]
+ },
+ "24|1012": {
+  "pair": 24,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.89,
+   0.9
+  ],
+  "b_vals": [
+   0.36,
+   0.3
+  ],
+  "right_vals": [
+   0.08,
+   0.1
+  ],
+  "left_vals": [
+   0.18,
+   0.8
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "24|1013": {
+  "pair": 24,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.89,
+   0.9
+  ],
+  "b_vals": [
+   0.42,
+   0.4
+  ],
+  "right_vals": [
+   0.05,
+   0.1
+  ],
+  "left_vals": [
+   0.62,
+   0.8
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "25|1011": {
+  "pair": 25,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.63,
+   0.9
+  ],
+  "b_vals": [
+   0.08,
+   0.1
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.28,
+   0.7
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "25|1012": {
+  "pair": 25,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.88,
+   0.85
+  ],
+  "b_vals": [
+   0.05,
+   0.1
+  ],
+  "right_vals": [
+   0.12,
+   0.1
+  ],
+  "left_vals": [
+   0.58,
+   0.8
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "25|1013": {
+  "pair": 25,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.77,
+   0.9
+  ],
+  "b_vals": [
+   0.12,
+   0.1
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.78,
+   0.4
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "26|1011": {
+  "pair": 26,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.86,
+   0.95
+  ],
+  "b_vals": [
+   0.78,
+   0.9
+  ],
+  "right_vals": [
+   0.55,
+   0.1
+  ],
+  "left_vals": [
+   0.42,
+   0.2
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "26|1012": {
+  "pair": 26,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.79,
+   0.95
+  ],
+  "b_vals": [
+   0.72,
+   0.9
+  ],
+  "right_vals": [
+   0.12,
+   0.1
+  ],
+  "left_vals": [
+   0.18,
+   0.2
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "26|1013": {
+  "pair": 26,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.65,
+   0.85
+  ],
+  "b_vals": [
+   0.75,
+   0.9
+  ],
+  "right_vals": [
+   0.05,
+   0.1
+  ],
+  "left_vals": [
+   0.08,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "27|1011": {
+  "pair": 27,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   1.0
+  ],
+  "b_vals": [
+   0.42,
+   0.2
+  ],
+  "right_vals": [
+   0.8,
+   0.1
+  ],
+  "left_vals": [
+   0.15,
+   0.8
+  ],
+  "struct_ss": [
+   0.95,
+   1.0
+  ]
+ },
+ "27|1012": {
+  "pair": 27,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.42,
+   0.85
+  ],
+  "right_vals": [
+   0.08,
+   0.0
+  ],
+  "left_vals": [
+   0.97,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "27|1013": {
+  "pair": 27,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   1.0
+  ],
+  "b_vals": [
+   0.72,
+   0.9
+  ],
+  "right_vals": [
+   0.08,
+   0.0
+  ],
+  "left_vals": [
+   0.97,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "28|1011": {
+  "pair": 28,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.58,
+   0.3
+  ],
+  "b_vals": [
+   0.18,
+   0.3
+  ],
+  "right_vals": [
+   0.46,
+   0.2
+  ],
+  "left_vals": [
+   0.18,
+   0.0
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "28|1012": {
+  "pair": 28,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.81,
+   0.4
+  ],
+  "b_vals": [
+   0.48,
+   0.3
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.12,
+   0.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "28|1013": {
+  "pair": 28,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.29,
+   0.2
+  ],
+  "b_vals": [
+   0.42,
+   0.4
+  ],
+  "right_vals": [
+   0.3,
+   0.2
+  ],
+  "left_vals": [
+   0.15,
+   0.1
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "29|1011": {
+  "pair": 29,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.83,
+   0.95
+  ],
+  "b_vals": [
+   0.12,
+   0.1
+  ],
+  "right_vals": [
+   0.73,
+   0.4
+  ],
+  "left_vals": [
+   0.91,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "29|1012": {
+  "pair": 29,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.56,
+   0.9
+  ],
+  "b_vals": [
+   0.02,
+   0.0
+  ],
+  "right_vals": [
+   0.22,
+   0.3
+  ],
+  "left_vals": [
+   0.68,
+   0.4
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "29|1013": {
+  "pair": 29,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.72,
+   0.95
+  ],
+  "b_vals": [
+   0.02,
+   0.0
+  ],
+  "right_vals": [
+   0.58,
+   0.8
+  ],
+  "left_vals": [
+   0.82,
+   0.8
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "30|1011": {
+  "pair": 30,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.7,
+   0.4
+  ],
+  "b_vals": [
+   0.34,
+   0.4
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.73,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "30|1012": {
+  "pair": 30,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.72,
+   0.4
+  ],
+  "b_vals": [
+   0.33,
+   0.3
+  ],
+  "right_vals": [
+   0.22,
+   0.2
+  ],
+  "left_vals": [
+   0.93,
+   0.9
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "30|1013": {
+  "pair": 30,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.58,
+   0.4
+  ],
+  "b_vals": [
+   0.42,
+   0.2
+  ],
+  "right_vals": [
+   0.38,
+   0.85
+  ],
+  "left_vals": [
+   0.88,
+   0.95
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "31|1011": {
+  "pair": 31,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   1.0
+  ],
+  "b_vals": [
+   0.94,
+   0.95
+  ],
+  "right_vals": [
+   0.38,
+   0.8
+  ],
+  "left_vals": [
+   0.58,
+   0.4
+  ],
+  "struct_ss": [
+   0.96,
+   1.0
+  ]
+ },
+ "31|1012": {
+  "pair": 31,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.76,
+   0.9
+  ],
+  "b_vals": [
+   0.89,
+   0.4
+  ],
+  "right_vals": [
+   0.9,
+   0.8
+  ],
+  "left_vals": [
+   0.58,
+   0.2
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "31|1013": {
+  "pair": 31,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.73,
+   0.85
+  ],
+  "b_vals": [
+   0.93,
+   0.5
+  ],
+  "right_vals": [
+   0.66,
+   0.85
+  ],
+  "left_vals": [
+   0.84,
+   0.9
+  ],
+  "struct_ss": [
+   0.72,
+   0.9
+  ]
+ },
+ "32|1011": {
+  "pair": 32,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   0.95
+  ],
+  "b_vals": [
+   0.95,
+   1.0
+  ],
+  "right_vals": [
+   0.18,
+   0.2
+  ],
+  "left_vals": [
+   0.69,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   0.9
+  ]
+ },
+ "32|1012": {
+  "pair": 32,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.77,
+   0.95
+  ],
+  "b_vals": [
+   0.31,
+   0.2
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.93,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "32|1013": {
+  "pair": 32,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.74,
+   0.95
+  ],
+  "b_vals": [
+   0.28,
+   0.9
+  ],
+  "right_vals": [
+   0.28,
+   0.3
+  ],
+  "left_vals": [
+   0.84,
+   0.8
+  ],
+  "struct_ss": [
+   0.42,
+   0.5
+  ]
+ },
+ "33|1011": {
+  "pair": 33,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.63,
+   0.9
+  ],
+  "right_vals": [
+   0.28,
+   0.3
+  ],
+  "left_vals": [
+   0.98,
+   1.0
+  ],
+  "struct_ss": [
+   0.98,
+   0.8
+  ]
+ },
+ "33|1012": {
+  "pair": 33,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.99,
+   1.0
+  ],
+  "b_vals": [
+   0.86,
+   0.4
+  ],
+  "right_vals": [
+   0.38,
+   0.2
+  ],
+  "left_vals": [
+   0.98,
+   1.0
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "33|1013": {
+  "pair": 33,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.2,
+   0.3
+  ],
+  "right_vals": [
+   0.18,
+   0.0
+  ],
+  "left_vals": [
+   0.98,
+   1.0
+  ],
+  "struct_ss": [
+   0.0,
+   0.3
+  ]
+ },
+ "34|1011": {
+  "pair": 34,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.42,
+   0.6
+  ],
+  "b_vals": [
+   0.86,
+   0.9
+  ],
+  "right_vals": [
+   0.78,
+   0.9
+  ],
+  "left_vals": [
+   0.08,
+   0.1
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "34|1012": {
+  "pair": 34,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.71,
+   0.6
+  ],
+  "b_vals": [
+   0.84,
+   0.2
+  ],
+  "right_vals": [
+   0.71,
+   0.8
+  ],
+  "left_vals": [
+   0.27,
+   0.2
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "34|1013": {
+  "pair": 34,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.73,
+   0.4
+  ],
+  "b_vals": [
+   0.82,
+   0.9
+  ],
+  "right_vals": [
+   0.1,
+   0.1
+  ],
+  "left_vals": [
+   0.7,
+   0.2
+  ],
+  "struct_ss": [
+   0.75,
+   1.0
+  ]
+ },
+ "35|1011": {
+  "pair": 35,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.43,
+   0.4
+  ],
+  "b_vals": [
+   0.28,
+   0.3
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.08,
+   0.1
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "35|1012": {
+  "pair": 35,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.38,
+   0.3
+  ],
+  "b_vals": [
+   0.22,
+   0.2
+  ],
+  "right_vals": [
+   0.0,
+   0.0
+  ],
+  "left_vals": [
+   0.1,
+   0.1
+  ],
+  "struct_ss": [
+   0.0,
+   0.5
+  ]
+ },
+ "35|1013": {
+  "pair": 35,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.57,
+   0.4
+  ],
+  "b_vals": [
+   0.25,
+   0.1
+  ],
+  "right_vals": [
+   0.38,
+   0.1
+  ],
+  "left_vals": [
+   0.63,
+   0.3
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "36|1011": {
+  "pair": 36,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.42,
+   0.3
+  ],
+  "b_vals": [
+   0.53,
+   0.9
+  ],
+  "right_vals": [
+   0.35,
+   0.3
+  ],
+  "left_vals": [
+   0.9,
+   0.9
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "36|1012": {
+  "pair": 36,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.77,
+   0.4
+  ],
+  "b_vals": [
+   0.66,
+   0.9
+  ],
+  "right_vals": [
+   0.62,
+   0.4
+  ],
+  "left_vals": [
+   0.93,
+   0.95
+  ],
+  "struct_ss": [
+   0.99,
+   0.9
+  ]
+ },
+ "36|1013": {
+  "pair": 36,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.87,
+   0.95
+  ],
+  "b_vals": [
+   0.86,
+   1.0
+  ],
+  "right_vals": [
+   0.36,
+   0.3
+  ],
+  "left_vals": [
+   0.88,
+   0.9
+  ],
+  "struct_ss": [
+   0.95,
+   1.0
+  ]
+ },
+ "37|1011": {
+  "pair": 37,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.93,
+   0.9
+  ],
+  "b_vals": [
+   0.92,
+   1.0
+  ],
+  "right_vals": [
+   0.22,
+   0.4
+  ],
+  "left_vals": [
+   0.82,
+   0.8
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "37|1012": {
+  "pair": 37,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.67,
+   0.95
+  ],
+  "b_vals": [
+   0.2,
+   0.9
+  ],
+  "right_vals": [
+   0.18,
+   0.3
+  ],
+  "left_vals": [
+   0.88,
+   0.4
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "37|1013": {
+  "pair": 37,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   1.0
+  ],
+  "b_vals": [
+   0.34,
+   0.85
+  ],
+  "right_vals": [
+   0.42,
+   0.4
+  ],
+  "left_vals": [
+   0.9,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "38|1011": {
+  "pair": 38,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.24,
+   0.85
+  ],
+  "b_vals": [
+   0.46,
+   0.4
+  ],
+  "right_vals": [
+   0.66,
+   0.2
+  ],
+  "left_vals": [
+   0.22,
+   0.8
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "38|1012": {
+  "pair": 38,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.44,
+   0.6
+  ],
+  "b_vals": [
+   0.5,
+   0.6
+  ],
+  "right_vals": [
+   0.7,
+   0.7
+  ],
+  "left_vals": [
+   0.72,
+   0.8
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "38|1013": {
+  "pair": 38,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.35,
+   0.85
+  ],
+  "b_vals": [
+   0.82,
+   0.85
+  ],
+  "right_vals": [
+   0.62,
+   0.8
+  ],
+  "left_vals": [
+   0.55,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "39|1011": {
+  "pair": 39,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.21,
+   0.2
+  ],
+  "b_vals": [
+   0.84,
+   0.9
+  ],
+  "right_vals": [
+   0.2,
+   0.35
+  ],
+  "left_vals": [
+   0.35,
+   0.6
+  ],
+  "struct_ss": [
+   0.98,
+   0.75
+  ]
+ },
+ "39|1012": {
+  "pair": 39,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.18,
+   0.2
+  ],
+  "b_vals": [
+   0.89,
+   1.0
+  ],
+  "right_vals": [
+   0.72,
+   0.2
+  ],
+  "left_vals": [
+   0.08,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "39|1013": {
+  "pair": 39,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.36,
+   0.2
+  ],
+  "b_vals": [
+   0.85,
+   1.0
+  ],
+  "right_vals": [
+   0.2,
+   0.38
+  ],
+  "left_vals": [
+   0.1,
+   0.35
+  ],
+  "struct_ss": [
+   0.98,
+   0.72
+  ]
+ },
+ "40|1011": {
+  "pair": 40,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   1.0
+  ],
+  "b_vals": [
+   0.56,
+   0.9
+  ],
+  "right_vals": [
+   0.48,
+   0.4
+  ],
+  "left_vals": [
+   0.94,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "40|1012": {
+  "pair": 40,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.28,
+   0.85
+  ],
+  "right_vals": [
+   0.28,
+   0.58
+  ],
+  "left_vals": [
+   0.94,
+   0.72
+  ],
+  "struct_ss": [
+   0.93,
+   0.75
+  ]
+ },
+ "40|1013": {
+  "pair": 40,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   0.95
+  ],
+  "b_vals": [
+   0.42,
+   0.9
+  ],
+  "right_vals": [
+   0.18,
+   0.2
+  ],
+  "left_vals": [
+   0.93,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   0.9
+  ]
+ },
+ "41|1011": {
+  "pair": 41,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   1.0
+  ],
+  "b_vals": [
+   0.16,
+   0.4
+  ],
+  "right_vals": [
+   0.28,
+   0.4
+  ],
+  "left_vals": [
+   0.9,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "41|1012": {
+  "pair": 41,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.92,
+   1.0
+  ],
+  "b_vals": [
+   0.62,
+   0.85
+  ],
+  "right_vals": [
+   0.34,
+   0.4
+  ],
+  "left_vals": [
+   0.94,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "41|1013": {
+  "pair": 41,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.89,
+   1.0
+  ],
+  "b_vals": [
+   0.54,
+   0.4
+  ],
+  "right_vals": [
+   0.22,
+   0.3
+  ],
+  "left_vals": [
+   0.95,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "42|1011": {
+  "pair": 42,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.92,
+   0.9
+  ],
+  "right_vals": [
+   0.72,
+   0.8
+  ],
+  "left_vals": [
+   0.93,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   0.8
+  ]
+ },
+ "42|1012": {
+  "pair": 42,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   1.0
+  ],
+  "b_vals": [
+   0.92,
+   0.4
+  ],
+  "right_vals": [
+   0.44,
+   0.8
+  ],
+  "left_vals": [
+   0.92,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "42|1013": {
+  "pair": 42,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   0.95
+  ],
+  "b_vals": [
+   0.92,
+   0.85
+  ],
+  "right_vals": [
+   0.62,
+   0.8
+  ],
+  "left_vals": [
+   0.86,
+   0.9
+  ],
+  "struct_ss": [
+   0.18,
+   0.7
+  ]
+ },
+ "43|1011": {
+  "pair": 43,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.86,
+   0.9
+  ],
+  "right_vals": [
+   0.58,
+   0.55
+  ],
+  "left_vals": [
+   0.26,
+   0.45
+  ],
+  "struct_ss": [
+   0.98,
+   0.72
+  ]
+ },
+ "43|1012": {
+  "pair": 43,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.94,
+   0.95
+  ],
+  "b_vals": [
+   0.94,
+   0.78
+  ],
+  "right_vals": [
+   0.65,
+   0.9
+  ],
+  "left_vals": [
+   0.3,
+   0.3
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "43|1013": {
+  "pair": 43,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.95,
+   0.95
+  ],
+  "b_vals": [
+   0.94,
+   0.95
+  ],
+  "right_vals": [
+   0.64,
+   0.8
+  ],
+  "left_vals": [
+   0.18,
+   0.2
+  ],
+  "struct_ss": [
+   1.0,
+   0.8
+  ]
+ },
+ "44|1011": {
+  "pair": 44,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.82,
+   0.72
+  ],
+  "b_vals": [
+   0.67,
+   0.75
+  ],
+  "right_vals": [
+   0.12,
+   0.3
+  ],
+  "left_vals": [
+   0.78,
+   0.65
+  ],
+  "struct_ss": [
+   0.96,
+   0.65
+  ]
+ },
+ "44|1012": {
+  "pair": 44,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   0.95
+  ],
+  "b_vals": [
+   0.93,
+   0.95
+  ],
+  "right_vals": [
+   0.2,
+   0.2
+  ],
+  "left_vals": [
+   0.9,
+   0.9
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "44|1013": {
+  "pair": 44,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   0.72
+  ],
+  "b_vals": [
+   0.83,
+   0.72
+  ],
+  "right_vals": [
+   0.18,
+   0.42
+  ],
+  "left_vals": [
+   0.76,
+   0.58
+  ],
+  "struct_ss": [
+   0.99,
+   0.72
+  ]
+ },
+ "45|1011": {
+  "pair": 45,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.42,
+   0.2
+  ],
+  "b_vals": [
+   0.66,
+   0.9
+  ],
+  "right_vals": [
+   0.56,
+   0.4
+  ],
+  "left_vals": [
+   0.08,
+   0.1
+  ],
+  "struct_ss": [
+   0.95,
+   0.9
+  ]
+ },
+ "45|1012": {
+  "pair": 45,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.18,
+   0.45
+  ],
+  "b_vals": [
+   0.69,
+   0.72
+  ],
+  "right_vals": [
+   0.2,
+   0.7
+  ],
+  "left_vals": [
+   0.15,
+   0.35
+  ],
+  "struct_ss": [
+   1.0,
+   0.75
+  ]
+ },
+ "45|1013": {
+  "pair": 45,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.31,
+   0.3
+  ],
+  "b_vals": [
+   0.33,
+   0.4
+  ],
+  "right_vals": [
+   0.32,
+   0.4
+  ],
+  "left_vals": [
+   0.95,
+   0.1
+  ],
+  "struct_ss": [
+   0.99,
+   0.9
+  ]
+ },
+ "46|1011": {
+  "pair": 46,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.12,
+   0.1
+  ],
+  "b_vals": [
+   0.76,
+   0.65
+  ],
+  "right_vals": [
+   0.68,
+   0.55
+  ],
+  "left_vals": [
+   0.46,
+   0.35
+  ],
+  "struct_ss": [
+   0.99,
+   0.75
+  ]
+ },
+ "46|1012": {
+  "pair": 46,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.34,
+   0.58
+  ],
+  "b_vals": [
+   0.68,
+   0.9
+  ],
+  "right_vals": [
+   0.76,
+   0.68
+  ],
+  "left_vals": [
+   0.82,
+   0.38
+  ],
+  "struct_ss": [
+   1.0,
+   0.72
+  ]
+ },
+ "46|1013": {
+  "pair": 46,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.1,
+   0.85
+  ],
+  "b_vals": [
+   0.91,
+   0.95
+  ],
+  "right_vals": [
+   0.58,
+   0.65
+  ],
+  "left_vals": [
+   0.74,
+   0.55
+  ],
+  "struct_ss": [
+   0.81,
+   0.75
+  ]
+ },
+ "47|1011": {
+  "pair": 47,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.08,
+   0.1
+  ],
+  "b_vals": [
+   0.86,
+   0.72
+  ],
+  "right_vals": [
+   0.86,
+   0.72
+  ],
+  "left_vals": [
+   0.18,
+   0.45
+  ],
+  "struct_ss": [
+   0.97,
+   0.75
+  ]
+ },
+ "47|1012": {
+  "pair": 47,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.22,
+   0.35
+  ],
+  "b_vals": [
+   0.92,
+   0.95
+  ],
+  "right_vals": [
+   0.62,
+   0.9
+  ],
+  "left_vals": [
+   0.18,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "47|1013": {
+  "pair": 47,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.79,
+   0.42
+  ],
+  "b_vals": [
+   0.95,
+   0.72
+  ],
+  "right_vals": [
+   0.86,
+   0.9
+  ],
+  "left_vals": [
+   0.58,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "48|1011": {
+  "pair": 48,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.88,
+   0.38
+  ],
+  "b_vals": [
+   0.15,
+   0.1
+  ],
+  "right_vals": [
+   0.62,
+   0.4
+  ],
+  "left_vals": [
+   0.08,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "48|1012": {
+  "pair": 48,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.92,
+   0.68
+  ],
+  "b_vals": [
+   0.08,
+   0.35
+  ],
+  "right_vals": [
+   0.74,
+   0.9
+  ],
+  "left_vals": [
+   0.08,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "48|1013": {
+  "pair": 48,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   1.0,
+   0.9
+  ],
+  "b_vals": [
+   0.12,
+   0.4
+  ],
+  "right_vals": [
+   0.84,
+   0.8
+  ],
+  "left_vals": [
+   0.08,
+   0.1
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "49|1011": {
+  "pair": 49,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.62,
+   0.95
+  ],
+  "b_vals": [
+   0.93,
+   0.68
+  ],
+  "right_vals": [
+   0.15,
+   0.2
+  ],
+  "left_vals": [
+   0.95,
+   0.3
+  ],
+  "struct_ss": [
+   0.98,
+   0.5
+  ]
+ },
+ "49|1012": {
+  "pair": 49,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   0.9
+  ],
+  "b_vals": [
+   0.66,
+   0.72
+  ],
+  "right_vals": [
+   0.84,
+   0.68
+  ],
+  "left_vals": [
+   0.92,
+   0.72
+  ],
+  "struct_ss": [
+   1.0,
+   0.65
+  ]
+ },
+ "49|1013": {
+  "pair": 49,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   1.0
+  ],
+  "b_vals": [
+   0.3,
+   0.72
+  ],
+  "right_vals": [
+   0.18,
+   0.58
+  ],
+  "left_vals": [
+   0.94,
+   0.65
+  ],
+  "struct_ss": [
+   0.08,
+   0.35
+  ]
+ },
+ "50|1011": {
+  "pair": 50,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   0.95
+  ],
+  "b_vals": [
+   0.78,
+   0.4
+  ],
+  "right_vals": [
+   0.62,
+   0.1
+  ],
+  "left_vals": [
+   0.92,
+   0.95
+  ],
+  "struct_ss": [
+   0.97,
+   0.9
+  ]
+ },
+ "50|1012": {
+  "pair": 50,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.74,
+   0.6
+  ],
+  "b_vals": [
+   0.3,
+   0.85
+  ],
+  "right_vals": [
+   0.55,
+   0.3
+  ],
+  "left_vals": [
+   0.88,
+   0.8
+  ],
+  "struct_ss": [
+   0.95,
+   0.5
+  ]
+ },
+ "50|1013": {
+  "pair": 50,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.92,
+   0.78
+  ],
+  "b_vals": [
+   0.83,
+   0.4
+  ],
+  "right_vals": [
+   0.46,
+   0.3
+  ],
+  "left_vals": [
+   0.93,
+   0.9
+  ],
+  "struct_ss": [
+   0.4,
+   0.4
+  ]
+ },
+ "51|1011": {
+  "pair": 51,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   0.72
+  ],
+  "b_vals": [
+   0.85,
+   0.95
+  ],
+  "right_vals": [
+   0.83,
+   0.95
+  ],
+  "left_vals": [
+   0.8,
+   0.95
+  ],
+  "struct_ss": [
+   0.92,
+   1.0
+  ]
+ },
+ "51|1012": {
+  "pair": 51,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.95,
+   0.75
+  ],
+  "right_vals": [
+   0.86,
+   0.95
+  ],
+  "left_vals": [
+   0.79,
+   0.9
+  ],
+  "struct_ss": [
+   0.58,
+   0.9
+  ]
+ },
+ "51|1013": {
+  "pair": 51,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   1.0
+  ],
+  "b_vals": [
+   0.91,
+   0.75
+  ],
+  "right_vals": [
+   0.79,
+   0.9
+  ],
+  "left_vals": [
+   0.86,
+   0.9
+  ],
+  "struct_ss": [
+   0.96,
+   0.8
+  ]
+ },
+ "52|1011": {
+  "pair": 52,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.91,
+   0.95
+  ],
+  "b_vals": [
+   0.92,
+   0.73
+  ],
+  "right_vals": [
+   0.93,
+   0.7
+  ],
+  "left_vals": [
+   0.18,
+   0.4
+  ],
+  "struct_ss": [
+   0.98,
+   0.75
+  ]
+ },
+ "52|1012": {
+  "pair": 52,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.7,
+   0.9
+  ],
+  "b_vals": [
+   0.76,
+   0.72
+  ],
+  "right_vals": [
+   0.92,
+   0.74
+  ],
+  "left_vals": [
+   0.78,
+   0.72
+  ],
+  "struct_ss": [
+   0.99,
+   0.78
+  ]
+ },
+ "52|1013": {
+  "pair": 52,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.88,
+   0.95
+  ],
+  "b_vals": [
+   0.89,
+   0.95
+  ],
+  "right_vals": [
+   0.92,
+   0.72
+  ],
+  "left_vals": [
+   0.45,
+   0.68
+  ],
+  "struct_ss": [
+   0.98,
+   0.75
+  ]
+ },
+ "53|1011": {
+  "pair": 53,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.91,
+   0.95
+  ],
+  "b_vals": [
+   0.94,
+   0.9
+  ],
+  "right_vals": [
+   0.58,
+   0.65
+  ],
+  "left_vals": [
+   0.76,
+   0.68
+  ],
+  "struct_ss": [
+   0.97,
+   0.62
+  ]
+ },
+ "53|1012": {
+  "pair": 53,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   0.73
+  ],
+  "b_vals": [
+   0.95,
+   0.95
+  ],
+  "right_vals": [
+   0.6,
+   0.8
+  ],
+  "left_vals": [
+   0.8,
+   0.9
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "53|1013": {
+  "pair": 53,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   0.73
+  ],
+  "b_vals": [
+   0.91,
+   0.9
+  ],
+  "right_vals": [
+   0.55,
+   0.5
+  ],
+  "left_vals": [
+   0.73,
+   0.8
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "54|1011": {
+  "pair": 54,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.7,
+   0.65
+  ],
+  "b_vals": [
+   0.67,
+   0.9
+  ],
+  "right_vals": [
+   0.88,
+   0.9
+  ],
+  "left_vals": [
+   0.56,
+   0.8
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "54|1012": {
+  "pair": 54,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.66,
+   0.72
+  ],
+  "b_vals": [
+   0.7,
+   0.9
+  ],
+  "right_vals": [
+   0.34,
+   0.4
+  ],
+  "left_vals": [
+   0.38,
+   0.8
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "54|1013": {
+  "pair": 54,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.77,
+   0.9
+  ],
+  "b_vals": [
+   0.7,
+   0.95
+  ],
+  "right_vals": [
+   0.72,
+   0.8
+  ],
+  "left_vals": [
+   0.26,
+   0.2
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "55|1011": {
+  "pair": 55,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.32,
+   0.3
+  ],
+  "b_vals": [
+   0.38,
+   0.75
+  ],
+  "right_vals": [
+   0.22,
+   0.3
+  ],
+  "left_vals": [
+   0.18,
+   0.4
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "55|1012": {
+  "pair": 55,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.28,
+   0.3
+  ],
+  "b_vals": [
+   0.94,
+   0.73
+  ],
+  "right_vals": [
+   0.28,
+   0.35
+  ],
+  "left_vals": [
+   0.36,
+   0.32
+  ],
+  "struct_ss": [
+   0.98,
+   0.72
+  ]
+ },
+ "55|1013": {
+  "pair": 55,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.43,
+   0.3
+  ],
+  "b_vals": [
+   0.81,
+   0.72
+  ],
+  "right_vals": [
+   0.22,
+   0.2
+  ],
+  "left_vals": [
+   0.16,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "56|1011": {
+  "pair": 56,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   1.0,
+   0.95
+  ],
+  "b_vals": [
+   0.92,
+   0.4
+  ],
+  "right_vals": [
+   0.22,
+   0.1
+  ],
+  "left_vals": [
+   0.08,
+   0.2
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "56|1012": {
+  "pair": 56,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.86,
+   0.95
+  ],
+  "b_vals": [
+   0.87,
+   0.4
+  ],
+  "right_vals": [
+   0.41,
+   0.9
+  ],
+  "left_vals": [
+   0.62,
+   0.95
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "56|1013": {
+  "pair": 56,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.84,
+   0.95
+  ],
+  "b_vals": [
+   0.84,
+   0.9
+  ],
+  "right_vals": [
+   0.15,
+   0.4
+  ],
+  "left_vals": [
+   0.3,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "57|1011": {
+  "pair": 57,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.89,
+   0.72
+  ],
+  "b_vals": [
+   0.94,
+   0.95
+  ],
+  "right_vals": [
+   0.92,
+   0.9
+  ],
+  "left_vals": [
+   0.78,
+   1.0
+  ],
+  "struct_ss": [
+   0.94,
+   0.9
+  ]
+ },
+ "57|1012": {
+  "pair": 57,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.88,
+   0.74
+  ],
+  "b_vals": [
+   0.93,
+   0.95
+  ],
+  "right_vals": [
+   0.88,
+   0.9
+  ],
+  "left_vals": [
+   0.9,
+   1.0
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "57|1013": {
+  "pair": 57,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.92,
+   0.72
+  ],
+  "b_vals": [
+   0.81,
+   0.95
+  ],
+  "right_vals": [
+   0.87,
+   0.9
+  ],
+  "left_vals": [
+   0.93,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "58|1011": {
+  "pair": 58,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.93,
+   0.4
+  ],
+  "b_vals": [
+   0.83,
+   0.72
+  ],
+  "right_vals": [
+   0.96,
+   0.75
+  ],
+  "left_vals": [
+   0.66,
+   0.65
+  ],
+  "struct_ss": [
+   0.98,
+   0.75
+  ]
+ },
+ "58|1012": {
+  "pair": 58,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.96,
+   0.9
+  ],
+  "b_vals": [
+   0.92,
+   0.72
+  ],
+  "right_vals": [
+   0.88,
+   0.8
+  ],
+  "left_vals": [
+   0.45,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "58|1013": {
+  "pair": 58,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.88,
+   0.9
+  ],
+  "b_vals": [
+   0.89,
+   0.9
+  ],
+  "right_vals": [
+   0.88,
+   0.8
+  ],
+  "left_vals": [
+   0.2,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "59|1011": {
+  "pair": 59,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.95,
+   0.85
+  ],
+  "b_vals": [
+   0.9,
+   0.95
+  ],
+  "right_vals": [
+   0.82,
+   0.9
+  ],
+  "left_vals": [
+   0.42,
+   0.3
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "59|1012": {
+  "pair": 59,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.95,
+   0.95
+  ],
+  "b_vals": [
+   0.81,
+   0.95
+  ],
+  "right_vals": [
+   0.77,
+   0.8
+  ],
+  "left_vals": [
+   0.44,
+   0.3
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "59|1013": {
+  "pair": 59,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.86,
+   0.85
+  ],
+  "b_vals": [
+   0.69,
+   0.9
+  ],
+  "right_vals": [
+   0.42,
+   0.4
+  ],
+  "left_vals": [
+   0.52,
+   0.3
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "60|1011": {
+  "pair": 60,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.6,
+   0.95
+  ],
+  "b_vals": [
+   0.18,
+   0.1
+  ],
+  "right_vals": [
+   0.08,
+   0.1
+  ],
+  "left_vals": [
+   0.22,
+   0.1
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "60|1012": {
+  "pair": 60,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.46,
+   0.72
+  ],
+  "b_vals": [
+   0.64,
+   0.3
+  ],
+  "right_vals": [
+   0.68,
+   0.3
+  ],
+  "left_vals": [
+   0.73,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "60|1013": {
+  "pair": 60,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.72,
+   0.72
+  ],
+  "b_vals": [
+   0.88,
+   0.85
+  ],
+  "right_vals": [
+   0.78,
+   0.4
+  ],
+  "left_vals": [
+   0.93,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "61|1011": {
+  "pair": 61,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   0.95
+  ],
+  "b_vals": [
+   0.77,
+   0.45
+  ],
+  "right_vals": [
+   0.62,
+   0.3
+  ],
+  "left_vals": [
+   0.94,
+   0.9
+  ],
+  "struct_ss": [
+   0.9,
+   0.9
+  ]
+ },
+ "61|1012": {
+  "pair": 61,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.81,
+   0.95
+  ],
+  "b_vals": [
+   0.72,
+   0.9
+  ],
+  "right_vals": [
+   0.08,
+   0.1
+  ],
+  "left_vals": [
+   0.91,
+   0.9
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "61|1013": {
+  "pair": 61,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.54,
+   0.2
+  ],
+  "right_vals": [
+   0.45,
+   0.2
+  ],
+  "left_vals": [
+   0.93,
+   0.9
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "62|1011": {
+  "pair": 62,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   0.95
+  ],
+  "b_vals": [
+   0.44,
+   0.4
+  ],
+  "right_vals": [
+   0.22,
+   0.2
+  ],
+  "left_vals": [
+   0.83,
+   0.8
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "62|1012": {
+  "pair": 62,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.79,
+   0.95
+  ],
+  "b_vals": [
+   0.64,
+   0.4
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.82,
+   0.6
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "62|1013": {
+  "pair": 62,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.76,
+   0.2
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.93,
+   0.8
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "63|1011": {
+  "pair": 63,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.77,
+   0.6
+  ],
+  "b_vals": [
+   0.43,
+   0.2
+  ],
+  "right_vals": [
+   0.48,
+   0.1
+  ],
+  "left_vals": [
+   0.92,
+   1.0
+  ],
+  "struct_ss": [
+   0.95,
+   1.0
+  ]
+ },
+ "63|1012": {
+  "pair": 63,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   0.95
+  ],
+  "b_vals": [
+   0.23,
+   0.2
+  ],
+  "right_vals": [
+   0.08,
+   0.0
+  ],
+  "left_vals": [
+   0.95,
+   1.0
+  ],
+  "struct_ss": [
+   0.96,
+   0.9
+  ]
+ },
+ "63|1013": {
+  "pair": 63,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.92,
+   1.0
+  ],
+  "b_vals": [
+   0.09,
+   0.1
+  ],
+  "right_vals": [
+   0.08,
+   0.0
+  ],
+  "left_vals": [
+   0.97,
+   1.0
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "64|1011": {
+  "pair": 64,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   0.95
+  ],
+  "b_vals": [
+   0.42,
+   0.3
+  ],
+  "right_vals": [
+   0.88,
+   0.2
+  ],
+  "left_vals": [
+   0.73,
+   0.3
+  ],
+  "struct_ss": [
+   0.95,
+   1.0
+  ]
+ },
+ "64|1012": {
+  "pair": 64,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.82,
+   0.4
+  ],
+  "b_vals": [
+   0.19,
+   0.4
+  ],
+  "right_vals": [
+   0.61,
+   0.2
+  ],
+  "left_vals": [
+   0.86,
+   0.8
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "64|1013": {
+  "pair": 64,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.72,
+   0.4
+  ],
+  "right_vals": [
+   0.38,
+   0.1
+  ],
+  "left_vals": [
+   0.67,
+   0.2
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "65|1011": {
+  "pair": 65,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   0.95
+  ],
+  "b_vals": [
+   0.75,
+   0.9
+  ],
+  "right_vals": [
+   0.58,
+   0.6
+  ],
+  "left_vals": [
+   0.91,
+   0.95
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "65|1012": {
+  "pair": 65,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   1.0
+  ],
+  "b_vals": [
+   0.63,
+   0.9
+  ],
+  "right_vals": [
+   0.42,
+   0.5
+  ],
+  "left_vals": [
+   0.88,
+   0.9
+  ],
+  "struct_ss": [
+   0.82,
+   0.4
+  ]
+ },
+ "65|1013": {
+  "pair": 65,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.57,
+   0.9
+  ],
+  "right_vals": [
+   0.41,
+   0.8
+  ],
+  "left_vals": [
+   0.86,
+   0.9
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "66|1011": {
+  "pair": 66,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   0.95
+  ],
+  "b_vals": [
+   0.16,
+   0.1
+  ],
+  "right_vals": [
+   0.14,
+   0.1
+  ],
+  "left_vals": [
+   0.91,
+   0.9
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "66|1012": {
+  "pair": 66,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.82,
+   0.3
+  ],
+  "right_vals": [
+   0.58,
+   0.8
+  ],
+  "left_vals": [
+   0.95,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "66|1013": {
+  "pair": 66,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   0.95
+  ],
+  "b_vals": [
+   0.27,
+   0.2
+  ],
+  "right_vals": [
+   0.22,
+   0.1
+  ],
+  "left_vals": [
+   0.86,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "67|1011": {
+  "pair": 67,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.92,
+   0.95
+  ],
+  "b_vals": [
+   0.77,
+   0.85
+  ],
+  "right_vals": [
+   0.56,
+   0.3
+  ],
+  "left_vals": [
+   0.62,
+   0.4
+  ],
+  "struct_ss": [
+   0.95,
+   0.5
+  ]
+ },
+ "67|1012": {
+  "pair": 67,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.84,
+   0.85
+  ],
+  "right_vals": [
+   0.35,
+   0.8
+  ],
+  "left_vals": [
+   0.9,
+   1.0
+  ],
+  "struct_ss": [
+   0.95,
+   0.9
+  ]
+ },
+ "67|1013": {
+  "pair": 67,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.84,
+   0.9
+  ],
+  "right_vals": [
+   0.78,
+   0.9
+  ],
+  "left_vals": [
+   0.95,
+   1.0
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "68|1011": {
+  "pair": 68,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.87,
+   0.95
+  ],
+  "b_vals": [
+   0.36,
+   0.3
+  ],
+  "right_vals": [
+   0.18,
+   0.2
+  ],
+  "left_vals": [
+   0.88,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "68|1012": {
+  "pair": 68,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   0.95
+  ],
+  "b_vals": [
+   0.49,
+   0.85
+  ],
+  "right_vals": [
+   0.12,
+   0.2
+  ],
+  "left_vals": [
+   0.88,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "68|1013": {
+  "pair": 68,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.9,
+   0.95
+  ],
+  "b_vals": [
+   0.29,
+   0.4
+  ],
+  "right_vals": [
+   0.22,
+   0.4
+  ],
+  "left_vals": [
+   0.94,
+   0.95
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "69|1011": {
+  "pair": 69,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.88,
+   0.95
+  ],
+  "b_vals": [
+   0.95,
+   0.95
+  ],
+  "right_vals": [
+   0.35,
+   0.3
+  ],
+  "left_vals": [
+   0.9,
+   0.95
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "69|1012": {
+  "pair": 69,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   0.95
+  ],
+  "b_vals": [
+   0.88,
+   0.4
+  ],
+  "right_vals": [
+   0.18,
+   0.2
+  ],
+  "left_vals": [
+   0.83,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "69|1013": {
+  "pair": 69,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.83,
+   0.95
+  ],
+  "b_vals": [
+   0.86,
+   0.4
+  ],
+  "right_vals": [
+   0.28,
+   0.4
+  ],
+  "left_vals": [
+   0.92,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "70|1011": {
+  "pair": 70,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.33,
+   0.2
+  ],
+  "b_vals": [
+   0.86,
+   0.95
+  ],
+  "right_vals": [
+   0.72,
+   0.3
+  ],
+  "left_vals": [
+   0.18,
+   0.4
+  ],
+  "struct_ss": [
+   0.96,
+   1.0
+  ]
+ },
+ "70|1012": {
+  "pair": 70,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.36,
+   0.4
+  ],
+  "b_vals": [
+   0.94,
+   0.95
+  ],
+  "right_vals": [
+   0.78,
+   0.4
+  ],
+  "left_vals": [
+   0.22,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "70|1013": {
+  "pair": 70,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.23,
+   0.2
+  ],
+  "b_vals": [
+   0.72,
+   0.3
+  ],
+  "right_vals": [
+   0.88,
+   0.9
+  ],
+  "left_vals": [
+   0.18,
+   0.3
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "71|1011": {
+  "pair": 71,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.8,
+   0.9
+  ],
+  "b_vals": [
+   0.87,
+   1.0
+  ],
+  "right_vals": [
+   0.9,
+   0.9
+  ],
+  "left_vals": [
+   0.18,
+   0.2
+  ],
+  "struct_ss": [
+   0.98,
+   0.9
+  ]
+ },
+ "71|1012": {
+  "pair": 71,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.72,
+   0.9
+  ],
+  "b_vals": [
+   0.92,
+   0.95
+  ],
+  "right_vals": [
+   0.95,
+   0.9
+  ],
+  "left_vals": [
+   0.22,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "71|1013": {
+  "pair": 71,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.78,
+   0.95
+  ],
+  "b_vals": [
+   0.86,
+   1.0
+  ],
+  "right_vals": [
+   0.82,
+   0.9
+  ],
+  "left_vals": [
+   0.28,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "72|1011": {
+  "pair": 72,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.62,
+   0.9
+  ],
+  "b_vals": [
+   0.89,
+   0.95
+  ],
+  "right_vals": [
+   0.86,
+   0.9
+  ],
+  "left_vals": [
+   0.28,
+   0.2
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "72|1012": {
+  "pair": 72,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.67,
+   0.9
+  ],
+  "b_vals": [
+   0.84,
+   0.9
+  ],
+  "right_vals": [
+   0.44,
+   0.3
+  ],
+  "left_vals": [
+   0.23,
+   0.1
+  ],
+  "struct_ss": [
+   0.95,
+   0.9
+  ]
+ },
+ "72|1013": {
+  "pair": 72,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.21,
+   0.85
+  ],
+  "b_vals": [
+   0.78,
+   0.95
+  ],
+  "right_vals": [
+   0.8,
+   0.8
+  ],
+  "left_vals": [
+   0.12,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "73|1011": {
+  "pair": 73,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.84,
+   0.85
+  ],
+  "b_vals": [
+   0.57,
+   0.2
+  ],
+  "right_vals": [
+   0.12,
+   0.3
+  ],
+  "left_vals": [
+   0.53,
+   0.8
+  ],
+  "struct_ss": [
+   0.96,
+   1.0
+  ]
+ },
+ "73|1012": {
+  "pair": 73,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.42,
+   0.4
+  ],
+  "b_vals": [
+   0.44,
+   0.1
+  ],
+  "right_vals": [
+   0.83,
+   0.4
+  ],
+  "left_vals": [
+   0.36,
+   0.8
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "73|1013": {
+  "pair": 73,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.56,
+   0.85
+  ],
+  "b_vals": [
+   0.46,
+   0.2
+  ],
+  "right_vals": [
+   0.85,
+   0.5
+  ],
+  "left_vals": [
+   0.2,
+   0.4
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "74|1011": {
+  "pair": 74,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.95,
+   0.9
+  ],
+  "b_vals": [
+   0.95,
+   0.4
+  ],
+  "right_vals": [
+   0.9,
+   0.4
+  ],
+  "left_vals": [
+   0.18,
+   0.2
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "74|1012": {
+  "pair": 74,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   0.95
+  ],
+  "b_vals": [
+   0.87,
+   0.95
+  ],
+  "right_vals": [
+   0.72,
+   0.4
+  ],
+  "left_vals": [
+   0.95,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "74|1013": {
+  "pair": 74,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   0.95
+  ],
+  "b_vals": [
+   0.91,
+   0.9
+  ],
+  "right_vals": [
+   0.9,
+   0.2
+  ],
+  "left_vals": [
+   0.95,
+   0.4
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "75|1011": {
+  "pair": 75,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   0.9
+  ],
+  "b_vals": [
+   0.95,
+   0.95
+  ],
+  "right_vals": [
+   0.86,
+   0.95
+  ],
+  "left_vals": [
+   0.92,
+   0.3
+  ],
+  "struct_ss": [
+   0.94,
+   1.0
+  ]
+ },
+ "75|1012": {
+  "pair": 75,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.89,
+   0.85
+  ],
+  "b_vals": [
+   0.95,
+   1.0
+  ],
+  "right_vals": [
+   0.35,
+   0.4
+  ],
+  "left_vals": [
+   0.2,
+   0.1
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "75|1013": {
+  "pair": 75,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   0.4
+  ],
+  "b_vals": [
+   0.95,
+   1.0
+  ],
+  "right_vals": [
+   0.88,
+   0.9
+  ],
+  "left_vals": [
+   0.82,
+   0.2
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "76|1011": {
+  "pair": 76,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   1.0
+  ],
+  "b_vals": [
+   0.88,
+   0.85
+  ],
+  "right_vals": [
+   0.42,
+   0.1
+  ],
+  "left_vals": [
+   0.92,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "76|1012": {
+  "pair": 76,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.18,
+   0.9
+  ],
+  "b_vals": [
+   0.86,
+   0.4
+  ],
+  "right_vals": [
+   0.22,
+   0.3
+  ],
+  "left_vals": [
+   0.95,
+   1.0
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "76|1013": {
+  "pair": 76,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.78,
+   0.85
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.92,
+   1.0
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "77|1011": {
+  "pair": 77,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.72,
+   0.4
+  ],
+  "b_vals": [
+   0.88,
+   0.3
+  ],
+  "right_vals": [
+   0.22,
+   0.3
+  ],
+  "left_vals": [
+   0.36,
+   0.2
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "77|1012": {
+  "pair": 77,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.73,
+   0.2
+  ],
+  "b_vals": [
+   0.42,
+   0.2
+  ],
+  "right_vals": [
+   0.72,
+   0.3
+  ],
+  "left_vals": [
+   0.45,
+   0.4
+  ],
+  "struct_ss": [
+   0.96,
+   1.0
+  ]
+ },
+ "77|1013": {
+  "pair": 77,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.7,
+   0.85
+  ],
+  "b_vals": [
+   0.92,
+   0.3
+  ],
+  "right_vals": [
+   0.82,
+   0.2
+  ],
+  "left_vals": [
+   0.18,
+   0.3
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "78|1011": {
+  "pair": 78,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.93,
+   1.0
+  ],
+  "b_vals": [
+   0.34,
+   0.3
+  ],
+  "right_vals": [
+   0.68,
+   0.1
+  ],
+  "left_vals": [
+   0.94,
+   0.95
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "78|1012": {
+  "pair": 78,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   1.0
+  ],
+  "b_vals": [
+   0.32,
+   0.4
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.82,
+   0.95
+  ],
+  "struct_ss": [
+   0.95,
+   1.0
+  ]
+ },
+ "78|1013": {
+  "pair": 78,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.9,
+   0.95
+  ],
+  "b_vals": [
+   0.55,
+   0.2
+  ],
+  "right_vals": [
+   0.28,
+   0.2
+  ],
+  "left_vals": [
+   0.62,
+   0.9
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "79|1011": {
+  "pair": 79,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.18,
+   0.3
+  ],
+  "b_vals": [
+   0.91,
+   0.95
+  ],
+  "right_vals": [
+   0.78,
+   0.4
+  ],
+  "left_vals": [
+   0.08,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "79|1012": {
+  "pair": 79,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.12,
+   0.1
+  ],
+  "b_vals": [
+   0.84,
+   0.4
+  ],
+  "right_vals": [
+   0.81,
+   0.4
+  ],
+  "left_vals": [
+   0.08,
+   0.1
+  ],
+  "struct_ss": [
+   0.94,
+   1.0
+  ]
+ },
+ "79|1013": {
+  "pair": 79,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.05,
+   0.0
+  ],
+  "b_vals": [
+   0.93,
+   0.95
+  ],
+  "right_vals": [
+   0.7,
+   0.4
+  ],
+  "left_vals": [
+   0.05,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "80|1011": {
+  "pair": 80,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   0.9
+  ],
+  "b_vals": [
+   0.8,
+   0.9
+  ],
+  "right_vals": [
+   0.77,
+   0.4
+  ],
+  "left_vals": [
+   0.96,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "80|1012": {
+  "pair": 80,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   0.95
+  ],
+  "b_vals": [
+   0.42,
+   0.95
+  ],
+  "right_vals": [
+   0.66,
+   0.4
+  ],
+  "left_vals": [
+   0.96,
+   1.0
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "80|1013": {
+  "pair": 80,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   0.9
+  ],
+  "b_vals": [
+   0.49,
+   0.4
+  ],
+  "right_vals": [
+   0.88,
+   0.8
+  ],
+  "left_vals": [
+   0.95,
+   0.4
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "81|1011": {
+  "pair": 81,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.79,
+   0.4
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.93,
+   0.95
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "81|1012": {
+  "pair": 81,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.9,
+   1.0
+  ],
+  "b_vals": [
+   0.18,
+   0.2
+  ],
+  "right_vals": [
+   0.08,
+   0.0
+  ],
+  "left_vals": [
+   0.96,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "81|1013": {
+  "pair": 81,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.82,
+   1.0
+  ],
+  "b_vals": [
+   0.74,
+   0.9
+  ],
+  "right_vals": [
+   0.18,
+   0.1
+  ],
+  "left_vals": [
+   0.86,
+   1.0
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "82|1011": {
+  "pair": 82,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.93,
+   0.9
+  ],
+  "right_vals": [
+   0.24,
+   0.2
+  ],
+  "left_vals": [
+   0.96,
+   0.95
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "82|1012": {
+  "pair": 82,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.95,
+   0.95
+  ],
+  "right_vals": [
+   0.62,
+   0.4
+  ],
+  "left_vals": [
+   0.95,
+   0.95
+  ],
+  "struct_ss": [
+   0.97,
+   0.9
+  ]
+ },
+ "82|1013": {
+  "pair": 82,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.87,
+   1.0
+  ],
+  "b_vals": [
+   0.93,
+   0.9
+  ],
+  "right_vals": [
+   0.58,
+   0.4
+  ],
+  "left_vals": [
+   0.93,
+   0.95
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "83|1011": {
+  "pair": 83,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.91,
+   0.95
+  ],
+  "right_vals": [
+   0.43,
+   0.2
+  ],
+  "left_vals": [
+   0.92,
+   0.95
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "83|1012": {
+  "pair": 83,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.93,
+   1.0
+  ],
+  "b_vals": [
+   0.92,
+   0.95
+  ],
+  "right_vals": [
+   0.4,
+   0.3
+  ],
+  "left_vals": [
+   0.95,
+   0.95
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "83|1013": {
+  "pair": 83,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.82,
+   1.0
+  ],
+  "b_vals": [
+   0.94,
+   0.95
+  ],
+  "right_vals": [
+   0.63,
+   0.4
+  ],
+  "left_vals": [
+   0.84,
+   0.95
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "84|1011": {
+  "pair": 84,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.08,
+   0.1
+  ],
+  "right_vals": [
+   0.83,
+   0.3
+  ],
+  "left_vals": [
+   0.96,
+   1.0
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "84|1012": {
+  "pair": 84,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   1.0
+  ],
+  "b_vals": [
+   0.27,
+   0.2
+  ],
+  "right_vals": [
+   0.2,
+   0.1
+  ],
+  "left_vals": [
+   0.95,
+   0.95
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "84|1013": {
+  "pair": 84,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   1.0
+  ],
+  "b_vals": [
+   0.19,
+   0.3
+  ],
+  "right_vals": [
+   0.34,
+   0.1
+  ],
+  "left_vals": [
+   0.97,
+   0.95
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "85|1011": {
+  "pair": 85,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   1.0
+  ],
+  "b_vals": [
+   0.21,
+   0.3
+  ],
+  "right_vals": [
+   0.6,
+   0.2
+  ],
+  "left_vals": [
+   0.82,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "85|1012": {
+  "pair": 85,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.9,
+   1.0
+  ],
+  "b_vals": [
+   0.56,
+   0.4
+  ],
+  "right_vals": [
+   0.7,
+   0.2
+  ],
+  "left_vals": [
+   0.92,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "85|1013": {
+  "pair": 85,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.9,
+   1.0
+  ],
+  "b_vals": [
+   0.83,
+   0.2
+  ],
+  "right_vals": [
+   0.75,
+   0.2
+  ],
+  "left_vals": [
+   0.9,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "86|1011": {
+  "pair": 86,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.8,
+   0.9
+  ],
+  "right_vals": [
+   0.57,
+   0.8
+  ],
+  "left_vals": [
+   0.88,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "86|1012": {
+  "pair": 86,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.89,
+   1.0
+  ],
+  "b_vals": [
+   0.76,
+   0.85
+  ],
+  "right_vals": [
+   0.58,
+   0.3
+  ],
+  "left_vals": [
+   0.93,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "86|1013": {
+  "pair": 86,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.83,
+   1.0
+  ],
+  "b_vals": [
+   0.38,
+   0.6
+  ],
+  "right_vals": [
+   0.78,
+   0.9
+  ],
+  "left_vals": [
+   0.9,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "87|1011": {
+  "pair": 87,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   1.0
+  ],
+  "b_vals": [
+   0.93,
+   1.0
+  ],
+  "right_vals": [
+   0.36,
+   0.8
+  ],
+  "left_vals": [
+   0.97,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "87|1012": {
+  "pair": 87,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.84,
+   0.95
+  ],
+  "right_vals": [
+   0.84,
+   0.4
+  ],
+  "left_vals": [
+   0.98,
+   1.0
+  ],
+  "struct_ss": [
+   0.96,
+   1.0
+  ]
+ },
+ "87|1013": {
+  "pair": 87,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.93,
+   0.95
+  ],
+  "right_vals": [
+   0.42,
+   0.8
+  ],
+  "left_vals": [
+   0.98,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "88|1011": {
+  "pair": 88,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   0.95
+  ],
+  "b_vals": [
+   0.18,
+   0.1
+  ],
+  "right_vals": [
+   0.18,
+   0.0
+  ],
+  "left_vals": [
+   0.88,
+   0.95
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "88|1012": {
+  "pair": 88,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.44,
+   0.1
+  ],
+  "right_vals": [
+   0.0,
+   0.0
+  ],
+  "left_vals": [
+   0.92,
+   1.0
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "88|1013": {
+  "pair": 88,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   0.95
+  ],
+  "b_vals": [
+   0.2,
+   0.1
+  ],
+  "right_vals": [
+   0.28,
+   0.0
+  ],
+  "left_vals": [
+   0.83,
+   0.95
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "89|1011": {
+  "pair": 89,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.92,
+   0.4
+  ],
+  "right_vals": [
+   0.74,
+   0.1
+  ],
+  "left_vals": [
+   0.95,
+   1.0
+  ],
+  "struct_ss": [
+   0.93,
+   1.0
+  ]
+ },
+ "89|1012": {
+  "pair": 89,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.72,
+   0.9
+  ],
+  "right_vals": [
+   0.63,
+   0.1
+  ],
+  "left_vals": [
+   0.96,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "89|1013": {
+  "pair": 89,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.9,
+   1.0
+  ],
+  "b_vals": [
+   0.18,
+   0.4
+  ],
+  "right_vals": [
+   0.2,
+   0.1
+  ],
+  "left_vals": [
+   0.95,
+   1.0
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "90|1011": {
+  "pair": 90,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.8,
+   1.0
+  ],
+  "b_vals": [
+   0.94,
+   0.95
+  ],
+  "right_vals": [
+   0.92,
+   1.0
+  ],
+  "left_vals": [
+   0.95,
+   1.0
+  ],
+  "struct_ss": [
+   1.0,
+   0.9
+  ]
+ },
+ "90|1012": {
+  "pair": 90,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.94,
+   1.0
+  ],
+  "b_vals": [
+   0.86,
+   0.95
+  ],
+  "right_vals": [
+   0.1,
+   0.1
+  ],
+  "left_vals": [
+   0.9,
+   0.9
+  ],
+  "struct_ss": [
+   1.0,
+   1.0
+  ]
+ },
+ "90|1013": {
+  "pair": 90,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.87,
+   0.95
+  ],
+  "b_vals": [
+   0.92,
+   0.95
+  ],
+  "right_vals": [
+   0.08,
+   0.0
+  ],
+  "left_vals": [
+   0.94,
+   0.95
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "91|1011": {
+  "pair": 91,
+  "seed": 1011,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.84,
+   1.0
+  ],
+  "b_vals": [
+   0.71,
+   0.9
+  ],
+  "right_vals": [
+   0.42,
+   0.3
+  ],
+  "left_vals": [
+   0.86,
+   0.4
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "91|1012": {
+  "pair": 91,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.91,
+   1.0
+  ],
+  "b_vals": [
+   0.82,
+   0.9
+  ],
+  "right_vals": [
+   0.28,
+   0.3
+  ],
+  "left_vals": [
+   0.84,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "91|1013": {
+  "pair": 91,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.78,
+   0.9
+  ],
+  "right_vals": [
+   0.55,
+   0.8
+  ],
+  "left_vals": [
+   0.7,
+   0.4
+  ],
+  "struct_ss": [
+   0.95,
+   1.0
+  ]
+ },
+ "92|1011": {
+  "pair": 92,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   0.95
+  ],
+  "b_vals": [
+   0.87,
+   0.4
+  ],
+  "right_vals": [
+   0.83,
+   0.85
+  ],
+  "left_vals": [
+   0.94,
+   0.95
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "92|1012": {
+  "pair": 92,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.92,
+   0.85
+  ],
+  "right_vals": [
+   0.66,
+   0.8
+  ],
+  "left_vals": [
+   0.9,
+   1.0
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "92|1013": {
+  "pair": 92,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   1.0
+  ],
+  "b_vals": [
+   0.89,
+   0.4
+  ],
+  "right_vals": [
+   0.83,
+   0.9
+  ],
+  "left_vals": [
+   0.72,
+   0.8
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "93|1011": {
+  "pair": 93,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.22,
+   0.1
+  ],
+  "right_vals": [
+   0.85,
+   0.8
+  ],
+  "left_vals": [
+   0.9,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "93|1012": {
+  "pair": 93,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.98,
+   1.0
+  ],
+  "b_vals": [
+   0.68,
+   0.3
+  ],
+  "right_vals": [
+   0.38,
+   0.9
+  ],
+  "left_vals": [
+   0.96,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "93|1013": {
+  "pair": 93,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.99,
+   1.0
+  ],
+  "b_vals": [
+   0.8,
+   0.3
+  ],
+  "right_vals": [
+   0.41,
+   0.2
+  ],
+  "left_vals": [
+   0.98,
+   1.0
+  ],
+  "struct_ss": [
+   0.76,
+   0.7
+  ]
+ },
+ "94|1011": {
+  "pair": 94,
+  "seed": 1011,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.9,
+   0.95
+  ],
+  "b_vals": [
+   0.84,
+   0.85
+  ],
+  "right_vals": [
+   0.86,
+   1.0
+  ],
+  "left_vals": [
+   0.82,
+   0.9
+  ],
+  "struct_ss": [
+   0.97,
+   0.9
+  ]
+ },
+ "94|1012": {
+  "pair": 94,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.93,
+   1.0
+  ],
+  "b_vals": [
+   0.68,
+   0.9
+  ],
+  "right_vals": [
+   0.72,
+   0.9
+  ],
+  "left_vals": [
+   0.82,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "94|1013": {
+  "pair": 94,
+  "seed": 1013,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.8,
+   0.85
+  ],
+  "right_vals": [
+   0.66,
+   0.85
+  ],
+  "left_vals": [
+   0.9,
+   0.9
+  ],
+  "struct_ss": [
+   0.96,
+   1.0
+  ]
+ },
+ "95|1011": {
+  "pair": 95,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.93,
+   0.95
+  ],
+  "b_vals": [
+   0.26,
+   0.4
+  ],
+  "right_vals": [
+   0.64,
+   0.3
+  ],
+  "left_vals": [
+   0.43,
+   0.8
+  ],
+  "struct_ss": [
+   0.95,
+   0.9
+  ]
+ },
+ "95|1012": {
+  "pair": 95,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.78,
+   0.95
+  ],
+  "b_vals": [
+   0.84,
+   0.9
+  ],
+  "right_vals": [
+   0.12,
+   0.3
+  ],
+  "left_vals": [
+   0.68,
+   0.2
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "95|1013": {
+  "pair": 95,
+  "seed": 1013,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.93,
+   0.95
+  ],
+  "b_vals": [
+   0.74,
+   0.9
+  ],
+  "right_vals": [
+   0.18,
+   0.3
+  ],
+  "left_vals": [
+   0.52,
+   0.2
+  ],
+  "struct_ss": [
+   0.96,
+   1.0
+  ]
+ },
+ "96|1011": {
+  "pair": 96,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.92,
+   0.3
+  ],
+  "b_vals": [
+   0.9,
+   0.9
+  ],
+  "right_vals": [
+   0.9,
+   0.9
+  ],
+  "left_vals": [
+   0.86,
+   0.9
+  ],
+  "struct_ss": [
+   1.0,
+   0.8
+  ]
+ },
+ "96|1012": {
+  "pair": 96,
+  "seed": 1012,
+  "label": "BC",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   0.95
+  ],
+  "b_vals": [
+   0.94,
+   0.9
+  ],
+  "right_vals": [
+   0.71,
+   0.8
+  ],
+  "left_vals": [
+   0.93,
+   0.9
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "96|1013": {
+  "pair": 96,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": true,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.92,
+   0.4
+  ],
+  "b_vals": [
+   0.95,
+   0.9
+  ],
+  "right_vals": [
+   0.62,
+   0.8
+  ],
+  "left_vals": [
+   0.85,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   0.9
+  ]
+ },
+ "97|1011": {
+  "pair": 97,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.47,
+   0.9
+  ],
+  "b_vals": [
+   0.66,
+   0.4
+  ],
+  "right_vals": [
+   0.38,
+   0.4
+  ],
+  "left_vals": [
+   0.72,
+   0.8
+  ],
+  "struct_ss": [
+   0.97,
+   1.0
+  ]
+ },
+ "97|1012": {
+  "pair": 97,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.28,
+   0.85
+  ],
+  "b_vals": [
+   0.34,
+   0.85
+  ],
+  "right_vals": [
+   0.1,
+   0.1
+  ],
+  "left_vals": [
+   0.9,
+   0.9
+  ],
+  "struct_ss": [
+   0.95,
+   0.9
+  ]
+ },
+ "97|1013": {
+  "pair": 97,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.72,
+   0.9
+  ],
+  "b_vals": [
+   0.23,
+   0.1
+  ],
+  "right_vals": [
+   0.42,
+   0.2
+  ],
+  "left_vals": [
+   0.93,
+   0.9
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "98|1011": {
+  "pair": 98,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.55,
+   0.4
+  ],
+  "right_vals": [
+   0.77,
+   0.8
+  ],
+  "left_vals": [
+   0.95,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "98|1012": {
+  "pair": 98,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.96,
+   1.0
+  ],
+  "b_vals": [
+   0.4,
+   0.4
+  ],
+  "right_vals": [
+   0.28,
+   0.3
+  ],
+  "left_vals": [
+   0.96,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "98|1013": {
+  "pair": 98,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   1.0
+  ],
+  "b_vals": [
+   0.55,
+   0.4
+  ],
+  "right_vals": [
+   0.86,
+   0.4
+  ],
+  "left_vals": [
+   0.77,
+   0.9
+  ],
+  "struct_ss": [
+   0.18,
+   0.5
+  ]
+ },
+ "99|1011": {
+  "pair": 99,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   1.0,
+   1.0
+  ],
+  "b_vals": [
+   0.58,
+   0.3
+  ],
+  "right_vals": [
+   0.72,
+   0.2
+  ],
+  "left_vals": [
+   0.96,
+   1.0
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "99|1012": {
+  "pair": 99,
+  "seed": 1012,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": false,
+  "right_fail": false,
+  "left_fail": false,
+  "a_vals": [
+   0.97,
+   1.0
+  ],
+  "b_vals": [
+   0.77,
+   0.4
+  ],
+  "right_vals": [
+   0.72,
+   0.4
+  ],
+  "left_vals": [
+   0.96,
+   1.0
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "99|1013": {
+  "pair": 99,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": true,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": false,
+  "a_vals": [
+   0.95,
+   1.0
+  ],
+  "b_vals": [
+   0.83,
+   0.3
+  ],
+  "right_vals": [
+   0.18,
+   0.4
+  ],
+  "left_vals": [
+   0.95,
+   0.8
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ },
+ "100|1011": {
+  "pair": 100,
+  "seed": 1011,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.34,
+   0.95
+  ],
+  "b_vals": [
+   0.3,
+   0.3
+  ],
+  "right_vals": [
+   0.15,
+   0.8
+  ],
+  "left_vals": [
+   0.02,
+   0.1
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "100|1012": {
+  "pair": 100,
+  "seed": 1012,
+  "label": "ME",
+  "a_ok": true,
+  "b_ok": true,
+  "leaked": true,
+  "right_fail": true,
+  "left_fail": true,
+  "a_vals": [
+   0.86,
+   0.95
+  ],
+  "b_vals": [
+   0.86,
+   0.85
+  ],
+  "right_vals": [
+   0.42,
+   0.4
+  ],
+  "left_vals": [
+   0.08,
+   0.2
+  ],
+  "struct_ss": [
+   0.98,
+   1.0
+  ]
+ },
+ "100|1013": {
+  "pair": 100,
+  "seed": 1013,
+  "label": "KA",
+  "a_ok": false,
+  "b_ok": false,
+  "leaked": true,
+  "right_fail": false,
+  "left_fail": true,
+  "a_vals": [
+   0.84,
+   0.4
+  ],
+  "b_vals": [
+   0.86,
+   0.4
+  ],
+  "right_vals": [
+   0.58,
+   0.8
+  ],
+  "left_vals": [
+   0.08,
+   0.1
+  ],
+  "struct_ss": [
+   0.99,
+   1.0
+  ]
+ }
+}

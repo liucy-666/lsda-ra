@@ -1,0 +1,1202 @@
+{
+ "001": {
+  "A": {
+   "short": "a Chinese blue-and-white porcelain vase",
+   "long": "a Chinese blue-and-white porcelain vase with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+   "attrs": "cobalt-blue underglaze painting; Chinese landscape; lotus; scrolling-cloud motifs"
+  },
+  "B": {
+   "short": "a Vietnamese Bát Tràng blue-and-white ceramic vase",
+   "long": "a Vietnamese Bát Tràng blue-and-white ceramic vase with cobalt-blue hand-painted decoration on pale glaze, showing stylized lotus, fish, and scrolling foliage",
+   "attrs": "cobalt-blue hand-painted decoration on pale glaze; stylized lotus; scrolling foliage"
+  }
+ },
+ "002": {
+  "A": {
+   "short": "a Chinese blue-and-white porcelain plate",
+   "long": "a Chinese blue-and-white porcelain plate with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+   "attrs": "cobalt-blue underglaze painting; Chinese landscape; lotus; scrolling-cloud motifs"
+  },
+  "B": {
+   "short": "a Japanese Nabeshima porcelain plate",
+   "long": "a Japanese Nabeshima porcelain plate with underglaze-blue outlines and sparse overglaze color, showing asymmetrical flowers, textiles, and geometric border motifs",
+   "attrs": "underglaze-blue outlines and sparse overglaze color; geometric border motifs"
+  }
+ },
+ "003": {
+  "A": {
+   "short": "a Chinese blue-and-white porcelain vase",
+   "long": "a Chinese blue-and-white porcelain vase with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+   "attrs": "cobalt-blue underglaze painting; Chinese landscape; lotus; scrolling-cloud motifs"
+  },
+  "B": {
+   "short": "a Thai Bencharong porcelain vase",
+   "long": "a Thai Bencharong porcelain vase with polychrome overglaze enamel and gold outlines, showing repeating flame, deity, and floral motifs on a dark ground",
+   "attrs": "polychrome overglaze enamel and gold outlines; repeating flame; floral motifs on a dark ground"
+  }
+ },
+ "004": {
+  "A": {
+   "short": "a Japanese Imari porcelain jar",
+   "long": "a Japanese Imari porcelain jar with cobalt-blue underglaze and iron-red and gold overglaze decoration, showing floral panels and patterned reserves",
+   "attrs": "cobalt-blue underglaze and iron-red and gold overglaze decoration; floral panels and patterned reserves"
+  },
+  "B": {
+   "short": "a Korean Joseon iron-painted porcelain jar",
+   "long": "a Korean Joseon iron-painted porcelain jar with freely brushed iron-brown decoration on white porcelain, showing dragons, bamboo, or abbreviated floral motifs",
+   "attrs": "freely brushed iron-brown decoration on white porcelain; dragons; or abbreviated floral motifs"
+  }
+ },
+ "005": {
+  "A": {
+   "short": "a Japanese Imari porcelain plate",
+   "long": "a Japanese Imari porcelain plate with cobalt-blue underglaze and iron-red and gold overglaze decoration, showing radial floral panels and patterned reserves",
+   "attrs": "cobalt-blue underglaze and iron-red and gold overglaze decoration; radial floral panels and patterned reserves"
+  },
+  "B": {
+   "short": "a Japanese Kutani porcelain plate",
+   "long": "a Japanese Kutani porcelain plate with polychrome overglaze enamels in green, yellow, red, purple, and blue, showing floral and landscape panels",
+   "attrs": "polychrome overglaze enamels in green; yellow; red; purple; blue; floral and landscape panels"
+  }
+ },
+ "006": {
+  "A": {
+   "short": "a German Meissen porcelain figurine",
+   "long": "a German Meissen porcelain figurine with modeled forms, painted in overglaze colors with gilded Rococo details",
+   "attrs": "overglaze colors; gilded Rococo details"
+  },
+  "B": {
+   "short": "an Italian Capodimonte porcelain figurine",
+   "long": "an Italian Capodimonte porcelain figurine with modeled porcelain drapery and flowers, painted in pastel colors with theatrical Baroque gestures",
+   "attrs": "modeled porcelain drapery and flowers; pastel colors"
+  }
+ },
+ "007": {
+  "A": {
+   "short": "a French Sèvres porcelain vase",
+   "long": "a French Sèvres porcelain vase with a bleu-céleste ground, gilded bronze-like ornament, and painted floral or courtly reserve panels",
+   "attrs": "gilded bronze-like ornament; floral or courtly reserve panels"
+  },
+  "B": {
+   "short": "a Russian Imperial Porcelain cobalt-net vase",
+   "long": "a Russian Imperial Porcelain cobalt-net vase with cobalt-blue lattice, gold intersections, and radiating rosette motifs",
+   "attrs": "cobalt-blue lattice; gold intersections; radiating rosette motifs"
+  }
+ },
+ "008": {
+  "A": {
+   "short": "a Chinese famille-rose porcelain vase",
+   "long": "a Chinese famille-rose porcelain vase with opaque pink, green, yellow, and turquoise overglaze enamels, showing peonies, birds, and auspicious garden scenes",
+   "attrs": "opaque pink; green; yellow; turquoise overglaze enamels; birds; auspicious garden scenes"
+  },
+  "B": {
+   "short": "a Hungarian Herend porcelain vase",
+   "long": "a Hungarian Herend porcelain vase with polychrome enamel painting and gilded rims, showing stylized butterflies, flowers, and scale-like fishnet patterns",
+   "attrs": "polychrome enamel painting and gilded rims; scale-like fishnet patterns"
+  }
+ },
+ "009": {
+  "A": {
+   "short": "a Chinese Dehua blanc-de-Chine porcelain figurine",
+   "long": "a Chinese Dehua blanc-de-Chine porcelain figurine with an ivory-white surface, modeled robes, and carved details without painted color",
+   "attrs": "an ivory-white surface; carved details without; color"
+  },
+  "B": {
+   "short": "a Japanese Hirado porcelain figurine",
+   "long": "a Japanese Hirado porcelain figurine with delicate underglaze-blue accents, showing miniature modeling and textile details",
+   "attrs": "delicate underglaze-blue accents"
+  }
+ },
+ "010": {
+  "A": {
+   "short": "a Chinese celadon ceramic bowl",
+   "long": "a Chinese celadon ceramic bowl with translucent blue-green glaze, showing carved lotus petals beneath the glaze",
+   "attrs": "translucent blue-green glaze; carved lotus petals beneath the glaze"
+  },
+  "B": {
+   "short": "a Vietnamese Lý–Trần celadon ceramic bowl",
+   "long": "a Vietnamese Lý–Trần celadon ceramic bowl with a pale jade-green glaze and lightly crackled surface, showing carved lotus petals and combed floral decoration",
+   "attrs": "a pale jade-green glaze and lightly crackled surface; carved lotus petals and combed floral decoration"
+  }
+ },
+ "011": {
+  "A": {
+   "short": "a Korean Goryeo celadon maebyeong vase",
+   "long": "a Korean Goryeo celadon maebyeong vase with a green celadon glaze and pale slip inlay, showing cranes, clouds, and chrysanthemum medallions",
+   "attrs": "a green celadon glaze and pale slip inlay; chrysanthemum medallions"
+  },
+  "B": {
+   "short": "a Thai Sawankhalok celadon jar",
+   "long": "a Thai Sawankhalok celadon jar with an olive-green crackled glaze on a stoneware body, showing incised lotus petals and simple ring bands",
+   "attrs": "an olive-green crackled glaze on a stoneware body; incised lotus petals and simple ring bands"
+  }
+ },
+ "012": {
+  "A": {
+   "short": "a Dutch blue-and-white Delftware plate",
+   "long": "a Dutch blue-and-white Delftware plate with opaque white tin glaze, painted in cobalt blue with canal-house, tulip, and ornamental border motifs",
+   "attrs": "opaque white tin glaze; cobalt blue; ornamental border motifs"
+  },
+  "B": {
+   "short": "a Slovak Modra faience plate",
+   "long": "a Slovak Modra faience plate made of pale glazed earthenware, painted in cobalt blue, green, yellow, and manganese with stylized birds and folk flowers",
+   "attrs": "pale glazed earthenware; cobalt blue; green; yellow; manganese; stylized birds and folk flowers"
+  }
+ },
+ "013": {
+  "A": {
+   "short": "a Dutch blue-and-white Delftware vase",
+   "long": "a Dutch blue-and-white Delftware vase with opaque white tin glaze, painted in cobalt blue with canal-house, tulip, and ornamental border motifs",
+   "attrs": "opaque white tin glaze; cobalt blue; ornamental border motifs"
+  },
+  "B": {
+   "short": "a Tunisian Qallaline faience vase",
+   "long": "a Tunisian Qallaline faience vase with tin glaze, painted in cobalt blue, green, ochre, and manganese with cypress, arch, and floral motifs",
+   "attrs": "tin glaze; cobalt blue; green; ochre; manganese; floral motifs"
+  }
+ },
+ "014": {
+  "A": {
+   "short": "an Italian Renaissance maiolica plate",
+   "long": "an Italian Renaissance maiolica plate with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+   "attrs": "opaque white tin glaze; cobalt blue; ochre yellow; copper green; manganese purple; a figurative medallion and scrolling foliage"
+  },
+  "B": {
+   "short": "a French Nevers faience plate",
+   "long": "a French Nevers faience plate with white tin glaze, painted in deep blue, yellow, and manganese with heraldic, pastoral, and symmetrical floral motifs",
+   "attrs": "white tin glaze; deep blue; yellow; manganese; symmetrical floral motifs"
+  }
+ },
+ "015": {
+  "A": {
+   "short": "an Italian Renaissance maiolica vase",
+   "long": "an Italian Renaissance maiolica vase with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+   "attrs": "opaque white tin glaze; cobalt blue; ochre yellow; copper green; manganese purple; a figurative medallion and scrolling foliage"
+  },
+  "B": {
+   "short": "a Spanish Manises lusterware vase",
+   "long": "a Spanish Manises lusterware vase made of tin-glazed earthenware with coppery metallic luster, showing cobalt-blue vines, heraldic shields, and repeating leaf motifs",
+   "attrs": "tin-glazed earthenware; coppery metallic luster; cobalt-blue vines; repeating leaf motifs"
+  }
+ },
+ "016": {
+  "A": {
+   "short": "a Mexican Talavera de Puebla plate",
+   "long": "a Mexican Talavera de Puebla plate with opaque white tin glaze, decorated with cobalt-blue, yellow, green, and orange painted floral and geometric bands",
+   "attrs": "opaque white tin glaze; decorated; cobalt-blue; yellow; green; orange; floral and geometric bands"
+  },
+  "B": {
+   "short": "a Romanian Horezu pottery plate",
+   "long": "a Romanian Horezu pottery plate made of glazed earthenware with combed slip decoration, showing brown, green, blue, and ochre spirals, rosettes, and the Horezu rooster",
+   "attrs": "glazed earthenware; combed slip decoration; brown; green; blue; ochre spirals"
+  }
+ },
+ "017": {
+  "A": {
+   "short": "an Ottoman İznik ceramic plate",
+   "long": "an Ottoman İznik ceramic plate with a white fritware body, cobalt blue, turquoise, emerald green, and raised bole-red painting, showing tulips, carnations, and saz leaves",
+   "attrs": "a white fritware body; cobalt blue; turquoise; emerald green; raised bole-red painting"
+  },
+  "B": {
+   "short": "an Armenian Kütahya ceramic plate",
+   "long": "an Armenian Kütahya ceramic plate with a white glazed body and blue, green, yellow, and red painting, showing rosettes, crosses, birds, and floral borders",
+   "attrs": "a white glazed body and blue; green; yellow; red painting; birds; floral borders"
+  }
+ },
+ "018": {
+  "A": {
+   "short": "a Moroccan Fes ceramic bowl",
+   "long": "a Moroccan Fes ceramic bowl with a white glazed body painted in cobalt blue, green, and yellow, showing organized star, arabesque, and palmette motifs",
+   "attrs": "a white glazed body; cobalt blue; green; yellow; arabesque; palmette motifs"
+  },
+  "B": {
+   "short": "an Algerian Kabyle pottery bowl",
+   "long": "an Algerian Kabyle pottery bowl made of hand-built earthenware with red, black, and white painted decoration, showing triangles, chevrons, and protective geometric signs",
+   "attrs": "hand-built earthenware; red; black; white; decoration; protective geometric signs"
+  }
+ },
+ "019": {
+  "A": {
+   "short": "a Japanese Raku tea bowl",
+   "long": "a Japanese Raku tea bowl with a hand-shaped low-fired body and irregular black glaze, showing a warped rim and tactile matte-to-gloss surface",
+   "attrs": "a hand-shaped low-fired body and irregular black glaze; a warped rim and tactile matte-to-gloss surface"
+  },
+  "B": {
+   "short": "a Japanese Onta ware bowl",
+   "long": "a Japanese Onta ware bowl made of stoneware with slip-trailed and combed decoration, showing rhythmic white, brown, and ochre bands made by wheel techniques",
+   "attrs": "stoneware; slip-trailed and combed decoration; rhythmic white; brown; ochre bands made by wheel techniques"
+  }
+ },
+ "020": {
+  "A": {
+   "short": "a Polish Bolesławiec stoneware jug",
+   "long": "a Polish Bolesławiec stoneware jug with a cream glazed body stamped in cobalt blue, showing repeated dots, peacock-eye rosettes, and circular folk patterns",
+   "attrs": "a cream glazed body stamped in cobalt blue; circular folk patterns"
+  },
+  "B": {
+   "short": "a Bulgarian Troyan pottery jug",
+   "long": "a Bulgarian Troyan pottery jug with a dark glazed earthenware body and feathered slip decoration, showing brown, green, yellow, and cream wave patterns",
+   "attrs": "a dark glazed earthenware body and feathered slip decoration; brown; green; yellow; cream wave patterns"
+  }
+ },
+ "021": {
+  "A": {
+   "short": "a Japanese Raku tea bowl",
+   "long": "a Japanese Raku tea bowl with a hand-shaped low-fired body and irregular black glaze, showing a warped rim and tactile matte-to-gloss surface",
+   "attrs": "a hand-shaped low-fired body and irregular black glaze; a warped rim and tactile matte-to-gloss surface"
+  },
+  "B": {
+   "short": "a Korean buncheong tea bowl",
+   "long": "a Korean buncheong tea bowl made of gray stoneware brushed with white slip, showing stamped, incised, or freely painted decoration beneath a translucent glaze",
+   "attrs": "gray stoneware brushed; white slip; incised; decoration beneath a translucent glaze"
+  }
+ },
+ "022": {
+  "A": {
+   "short": "a Chinese sancai glazed ceramic jar",
+   "long": "a Chinese sancai glazed ceramic jar with amber, green, and cream lead glazes over a rounded earthenware body, showing drips and molded relief bands",
+   "attrs": "green; cream lead glazes over a rounded earthenware body; drips and molded relief bands"
+  },
+  "B": {
+   "short": "a Peruvian Chulucanas pottery jar",
+   "long": "a Peruvian Chulucanas pottery jar with a burnished clay surface in black, cream, and brown, showing negative-painted geometric bands and abstract figures",
+   "attrs": "a burnished clay surface in black; cream; brown; negative-painted geometric bands and abstract figures"
+  }
+ },
+ "023": {
+  "A": {
+   "short": "an ancient Greek black-figure ceramic amphora",
+   "long": "an ancient Greek black-figure ceramic amphora with black silhouettes on red clay, showing mythological figures arranged in horizontal narrative registers",
+   "attrs": "black silhouettes on red clay; mythological figures arranged in horizontal narrative registers"
+  },
+  "B": {
+   "short": "an ancient Cypriot bichrome ceramic amphora",
+   "long": "an ancient Cypriot bichrome ceramic amphora with red and black painted lines on a pale clay body, showing concentric circles, birds, and compact geometric panels",
+   "attrs": "red and black; lines on a pale clay body; birds; compact geometric panels"
+  }
+ },
+ "024": {
+  "A": {
+   "short": "an Acoma Pueblo pottery jar",
+   "long": "an Acoma Pueblo pottery jar with a pale clay body and black-and-red painting, showing -line rain, stepped-cloud, and interlocking geometric motifs",
+   "attrs": "a pale clay body and black-and-red painting; interlocking geometric motifs"
+  },
+  "B": {
+   "short": "a Catawba burnished pottery jar",
+   "long": "a Catawba burnished pottery jar made of unglazed hand-coiled clay with a smoky brown surface, showing a polished finish and incised details",
+   "attrs": "unglazed hand-coiled clay; a smoky brown surface; a polished finish and incised details"
+  }
+ },
+ "025": {
+  "A": {
+   "short": "a Mexican Mata Ortiz pottery jar",
+   "long": "a Mexican Mata Ortiz pottery jar with a thin-walled polished clay body and black-and-red painting, showing interlocking geometric and Mimbres-inspired animal motifs",
+   "attrs": "a thin-walled polished clay body and black-and-red painting; interlocking geometric and Mimbres-inspired animal motifs"
+  },
+  "B": {
+   "short": "a Serbian Zlakusa pottery jar",
+   "long": "a Serbian Zlakusa pottery jar made from clay mixed with ground calcite, showing a unglazed surface, rounded cooking-vessel form, and sparse incised bands",
+   "attrs": "clay mixed; a unglazed surface; sparse incised bands"
+  }
+ },
+ "026": {
+  "A": {
+   "short": "a Moroccan Safi pottery vase",
+   "long": "a Moroccan Safi pottery vase with a glazed earthenware body painted in blue, green, yellow, and brown, showing arabesques and floral medallions",
+   "attrs": "a glazed earthenware body; blue; green; yellow; brown; arabesques and floral medallions"
+  },
+  "B": {
+   "short": "a Tunisian Nabeul pottery vase",
+   "long": "a Tunisian Nabeul pottery vase with a white glazed body painted in cobalt blue, turquoise, yellow, and green, showing fish, flowers, and Mediterranean geometric borders",
+   "attrs": "a white glazed body; cobalt blue; turquoise; yellow; green; Mediterranean geometric borders"
+  }
+ },
+ "027": {
+  "A": {
+   "short": "an English Wedgwood jasperware vase",
+   "long": "an English Wedgwood jasperware vase with a matte blue stoneware body and white relief decoration, showing classical figures, laurel swags, and geometric borders",
+   "attrs": "a matte blue stoneware body and white relief decoration; classical figures; geometric borders"
+  },
+  "B": {
+   "short": "a Portuguese Caldas da Rainha ceramic vase",
+   "long": "a Portuguese Caldas da Rainha ceramic vase with brightly glazed sculptural earthenware, showing naturalistic leaves, fruit, insects, and textured relief surfaces",
+   "attrs": "brightly glazed sculptural earthenware; textured relief surfaces"
+  }
+ },
+ "028": {
+  "A": {
+   "short": "a Chinese Jun ware ceramic bowl",
+   "long": "a Chinese Jun ware ceramic bowl with a thick opalescent blue glaze and irregular purple splashes, showing a simple rounded form and pooled color",
+   "attrs": "a thick opalescent blue glaze and irregular purple splashes; a simple rounded form and pooled color"
+  },
+  "B": {
+   "short": "a Japanese Hagi ware tea bowl",
+   "long": "a Japanese Hagi ware tea bowl with a porous stoneware body and milky white crackled glaze, showing a irregular foot and ash-toned surface",
+   "attrs": "a porous stoneware body and milky white crackled glaze"
+  }
+ },
+ "029": {
+  "A": {
+   "short": "a Japanese Bizen stoneware vase",
+   "long": "a Japanese Bizen stoneware vase with an unglazed reddish-brown body marked by natural ash deposits and flame flashes, showing an austere asymmetrical form",
+   "attrs": "an unglazed reddish-brown body marked by natural ash deposits and flame flashes"
+  },
+  "B": {
+   "short": "a French Puisaye stoneware vase",
+   "long": "a French Puisaye stoneware vase with a dark salt-glazed stoneware body and earthy brown-to-gray surface, showing incised bands and robust hand-thrown proportions",
+   "attrs": "a dark salt-glazed stoneware body and earthy brown-to-gray surface; incised bands and robust hand-thrown proportions"
+  }
+ },
+ "030": {
+  "A": {
+   "short": "a Chinese Longquan celadon vase",
+   "long": "a Chinese Longquan celadon vase with a thick translucent sea-green glaze over a balanced stoneware form, showing carved lotus petals and defined ridges",
+   "attrs": "a thick translucent sea-green glaze over a balanced stoneware form; carved lotus petals and defined ridges"
+  },
+  "B": {
+   "short": "a Thai Si Satchanalai celadon vase",
+   "long": "a Thai Si Satchanalai celadon vase with an olive-green crackled glaze over gray stoneware, showing incised lotus petals, ring bands, and a high-shouldered profile",
+   "attrs": "an olive-green crackled glaze over gray stoneware; incised lotus petals; a high-shouldered profile"
+  }
+ },
+ "031": {
+  "A": {
+   "short": "a Japanese maki-e lacquerware box",
+   "long": "a Japanese maki-e lacquerware box with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs",
+   "attrs": "deep black lacquer sprinkled; gold and silver powder; landscape motifs"
+  },
+  "B": {
+   "short": "a Thai lai rod nam lacquerware box",
+   "long": "a Thai lai rod nam lacquerware box with black lacquer covered by gold-leaf resist decoration, showing flame, deity, and scrolling vegetal patterns",
+   "attrs": "black lacquer covered by gold-leaf resist decoration; scrolling vegetal patterns"
+  }
+ },
+ "032": {
+  "A": {
+   "short": "a Japanese maki-e lacquerware tray",
+   "long": "a Japanese maki-e lacquerware tray with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs",
+   "attrs": "deep black lacquer sprinkled; gold and silver powder; landscape motifs"
+  },
+  "B": {
+   "short": "a Burmese shwe zawa lacquerware tray",
+   "long": "a Burmese shwe zawa lacquerware tray with a black lacquer ground and engraved gold-leaf decoration, showing courtly figures, mythical animals, and filled borders",
+   "attrs": "a black lacquer ground and engraved gold-leaf decoration; courtly figures; mythical animals; filled borders"
+  }
+ },
+ "033": {
+  "A": {
+   "short": "a Chinese carved cinnabar-lacquer box",
+   "long": "a Chinese carved cinnabar-lacquer box with thick vermilion lacquer carved in deep relief, showing peonies, dragons, and layered landscape scenes over geometric grounds",
+   "attrs": "thick vermilion lacquer carved in deep relief; dragons; layered landscape scenes over geometric grounds"
+  },
+  "B": {
+   "short": "a Bhutanese lacquered wooden box",
+   "long": "a Bhutanese lacquered wooden box with a red or black lacquer surface, showing hand-painted lotus petals, cloud bands, and Buddhist auspicious motifs",
+   "attrs": "a red or black lacquer surface; hand-painted lotus petals; Buddhist auspicious motifs"
+  }
+ },
+ "034": {
+  "A": {
+   "short": "a Japanese raden lacquerware lidded box",
+   "long": "a Japanese raden lacquerware lidded box with deep black lacquer and iridescent mother-of-pearl shell inlay forming bird, flower, and geometric motifs",
+   "attrs": "deep black lacquer and iridescent mother-of-pearl shell inlay forming bird; geometric motifs"
+  },
+  "B": {
+   "short": "a Mexican Olinalá lacquerware lidded box",
+   "long": "a Mexican Olinalá lacquerware lidded box made from linaloe wood, with red, ochre, green, blue, and white floral and animal decoration and incised rayado patterns",
+   "attrs": "linaloe wood; red; ochre; green; blue; white floral and animal decoration and incised rayado patterns"
+  }
+ },
+ "035": {
+  "A": {
+   "short": "a Japanese raden lacquerware tray",
+   "long": "a Japanese raden lacquerware tray with deep black lacquer and iridescent mother-of-pearl shell inlay forming bird, flower, and geometric motifs",
+   "attrs": "deep black lacquer and iridescent mother-of-pearl shell inlay forming bird; geometric motifs"
+  },
+  "B": {
+   "short": "a Korean najeonchilgi lacquerware tray",
+   "long": "a Korean najeonchilgi lacquerware tray with black lacquer and mother-of-pearl inlay, showing chrysanthemum scrolls, cranes, and repeated geometric borders",
+   "attrs": "black lacquer and mother-of-pearl inlay; chrysanthemum scrolls; repeated geometric borders"
+  }
+ },
+ "036": {
+  "A": {
+   "short": "a Japanese maki-e lacquerware vase",
+   "long": "a Japanese maki-e lacquerware vase with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs",
+   "attrs": "deep black lacquer sprinkled; gold and silver powder; landscape motifs"
+  },
+  "B": {
+   "short": "a Vietnamese sơn mài lacquerware vase",
+   "long": "a Vietnamese sơn mài lacquerware vase with layered black, red, and gold lacquer polished to depth, showing stylized bamboo, village, and eggshell-inlay motifs",
+   "attrs": "layered black; red; gold lacquer polished to depth; eggshell-inlay motifs"
+  }
+ },
+ "037": {
+  "A": {
+   "short": "a Chinese black-lacquer wooden bowl",
+   "long": "a Chinese black-lacquer wooden bowl with a deep-black lacquer surface and red or gold linear decoration, showing a thin balanced profile",
+   "attrs": "a deep-black lacquer surface and red or gold linear decoration"
+  },
+  "B": {
+   "short": "a Burmese yun lacquerware bowl",
+   "long": "a Burmese yun lacquerware bowl with black lacquer incised and filled with red, green, and yellow pigments, showing zodiac figures and geometric bands",
+   "attrs": "black lacquer incised and filled; red; green; yellow pigments; zodiac figures and geometric bands"
+  }
+ },
+ "038": {
+  "A": {
+   "short": "a Russian Khokhloma painted wooden bowl",
+   "long": "a Russian Khokhloma painted wooden bowl with a black and gold ground painted in red, showing curling berries, leaves, and sweeping floral stems",
+   "attrs": "wooden bowl; a black and gold ground; red; sweeping floral stems"
+  },
+  "B": {
+   "short": "a Ryukyuan lacquerware bowl",
+   "long": "a Ryukyuan lacquerware bowl with a vermilion lacquer surface and delicate gold decoration, showing hibiscus, birds, and island landscape motifs",
+   "attrs": "a vermilion lacquer surface and delicate gold decoration; birds; island landscape motifs"
+  }
+ },
+ "039": {
+  "A": {
+   "short": "a Japanese Tsugaru-nuri lacquerware box",
+   "long": "a Japanese Tsugaru-nuri lacquerware box with many polished lacquer layers forming mottled red, black, yellow, and green patterns across a geometric form",
+   "attrs": "many polished lacquer layers forming mottled red; black; yellow; green patterns across a geometric form"
+  },
+  "B": {
+   "short": "a Kashmiri papier-mâché lacquer box",
+   "long": "a Kashmiri papier-mâché lacquer box with a lacquered paper-pulp body painted in gold and jewel colors, showing chinar leaves, flowers, and arabesques",
+   "attrs": "a lacquered paper-pulp body; gold and jewel colors; arabesques"
+  }
+ },
+ "040": {
+  "A": {
+   "short": "a Chinese lacquered folding screen",
+   "long": "a Chinese lacquered folding screen with deep black lacquer, gilded outlines, and carved or painted garden scenes showing pavilions, birds, and flowering trees",
+   "attrs": "deep black lacquer; gilded outlines; carved or; garden scenes; birds"
+  },
+  "B": {
+   "short": "a Vietnamese sơn mài lacquer screen",
+   "long": "a Vietnamese sơn mài lacquer screen with layered black, red, and gold lacquer polished to depth, showing stylized village scenes, bamboo, and eggshell inlay",
+   "attrs": "layered black; red; gold lacquer polished to depth; stylized village scenes; eggshell inlay"
+  }
+ },
+ "041": {
+  "A": {
+   "short": "a Chinese cloisonné vase",
+   "long": "a Chinese cloisonné vase with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs",
+   "attrs": "turquoise and cobalt-blue enamel cells separated by gilded metal wires; lotus; auspicious motifs"
+  },
+  "B": {
+   "short": "a Georgian Minankari enamel vase",
+   "long": "a Georgian Minankari enamel vase with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork",
+   "attrs": "translucent jewel-toned enamel over engraved silver; birds; scrolling vines outlined by metalwork"
+  }
+ },
+ "042": {
+  "A": {
+   "short": "a Chinese cloisonné box",
+   "long": "a Chinese cloisonné box with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs",
+   "attrs": "turquoise and cobalt-blue enamel cells separated by gilded metal wires; lotus; auspicious motifs"
+  },
+  "B": {
+   "short": "a Korean chilbo enamel box",
+   "long": "a Korean chilbo enamel box with colored enamel over a metal base, showing simplified plum blossoms, cranes, and geometric motifs in compact panels",
+   "attrs": "colored enamel over a metal base; geometric motifs in compact panels"
+  }
+ },
+ "043": {
+  "A": {
+   "short": "a Russian Fabergé-style guilloché enamel box",
+   "long": "a Russian Fabergé-style guilloché enamel box with translucent enamel over machine-engraved radiating patterns, showing pastel color fields, gold mounts, and jeweled accents",
+   "attrs": "translucent enamel over machine-engraved radiating patterns; pastel color fields; gold mounts"
+  },
+  "B": {
+   "short": "an Indian Jaipur meenakari enamel box",
+   "long": "an Indian Jaipur meenakari enamel box with opaque red, green, blue, and white enamel on gilded metal, showing peacocks, flowers, and scrolling foliage",
+   "attrs": "opaque red; green; blue; white enamel on gilded metal; scrolling foliage"
+  }
+ },
+ "044": {
+  "A": {
+   "short": "a Japanese shippō cloisonné enamel box",
+   "long": "a Japanese shippō cloisonné enamel box with colored enamel cells divided by silver wires, showing chrysanthemums, butterflies, and graded pictorial grounds",
+   "attrs": "colored enamel cells divided by silver wires"
+  },
+  "B": {
+   "short": "a Russian Rostov finift painted-enamel box",
+   "long": "a Russian Rostov finift painted-enamel box with miniature enamel painting on a white metal-mounted plaque, showing delicate flowers, saints, or pastoral scenes in pastel colors",
+   "attrs": "miniature enamel painting on a white metal-mounted plaque; or pastoral scenes in pastel colors"
+  }
+ },
+ "045": {
+  "A": {
+   "short": "a Spanish Toledo damascened box",
+   "long": "a Spanish Toledo damascened box made of blackened steel inlaid with gold and silver, showing Moorish arabesques and geometric filigree patterns",
+   "attrs": "blackened steel inlaid; gold and silver; Moorish arabesques and geometric filigree patterns"
+  },
+  "B": {
+   "short": "a Japanese nunome-zōgan metal-inlay box",
+   "long": "a Japanese nunome-zōgan metal-inlay box made of dark iron overlaid with gold and silver textile-like inlay, showing waves, flowers, and geometric bands",
+   "attrs": "dark iron overlaid; gold and silver textile-like inlay; geometric bands"
+  }
+ },
+ "046": {
+  "A": {
+   "short": "a Spanish Toledo damascened vase",
+   "long": "a Spanish Toledo damascened vase made of blackened steel inlaid with gold and silver, showing Moorish arabesques and geometric filigree patterns",
+   "attrs": "blackened steel inlaid; gold and silver; Moorish arabesques and geometric filigree patterns"
+  },
+  "B": {
+   "short": "a Korean ipsa metal-inlay vase",
+   "long": "a Korean ipsa metal-inlay vase made of dark patinated metal inlaid with silver wire, showing cranes, clouds, and sparse linear landscape motifs",
+   "attrs": "dark patinated metal inlaid; silver wire; sparse linear landscape motifs"
+  }
+ },
+ "047": {
+  "A": {
+   "short": "an Indian Bidriware vase",
+   "long": "an Indian Bidriware vase made of blackened zinc alloy inlaid with silver, showing poppy flowers, geometric lattices, and arabesques",
+   "attrs": "blackened zinc alloy inlaid; silver; geometric lattices; arabesques"
+  },
+  "B": {
+   "short": "a Syrian Damascene inlaid-brass vase",
+   "long": "a Syrian Damascene inlaid-brass vase made of darkened brass inlaid with silver and copper, showing calligraphic bands, interlaced stars, and scrolling arabesques",
+   "attrs": "silver and copper; scrolling arabesques"
+  }
+ },
+ "048": {
+  "A": {
+   "short": "an Indian Bidriware box",
+   "long": "an Indian Bidriware box made of blackened zinc alloy inlaid with silver, showing poppy flowers, geometric lattices, and arabesques",
+   "attrs": "blackened zinc alloy inlaid; silver; geometric lattices; arabesques"
+  },
+  "B": {
+   "short": "an Egyptian Mamluk-style inlaid-brass box",
+   "long": "an Egyptian Mamluk-style inlaid-brass box made of brass inlaid with silver and copper, showing monumental calligraphy, interlaced medallions, and geometric borders",
+   "attrs": "silver and copper; interlaced medallions; geometric borders"
+  }
+ },
+ "049": {
+  "A": {
+   "short": "a Chinese cloisonné enamel plate",
+   "long": "a Chinese cloisonné enamel plate with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs",
+   "attrs": "turquoise and cobalt-blue enamel cells separated by gilded metal wires; lotus; auspicious motifs"
+  },
+  "B": {
+   "short": "a French Limoges painted-enamel plate",
+   "long": "a French Limoges painted-enamel plate with opaque and translucent enamel painted over copper, showing Renaissance figures, grisaille shading, and jewel-toned borders",
+   "attrs": "opaque and translucent enamel; over copper; Renaissance figures; jewel-toned borders"
+  }
+ },
+ "050": {
+  "A": {
+   "short": "a Persian minakari enamel plate",
+   "long": "a Persian minakari enamel plate with blue, turquoise, red, and white enamel over copper, showing floral arabesques and central medallions",
+   "attrs": "blue; turquoise; red; white enamel over copper; floral arabesques and central medallions"
+  },
+  "B": {
+   "short": "a Georgian Minankari enamel plate",
+   "long": "a Georgian Minankari enamel plate with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork",
+   "attrs": "translucent jewel-toned enamel over engraved silver; birds; scrolling vines outlined by metalwork"
+  }
+ },
+ "051": {
+  "A": {
+   "short": "a Moroccan engraved-brass tray",
+   "long": "a Moroccan engraved-brass tray with a polished brass surface densely chased with radiating stars, arabesques, and scalloped geometric borders",
+   "attrs": "radiating stars; arabesques; scalloped geometric borders"
+  },
+  "B": {
+   "short": "a Persian qalamzani copper tray",
+   "long": "a Persian qalamzani copper tray with a darkened chased copper surface, showing hunting scenes, birds, flowers, and concentric arabesque bands",
+   "attrs": "a darkened chased copper surface; hunting scenes; birds; concentric arabesque bands"
+  }
+ },
+ "052": {
+  "A": {
+   "short": "an Ottoman tinned-copper ewer",
+   "long": "an Ottoman tinned-copper ewer with a reflective silver-toned tinned surface, tall curved spout, and chased tulip, cypress, and arabesque decoration",
+   "attrs": "a reflective silver-toned tinned surface; arabesque decoration"
+  },
+  "B": {
+   "short": "a Bosnian engraved-copper coffee ewer",
+   "long": "a Bosnian engraved-copper coffee ewer with a copper body, long curved spout, and hand-hammered rosette, star, and interlaced geometric motifs",
+   "attrs": "a copper body; hand-hammered rosette; interlaced geometric motifs"
+  }
+ },
+ "053": {
+  "A": {
+   "short": "a Persian silver-filigree box",
+   "long": "a Persian silver-filigree box with delicate silver wire scrollwork forming an airy surface, showing repeated palmettes, rosettes, and geometric borders",
+   "attrs": "delicate silver wire scrollwork forming an airy surface; geometric borders"
+  },
+  "B": {
+   "short": "a Yemeni silver-filigree box",
+   "long": "a Yemeni silver-filigree box with twisted silver wire, granulation, and applied bosses, showing compact geometric and amuletic patterns",
+   "attrs": "twisted silver wire; compact geometric and amuletic patterns"
+  }
+ },
+ "054": {
+  "A": {
+   "short": "a Mexican Taxco silver bowl",
+   "long": "a Mexican Taxco silver bowl with a polished hand-hammered silver surface and modern curves, showing geometric or pre-Columbian-inspired accents",
+   "attrs": "a polished hand-hammered silver surface and modern curves; geometric or pre-Columbian-inspired accents"
+  },
+  "B": {
+   "short": "an Indonesian Kotagede silver bowl",
+   "long": "an Indonesian Kotagede silver bowl with a oxidized silver surface worked in repoussé and filigree, showing lotus scrolls, vines, and stippled grounds",
+   "attrs": "a oxidized silver surface; lotus scrolls"
+  }
+ },
+ "055": {
+  "A": {
+   "short": "an Indian Dhokra bronze figurine",
+   "long": "an Indian Dhokra bronze figurine made by lost-wax casting with an earthy bronze surface, showing elongated limbs, coiled-wire textures, and stylized tribal ornament",
+   "attrs": "an earthy bronze surface"
+  },
+  "B": {
+   "short": "a Ghanaian Asante brass goldweight figurine",
+   "long": "a Ghanaian Asante brass goldweight figurine made by lost-wax casting in compact geometric form, showing a proverb-inspired human, animal, or tool motif with textured details",
+   "attrs": "a proverb-inspired human; animal; or tool motif; textured details"
+  }
+ },
+ "056": {
+  "A": {
+   "short": "a Benin bronze relief plaque",
+   "long": "a Benin bronze relief plaque made of cast brass with high-relief court figures, showing patterned robes, coral regalia, and a hierarchical composition",
+   "attrs": "cast brass; high-relief court figures; patterned robes"
+  },
+  "B": {
+   "short": "a Nepalese repoussé copper plaque",
+   "long": "a Nepalese repoussé copper plaque made of hammered copper worked from the reverse, showing a Buddhist deity, lotus throne, and flame-like halo with gilded details",
+   "attrs": "hammered copper; lotus throne; gilded details"
+  }
+ },
+ "057": {
+  "A": {
+   "short": "a Japanese cast-iron tetsubin teapot",
+   "long": "a Japanese cast-iron tetsubin teapot with a dark textured iron body, arched handle, and relief decoration showing hailstone, pine, or geometric motifs",
+   "attrs": "a dark textured iron body; relief decoration; or geometric motifs"
+  },
+  "B": {
+   "short": "an Azerbaijani engraved-copper teapot",
+   "long": "an Azerbaijani engraved-copper teapot with a hammered copper body, curved spout, and incised floral medallions, boteh motifs, and geometric borders",
+   "attrs": "a hammered copper body; incised floral medallions; boteh motifs; geometric borders"
+  }
+ },
+ "058": {
+  "A": {
+   "short": "a Russian brass samovar",
+   "long": "a Russian brass samovar with a polished urn-shaped body, side handles, and ornate spigot, showing engraved floral bands and architectural details",
+   "attrs": "engraved floral bands and architectural details"
+  },
+  "B": {
+   "short": "an Iranian Qajar brass samovar",
+   "long": "an Iranian Qajar brass samovar with a tall faceted brass body, curved handles, and engraved panels showing birds, flowers, and courtly motifs",
+   "attrs": "birds; courtly motifs"
+  }
+ },
+ "059": {
+  "A": {
+   "short": "a Tibetan silver ritual box",
+   "long": "a Tibetan silver ritual box with repoussé silver, turquoise settings, and gilded details, showing lotus petals, cloud scrolls, and Buddhist auspicious symbols",
+   "attrs": "repoussé silver; turquoise settings; gilded details; lotus petals; cloud scrolls"
+  },
+  "B": {
+   "short": "a Balkan silver-filigree reliquary box",
+   "long": "a Balkan silver-filigree reliquary box with twisted silver wire and granulated bosses, showing crosses, rosettes, and compact geometric latticework",
+   "attrs": "twisted silver wire and granulated bosses; compact geometric latticework"
+  }
+ },
+ "060": {
+  "A": {
+   "short": "a Chinese bronze ritual bowl",
+   "long": "a Chinese bronze ritual bowl with a dark patinated bronze surface and cast relief, showing taotie-like masks, leiwen spirals, and symmetrical handles",
+   "attrs": "a dark patinated bronze surface and cast relief"
+  },
+  "B": {
+   "short": "a Korean bangjja bronze bowl",
+   "long": "a Korean bangjja bronze bowl made of hand-hammered bronze with a golden surface, showing a clean resonant form, hammer marks, and minimal ornament",
+   "attrs": "hand-hammered bronze; a golden surface"
+  }
+ },
+ "061": {
+  "A": {
+   "short": "a Japanese silk kimono",
+   "long": "a Japanese silk kimono with a lustrous woven ground and dyed or embroidered decoration, showing cranes, cherry blossoms, water, and seasonal motifs",
+   "attrs": "ground and dyed or embroidered decoration; seasonal motifs"
+  },
+  "B": {
+   "short": "a Lao sinh silk skirt",
+   "long": "a Lao sinh silk skirt with supplementary-weft silk bands and patterned borders, showing diamonds, serpents, temple forms, and jewel colors",
+   "attrs": "supplementary-weft silk bands and patterned borders; jewel colors"
+  }
+ },
+ "062": {
+  "A": {
+   "short": "a Japanese silk kimono",
+   "long": "a Japanese silk kimono with a lustrous woven ground and dyed or embroidered decoration, showing cranes, cherry blossoms, water, and seasonal motifs",
+   "attrs": "ground and dyed or embroidered decoration; seasonal motifs"
+  },
+  "B": {
+   "short": "a Cambodian hol silk robe",
+   "long": "a Cambodian hol silk robe made from weft-ikat silk with feathered pattern edges, showing repeating lozenges, flowers, and temple-inspired motifs",
+   "attrs": "weft-ikat silk; feathered pattern edges; repeating lozenges; temple-inspired motifs"
+  }
+ },
+ "063": {
+  "A": {
+   "short": "an Indian Banarasi brocade sari",
+   "long": "an Indian Banarasi brocade sari woven in rich silk with gold zari, showing floral buta, scrolling vines, and elaborate architectural borders",
+   "attrs": "rich silk; gold zari; floral buta; scrolling vines; elaborate architectural borders"
+  },
+  "B": {
+   "short": "a Bhutanese kushuthara silk kira",
+   "long": "a Bhutanese kushuthara silk kira woven in silk with supplementary-weft patterning, showing geometric flowers, diamonds, and horizontal bands",
+   "attrs": "silk; supplementary-weft patterning; geometric flowers"
+  }
+ },
+ "064": {
+  "A": {
+   "short": "an Indian Banarasi brocade textile panel",
+   "long": "an Indian Banarasi brocade textile panel woven in rich silk with gold zari, showing floral buta, scrolling vines, and elaborate architectural borders",
+   "attrs": "rich silk; gold zari; floral buta; scrolling vines; elaborate architectural borders"
+  },
+  "B": {
+   "short": "a Turkmen keteni silk textile panel",
+   "long": "a Turkmen keteni silk textile panel woven in narrow bands of red, yellow, green, and purple silk, showing stripes and geometric accents",
+   "attrs": "narrow bands of red; yellow; green; purple silk; stripes and geometric accents"
+  }
+ },
+ "065": {
+  "A": {
+   "short": "a Chinese silk-embroidery panel",
+   "long": "a Chinese silk-embroidery panel worked in multicolored silk thread, showing peonies, birds, butterflies, and long-and-short stitch shading",
+   "attrs": "multicolored silk thread; birds"
+  },
+  "B": {
+   "short": "a Vietnamese silk-embroidery panel",
+   "long": "a Vietnamese silk-embroidery panel worked in colored silk thread with delicate tonal blending, showing village landscapes, lotus ponds, and graceful birds",
+   "attrs": "colored silk thread; village landscapes; lotus ponds; graceful birds"
+  }
+ },
+ "066": {
+  "A": {
+   "short": "a Chinese silk-brocade robe",
+   "long": "a Chinese silk-brocade robe woven with colored silk and gold thread, showing dragons, clouds, waves, and organized auspicious emblems",
+   "attrs": "colored silk and gold thread; dragons"
+  },
+  "B": {
+   "short": "an Assamese muga-silk robe",
+   "long": "an Assamese muga-silk robe woven from naturally golden silk with red, green, and black supplementary motifs, showing stylized flowers and geometric borders",
+   "attrs": "from naturally golden silk; red; green; black supplementary motifs; stylized flowers and geometric borders"
+  }
+ },
+ "067": {
+  "A": {
+   "short": "a Japanese brocade obi sash",
+   "long": "a Japanese brocade obi sash woven in silk and metallic thread, showing large chrysanthemums, cranes, fans, and rhythmic geometric grounds",
+   "attrs": "silk and metallic thread; rhythmic geometric grounds"
+  },
+  "B": {
+   "short": "a Korean gold-thread brocade sash",
+   "long": "a Korean gold-thread brocade sash woven in colored silk with metallic thread, showing compact clouds, peonies, phoenixes, and repeating geometric borders",
+   "attrs": "colored silk; repeating geometric borders"
+  }
+ },
+ "068": {
+  "A": {
+   "short": "an Indonesian ikat textile panel",
+   "long": "an Indonesian ikat textile panel woven from resist-dyed threads with feathered edges, showing diamonds, ancestor figures, and rhythmic color bands",
+   "attrs": "from resist-dyed threads; feathered edges; ancestor figures; rhythmic color bands"
+  },
+  "B": {
+   "short": "an Iban pua kumbu textile panel",
+   "long": "an Iban pua kumbu textile panel woven in warp ikat with deep red, black, and cream yarns, showing powerful hooked figures, spirit motifs, and mirrored geometric bands",
+   "attrs": "deep red; black; cream yarns; powerful hooked figures; spirit motifs; mirrored geometric bands"
+  }
+ },
+ "069": {
+  "A": {
+   "short": "an Indonesian ikat textile panel",
+   "long": "an Indonesian ikat textile panel woven from resist-dyed threads with feathered edges, showing diamonds, ancestor figures, and rhythmic color bands",
+   "attrs": "from resist-dyed threads; feathered edges; ancestor figures; rhythmic color bands"
+  },
+  "B": {
+   "short": "a Sumbanese hinggi textile panel",
+   "long": "a Sumbanese hinggi textile panel woven in warp ikat with indigo, rust red, and cream, showing horses, roosters, skull trees, and large heraldic figures",
+   "attrs": "rust red; cream; large heraldic figures"
+  }
+ },
+ "070": {
+  "A": {
+   "short": "an Indian Patola double-ikat textile panel",
+   "long": "an Indian Patola double-ikat textile panel woven from precisely resist-dyed silk warp and weft, showing dancing figures, elephants, flowers, and geometric grids",
+   "attrs": "from precisely resist-dyed silk warp and weft; dancing figures; geometric grids"
+  },
+  "B": {
+   "short": "a Timorese tais textile panel",
+   "long": "a Timorese tais textile panel woven in cotton warp ikat with red, black, yellow, and white bands, showing hooks, diamonds, and locally specific ancestral motifs",
+   "attrs": "cotton warp ikat; red; black; yellow; white bands; locally specific ancestral motifs"
+  }
+ },
+ "071": {
+  "A": {
+   "short": "an Indonesian batik cloth",
+   "long": "an Indonesian batik cloth with wax-resist dyeing in indigo, brown, and cream, showing parang diagonals, kawung rosettes, and densely repeated floral motifs",
+   "attrs": "wax-resist dyeing in indigo; brown; cream; densely repeated floral motifs"
+  },
+  "B": {
+   "short": "a Nigerian adire cloth",
+   "long": "a Nigerian adire cloth with indigo resist-dyed cotton, showing white circles, grids, comb-like marks, and hand-drawn or stitched geometric patterns",
+   "attrs": "indigo resist-dyed cotton; white circles; hand-drawn or stitched geometric patterns"
+  }
+ },
+ "072": {
+  "A": {
+   "short": "an Indonesian batik textile panel",
+   "long": "an Indonesian batik textile panel with wax-resist dyeing in indigo, brown, and cream, showing parang diagonals, kawung rosettes, and densely repeated floral motifs",
+   "attrs": "wax-resist dyeing in indigo; brown; cream; densely repeated floral motifs"
+  },
+  "B": {
+   "short": "a Japanese katazome textile panel",
+   "long": "a Japanese katazome textile panel with stencil-resist dyeing on cotton in indigo and white, showing waves, chrysanthemums, birds, and repeating geometric motifs",
+   "attrs": "stencil-resist dyeing on cotton in indigo and white; birds; repeating geometric motifs"
+  }
+ },
+ "073": {
+  "A": {
+   "short": "an Indian Ajrakh block-printed cloth",
+   "long": "an Indian Ajrakh block-printed cloth with layered resist printing in indigo, madder red, black, and white, showing precisely repeated stars and interlocking geometry",
+   "attrs": "layered resist printing in indigo; madder red; black; white"
+  },
+  "B": {
+   "short": "a Chinese Nantong blue-calico cloth",
+   "long": "a Chinese Nantong blue-calico cloth with indigo resist dyeing on cotton, showing white flowers, birds, fish, and auspicious folk motifs against a deep-blue ground",
+   "attrs": "indigo resist dyeing on cotton; white flowers; birds; auspicious folk motifs against a deep-blue ground"
+  }
+ },
+ "074": {
+  "A": {
+   "short": "a Mexican Otomi embroidery panel",
+   "long": "a Mexican Otomi embroidery panel worked in flat satin stitch on pale cotton, showing mirrored birds, deer, flowers, and fantastical animals",
+   "attrs": "flat satin stitch on pale cotton; mirrored birds; fantastical animals"
+  },
+  "B": {
+   "short": "a Palestinian tatreez embroidery panel",
+   "long": "a Palestinian tatreez embroidery panel worked in red and multicolored cross-stitch, showing cypress trees, stars, feathers, and region-specific geometric motifs",
+   "attrs": "red and multicolored cross-stitch; region-specific geometric motifs"
+  }
+ },
+ "075": {
+  "A": {
+   "short": "a Mexican Otomi embroidered blouse",
+   "long": "a Mexican Otomi embroidered blouse worked in flat satin stitch, showing mirrored birds, deer, flowers, and fantastical animals around the neckline and sleeves",
+   "attrs": "flat satin stitch; mirrored birds; fantastical animals around the neckline and sleeves"
+  },
+  "B": {
+   "short": "a Guatemalan huipil blouse",
+   "long": "a Guatemalan huipil blouse woven and embroidered in colors, showing diamonds, birds, maize, and community-specific geometric bands",
+   "attrs": "embroidered in colors; birds; community-specific geometric bands"
+  }
+ },
+ "076": {
+  "A": {
+   "short": "a Japanese sashiko textile panel",
+   "long": "a Japanese sashiko textile panel stitched with white running thread on indigo cotton, showing repeating hemp-leaf, wave, and linked-diamond reinforcement patterns",
+   "attrs": "white running thread on indigo cotton; repeating hemp-leaf; linked-diamond reinforcement patterns"
+  },
+  "B": {
+   "short": "a Romanian ie-embroidery textile panel",
+   "long": "a Romanian ie-embroidery textile panel worked in red, black, blue, and metallic thread, showing vertical floral bands, diamonds, and region-specific geometric motifs",
+   "attrs": "red; black; blue; vertical floral bands; region-specific geometric motifs"
+  }
+ },
+ "077": {
+  "A": {
+   "short": "a Hungarian Matyó embroidery panel",
+   "long": "a Hungarian Matyó embroidery panel worked in red, pink, blue, yellow, and green thread, showing densely packed roses and curling floral sprays",
+   "attrs": "red; pink; blue; yellow; green thread; densely packed roses and curling floral sprays"
+  },
+  "B": {
+   "short": "a Slovak Detva embroidery panel",
+   "long": "a Slovak Detva embroidery panel worked in chain stitch and satin stitch, showing compact geometric flowers, hearts, and rhythmic folk borders",
+   "attrs": "chain stitch and satin stitch; compact geometric flowers; rhythmic folk borders"
+  }
+ },
+ "078": {
+  "A": {
+   "short": "an Indian kantha quilt",
+   "long": "an Indian kantha quilt made from layered cotton joined by running stitches, showing rippling lines, lotus flowers, animals, and narrative folk scenes",
+   "attrs": "layered cotton joined by running stitches; lotus flowers; animals; narrative folk scenes"
+  },
+  "B": {
+   "short": "a Korean bojagi patchwork wrapping cloth",
+   "long": "a Korean bojagi patchwork wrapping cloth assembled from translucent or opaque fabric rectangles, showing asymmetrical geometric seams and jewel-toned color blocks",
+   "attrs": "asymmetrical geometric seams and jewel-toned color blocks"
+  }
+ },
+ "079": {
+  "A": {
+   "short": "a Panamanian mola textile panel",
+   "long": "a Panamanian mola textile panel made with layered reverse appliqué in colors, showing animals, plants, and maze-like geometric contours",
+   "attrs": "layered reverse appliqué in colors; animals; maze-like geometric contours"
+  },
+  "B": {
+   "short": "a Ukrainian Hutsul embroidery panel",
+   "long": "a Ukrainian Hutsul embroidery panel worked in cross-stitch with red, orange, black, and green thread, showing diamonds, hooks, and repeated geometric bands",
+   "attrs": "red; orange; black; green thread; repeated geometric bands"
+  }
+ },
+ "080": {
+  "A": {
+   "short": "a Ghanaian kente cloth",
+   "long": "a Ghanaian kente cloth woven in narrow strips of silk or rayon, showing alternating geometric blocks in gold, green, red, blue, and black",
+   "attrs": "narrow strips of silk or rayon; alternating geometric blocks in gold; green; red; blue; black"
+  },
+  "B": {
+   "short": "a Bhutanese yathra wool textile",
+   "long": "a Bhutanese yathra wool textile woven in thick colored wool with supplementary-weft motifs, showing repeating diamonds, flowers, and horizontal geometric bands",
+   "attrs": "thick colored wool; supplementary-weft motifs; repeating diamonds; horizontal geometric bands"
+  }
+ },
+ "081": {
+  "A": {
+   "short": "a Persian floral carpet",
+   "long": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+   "attrs": "a wool pile and central medallion; flowers in deep red; blue"
+  },
+  "B": {
+   "short": "a Turkmen Tekke carpet",
+   "long": "a Turkmen Tekke carpet with a deep red wool pile and repeated octagonal guls, showing compact black, white, and dark-blue tribal geometry",
+   "attrs": "a deep red wool pile and repeated octagonal guls; compact black; white; dark-blue tribal geometry"
+  }
+ },
+ "082": {
+  "A": {
+   "short": "a Persian floral carpet",
+   "long": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+   "attrs": "a wool pile and central medallion; flowers in deep red; blue"
+  },
+  "B": {
+   "short": "an Azerbaijani Kuba carpet",
+   "long": "an Azerbaijani Kuba carpet with a knotted wool pile, showing angular medallions, stylized animals, and blue, red, and ivory geometric borders",
+   "attrs": "a knotted wool pile; angular medallions; stylized animals; blue; red; ivory geometric borders"
+  }
+ },
+ "083": {
+  "A": {
+   "short": "a Persian floral carpet",
+   "long": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+   "attrs": "a wool pile and central medallion; flowers in deep red; blue"
+  },
+  "B": {
+   "short": "an Armenian Karabakh carpet",
+   "long": "an Armenian Karabakh carpet with a wool pile in red, blue, green, and cream, showing floral medallions and elongated geometric forms",
+   "attrs": "a wool pile in red; blue; green; cream; floral medallions and elongated geometric forms"
+  }
+ },
+ "084": {
+  "A": {
+   "short": "a Moroccan Beni Ourain wool rug",
+   "long": "a Moroccan Beni Ourain wool rug with a thick cream wool pile and sparse dark-brown lines, showing large asymmetrical diamonds and open geometric spacing",
+   "attrs": "a thick cream wool pile and sparse dark-brown lines; large asymmetrical diamonds and open geometric spacing"
+  },
+  "B": {
+   "short": "a Ukrainian Hutsul lizhnyk wool rug",
+   "long": "a Ukrainian Hutsul lizhnyk wool rug with a shaggy woven wool surface in gray, cream, brown, and muted color, showing stepped diamonds and rhythmic zigzag bands",
+   "attrs": "wool surface in gray; cream; brown; muted color"
+  }
+ },
+ "085": {
+  "A": {
+   "short": "a Turkish flat-woven kilim",
+   "long": "a Turkish flat-woven kilim with interlocked wool wefts in red, blue, orange, and cream, showing hooked diamonds, ram horns, and stepped medallions",
+   "attrs": "interlocked wool wefts in red; blue; orange; cream; stepped medallions"
+  },
+  "B": {
+   "short": "a Romanian Oltenian kilim",
+   "long": "a Romanian Oltenian kilim with a flat-woven wool surface in red, green, blue, and cream, showing stylized flowers, birds, and vertical bouquet arrangements",
+   "attrs": "a flat-woven wool surface in red; green; blue; cream; birds"
+  }
+ },
+ "086": {
+  "A": {
+   "short": "a Turkish flat-woven kilim",
+   "long": "a Turkish flat-woven kilim with interlocked wool wefts in red, blue, orange, and cream, showing hooked diamonds, ram horns, and stepped medallions",
+   "attrs": "interlocked wool wefts in red; blue; orange; cream; stepped medallions"
+  },
+  "B": {
+   "short": "a Serbian Pirot kilim",
+   "long": "a Serbian Pirot kilim with a reversible flat weave and red, black, blue, and white geometry, showing turtles, hooks, and repeated protective motifs",
+   "attrs": "a reversible flat weave and red; black; blue; white geometry; repeated protective motifs"
+  }
+ },
+ "087": {
+  "A": {
+   "short": "a Scottish tartan wool blanket",
+   "long": "a Scottish tartan wool blanket woven in colored wool with intersecting horizontal and vertical stripes, forming a balanced repeating clan-associated check pattern",
+   "attrs": "colored wool; intersecting horizontal and vertical stripes; forming a balanced repeating clan-associated check pattern"
+  },
+  "B": {
+   "short": "a Swedish rya wool rug",
+   "long": "a Swedish rya wool rug with a long wool pile and woven backing, showing geometric diamonds, stripes, and abstract color fields",
+   "attrs": "a long wool pile and; geometric diamonds; abstract color fields"
+  }
+ },
+ "088": {
+  "A": {
+   "short": "a Navajo wool rug",
+   "long": "a Navajo wool rug with a woven flat surface and red, black, gray, and cream geometry, showing stepped diamonds and serrated bands",
+   "attrs": "flat surface and red; black; cream geometry"
+  },
+  "B": {
+   "short": "a Kyrgyz shyrdak felt rug",
+   "long": "a Kyrgyz shyrdak felt rug made from cut and inlaid wool felt in contrasting colors, showing mirrored horn motifs, scrolling forms, and outlined geometry",
+   "attrs": "cut and inlaid wool felt in contrasting colors; mirrored horn motifs; scrolling forms"
+  }
+ },
+ "089": {
+  "A": {
+   "short": "a Persian floral carpet",
+   "long": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+   "attrs": "a wool pile and central medallion; flowers in deep red; blue"
+  },
+  "B": {
+   "short": "a Tibetan khaden carpet",
+   "long": "a Tibetan khaden carpet with a compact wool pile in red, blue, yellow, and cream, showing snow lions, lotus flowers, clouds, or checkerboard motifs",
+   "attrs": "a compact wool pile in red; blue; yellow; cream; lotus flowers; or checkerboard motifs"
+  }
+ },
+ "090": {
+  "A": {
+   "short": "a Moroccan geometric wool rug",
+   "long": "a Moroccan geometric wool rug with a hand-knotted or flat-woven wool surface, showing diamonds, zigzags, and irregular bands in earth colors",
+   "attrs": "a hand-knotted or flat-woven wool surface; irregular bands in earth colors"
+  },
+  "B": {
+   "short": "an Afghan Baluch wool rug",
+   "long": "an Afghan Baluch wool rug with a dark wool pile in deep red, brown, navy, and ivory, showing repeated prayer niches, hooked medallions, and compact tribal borders",
+   "attrs": "a dark wool pile in deep red; brown; hooked medallions; compact tribal borders"
+  }
+ },
+ "091": {
+  "A": {
+   "short": "a Venetian Murano glass vase",
+   "long": "a Venetian Murano glass vase made from vividly colored blown glass with layered canes, showing curves, millefiori accents, and polished translucent depth",
+   "attrs": "vividly colored blown glass; layered canes"
+  },
+  "B": {
+   "short": "a Palestinian Hebron blown-glass vase",
+   "long": "a Palestinian Hebron blown-glass vase made from recycled glass in translucent turquoise and green, showing a irregular hand-blown body, bubbles, and applied glass trails",
+   "attrs": "recycled glass in translucent turquoise and green"
+  }
+ },
+ "092": {
+  "A": {
+   "short": "a Bohemian cut-glass vase",
+   "long": "a Bohemian cut-glass vase made from clear or ruby-overlaid crystal with deep wheel-cut facets, showing stars, fans, and sharply sparkling geometric panels",
+   "attrs": "sharply sparkling geometric panels"
+  },
+  "B": {
+   "short": "a Czech Železný Brod art-glass vase",
+   "long": "a Czech Železný Brod art-glass vase made from hand-shaped colored glass with clean modern curves, showing layered transparent tones, internal bubbles, and sculptural forms",
+   "attrs": "hand-shaped colored glass; layered transparent tones"
+  }
+ },
+ "093": {
+  "A": {
+   "short": "a Venetian millefiori glass-bead necklace",
+   "long": "a Venetian millefiori glass-bead necklace made from multicolored glass canes sliced into flower-like beads, showing red, blue, yellow, white, and green mosaic patterns",
+   "attrs": "multicolored glass canes sliced into flower-like beads; red; blue; yellow; white; green mosaic patterns"
+  },
+  "B": {
+   "short": "a Ghanaian Krobo powder-glass-bead necklace",
+   "long": "a Ghanaian Krobo powder-glass-bead necklace made from molded recycled glass powder, showing opaque hand-painted stripes, dots, chevrons, and earth and jewel colors",
+   "attrs": "opaque hand-painted stripes; earth and jewel colors"
+  }
+ },
+ "094": {
+  "A": {
+   "short": "a Japanese woven-bamboo basket",
+   "long": "a Japanese woven-bamboo basket made from split bamboo in a open weave, showing hexagonal plaiting, curved handles, and an asymmetrical sculptural profile",
+   "attrs": "split bamboo in a open weave; hexagonal plaiting"
+  },
+  "B": {
+   "short": "a Philippine nito-vine basket",
+   "long": "a Philippine nito-vine basket woven from dark nito vine over a lighter structural frame, showing tight black-and-tan spirals, diamonds, and rhythmic geometric bands",
+   "attrs": "tight black-and-tan spirals; rhythmic geometric bands"
+  }
+ },
+ "095": {
+  "A": {
+   "short": "a Navajo coiled basket",
+   "long": "a Navajo coiled basket woven from plant fibers in a shallow circular form, showing a central opening and radiating red, black, and natural spiral motifs",
+   "attrs": "a central opening and radiating red; black; natural spiral motifs"
+  },
+  "B": {
+   "short": "a Panamanian Wounaan chunga basket",
+   "long": "a Panamanian Wounaan chunga basket coiled from palm fiber, showing exceptionally tight weaving and animal, plant, or geometric motifs in black and colors",
+   "attrs": "exceptionally tight weaving and animal; or geometric motifs in black and colors"
+  }
+ },
+ "096": {
+  "A": {
+   "short": "a Moroccan tooled-leather box",
+   "long": "a Moroccan tooled-leather box covered in brown leather with stamped and painted ornament, showing stars, arabesques, and scalloped geometric borders",
+   "attrs": "arabesques; scalloped geometric borders"
+  },
+  "B": {
+   "short": "a Tuareg tooled-leather box",
+   "long": "a Tuareg tooled-leather box covered in dark leather with incised and colored decoration, showing triangles, crosses, zigzags, and applied metal studs",
+   "attrs": "incised and colored decoration"
+  }
+ },
+ "097": {
+  "A": {
+   "short": "an Italian tooled-leather wall panel",
+   "long": "an Italian tooled-leather wall panel made from embossed and gilded leather, showing scrolling acanthus leaves, heraldic forms, and brown-and-gold relief",
+   "attrs": "embossed and gilded leather; scrolling acanthus leaves; brown-and-gold relief"
+  },
+  "B": {
+   "short": "a Spanish Córdoba guadamecí leather panel",
+   "long": "a Spanish Córdoba guadamecí leather panel made from silvered, painted, and embossed leather, showing Renaissance arabesques, flowers, and richly colored metallic relief",
+   "attrs": "silvered; painted; Renaissance arabesques; richly colored metallic relief"
+  }
+ },
+ "098": {
+  "A": {
+   "short": "a Russian matryoshka wooden doll",
+   "long": "a Russian matryoshka wooden doll with a turned wooden body painted in colors, showing a smiling figure in a floral headscarf and apron",
+   "attrs": "a turned wooden body; colors; a smiling figure in a floral headscarf and apron"
+  },
+  "B": {
+   "short": "a Japanese Tsugaru kokeshi wooden doll",
+   "long": "a Japanese Tsugaru kokeshi wooden doll with a lathe-turned cylindrical body and rounded head, showing painted rings, chrysanthemum motifs, and a simple face",
+   "attrs": "chrysanthemum motifs"
+  }
+ },
+ "099": {
+  "A": {
+   "short": "a Chinese carved-jade pendant",
+   "long": "a Chinese carved-jade pendant made from polished pale green or white jade, showing pierced clouds, dragons, or floral scrolls in low relief",
+   "attrs": "polished pale green or white jade; dragons; or floral scrolls in low relief"
+  },
+  "B": {
+   "short": "a Māori pounamu hei tiki pendant",
+   "long": "a Māori pounamu hei tiki pendant carved from translucent greenstone in a compact ancestral figure, showing an inclined head, large eyes, and curved limbs",
+   "attrs": "an inclined head; large eyes; curved limbs"
+  }
+ },
+ "100": {
+  "A": {
+   "short": "an Inuit soapstone figurine",
+   "long": "an Inuit soapstone figurine carved from dark gray-green stone with rounded tactile surfaces, showing a compact animal or human figure with incised details",
+   "attrs": "a compact animal or human figure; incised details"
+  },
+  "B": {
+   "short": "a Kenyan Kisii soapstone figurine",
+   "long": "a Kenyan Kisii soapstone figurine carved from pale soapstone and polished, showing an abstract intertwined human or animal form with rounded contours",
+   "attrs": "an abstract intertwined human or animal form"
+  }
+ }
+}

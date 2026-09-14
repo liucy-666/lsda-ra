@@ -1,0 +1,17 @@
+siglip loaded (bfloat16)
+siglip: 20 rows, 22s
+siglip: 40 rows, 45s
+siglip: 60 rows, 68s
+siglip: 80 rows, 92s
+siglip: 100 rows, 116s
+siglip: 120 rows, 138s
+siglip: 140 rows, 161s
+siglip: 160 rows, 184s
+siglip: 180 rows, 207s
+siglip: 200 rows, 229s
+siglip: 220 rows, 250s
+siglip: 240 rows, 271s
+siglip: 260 rows, 292s
+siglip: 280 rows, 314s
+siglip: 300 rows, 339s
+siglip rows=300 in 339s -> D:\Python\MMDIT\experiment\2026_9_12_EXP_3_KA_ME\ratings\metric_siglip.jsonl
