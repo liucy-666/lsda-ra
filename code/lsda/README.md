@@ -143,6 +143,12 @@ partition_min = partition_max = 1
 - `--helpers-dir`：包含 phase1/phase2 模块的 LSDA 辅助代码目录；
 - `--output-root`：本次运行的独立输出根目录。
 
+若要在实体专家提示中加入外置文化知识，可额外指定
+`--knowledge-kb <kb.jsonl>`。配置中的实体应携带 `kb_key`、`key`、
+`concept` 或 `culture_noun` 之一；运行时会保留原始 `attr`/Prompt，并只追加
+该 KB 行的 `knowledge_text`。审计文件会记录注入开关和 KB 路径。未指定该参数时，
+clean v1 的 Prompt 和采样路径保持不变。
+
 900 任务入口 `generate_lsda_900.py` 必须另外指定冻结 manifest、原生 SS 图像根目录、
 对应的 SAM mask 根目录和输出目录。mask 可以来自早期分割任务，但这里只将其作为同 seed
 原生 SS 的分割产物读取；旧 LSDA/RA 图像、latent 或 hidden state 不会被读取。

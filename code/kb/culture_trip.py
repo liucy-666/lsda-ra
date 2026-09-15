@@ -7,7 +7,13 @@ until Total_score >= threshold or max_iters, then return the refined prompt.
 """
 from __future__ import annotations
 
-from llm_client import chat, parse_json
+try:
+    from .llm_client import chat, parse_json
+except ImportError:
+    from llm_client import chat, parse_json
+
+import re
+from typing import Any, Iterable, Mapping, Optional, Tuple, Union
 
 REFINE_TEMPLATE = """### Instruction:
 Please refine the BASE PROMPT by referring to the INFORMATION and FEEDBACK.
@@ -140,3 +146,47 @@ def culture_trip(culture_noun: str, base_prompt: str, information: str,
         fb = feedback(culture_noun, refined, sc, model)
     return {"refined_prompt": refined, "final_score": history[-1]["score"] if history else None,
             "iterations": len(history), "history": history}
+
+
+# Deterministic fallback used by the batch KB builder. The LLM loop above is
+# optional enrichment; these helpers keep facts and provenance usable offline.
+def _clean(value: Any) -> str:
+    return re.sub(r"\s+", " ", str(value or "")).strip(" ;,.")
+
+
+def facts_to_text(facts: Union[Mapping[str, Any], Iterable[Tuple[str, Any]]]) -> str:
+    items = facts.items() if isinstance(facts, Mapping) else facts
+    parts = []
+    for key, value in sorted(items, key=lambda pair: str(pair[0])):
+        if value in (None, "", [], {}):
+            continue
+        if isinstance(value, (list, tuple, set)):
+            value = ", ".join(sorted(dict.fromkeys(_clean(item) for item in value if _clean(item))))
+        elif isinstance(value, Mapping):
+            value = ", ".join(f"{k}: {_clean(v)}" for k, v in sorted(value.items()) if v not in (None, "", [], {}))
+        value = _clean(value)
+        if value:
+            parts.append(f"{str(key).replace('_', ' ')}: {value}")
+    return "; ".join(parts)
+
+
+def build_knowledge_text(
+    facts: Mapping[str, Any], *, llm: Optional[Any] = None, max_chars: int = 500
+) -> Tuple[str, str]:
+    """Return ``(knowledge_text, origin)`` with a deterministic safe fallback."""
+    fallback = facts_to_text(facts)
+    if llm is None or not fallback:
+        return fallback, "wikidata" if fallback else "empty"
+    try:
+        result = llm.complete_json(
+            "Use only supplied facts. Return JSON with one key knowledge_text; "
+            "keep it factual, visual, concise, and do not invent details.",
+            "Facts (do not add any):\n" + fallback,
+        )
+        candidate = result.get("knowledge_text") if isinstance(result, Mapping) else result
+        text = _clean(candidate)
+        if text and len(text) <= max_chars:
+            return text, "llm_refined"
+    except Exception:
+        pass
+    return fallback[:max_chars].rstrip(" ;,.") , "wikidata"

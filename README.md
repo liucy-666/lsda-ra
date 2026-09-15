@@ -27,3 +27,13 @@
 - `warning.md`：目录规范、数据纪律、安全要求和禁止行为。
 
 本项目坚持原始数据不可改写、失败样本不隐藏、假说与数据结论分离。任何新方法或新实验必须创建独立版本与实验目录。
+
+## Plan 9/13 data path
+
+The plan-derived model-free utilities are now included under `code/kb`,
+`code/benchmark`, `code/metrics/structure.py`, and
+`code/mmdit_causal/value_projection.py`. They normalize CUBE/TU rows, build an
+auditable Wikidata KB, compose deterministic cross-cultural prompts, and report
+structure and Value-direction proxies without requiring local model weights.
+See [`docs/plan_9_13_implementation.md`](docs/plan_9_13_implementation.md) for
+the local checks and the server-side commands.

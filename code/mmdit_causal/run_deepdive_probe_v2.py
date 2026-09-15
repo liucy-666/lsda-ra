@@ -29,6 +29,7 @@ from diffusers import StableDiffusion3Pipeline
 from mmdit_lib import MODEL_DIR, Controller, install, make_latent
 from pairs100 import b_donor_prompt, ss_prompt
 from run_internal import InternalProbe
+from value_projection import value_correction_metrics
 
 
 def main():
@@ -90,6 +91,13 @@ def main():
                     "proj_W": float(np.dot(w - m, tgt)) / tgt2 if tgt2 > 0 else None,
                     "proj_V": float(np.dot(vv - m, tgt)) / tgt2 if tgt2 > 0 else None,
                 }
+                value_metrics = value_correction_metrics(m, vv, d)
+                row.update({
+                    "value_projection": value_metrics["projection"],
+                    "value_cosine": value_metrics["cosine"],
+                    "value_distance_reduction": value_metrics["distance_reduction"],
+                    "value_toward_donor": value_metrics["projection"] > 0 and value_metrics["distance_reduction"] > 0,
+                })
                 if args.save_raw:
                     row["vec_mixed"] = m.tolist()
                     row["vec_wfix"] = w.tolist()
@@ -104,6 +112,8 @@ def main():
             "mean_recovery_V": float(np.mean([r["recovery_V"] for r in act if r["recovery_V"] is not None])),
             "mean_proj_W": float(np.mean([r["proj_W"] for r in act if r["proj_W"] is not None])),
             "mean_proj_V": float(np.mean([r["proj_V"] for r in act if r["proj_V"] is not None])),
+            "mean_value_projection": float(np.mean([r["value_projection"] for r in act])),
+            "value_toward_donor_rate": float(np.mean([r["value_toward_donor"] for r in act])),
         }
         summary[str(seed)] = s
         (args.out / f"probe_pair{args.pair:03d}_seed{seed}.json").write_text(
