@@ -1,0 +1,2534 @@
+concept,country,semantic_field,language
+果汁,china,beverages,chinese
+二锅头,china,beverages,chinese
+五粮液,china,beverages,chinese
+佛跳墙,china,beverages,chinese
+加饭酒,china,beverages,chinese
+啤酒,china,beverages,chinese
+大曲,china,beverages,chinese
+料酒,china,beverages,chinese
+梅子酱,china,beverages,chinese
+梅酒,china,beverages,chinese
+烧酒,china,beverages,chinese
+白酒,china,beverages,chinese
+碧螺春,china,beverages,chinese
+稠酒,china,beverages,chinese
+竹蔗茅根水,china,beverages,chinese
+米酒,china,beverages,chinese
+红豆沙,china,beverages,chinese
+茅台,china,beverages,chinese
+茶,china,beverages,chinese
+葡萄酒,china,beverages,chinese
+豆浆,china,beverages,chinese
+贵州茅台,china,beverages,chinese
+酒,china,beverages,chinese
+酸梅汤,china,beverages,chinese
+青岛啤酒,china,beverages,chinese
+青稞酒,china,beverages,chinese
+高粱,china,beverages,chinese
+鹿茸酒,china,beverages,chinese
+黄酒,china,beverages,chinese
+仪式,china,celebration,chinese
+大红灯笼,china,celebration,chinese
+寒月,china,celebration,chinese
+小年,china,celebration,chinese
+年,china,celebration,chinese
+庙会,china,celebration,chinese
+忌日,china,celebration,chinese
+拜年,china,celebration,chinese
+春联,china,celebration,chinese
+春节,china,celebration,chinese
+泼水节,china,celebration,chinese
+火把节,china,celebration,chinese
+登基,china,celebration,chinese
+百戏,china,celebration,chinese
+祭孔,china,celebration,chinese
+舞狮,china,celebration,chinese
+舞龙,china,celebration,chinese
+节日,china,celebration,chinese
+藏历新年,china,celebration,chinese
+蜜月,china,celebration,chinese
+过年,china,celebration,chinese
+除夕,china,celebration,chinese
+雪顿节,china,celebration,chinese
+頭面,china,celebration,chinese
+黃帝祭,china,celebration,chinese
+丝绸,china,clothing,chinese
+中山装,china,clothing,chinese
+冕冠,china,clothing,chinese
+凤冠霞帔,china,clothing,chinese
+唐装,china,clothing,chinese
+大拉翅,china,clothing,chinese
+官服,china,clothing,chinese
+戒指,china,clothing,chinese
+斗笠,china,clothing,chinese
+旗袍,china,clothing,chinese
+曲裾袍,china,clothing,chinese
+校服,china,clothing,chinese
+步搖,china,clothing,chinese
+水田衣,china,clothing,chinese
+皮革,china,clothing,chinese
+盖头,china,clothing,chinese
+盘扣,china,clothing,chinese
+秀禾服,china,clothing,chinese
+立领,china,clothing,chinese
+簪,china,clothing,chinese
+荷包,china,clothing,chinese
+蓑衣,china,clothing,chinese
+褙子,china,clothing,chinese
+襦裙,china,clothing,chinese
+西装,china,clothing,chinese
+道袍,china,clothing,chinese
+钿子,china,clothing,chinese
+长衫,china,clothing,chinese
+飞鱼服,china,clothing,chinese
+马褂,china,clothing,chinese
+马面裙,china,clothing,chinese
+三杯鸡,china,food,chinese
+东坡肉,china,food,chinese
+串,china,food,chinese
+九转大肠,china,food,chinese
+乳扇,china,food,chinese
+云吞面,china,food,chinese
+五花肉,china,food,chinese
+五谷,china,food,chinese
+京酱肉丝,china,food,chinese
+人参,china,food,chinese
+元宵,china,food,chinese
+全聚德,china,food,chinese
+八宝菜,china,food,chinese
+八宝饭,china,food,chinese
+兰州牛肉面,china,food,chinese
+冒菜,china,food,chinese
+冬至团,china,food,chinese
+冬菇,china,food,chinese
+冰粉,china,food,chinese
+凉皮,china,food,chinese
+凉面,china,food,chinese
+刀削面,china,food,chinese
+刈包,china,food,chinese
+刨冰,china,food,chinese
+刨冰,china,food,chinese
+包子,china,food,chinese
+北京烤鸭,china,food,chinese
+午餐肉,china,food,chinese
+午饭,china,food,chinese
+卤蛋,china,food,chinese
+叉烧,china,food,chinese
+叉烧包,china,food,chinese
+双皮奶,china,food,chinese
+古老肉,china,food,chinese
+咕噜肉,china,food,chinese
+咕嚕肉,china,food,chinese
+咸虾,china,food,chinese
+喃撇,china,food,chinese
+四喜丸子,china,food,chinese
+四菜一汤,china,food,chinese
+回锅肉,china,food,chinese
+地松鼠,china,food,chinese
+大盘鸡,china,food,chinese
+夫妻肺片,china,food,chinese
+宫保鸡丁,china,food,chinese
+小吃,china,food,chinese
+小笼包,china,food,chinese
+小豆,china,food,chinese
+山东煎饼,china,food,chinese
+川菜,china,food,chinese
+干炒牛河,china,food,chinese
+扁肉燕,china,food,chinese
+打卤面,china,food,chinese
+抓饭,china,food,chinese
+担担面,china,food,chinese
+拉面,china,food,chinese
+拔丝地瓜,china,food,chinese
+排骨,china,food,chinese
+春卷,china,food,chinese
+曼煎粿,china,food,chinese
+月饼,china,food,chinese
+木须肉,china,food,chinese
+李鸿章杂碎,china,food,chinese
+板面,china,food,chinese
+板鼓,china,food,chinese
+果子,china,food,chinese
+枸杞,china,food,chinese
+柿饼,china,food,chinese
+桔梗,china,food,chinese
+梅菜扣肉,china,food,chinese
+榨菜,china,food,chinese
+毛豆,china,food,chinese
+汤圆,china,food,chinese
+汤面,china,food,chinese
+沙琪玛,china,food,chinese
+油条,china,food,chinese
+油饭,china,food,chinese
+泡菜,china,food,chinese
+泡馍,china,food,chinese
+浙菜,china,food,chinese
+海东青,china,food,chinese
+海南粉,china,food,chinese
+海南鸡饭,china,food,chinese
+海参,china,food,chinese
+海棠酥,china,food,chinese
+海鲜,china,food,chinese
+涮羊肉,china,food,chinese
+清真菜,china,food,chinese
+清補涼,china,food,chinese
+湘菜,china,food,chinese
+湯圓,china,food,chinese
+汤圆,china,food,chinese
+元宵,china,food,chinese
+火不思,china,food,chinese
+火烧,china,food,chinese
+火锅,china,food,chinese
+炒码面,china,food,chinese
+炒肝,china,food,chinese
+炒血鸭,china,food,chinese
+炒面,china,food,chinese
+炙子烤肉,china,food,chinese
+炸子鸡,china,food,chinese
+炸豆腐,china,food,chinese
+炸酱,china,food,chinese
+炸酱面,china,food,chinese
+点心,china,food,chinese
+烤,china,food,chinese
+烧仙草,china,food,chinese
+烧卖,china,food,chinese
+烧饼,china,food,chinese
+烧饼,china,food,chinese
+热干面,china,food,chinese
+煎堆,china,food,chinese
+煲仔饭,china,food,chinese
+燕皮,china,food,chinese
+燕窝,china,food,chinese
+牛筋琴,china,food,chinese
+牛角胡,china,food,chinese
+狗不理,china,food,chinese
+狮子头,china,food,chinese
+猪粉肠,china,food,chinese
+玉米,china,food,chinese
+瓜子,china,food,chinese
+甜不辣,china,food,chinese
+甜面酱,china,food,chinese
+白切鸡,china,food,chinese
+盐帮菜,china,food,chinese
+盐酥鸡,china,food,chinese
+盖饭,china,food,chinese
+米粉,china,food,chinese
+米血糕,china,food,chinese
+米饭,china,food,chinese
+粉蒸肉,china,food,chinese
+粢饭团,china,food,chinese
+粤菜,china,food,chinese
+粥,china,food,chinese
+粵菜,china,food,chinese
+粽子,china,food,chinese
+粿條,china,food,chinese
+糕,china,food,chinese
+糖人,china,food,chinese
+糖水,china,food,chinese
+糖瓜,china,food,chinese
+糖葫芦,china,food,chinese
+糖藕,china,food,chinese
+糖醋,china,food,chinese
+糖醋排骨,china,food,chinese
+素食,china,food,chinese
+紫菜,china,food,chinese
+红油抄手,china,food,chinese
+红烧肉,china,food,chinese
+红糟鸡,china,food,chinese
+线粉,china,food,chinese
+肉夹馍,china,food,chinese
+肉泥,china,food,chinese
+肉粽,china,food,chinese
+肉臊饭,china,food,chinese
+肠粉,china,food,chinese
+胡椒,china,food,chinese
+胡椒饼,china,food,chinese
+腊八粥,china,food,chinese
+腌笃鲜,china,food,chinese
+臭豆腐,china,food,chinese
+芋圆,china,food,chinese
+芋头,china,food,chinese
+芙蓉蛋,china,food,chinese
+芝麻球,china,food,chinese
+芝麻糊,china,food,chinese
+芡,china,food,chinese
+苏菜,china,food,chinese
+茶叶蛋,china,food,chinese
+茶餐厅,china,food,chinese
+菜,china,food,chinese
+萝卜糕,china,food,chinese
+葱油饼,china,food,chinese
+蒜頭,china,food,chinese
+虾酱,china,food,chinese
+虾饺,china,food,chinese
+蚂蚁上树,china,food,chinese
+蚵仔煎,china,food,chinese
+蛋,china,food,chinese
+蛤粉,china,food,chinese
+螺蛳粉,china,food,chinese
+豆,china,food,chinese
+豆奶,china,food,chinese
+豆干,china,food,chinese
+豆渣,china,food,chinese
+豆瓣,china,food,chinese
+豆皮,china,food,chinese
+豆腐,china,food,chinese
+豆腐乳,china,food,chinese
+豆腐脑,china,food,chinese
+豆腐花,china,food,chinese
+豆花,china,food,chinese
+豆豉,china,food,chinese
+赣菜,china,food,chinese
+赤豆,china,food,chinese
+辣子鸡,china,food,chinese
+辣条,china,food,chinese
+辣椒鸡,china,food,chinese
+过早,china,food,chinese
+酱菜,china,food,chinese
+酸汤水饺,china,food,chinese
+金华猪,china,food,chinese
+金针菜,china,food,chinese
+锅巴,china,food,chinese
+锅盔,china,food,chinese
+闽菜,china,food,chinese
+雪花菜,china,food,chinese
+雪里红,china,food,chinese
+青团,china,food,chinese
+面,china,food,chinese
+面条,china,food,chinese
+面窝,china,food,chinese
+面筋,china,food,chinese
+韭菜盒子,china,food,chinese
+餐馆,china,food,chinese
+饭,china,food,chinese
+饺子,china,food,chinese
+饼,china,food,chinese
+馄炖,china,food,chinese
+馄炖面,china,food,chinese
+馅饼,china,food,chinese
+馒头,china,food,chinese
+馓子,china,food,chinese
+馕,china,food,chinese
+驴打滚,china,food,chinese
+骨汤,china,food,chinese
+魚香茄子,china,food,chinese
+鱼腥草,china,food,chinese
+鱼香肉丝,china,food,chinese
+鲁菜,china,food,chinese
+鸡蛋仔,china,food,chinese
+鸭血粉丝汤,china,food,chinese
+麻婆豆腐,china,food,chinese
+麻花,china,food,chinese
+麻花儿,china,food,chinese
+麻辣烫,china,food,chinese
+黄芪,china,food,chinese
+黄豆,china,food,chinese
+龙须菜,china,food,chinese
+龟苓膏,china,food,chinese
+山楂,china,fruit,chinese
+无花果,china,fruit,chinese
+木瓜,china,fruit,chinese
+杨桃,china,fruit,chinese
+杨梅,china,fruit,chinese
+枣,china,fruit,chinese
+柿子,china,fruit,chinese
+梅子,china,fruit,chinese
+樱桃,china,fruit,chinese
+火龙果,china,fruit,chinese
+瓜,china,fruit,chinese
+石榴,china,fruit,chinese
+荔枝,china,fruit,chinese
+莲雾,china,fruit,chinese
+菠萝蜜,china,fruit,chinese
+话梅,china,fruit,chinese
+龙眼,china,fruit,chinese
+书房,china,houses,chinese
+四合院,china,houses,chinese
+天井,china,houses,chinese
+宝塔,china,houses,chinese
+斗拱,china,houses,chinese
+晋祠,china,houses,chinese
+炕,china,houses,chinese
+石库门,china,houses,chinese
+祆神楼,china,houses,chinese
+祠堂,china,houses,chinese
+端门,china,houses,chinese
+胡同,china,houses,chinese
+茶楼,china,houses,chinese
+茶馆,china,houses,chinese
+蚩吻,china,houses,chinese
+龟甲房屋,china,houses,chinese
+三弦,china,music,chinese
+三胡,china,music,chinese
+中乐团,china,music,chinese
+中胡,china,music,chinese
+中阮,china,music,chinese
+乐器,china,music,chinese
+九歌,china,music,chinese
+二人台,china,music,chinese
+二弦,china,music,chinese
+二胡,china,music,chinese
+云锣,china,music,chinese
+京二胡,china,music,chinese
+京胡,china,music,chinese
+伽倻琴,china,music,chinese
+低胡,china,music,chinese
+低音革胡,china,music,chinese
+侯贯,china,music,chinese
+倍革胡,china,music,chinese
+八角鼓,china,music,chinese
+八音,china,music,chinese
+六角弦,china,music,chinese
+冬不拉,china,music,chinese
+单皮鼓,china,music,chinese
+南胡,china,music,chinese
+口弦,china,music,chinese
+古琴,china,music,chinese
+古筝,china,music,chinese
+吹管乐器,china,music,chinese
+哨角,china,music,chinese
+唢呐,china,music,chinese
+喇叭弦,china,music,chinese
+四胡,china,music,chinese
+国乐,china,music,chinese
+坠胡,china,music,chinese
+堂鼓,china,music,chinese
+墜胡,china,music,chinese
+大广弦,china,music,chinese
+大廣弦,china,music,chinese
+大阮,china,music,chinese
+大马头琴,china,music,chinese
+太平鼓,china,music,chinese
+奚琴,china,music,chinese
+小提琴,china,music,chinese
+尺八,china,music,chinese
+巴乌,china,music,chinese
+弓琴,china,music,chinese
+弹拨尔,china,music,chinese
+快板,china,music,chinese
+扁鼓,china,music,chinese
+手鼓,china,music,chinese
+打击乐器,china,music,chinese
+扬琴,china,music,chinese
+拉阮,china,music,chinese
+拍板,china,music,chinese
+排箫,china,music,chinese
+提琴,china,music,chinese
+揚琴,china,music,chinese
+擂琴,china,music,chinese
+新笛,china,music,chinese
+曲笛,china,music,chinese
+月琴,china,music,chinese
+木琴,china,music,chinese
+木鱼,china,music,chinese
+板胡,china,music,chinese
+柳琴,china,music,chinese
+梅花琴,china,music,chinese
+梆子,china,music,chinese
+梆笛,china,music,chinese
+次中音笙,china,music,chinese
+殼仔弦,china,music,chinese
+洞箫,china,music,chinese
+热瓦甫,china,music,chinese
+牛腿琴,china,music,chinese
+独弦琴,china,music,chinese
+玄琴,china,music,chinese
+玎崩巴,china,music,chinese
+琵琶,china,music,chinese
+秦琴,china,music,chinese
+笛子,china,music,chinese
+筚篥,china,music,chinese
+简谱,china,music,chinese
+箜篌,china,music,chinese
+管乐器,china,music,chinese
+箫,china,music,chinese
+编磬,china,music,chinese
+编钟,china,music,chinese
+羌笛,china,music,chinese
+羯鼓,china,music,chinese
+考姆孜,china,music,chinese
+聲樂,china,music,chinese
+胡琴,china,music,chinese
+胡笳,china,music,chinese
+腰鼓,china,music,chinese
+舞蹈,china,music,chinese
+芦笙,china,music,chinese
+花鼓,china,music,chinese
+苗笛,china,music,chinese
+葫芦丝,china,music,chinese
+葫芦琴,china,music,chinese
+葫芦笙,china,music,chinese
+葫芦胡,china,music,chinese
+螺号,china,music,chinese
+象脚鼓,china,music,chinese
+賈湖骨笛,china,music,chinese
+越胡,china,music,chinese
+軋箏,china,music,chinese
+轧筝,china,music,chinese
+都塔尔,china,music,chinese
+钢琴,china,music,chinese
+锣,china,music,chinese
+阮,china,music,chinese
+阮琴,china,music,chinese
+革胡,china,music,chinese
+鞀鼓,china,music,chinese
+頭弦,china,music,chinese
+马头琴,china,music,chinese
+高胡,china,music,chinese
+高音阮,china,music,chinese
+鼓,china,music,chinese
+鼓板,china,music,chinese
+上海城隍廟,china,religion_setting,chinese
+佛指舍利,china,religion_object,chinese
+修行,china,religion_custom,chinese
+兔儿神,china,religion_setting,chinese
+八仙,china,religion_setting,chinese
+八仙殿,china,religion_setting,chinese
+关羽,china,religion_setting,chinese
+华佗,china,religion_setting,chinese
+哪吒,china,religion_setting,chinese
+唐僧,china,religion_setting,chinese
+四面神,china,religion_setting,chinese
+土地公,china,religion_setting,chinese
+土地神,china,religion_setting,chinese
+城隍,china,religion_setting,chinese
+天台,china,religion_setting,chinese
+天后,china,religion_setting,chinese
+天君,china,religion_setting,chinese
+天壇,china,religion_setting,chinese
+天妃,china,religion_setting,chinese
+天帝,china,religion_setting,chinese
+天神,china,religion_setting,chinese
+女娲,china,religion_setting,chinese
+嫘祖,china,religion_setting,chinese
+嫦娥奔月,china,religion_setting,chinese
+孙悟空,china,religion_setting,chinese
+寺庙,china,religion_setting,chinese
+干将,china,religion_setting,chinese
+庙,china,religion_setting,chinese
+月兔,china,religion_setting,chinese
+法師,china,religion_setting,chinese
+清水祖師,china,religion_setting,chinese
+猴王,china,religion_setting,chinese
+玉帝,china,religion_setting,chinese
+玉皇,china,religion_setting,chinese
+盘古,china,religion_setting,chinese
+石敢当,china,religion_object,chinese
+礼拜,china,religion_custom,chinese
+神,china,religion_setting,chinese
+神仙,china,religion_setting,chinese
+神社,china,religion_setting,chinese
+神道,china,religion_setting,chinese
+祭祀,china,religion_custom,chinese
+福禄寿,china,religion_setting,chinese
+精卫,china,religion_setting,chinese
+罗汉,china,religion_setting,chinese
+舍利,china,religion_object,chinese
+舍利塔,china,religion_setting,chinese
+菩萨,china,religion_setting,chinese
+蚩尤,china,religion_setting,chinese
+西王母,china,religion_setting,chinese
+财神,china,religion_setting,chinese
+道士,china,religion_setting,chinese
+郁垒,china,religion_setting,chinese
+钟馗,china,religion_setting,chinese
+门神,china,religion_setting,chinese
+阴阳,china,religion_setting,chinese
+鬼神,china,religion_setting,chinese
+麒麟,china,religion_setting,chinese
+龙王,china,religion_setting,chinese
+龙神,china,religion_setting,chinese
+划拳,china,sport,chinese
+单板滑雪,china,sport,chinese
+射箭,china,sport,chinese
+少林拳,china,sport,chinese
+弹棋,china,sport,chinese
+散打,china,sport,chinese
+气功,china,sport,chinese
+滑雪,china,sport,chinese
+球门,china,sport,chinese
+象棋,china,sport,chinese
+蹴鞠,china,sport,chinese
+马球,china,sport,chinese
+刀克,china,utensil,chinese
+双钩,china,utensil,chinese
+口哨,china,utensil,chinese
+樽,china,utensil,chinese
+毛笔,china,utensil,chinese
+砚台,china,utensil,chinese
+筷子,china,utensil,chinese
+簸箕,china,utensil,chinese
+纸张,china,utensil,chinese
+茶具,china,utensil,chinese
+象尊,china,utensil,chinese
+锁,china,utensil,chinese
+锅,china,utensil,chinese
+陶瓷,china,utensil,chinese
+鼎,china,utensil,chinese
+锥子,china,utensil,chinese
+丝瓜,china,vegetable,chinese
+冬瓜,china,vegetable,chinese
+小白菜,china,vegetable,chinese
+番茄,china,vegetable,chinese
+白菜,china,vegetable,chinese
+白萝卜,china,vegetable,chinese
+空心菜,china,vegetable,chinese
+绿叶蔬菜,china,vegetable,chinese
+芥蓝,china,vegetable,chinese
+苋菜,china,vegetable,chinese
+苦瓜,china,vegetable,chinese
+茄子,china,vegetable,chinese
+葫芦,china,vegetable,chinese
+蕨菜,china,vegetable,chinese
+豆芽,china,vegetable,chinese
+云岗石窟,china,visual arts,chinese
+云纹,china,visual arts,chinese
+六藝,china,visual arts,chinese
+十二金人,china,visual arts,chinese
+四羊尊,china,visual arts,chinese
+女史箴图,china,visual arts,chinese
+山海经,china,visual arts,chinese
+年画,china,visual arts,chinese
+敦煌石窟,china,visual arts,chinese
+油画,china,visual arts,chinese
+泥塑,china,visual arts,chinese
+漫画,china,visual arts,chinese
+版画,china,visual arts,chinese
+神像,china,visual arts,chinese
+竹制工艺品,china,visual arts,chinese
+装饰品,china,visual arts,chinese
+雕塑,china,visual arts,chinese
+饕餮,china,visual arts,chinese
+龙门石窟,china,visual arts,chinese
+akvavit,germany,beverages,german
+alkopops,germany,beverages,german
+altbier,germany,beverages,german
+apfelmost,germany,beverages,german
+apfelwein,germany,beverages,german
+arnsburger,germany,beverages,german
+aventinus,germany,beverages,german
+blauburger,germany,beverages,german
+blaufränkisch,germany,beverages,german
+bock,germany,beverages,german
+bockbier,germany,beverages,german
+branntwein,germany,beverages,german
+diätbier,germany,beverages,german
+doppelbock,germany,beverages,german
+doppelkorn,germany,beverages,german
+dornfelder,germany,beverages,german
+dunkel,germany,beverages,german
+dunkelfelder,germany,beverages,german
+dunkles,germany,beverages,german
+ehrenfelser,germany,beverages,german
+eierpunsch,germany,beverages,german
+eisbock,germany,beverages,german
+eiswein,germany,beverages,german
+elbling,germany,beverages,german
+ersatzkaffee,germany,beverages,german
+faberrebe,germany,beverages,german
+fassbier,germany,beverages,german
+festbier,germany,beverages,german
+freisamer,germany,beverages,german
+frühburgunder,germany,beverages,german
+gespritztes,germany,beverages,german
+gewürztraminer,germany,beverages,german
+goldkapsel,germany,beverages,german
+goldriesling,germany,beverages,german
+grauburgunder,germany,beverages,german
+hefeweizen,germany,beverages,german
+heidegeist,germany,beverages,german
+helfensteiner,germany,beverages,german
+helles,germany,beverages,german
+herrengedeck,germany,beverages,german
+himbeergeist,germany,beverages,german
+huxelrebe,germany,beverages,german
+johannisbeerschorle,germany,beverages,german
+kartoffelschnaps,germany,beverages,german
+kellerbier,germany,beverages,german
+kirschwasser,germany,beverages,german
+klebroth,germany,beverages,german
+kornbrand,germany,beverages,german
+kristallweizen,germany,beverages,german
+kristallweißbier,germany,beverages,german
+kurzer,germany,beverages,german
+lager,germany,beverages,german
+lagerbier,germany,beverages,german
+liebfraumilch,germany,beverages,german
+marillenschnaps,germany,beverages,german
+merzling,germany,beverages,german
+mineralwasser,germany,beverages,german
+märzen,germany,beverages,german
+nobling,germany,beverages,german
+obstbrand,germany,beverages,german
+obstler,germany,beverages,german
+obstwein,germany,beverages,german
+ostfriesentee,germany,beverages,german
+perlwein,germany,beverages,german
+reichensteiner,germany,beverages,german
+rieslaner,germany,beverages,german
+riesling,germany,beverages,german
+roggenbier,germany,beverages,german
+rotberger,germany,beverages,german
+rotfranke,germany,beverages,german
+rotling,germany,beverages,german
+räuschling,germany,beverages,german
+scheurebe,germany,beverages,german
+schillerwein,germany,beverages,german
+schorle,germany,beverages,german
+schorschbock,germany,beverages,german
+schwarzbier,germany,beverages,german
+schwarzriesling,germany,beverages,german
+sechsämtertropfen,germany,beverages,german
+sekt,germany,beverages,german
+siegerrebe,germany,beverages,german
+sportmolle,germany,beverages,german
+sprudel,germany,beverages,german
+spätburgunder,germany,beverages,german
+stroh,germany,beverages,german
+traminer,germany,beverages,german
+trollinger,germany,beverages,german
+viez,germany,beverages,german
+weissherbst,germany,beverages,german
+weizenbier,germany,beverages,german
+weißbier,germany,beverages,german
+weißburgunder,germany,beverages,german
+weißherbst,germany,beverages,german
+winterweizen,germany,beverages,german
+würzer,germany,beverages,german
+zoigl,germany,beverages,german
+zweigelt,germany,beverages,german
+zwickl,germany,beverages,german
+zwicklbier,germany,beverages,german
+advent,germany,celebration,german
+allerheiligen,germany,celebration,german
+allerseelen,germany,celebration,german
+almabtrieb,germany,celebration,german
+alstereisvergnügen,germany,celebration,german
+alstervergnügen,germany,celebration,german
+annakirmes,germany,celebration,german
+aschermittwoch,germany,celebration,german
+bauernfest,germany,celebration,german
+baumblütenfest,germany,celebration,german
+bergkirchweih,germany,celebration,german
+berlinale,germany,celebration,german
+bleigießen,germany,celebration,german
+brezelfest,germany,celebration,german
+brezgenmarkt,germany,celebration,german
+buergbrennen,germany,celebration,german
+bützchen,germany,celebration,german
+cannstatter wasen,germany,celebration,german
+cebit,germany,celebration,german
+chaostage,germany,celebration,german
+christkindlesmarkt,germany,celebration,german
+dommarkt,germany,celebration,german
+domtreppenfegen,germany,celebration,german
+duisburger akzente,germany,celebration,german
+eistanzen,germany,celebration,german
+erdbestattung,germany,celebration,german
+erstkommunion,germany,celebration,german
+fanmeile,germany,celebration,german
+fasent,germany,celebration,german
+fastnacht,germany,celebration,german
+fettdonnerstag,germany,celebration,german
+freimarkt,germany,celebration,german
+fronleichnam,germany,celebration,german
+frühschoppen,germany,celebration,german
+fährstraßenfest,germany,celebration,german
+gründonnerstag,germany,celebration,german
+guggetag,germany,celebration,german
+gäubodenvolksfest,germany,celebration,german
+hafenfest,germany,celebration,german
+hafengeburtstag,germany,celebration,german
+hafentage,germany,celebration,german
+heiligabend,germany,celebration,german
+heinerfest,germany,celebration,german
+hessentag,germany,celebration,german
+hochfest,germany,celebration,german
+interschutz,germany,celebration,german
+jahnturnfest,germany,celebration,german
+jahrmarkt,germany,celebration,german
+josefstag,germany,celebration,german
+jugendfeier,germany,celebration,german
+kaffeetrinken,germany,celebration,german
+karfreitag,germany,celebration,german
+karsamstag,germany,celebration,german
+kirchweih,germany,celebration,german
+kirmes,germany,celebration,german
+kirtag,germany,celebration,german
+kohlfahrt,germany,celebration,german
+kunstfest,germany,celebration,german
+kärwa,germany,celebration,german
+leinewebermarkt,germany,celebration,german
+libori,germany,celebration,german
+lukasmarkt,germany,celebration,german
+lullusfest,germany,celebration,german
+maikönigin,germany,celebration,german
+maiwoche,germany,celebration,german
+martinssingen,germany,celebration,german
+maschseefest,germany,celebration,german
+mathaisemarkt,germany,celebration,german
+michaeliskirchweih,germany,celebration,german
+muswiese,germany,celebration,german
+neujahr,germany,celebration,german
+oktoberfest,germany,celebration,german
+ostermontag,germany,celebration,german
+ostern,germany,celebration,german
+ostersonntag,germany,celebration,german
+palmsonntag,germany,celebration,german
+pfingsten,germany,celebration,german
+pfingstmontag,germany,celebration,german
+pfingstsonntag,germany,celebration,german
+reformationstag,germany,celebration,german
+richtfest,germany,celebration,german
+rosenmontag,germany,celebration,german
+ruhr games,germany,celebration,german
+schaffermahlzeit,germany,celebration,german
+schlachtschüssel,germany,celebration,german
+schlappentag,germany,celebration,german
+schüttenhoff,germany,celebration,german
+silvester,germany,celebration,german
+sommergewinn,germany,celebration,german
+spargelfest,germany,celebration,german
+stoppelmarkt,germany,celebration,german
+striezelmarkt,germany,celebration,german
+strohhutfest,germany,celebration,german
+sülfmeistertage,germany,celebration,german
+technoparade,germany,celebration,german
+theresienwiese,germany,celebration,german
+totensonntag,germany,celebration,german
+volkstrauertag,germany,celebration,german
+weberglockenmarkt,germany,celebration,german
+weiberfastnacht,germany,celebration,german
+weihnachtsmarkt,germany,celebration,german
+weihnukka,germany,celebration,german
+weinfest,germany,celebration,german
+weltsekttag,germany,celebration,german
+wäldchestag,germany,celebration,german
+zapfenstreich,germany,celebration,german
+birkenstock,germany,clothing,german
+dirndl,germany,clothing,german
+elbsegler,germany,clothing,german
+gamsbart,germany,clothing,german
+haube,germany,clothing,german
+hinterland tracht,germany,clothing,german
+lederhosen,germany,clothing,german
+schirmmütze,germany,clothing,german
+sorbische trachten,germany,clothing,german
+stahlhelm,germany,clothing,german
+tracht,germany,clothing,german
+aalsuppe,germany,food,german
+abendbrot,germany,food,german
+abendessen,germany,food,german
+allerseelenzopf,germany,food,german
+apfelkraut,germany,food,german
+apfelkuchen,germany,food,german
+apfelpfannkuchen,germany,food,german
+apfelstrudel,germany,food,german
+auszogne,germany,food,german
+backhendl,germany,food,german
+backobst,germany,food,german
+bauernfrühstück,germany,food,german
+bauernkrapfen,germany,food,german
+baumkuchen,germany,food,german
+baunzen,germany,food,german
+bergkäse,germany,food,german
+beuschel,germany,food,german
+bierschinken,germany,food,german
+bierwurst,germany,food,german
+birchermüesli,germany,food,german
+blindhuhn,germany,food,german
+blutwurst,germany,food,german
+bockwurst,germany,food,german
+brathendl,germany,food,german
+brathering,germany,food,german
+brathühnchen,germany,food,german
+bratkartoffeln,germany,food,german
+bratling,germany,food,german
+bratwurst,germany,food,german
+bregenwurst,germany,food,german
+brenntar,germany,food,german
+bretzel,germany,food,german
+brezel,germany,food,german
+brot,germany,food,german
+brotzeit,germany,food,german
+brötchen,germany,food,german
+brühwurst,germany,food,german
+bubenspitzle,germany,food,german
+buletten,germany,food,german
+butterbrot,germany,food,german
+butterkuchen,germany,food,german
+buttermilchsuppe,germany,food,german
+butterstulle,germany,food,german
+bütterken,germany,food,german
+chucrute,germany,food,german
+currywurst,germany,food,german
+dampfnudel,germany,food,german
+dinkelbrot,germany,food,german
+dominostein,germany,food,german
+dominosteine,germany,food,german
+donauwelle,germany,food,german
+dotsch,germany,food,german
+duckefett,germany,food,german
+döner,germany,food,german
+dürnitz,germany,food,german
+eierschecke,germany,food,german
+eintopf,germany,food,german
+eisbein,germany,food,german
+erdepfebaunkerl,germany,food,german
+faschingskrapfen,germany,food,german
+fasnetskiachla,germany,food,german
+fastnachtskrapfen,germany,food,german
+fastnachtsküchelchen,germany,food,german
+feinkost,germany,food,german
+fischbrötchen,germany,food,german
+flammekueche,germany,food,german
+flammkuchen,germany,food,german
+fleischkäse,germany,food,german
+fleischküchle,germany,food,german
+fleischnacka,germany,food,german
+fliederbeersuppe,germany,food,german
+flädlesuppe,germany,food,german
+frikadelle,germany,food,german
+frischkäse,germany,food,german
+frühstücksflocken,germany,food,german
+gebildbrot,germany,food,german
+gefillde,germany,food,german
+gelüng,germany,food,german
+geschmälzt,germany,food,german
+gewürzkuchen,germany,food,german
+graubrot,germany,food,german
+griesklößchensuppe,germany,food,german
+grießauflauf,germany,food,german
+grießkoch,germany,food,german
+grießnockerl,germany,food,german
+grüne soße,germany,food,german
+gulaschsuppe,germany,food,german
+gänsebraten,germany,food,german
+gänseflomen,germany,food,german
+hacksteak,germany,food,german
+hagebuttenmark,germany,food,german
+handkäse,germany,food,german
+harzer,germany,food,german
+hasenpfeffer,germany,food,german
+heidelbeerkuchen,germany,food,german
+heißwecke,germany,food,german
+heißwecken,germany,food,german
+hendl,germany,food,german
+hiffenmark,germany,food,german
+hirschgulasch,germany,food,german
+hochzeitssuppe,germany,food,german
+jagdwurst,germany,food,german
+kaiserbrötchen,germany,food,german
+kaisersemmel,germany,food,german
+karpfen,germany,food,german
+kartoffelbrei,germany,food,german
+kartoffelbrot,germany,food,german
+kartoffelklöße,germany,food,german
+kartoffelknödel,germany,food,german
+kartoffelkäse,germany,food,german
+kartoffelpüree,germany,food,german
+kartoffelsuppe,germany,food,german
+kartoffelwurst,germany,food,german
+katerfrühstück,germany,food,german
+kellerkuchen,germany,food,german
+kipf,germany,food,german
+kirschenmichel,germany,food,german
+kleckskuchen,germany,food,german
+kleingebäck,germany,food,german
+klops,germany,food,german
+klöben,germany,food,german
+knackwurst,germany,food,german
+knieküchle,germany,food,german
+knieperkohl,germany,food,german
+knifte,germany,food,german
+knipp,germany,food,german
+kochklopse,germany,food,german
+kochkäse,germany,food,german
+kochwurst,germany,food,german
+kohlwurst,germany,food,german
+konfitüre,germany,food,german
+konsumbrot,germany,food,german
+kraffen,germany,food,german
+krapfen,germany,food,german
+kreppel,germany,food,german
+kräppel,germany,food,german
+kräuterbrot,germany,food,german
+kutteln,germany,food,german
+käsekuchen,germany,food,german
+käsespätzle,germany,food,german
+käsknöpfle,germany,food,german
+kürbiskernbrot,germany,food,german
+labskaus,germany,food,german
+laib,germany,food,german
+lapskaus,germany,food,german
+laugenbrot,germany,food,german
+laugenbrötchen,germany,food,german
+laugencroissants,germany,food,german
+laugenstangen,germany,food,german
+leberknödel,germany,food,german
+leberkäse,germany,food,german
+leberkäsweckle,germany,food,german
+leberwurst,germany,food,german
+lebkuchen,germany,food,german
+leib,germany,food,german
+limburger,germany,food,german
+lüngerl,germany,food,german
+magenbrot,germany,food,german
+marzipan,germany,food,german
+matjesbrötchen,germany,food,german
+maultaschen,germany,food,german
+meerrettichsenf,germany,food,german
+mehrkornbrot,germany,food,german
+mett,germany,food,german
+mettwurst,germany,food,german
+metzelsuppe,germany,food,german
+metzgete,germany,food,german
+mexikaner,germany,food,german
+milchrahmstrudel,germany,food,german
+mischbrot,germany,food,german
+mittagessen,germany,food,german
+mohnnudel,germany,food,german
+mohnpielen,germany,food,german
+mutzbraten,germany,food,german
+möpkenbrot,germany,food,german
+neunerlei,germany,food,german
+nürnberger lebkuchen,germany,food,german
+obatzda,germany,food,german
+obstkaltschale,germany,food,german
+ochsenmaulsalat,germany,food,german
+osterbrot,germany,food,german
+pannfisch,germany,food,german
+pellkartoffel,germany,food,german
+pfeffernüsse,germany,food,german
+pfefferpotthast,germany,food,german
+pferdeleberkäse,germany,food,german
+pichelsteiner,germany,food,german
+pickert,germany,food,german
+pinkel,germany,food,german
+pinkelwurst,germany,food,german
+pommes,germany,food,german
+pottwurst,germany,food,german
+printen,germany,food,german
+pumpernickel,germany,food,german
+quark,germany,food,german
+quarkdessert,germany,food,german
+quarkkeulchen,germany,food,german
+quarkkäulchen,germany,food,german
+quarkspeise,germany,food,german
+rauchfleisch,germany,food,german
+reiberdatschi,germany,food,german
+remoulade,germany,food,german
+revanchistenklopse,germany,food,german
+rhabarbergrütze,germany,food,german
+rinderbraten,germany,food,german
+rindergulasch,germany,food,german
+rinderwurst,germany,food,german
+ritschert,germany,food,german
+roggenbrot,germany,food,german
+roggenmischbrot,germany,food,german
+rollmops,germany,food,german
+rostbraten,germany,food,german
+rostbrätel,germany,food,german
+rotwurst,germany,food,german
+roulade,germany,food,german
+rouladen,germany,food,german
+rundstück,germany,food,german
+röggelchen,germany,food,german
+röstkartoffeln,germany,food,german
+rübenmalheurs,germany,food,german
+sahnemeerrettich,germany,food,german
+salzgurken,germany,food,german
+salzkartoffeln,germany,food,german
+sandkuchen,germany,food,german
+sauerbraten,germany,food,german
+saumagen,germany,food,german
+schalet,germany,food,german
+schinkenwurst,germany,food,german
+schlachteplatte,germany,food,german
+schmand,germany,food,german
+schneeballen,germany,food,german
+schnitzel,germany,food,german
+schnitzelsemmel,germany,food,german
+schoppala,germany,food,german
+schopperla,germany,food,german
+schrippe,germany,food,german
+schupfnudeln,germany,food,german
+schwarzbrot,germany,food,german
+schwarzsauer,germany,food,german
+schwarzwurst,germany,food,german
+schwarzwälder kirschtorte,germany,food,german
+schweinebauch,germany,food,german
+schweinebraten,germany,food,german
+schweinegulasch,germany,food,german
+schweinshaxe,germany,food,german
+schwenkbraten,germany,food,german
+schwenker,germany,food,german
+schäufele,germany,food,german
+semmel,germany,food,german
+semmelknödel,germany,food,german
+senfrostbraten,germany,food,german
+serviettenkloß,germany,food,german
+sonnenblumenkernbrot,germany,food,german
+spaghettieis,germany,food,german
+spanferkel,germany,food,german
+speck,germany,food,german
+speckkuchen,germany,food,german
+speckscholle,germany,food,german
+specksoße,germany,food,german
+spekulatius,germany,food,german
+spießbraten,germany,food,german
+spinatspatzeln,germany,food,german
+splitterbrötchen,germany,food,german
+springerle,germany,food,german
+spritzgebäck,germany,food,german
+spundekäs,germany,food,german
+stadtwurst,germany,food,german
+steckerlfisch,germany,food,german
+stemmelkort,germany,food,german
+stippgrütze,germany,food,german
+stollen,germany,food,german
+strudel,germany,food,german
+stulle,germany,food,german
+sülzerli,germany,food,german
+tafelspitz,germany,food,german
+teewurst,germany,food,german
+thüringer,germany,food,german
+topfen,germany,food,german
+träubleskuchen,germany,food,german
+tüften,germany,food,german
+vollkornbrot,germany,food,german
+weck,germany,food,german
+weckewerk,germany,food,german
+weckla,germany,food,german
+weckle,germany,food,german
+weckli,germany,food,german
+weichweizengrieß,germany,food,german
+weihnachtsgebäck,germany,food,german
+weihnachtsplätzchen,germany,food,german
+weizenmischbrot,germany,food,german
+weißbrot,germany,food,german
+weißwurst,germany,food,german
+wellwurst,germany,food,german
+wiener,germany,food,german
+wienerle,germany,food,german
+wienerli,germany,food,german
+wildschweingulasch,germany,food,german
+winzerteller,germany,food,german
+wollwurst,germany,food,german
+wurst,germany,food,german
+wurstbrötchen,germany,food,german
+wurstsalat,germany,food,german
+wurstsemmel,germany,food,german
+würstl,germany,food,german
+zopf,germany,food,german
+zwetschgendatschi,germany,food,german
+zwiebelbrot,germany,food,german
+zwiebelmett,germany,food,german
+zwischenmahlzeit,germany,food,german
+apfel,germany,fruit,german
+apfelsine,germany,fruit,german
+aprikose,germany,fruit,german
+birne,germany,fruit,german
+brombeeren,germany,fruit,german
+erdbeere,germany,fruit,german
+heidelbeeren,germany,fruit,german
+himbeeren,germany,fruit,german
+johannisbeeren,germany,fruit,german
+kirschen,germany,fruit,german
+mirabellen,germany,fruit,german
+pflaumen,germany,fruit,german
+walnuss,germany,fruit,german
+abwurfdach,germany,houses,german
+almhütte,germany,houses,german
+alpenhütte,germany,houses,german
+alsterarkaden,germany,houses,german
+alsterhaus,germany,houses,german
+altneubau,germany,houses,german
+apothekerturm,germany,houses,german
+bayernturm,germany,houses,german
+beethovenhalle,germany,houses,german
+berghütte,germany,houses,german
+biergarten,germany,houses,german
+buddenbrookhaus,germany,houses,german
+burg,germany,houses,german
+chilehaus,germany,houses,german
+columbushaus,germany,houses,german
+curiohaus,germany,houses,german
+dampfnudeltor,germany,houses,german
+datsche,germany,houses,german
+domherrenhaus,germany,houses,german
+dreischeibenhaus,germany,houses,german
+dreistromstein,germany,houses,german
+eisenturm,germany,houses,german
+elbpavillon,germany,houses,german
+elefantentor,germany,houses,german
+fachwerkhaus,germany,houses,german
+fastnachtsbrunnen,germany,houses,german
+festzelte,germany,houses,german
+frankenturm,germany,houses,german
+friesenturm,germany,houses,german
+fuggerei,germany,houses,german
+fünfgratturm,germany,houses,german
+fürstenhaus,germany,houses,german
+gasteig,germany,houses,german
+gauforum,germany,houses,german
+gewandhaus,germany,houses,german
+gouverneurshaus,germany,houses,german
+griechenhaus,germany,houses,german
+grugahalle,germany,houses,german
+gutshaus,germany,houses,german
+gutshäuser,germany,houses,german
+hansahochhaus,germany,houses,german
+hermannsdenkmal,germany,houses,german
+herrenchiemsee,germany,houses,german
+herrenhaus,germany,houses,german
+herzogskasten,germany,houses,german
+himmelsleiter,germany,houses,german
+hofbräuhaus,germany,houses,german
+holstentor,germany,houses,german
+hoppenerhaus,germany,houses,german
+hungerturm,germany,houses,german
+hunnenring,germany,houses,german
+isartor,germany,houses,german
+kaisersaal,germany,houses,german
+kastell weißenburg,germany,houses,german
+kavaliershaus,germany,houses,german
+kleingarten,germany,houses,german
+koepchenwerk,germany,houses,german
+koeppenhaus,germany,houses,german
+kontorhausviertel,germany,houses,german
+kothen,germany,houses,german
+kretscham,germany,houses,german
+kutscherhaus,germany,houses,german
+kyffhäuserdenkmal,germany,houses,german
+laeiszhalle,germany,houses,german
+liebieghaus,germany,houses,german
+ludwigshöhe,germany,houses,german
+ludwigsäule,germany,houses,german
+marientor,germany,houses,german
+marstall,germany,houses,german
+mossehaus,germany,houses,german
+nicolaihaus,germany,houses,german
+niederhafen,germany,houses,german
+niedersachsenhalle,germany,houses,german
+niederwalddenkmal,germany,houses,german
+oberfrankenhalle,germany,houses,german
+oberpollinger,germany,houses,german
+oberrheinhalle,germany,houses,german
+ostseehalle,germany,houses,german
+palas,germany,houses,german
+palmengarten,germany,houses,german
+parkstadion,germany,houses,german
+prinzenpalais,germany,houses,german
+prinzessinnenpalais,germany,houses,german
+prinzregententheater,germany,houses,german
+rathaus,germany,houses,german
+ratskeller,germany,houses,german
+reetdach,germany,houses,german
+reichsaffenhaus,germany,houses,german
+reichstagsgebäude,germany,houses,german
+reiterhaus,germany,houses,german
+rheinterasse,germany,houses,german
+sachsenturm,germany,houses,german
+schiffergesellschaft,germany,houses,german
+schloss,germany,houses,german
+schlösschen,germany,houses,german
+schlösser,germany,houses,german
+schwabenturm,germany,houses,german
+siegestor,germany,houses,german
+speicherstadt,germany,houses,german
+speicherstadtrathaus,germany,houses,german
+stadthauptmannhof,germany,houses,german
+ständehaus,germany,houses,german
+ständerbau,germany,houses,german
+ständerhaus,germany,houses,german
+tempodrom,germany,houses,german
+treppengiebel,germany,houses,german
+tränenpalast,germany,houses,german
+vierscheibenhaus,germany,houses,german
+völkerschlachtdenkmal,germany,houses,german
+wattenmeerhaus,germany,houses,german
+weißenhofsiedlung,germany,houses,german
+wellblechpalast,germany,houses,german
+winterpalais,germany,houses,german
+wittumspalais,germany,houses,german
+wolkenbügel,germany,houses,german
+yenidze,germany,houses,german
+zeppelintribune,germany,houses,german
+zwerchhaus,germany,houses,german
+überseebrücke,germany,houses,german
+akkordeon,germany,music,german
+alpenhorn,germany,music,german
+blockflöte,germany,music,german
+bumbaß,germany,music,german
+cembalo,germany,music,german
+drehorgel,germany,music,german
+fiedel,germany,music,german
+gitarre,germany,music,german
+glockenklavier,germany,music,german
+handzuginstrument,germany,music,german
+huemmelchen,germany,music,german
+konzertina,germany,music,german
+konzertzither,germany,music,german
+kuhglocke,germany,music,german
+kunstharmonium,germany,music,german
+leier,germany,music,german
+marktsackpfeife,germany,music,german
+mundharmonika,germany,music,german
+orgel,germany,music,german
+orgelpositiv,germany,music,german
+physharmonica,germany,music,german
+reproduktionsklavier,germany,music,german
+scheitholt,germany,music,german
+schellenring,germany,music,german
+schlagzeug,germany,music,german
+schleifladenorgel,germany,music,german
+schäferpfeife,germany,music,german
+spieldose,germany,music,german
+spieluhr,germany,music,german
+stahlspiel,germany,music,german
+tafelklavier,germany,music,german
+tenorhorn,germany,music,german
+teufelsgeige,germany,music,german
+trompete,germany,music,german
+waldzither,germany,music,german
+bärwolf,germany,religion_setting,german
+dreifaltigkeitskirche,germany,religion_setting,german
+elwetritsch,germany,religion_setting,german
+firmung,germany,religion_custom,german
+gebetbuch,germany,religion_object,german
+gottesdienst,germany,religion_custom,german
+hauskreis,germany,religion_custom,german
+heiliggeistkirche,germany,religion_setting,german
+konfirmation,germany,religion_custom,german
+lindwurm,germany,religion_setting,german
+lukaskirche,germany,religion_setting,german
+neanderkirche,germany,religion_setting,german
+predigt,germany,religion_custom,german
+rasselbock,germany,religion_setting,german
+stiftskirche,germany,religion_setting,german
+tatzelwurm,germany,religion_setting,german
+totenglocke,germany,religion_object,german
+votivopfer,germany,religion_setting,german
+weihwasser,germany,religion_object,german
+wolpertinger,germany,religion_setting,german
+zionskirche,germany,religion_setting,german
+bergsport,germany,sport,german
+bergsteigen,germany,sport,german
+bergwandern,germany,sport,german
+bergwanderung,germany,sport,german
+billard,germany,sport,german
+bobsport,germany,sport,german
+boxsport,germany,sport,german
+diskuswurf,germany,sport,german
+eisklettern,germany,sport,german
+eiskunstlauf,germany,sport,german
+eisschnelllauf,germany,sport,german
+eisstockschiessen,germany,sport,german
+fechten,germany,sport,german
+fußball,germany,sport,german
+goaßlschnalzen,germany,sport,german
+gymnastik,germany,sport,german
+hallenradsport,germany,sport,german
+hammerwurf,germany,sport,german
+kunstradfahren,germany,sport,german
+leichtathletik,germany,sport,german
+motorradsport,germany,sport,german
+radsport,germany,sport,german
+regattasegeln,germany,sport,german
+reiten,germany,sport,german
+reitsport,germany,sport,german
+rennrodeln,germany,sport,german
+ringen,germany,sport,german
+rodeln,germany,sport,german
+rollstuhlbasketball,germany,sport,german
+rudern,germany,sport,german
+schwimmen,germany,sport,german
+schwimmsport,germany,sport,german
+segelsport,germany,sport,german
+skifahren,germany,sport,german
+skilanglauf,germany,sport,german
+skilaufen,germany,sport,german
+skispringen,germany,sport,german
+sommerbiathlon,germany,sport,german
+speerwurf,germany,sport,german
+sportakrobatik,germany,sport,german
+sportfechten,germany,sport,german
+sportschießen,germany,sport,german
+springreiten,germany,sport,german
+tischtennis,germany,sport,german
+wandern,germany,sport,german
+wasserball,germany,sport,german
+wasserski,germany,sport,german
+weitsprung,germany,sport,german
+bembel,germany,utensil,german
+bierstiefel,germany,utensil,german
+biertulpe,germany,utensil,german
+bocksbeutel,germany,utensil,german
+dubbe,germany,utensil,german
+geripptes,germany,utensil,german
+haferl,germany,utensil,german
+humpen,germany,utensil,german
+krug,germany,utensil,german
+nussbrecher,germany,utensil,german
+nussknacker,germany,utensil,german
+pilstulpe,germany,utensil,german
+pilstulpen,germany,utensil,german
+schapp,germany,utensil,german
+schoppen,germany,utensil,german
+spundapparat,germany,utensil,german
+wanderstock,germany,utensil,german
+willibecher,germany,utensil,german
+willybecher,germany,utensil,german
+zwickelhahn,germany,utensil,german
+blumenkohl,germany,vegetable,german
+brechbohnen,germany,vegetable,german
+eissalat,germany,vegetable,german
+grünkohl,germany,vegetable,german
+gurke,germany,vegetable,german
+kartoffel,germany,vegetable,german
+kürbis,germany,vegetable,german
+möhren,germany,vegetable,german
+rosenkohl,germany,vegetable,german
+rotkohl,germany,vegetable,german
+spargel,germany,vegetable,german
+steckrübe,germany,vegetable,german
+suppengrün,germany,vegetable,german
+weißkohl,germany,vegetable,german
+zucchini,germany,vegetable,german
+zuckerrübe,germany,vegetable,german
+aperschnalzen,germany,visual arts,german
+bildhauerei,germany,visual arts,german
+blattkrone,germany,visual arts,german
+blattwerk,germany,visual arts,german
+friedensengel,germany,visual arts,german
+füllhorn,germany,visual arts,german
+gardetanz,germany,visual arts,german
+glasmalerei,germany,visual arts,german
+hessenlöwe,germany,visual arts,german
+holzdruck,germany,visual arts,german
+kandelaber,germany,visual arts,german
+kranz,germany,visual arts,german
+kreuzpolka,germany,visual arts,german
+kuckucksuhr,germany,visual arts,german
+ländler,germany,visual arts,german
+marionetten,germany,visual arts,german
+ohrmuschelwerk,germany,visual arts,german
+polkas,germany,visual arts,german
+purfling,germany,visual arts,german
+reichsschild,germany,visual arts,german
+reichswappen,germany,visual arts,german
+rosseführer,germany,visual arts,german
+schottisch,germany,visual arts,german
+schottische,germany,visual arts,german
+schwerttanz,germany,visual arts,german
+stolpersteine,germany,visual arts,german
+wimmelbild,germany,visual arts,german
+zinnsoldaten,germany,visual arts,german
+zoiglstern,germany,visual arts,german
+zwetschgenmännle,germany,visual arts,german
+유자차,south korea,beverages,korean
+제호탕,south korea,beverages,korean
+인삼주,south korea,beverages,korean
+이화주,south korea,beverages,korean
+화채,south korea,beverages,korean
+혼주,south korea,beverages,korean
+흑미주,south korea,beverages,korean
+과실주,south korea,beverages,korean
+국화주,south korea,beverages,korean
+구기차,south korea,beverages,korean
+고량주,south korea,beverages,korean
+주엽청주,south korea,beverages,korean
+감주,south korea,beverages,korean
+도소주,south korea,beverages,korean
+대입술,south korea,beverages,korean
+추성주,south korea,beverages,korean
+추포탕,south korea,beverages,food
+참이슬,south korea,beverages,korean
+차,south korea,beverages,korean
+법주,south korea,beverages,korean
+백화주,south korea,beverages,korean
+백하주,south korea,beverages,korean
+매실차,south korea,beverages,korean
+두견주,south korea,beverages,korean
+맥주,south korea,beverages,korean
+약주,south korea,beverages,korean
+막걸리,south korea,beverages,korean
+맥주,south korea,beverages,korean
+약용주,south korea,beverages,korean
+떡차,south korea,beverages,korean
+탁주,south korea,beverages,korean
+대동강맥주,south korea,beverages,korean
+숭늉,south korea,beverages,korean
+수정과,south korea,beverages,korean
+쌍화탕,south korea,beverages,korean
+송절주,south korea,beverages,korean
+소주,south korea,beverages,korean
+식혜,south korea,beverages,korean
+소맥,south korea,beverages,korean
+폭탄주,south korea,beverages,korean
+복분자주,south korea,beverages,korean
+오미자주,south korea,beverages,korean
+오미자차,south korea,beverages,korean
+오과차,south korea,beverages,korean
+농주,south korea,beverages,korean
+명약주,south korea,beverages,korean
+모과차,south korea,beverages,korean
+미수,south korea,beverages,korean
+밀키스,south korea,beverages,korean
+산사춘,south korea,beverages,korean
+대례상,south korea,celebration,korean
+관례,south korea,celebration,korean
+초파일,south korea,celebration,korean
+대보름,south korea,celebration,korean
+단오,south korea,celebration,korean
+추석,south korea,celebration,korean
+기제사,south korea,celebration,korean
+관혼상제,south korea,celebration,korean
+제사,south korea,celebration,korean
+돌잔치,south korea,celebration,korean
+폐백,south korea,celebration,korean
+삼진날,south korea,celebration,korean
+설날,south korea,celebration,korean
+세배,south korea,celebration,korean
+가체,south korea,clothing,korean
+각대,south korea,clothing,korean
+갈중이,south korea,clothing,korean
+감신총,south korea,clothing,korean
+고무신,south korea,clothing,korean
+관모,south korea,clothing,korean
+한복,south korea,clothing,korean
+화관,south korea,clothing,korean
+화롯,south korea,clothing,korean
+향대,south korea,clothing,korean
+장옷,south korea,clothing,korean
+뒤꽂이,south korea,clothing,korean
+동곳,south korea,clothing,korean
+대의,south korea,clothing,korean
+돌주머니,south korea,clothing,korean
+대수,south korea,clothing,korean
+대례복,south korea,clothing,korean
+조선옷,south korea,clothing,korean
+첩지,south korea,clothing,korean
+철릭,south korea,clothing,korean
+분투혜,south korea,clothing,korean
+비녀,south korea,clothing,korean
+버선,south korea,clothing,korean
+봉거지,south korea,clothing,korean
+발향,south korea,clothing,korean
+아얌,south korea,clothing,korean
+장삼,south korea,clothing,korean
+동다리,south korea,clothing,korean
+저고리,south korea,clothing,korean
+당의,south korea,clothing,korean
+전립,south korea,clothing,korean
+전모,south korea,clothing,korean
+영복,south korea,clothing,korean
+양관,south korea,clothing,korean
+원삼,south korea,clothing,korean
+와룡관,south korea,clothing,korean
+언혜,south korea,clothing,korean
+떨잠,south korea,clothing,korean
+통천관,south korea,clothing,korean
+탱건,south korea,clothing,korean
+태사혜,south korea,clothing,korean
+사규삼,south korea,clothing,korean
+색동옷,south korea,clothing,korean
+풍차,south korea,clothing,korean
+옷고름,south korea,clothing,korean
+노리개,south korea,clothing,korean
+쓰개치마,south korea,clothing,korean
+남바위,south korea,clothing,korean
+녹원삼,south korea,clothing,korean
+조바위,south korea,clothing,korean
+족두리,south korea,clothing,korean
+족건,south korea,clothing,korean
+주절풍,south korea,clothing,korean
+짚신,south korea,clothing,korean
+군복,south korea,clothing,korean
+꽃신,south korea,clothing,korean
+매듭,south korea,clothing,korean
+직령,south korea,clothing,korean
+망건,south korea,clothing,korean
+명복,south korea,clothing,korean
+면류관,south korea,clothing,korean
+나막신,south korea,clothing,korean
+관복,south korea,clothing,korean
+미역국,south korea,food,korean
+민어전,south korea,food,korean
+밀국수,south korea,food,korean
+미더덕,south korea,food,korean
+메떡,south korea,food,korean
+맑은국,south korea,food,korean
+메밀국수,south korea,food,korean
+마늘 종 볶음,south korea,food,korean
+만두국,south korea,food,korean
+만두과,south korea,food,korean
+만두,south korea,food,korean
+목살,south korea,food,korean
+막국수,south korea,food,korean
+멘보샤,south korea,food,korean
+무지개떡,south korea,food,korean
+오이선.,south korea,food,korean
+멸치,south korea,food,korean
+옥돔,south korea,food,korean
+오카라,south korea,food,korean
+막창,south korea,food,korean
+오이생채,south korea,food,korean
+오이냉국,south korea,food,korean
+오곡밥,south korea,food,korean
+오뎅,south korea,food,korean
+물김치,south korea,food,korean
+누룽지,south korea,food,korean
+나물,south korea,food,korean
+냉면,south korea,food,korean
+냉국,south korea,food,korean
+냉채,south korea,food,korean
+나박김치,south korea,food,korean
+면,south korea,food,korean
+멸치 볶음,south korea,food,korean
+녹두묵,south korea,food,korean
+매운탕,south korea,food,korean
+김치,south korea,food,korean
+콩나물밥,south korea,food,korean
+조림,south korea,food,korean
+조리개,south korea,food,korean
+전순탕,south korea,food,korean
+족편,south korea,food,korean
+조개전,south korea,food,korean
+조청,south korea,food,korean
+찐만두,south korea,food,korean
+찜닭,south korea,food,korean
+찌개,south korea,food,korean
+짜파구리,south korea,food,korean
+짜장,south korea,food,korean
+지짐이,south korea,food,korean
+제육볶음,south korea,food,korean
+증편,south korea,food,korean
+온면,south korea,food,korean
+죽,south korea,food,korean
+매작과,south korea,food,korean
+쭈꾸미 볶음,south korea,food,korean
+칼국수,south korea,food,korean
+콩자반,south korea,food,korean
+콩국수,south korea,food,korean
+콩불,south korea,food,korean
+콩비지,south korea,food,korean
+콩밥,south korea,food,korean
+쿨타래,south korea,food,korean
+칸풍기,south korea,food,korean
+깍두기,south korea,food,korean
+케죽,south korea,food,korean
+깨국탕,south korea,food,korean
+개국수,south korea,food,korean
+김치부침개,south korea,food,korean
+김치밥,south korea,food,korean
+김밥,south korea,food,korean
+크로켓,south korea,food,korean
+칼비,south korea,food,korean
+오리탕,south korea,food,korean
+통닭,south korea,food,korean
+파저리,south korea,food,korean
+떡면,south korea,food,korean
+떡볶이,south korea,food,korean
+떡,south korea,food,korean
+된장국,south korea,food,korean
+통옥수수엿,south korea,food,korean
+타락죽,south korea,food,korean
+타래과,south korea,food,korean
+탕수육,south korea,food,korean
+탕평채,south korea,food,korean
+탕면,south korea,food,korean
+탈고나,south korea,food,korean
+숯불,south korea,food,korean
+수리취떡,south korea,food,korean
+순두부,south korea,food,korean
+순댓국,south korea,food,korean
+튀각,south korea,food,korean
+설국,south korea,food,korean
+울면,south korea,food,korean
+원소병,south korea,food,korean
+반찬,south korea,food,korean
+유린기,south korea,food,korean
+유밀과,south korea,food,korean
+육포,south korea,food,korean
+육전,south korea,food,korean
+육회,south korea,food,korean
+육개장,south korea,food,korean
+유과,south korea,food,korean
+엿강정,south korea,food,korean
+연은전,south korea,food,korean
+양장피,south korea,food,korean
+젓갈,south korea,food,korean
+약식,south korea,food,korean
+약과,south korea,food,korean
+약밥,south korea,food,korean
+왕만두,south korea,food,korean
+파전,south korea,food,korean
+숙실과,south korea,food,korean
+수제비,south korea,food,korean
+새알심,south korea,food,korean
+사철탕,south korea,food,korean
+라면,south korea,food,korean
+랭면,south korea,food,korean
+표고전,south korea,food,korean
+표고복금,south korea,food,korean
+편육,south korea,food,korean
+편수,south korea,food,korean
+표고밥,south korea,food,korean
+팥죽,south korea,food,korean
+팥빙수,south korea,food,korean
+팥밥,south korea,food,korean
+팥칼국수,south korea,food,korean
+팔보채,south korea,food,korean
+파김치,south korea,food,korean
+생채,south korea,food,korean
+숙회,south korea,food,korean
+새우젓,south korea,food,korean
+삼가김밥,south korea,food,korean
+쑥국,south korea,food,korean
+쌈장,south korea,food,korean
+쌈밥,south korea,food,korean
+순대,south korea,food,korean
+송편,south korea,food,korean
+석젓,south korea,food,korean
+신선로,south korea,food,korean
+식해,south korea,food,korean
+선지국,south korea,food,korean
+설렁탕,south korea,food,korean
+석박지,south korea,food,korean
+산낙지,south korea,food,korean
+삼현,south korea,food,korean
+삼겹살,south korea,food,korean
+삼계탕,south korea,food,korean
+새우깡,south korea,food,korean
+양과,south korea,food,korean
+전유화,south korea,food,korean
+전주 비빔밥,south korea,food,korean
+닭도리탕,south korea,food,korean
+대구전,south korea,food,korean
+대추곰,south korea,food,korean
+대창,south korea,food,korean
+쫄깃떡,south korea,food,korean
+춘장,south korea,food,korean
+추어탕,south korea,food,korean
+초계탕,south korea,food,korean
+치맥,south korea,food,korean
+천엽,south korea,food,korean
+천사채,south korea,food,korean
+청국장,south korea,food,korean
+청,south korea,food,korean
+짬뽕,south korea,food,korean
+참게장,south korea,food,korean
+닭똥집,south korea,food,korean
+찹쌀떡,south korea,food,korean
+닭발,south korea,food,korean
+닭죽,south korea,food,korean
+돼지갈비,south korea,food,korean
+두부선,south korea,food,korean
+두부전,south korea,food,korean
+도토리 국수,south korea,food,korean
+도시락,south korea,food,korean
+동치미,south korea,food,korean
+도미면,south korea,food,korean
+돌솥밥,south korea,food,korean
+된장,south korea,food,korean
+데옵밥,south korea,food,korean
+떡국,south korea,food,korean
+다식,south korea,food,korean
+당면,south korea,food,korean
+당고추장,south korea,food,korean
+달고나,south korea,food,korean
+닭갈비,south korea,food,korean
+찰보리빵,south korea,food,korean
+찰밥,south korea,food,korean
+차장면,south korea,food,korean
+전야,south korea,food,korean
+뻘떡,south korea,food,korean
+벙어리개,south korea,food,korean
+번데기,south korea,food,korean
+볼떡게,south korea,food,korean
+벌집양,south korea,food,korean
+밥,south korea,food,korean
+방풍죽,south korea,food,korean
+백설기,south korea,food,korean
+백면,south korea,food,korean
+배추선,south korea,food,korean
+배추국,south korea,food,korean
+배추김치,south korea,food,korean
+아구찜,south korea,food,korean
+호박부침개,south korea,food,korean
+비빔국수,south korea,food,korean
+빈대떡,south korea,food,korean
+볶음,south korea,food,korean
+볶음밥,south korea,food,korean
+차돌박기,south korea,food,korean
+부럼,south korea,food,korean
+부편,south korea,food,korean
+분식,south korea,food,korean
+붕어빵,south korea,food,korean
+불족발,south korea,food,korean
+불고기,south korea,food,korean
+액젓,south korea,food,korean
+부각,south korea,food,korean
+부추김치,south korea,food,korean
+부침개,south korea,food,korean
+부침,south korea,food,korean
+보쌈,south korea,food,korean
+보신탕,south korea,food,korean
+보리밥,south korea,food,korean
+벗떡,south korea,food,korean
+부대찌개,south korea,food,korean
+어만두,south korea,food,korean
+비빔밥,south korea,food,korean
+어묵볶음,south korea,food,korean
+호떡,south korea,food,korean
+호빵,south korea,food,korean
+회덮밥,south korea,food,korean
+햇덕,south korea,food,korean
+호박선,south korea,food,korean
+호박나물,south korea,food,korean
+호박전,south korea,food,korean
+호박죽,south korea,food,korean
+허킴자죽,south korea,food,korean
+흑임자죽,south korea,food,korean
+한식,south korea,food,korean
+한정식,south korea,food,korean
+한과,south korea,food,korean
+해장국,south korea,food,korean
+규아상,south korea,food,korean
+흰밥,south korea,food,korean
+흰죽,south korea,food,korean
+후라이두,south korea,food,korean
+화전,south korea,food,korean
+어묵,south korea,food,korean
+전골,south korea,food,korean
+정과,south korea,food,korean
+전복찜,south korea,food,korean
+전복초,south korea,food,korean
+전복죽,south korea,food,korean
+절편,south korea,food,korean
+교자,south korea,food,korean
+잣죽,south korea,food,korean
+잡채,south korea,food,korean
+장국죽,south korea,food,korean
+장아찌,south korea,food,korean
+잔치국수,south korea,food,korean
+짜장면,south korea,food,korean
+인절미,south korea,food,korean
+황포묵,south korea,food,korean
+잡곡밥,south korea,food,korean
+계란빵,south korea,food,korean
+호박엿,south korea,food,korean
+과편,south korea,food,korean
+김가루,south korea,food,korean
+김초밥,south korea,food,korean
+각두기,south korea,food,korean
+깻잎,south korea,food,korean
+겉절이,south korea,food,korean
+게장,south korea,food,korean
+가리탕,south korea,food,korean
+간식,south korea,food,korean
+간장,south korea,food,korean
+경단,south korea,food,korean
+강회,south korea,food,korean
+감자탕,south korea,food,korean
+갈비탕,south korea,food,korean
+갈비찜,south korea,food,korean
+갈비,south korea,food,korean
+김쌈,south korea,food,korean
+고치떡,south korea,food,korean
+강정,south korea,food,korean
+고추가루,south korea,food,korean
+군밤,south korea,food,korean
+굴만두,south korea,food,korean
+굴전,south korea,food,korean
+국수,south korea,food,korean
+국밥,south korea,food,korean
+고추장,south korea,food,korean
+곱돌솟,south korea,food,korean
+구절판,south korea,food,korean
+곰장어볶음,south korea,food,korean
+곰국,south korea,food,korean
+골동반,south korea,food,korean
+고기국수,south korea,food,korean
+고추전,south korea,food,korean
+과줄,south korea,food,korean
+곰탕,south korea,food,korean
+수박,south korea,fruit,korean
+유자,south korea,fruit,korean
+말리내,south korea,fruit,korean
+당유자,south korea,fruit,korean
+대평 유적,south korea,houses,korean
+안채,south korea,houses,korean
+단청,south korea,houses,korean
+경복궁,south korea,houses,korean
+한옥,south korea,houses,korean
+노량진,south korea,houses,korean
+사랑채,south korea,houses,korean
+용담정,south korea,houses,korean
+제금,south korea,music,korean
+장구,south korea,music,korean
+아쟁,south korea,music,korean
+현학금,south korea,music,korean
+현금,south korea,music,korean
+향비파,south korea,music,korean
+활대 거문고,south korea,music,korean
+해금,south korea,music,korean
+교방고,south korea,music,korean
+거문고,south korea,music,korean
+당적,south korea,music,korean
+북,south korea,music,korean
+대고,south korea,music,korean
+직경비파,south korea,music,korean
+대금,south korea,music,korean
+칠흔음,south korea,music,korean
+초적,south korea,music,korean
+중금,south korea,music,korean
+무천금,south korea,music,korean
+가야금,south korea,music,korean
+카혼,south korea,music,korean
+열채,south korea,music,korean
+양금,south korea,music,korean
+태평소,south korea,music,korean
+소해금,south korea,music,korean
+서양금,south korea,music,korean
+월금,south korea,music,korean
+풍물,south korea,music,korean
+파일렝,south korea,music,korean
+옥류금,south korea,music,korean
+거문고,south korea,music,korean
+꽹과리,south korea,music,korean
+큰북,south korea,music,korean
+평종,south korea,music,korean
+혁부,south korea,music,korean
+무교,south korea,religion_setting,korean
+황룡포,south korea,religion_setting,korean
+황룡사,south korea,religion_setting,korean
+조계사,south korea,religion_setting,korean
+몬주신,south korea,religion_setting,korean
+무당,south korea,religion_setting,korean
+문묘,south korea,religion_setting,korean
+범어사,south korea,religion_setting,korean
+삼성궁,south korea,religion_setting,korean
+삼신,south korea,religion_setting,korean
+삼神 할머니,south korea,religion_setting,korean
+칠성신,south korea,religion_setting,korean
+미륵사,south korea,religion_setting,korean
+분황사,south korea,religion_setting,korean
+무속인,south korea,religion_setting,korean
+고신도,south korea,sport,korean
+궁도,south korea,sport,korean
+닭지,south korea,sport,korean
+합기도,south korea,sport,korean
+바둑,south korea,sport,korean
+고방,south korea,sport,korean
+족구,south korea,sport,korean
+줄다리기,south korea,sport,korean
+널뛰기,south korea,sport,korean
+씨름,south korea,sport,korean
+선무도,south korea,sport,korean
+태권도,south korea,sport,korean
+유도,south korea,sport,korean
+검도,south korea,sport,korean
+국궁,south korea,sport,korean
+절구,south korea,utensil,korean
+장검,south korea,utensil,korean
+환두대도,south korea,utensil,korean
+가마솟,south korea,utensil,korean
+은장도,south korea,utensil,korean
+철판,south korea,utensil,korean
+젓가락,south korea,utensil,korean
+부채,south korea,utensil,korean
+방짜,south korea,utensil,korean
+바가지,south korea,utensil,korean
+돌솟,south korea,utensil,korean
+무쇠나라,south korea,utensil,korean
+장독대,south korea,utensil,korean
+옹기,south korea,utensil,korean
+시루,south korea,utensil,korean
+소쿠리,south korea,utensil,korean
+수저,south korea,utensil,korean
+숙주,south korea,utensil,korean
+숟가락,south korea,utensil,korean
+뚝배기,south korea,utensil,korean
+월도,south korea,utensil,korean
+옹배기,south korea,utensil,korean
+애호박,south korea,vegetable,korean
+치나물,south korea,vegetable,korean
+더덕,south korea,vegetable,korean
+고사리,south korea,vegetable,korean
+콩나물,south korea,vegetable,korean
+미역,south korea,vegetable,korean
+열무,south korea,vegetable,korean
+인삼,south korea,vegetable,korean
+총각,south korea,vegetable,korean
+배추,south korea,vegetable,korean
+우거지,south korea,vegetable,korean
+월과,south korea,vegetable,korean
+산마늘,south korea,vegetable,korean
+폼동,south korea,vegetable,korean
+쪼파,south korea,vegetable,korean
+고구마,south korea,vegetable,korean
+총강무,south korea,vegetable,korean
+채거리,south korea,visual arts,korean
+민화,south korea,visual arts,korean
+문자도,south korea,visual arts,korean
+정재무,south korea,visual arts,korean
+펑뉴,south korea,visual arts,korean
+박점무,south korea,visual arts,korean
+포석정,south korea,visual arts,korean
+부채춤,south korea,visual arts,korean
+법성게,south korea,visual arts,korean
+airén,spain,beverages,spanish
+alarije,spain,beverages,spanish
+albariño,spain,beverages,spanish
+albillo real,spain,beverages,spanish
+alcañón,spain,beverages,spanish
+amontillado,spain,beverages,spanish
+anisado,spain,beverages,spanish
+barraquito,spain,beverages,spanish
+bebida,spain,beverages,spanish
+bobal,spain,beverages,spanish
+cacaolat,spain,beverages,spanish
+café,spain,beverages,spanish
+calimocho,spain,beverages,spanish
+cava,spain,beverages,spanish
+chacolí,spain,beverages,spanish
+chatos,spain,beverages,spanish
+chiquiteo,spain,beverages,spanish
+chiquitos,spain,beverages,spanish
+chupito,spain,beverages,spanish
+churriburri,spain,beverages,spanish
+cola cao,spain,beverages,spanish
+cortado,spain,beverages,spanish
+cóctel,spain,beverages,spanish
+digestivo,spain,beverages,spanish
+esconxuro,spain,beverages,spanish
+fondillón,spain,beverages,spanish
+garnacha,spain,beverages,spanish
+garnache,spain,beverages,spanish
+godello,spain,beverages,spanish
+graciano,spain,beverages,spanish
+horchata,spain,beverages,spanish
+leche merengada,spain,beverages,spanish
+licor 43,spain,beverages,spanish
+macabeo,spain,beverages,spanish
+merseguera,spain,beverages,spanish
+mistela,spain,beverages,spanish
+monastrell,spain,beverages,spanish
+morapio,spain,beverages,spanish
+moristel,spain,beverages,spanish
+moscatel,spain,beverages,spanish
+oloroso,spain,beverages,spanish
+orujo,spain,beverages,spanish
+pacharán,spain,beverages,spanish
+pajarete,spain,beverages,spanish
+parellada,spain,beverages,spanish
+paxarette,spain,beverages,spanish
+pomada,spain,beverages,spanish
+ponche caballero,spain,beverages,spanish
+prensal,spain,beverages,spanish
+sangria,spain,beverages,spanish
+sherry,spain,beverages,spanish
+sidra,spain,beverages,spanish
+tempranillo,spain,beverages,spanish
+verdejo,spain,beverages,spanish
+vermut,spain,beverages,spanish
+vino,spain,beverages,spanish
+zurracapote,spain,beverages,spanish
+achipencos,spain,celebration,spanish
+antroxu,spain,celebration,spanish
+baile de diablos,spain,celebration,spanish
+ball d'en serrallonga de vilafranca,spain,celebration,spanish
+calçotada,spain,celebration,spanish
+carnaval,spain,celebration,spanish
+castañada,spain,celebration,spanish
+chocolatada,spain,celebration,spanish
+doce uvas,spain,celebration,spanish
+entierro de genarín,spain,celebration,spanish
+entroido,spain,celebration,spanish
+espicha,spain,celebration,spanish
+estudiantina,spain,celebration,spanish
+estudiantinas,spain,celebration,spanish
+fallas,spain,celebration,spanish
+fallas del pirineo,spain,celebration,spanish
+feria,spain,celebration,spanish
+fiestas,spain,celebration,spanish
+gigantes y cabezudos,spain,celebration,spanish
+inmaculada concepción,spain,celebration,spanish
+jarramplas,spain,celebration,spanish
+la fiesta de san fermín,spain,celebration,spanish
+la noche de san juan,spain,celebration,spanish
+los cucurrumachos,spain,celebration,spanish
+merienda,spain,celebration,spanish
+moros y cristianos,spain,celebration,spanish
+nochebuena,spain,celebration,spanish
+nocheviaja,spain,celebration,spanish
+peropalo,spain,celebration,spanish
+sobremesa,spain,celebration,spanish
+sopeta,spain,celebration,spanish
+st.lucia,spain,celebration,spanish
+tió de nadal,spain,celebration,spanish
+almaviva,spain,clothing,spanish
+alpargata,spain,clothing,spanish
+avarca,spain,clothing,spanish
+barretina,spain,clothing,spanish
+basquiña,spain,clothing,spanish
+botón charro,spain,clothing,spanish
+cabasset,spain,clothing,spanish
+capirote,spain,clothing,spanish
+cigarrón,spain,clothing,spanish
+faja,spain,clothing,spanish
+ferreruolo,spain,clothing,spanish
+galocha,spain,clothing,spanish
+golilla,spain,clothing,spanish
+golillas,spain,clothing,spanish
+joyas de pasar,spain,clothing,spanish
+mantilla,spain,clothing,spanish
+montera,spain,clothing,spanish
+pañuelo,spain,clothing,spanish
+sombrero calañés,spain,clothing,spanish
+traje de tuna,spain,clothing,spanish
+tricornio,spain,clothing,spanish
+adobo,spain,food,spanish
+ajoarriero,spain,food,spanish
+ajoblanco,spain,food,spanish
+ajopringue,spain,food,spanish
+ajopuerco,spain,food,spanish
+albóndigas,spain,food,spanish
+albóndigas de bacalao,spain,food,spanish
+alioli,spain,food,spanish
+almodrote,spain,food,spanish
+almogrote,spain,food,spanish
+andrajos,spain,food,spanish
+androlla,spain,food,spanish
+anguilacho,spain,food,spanish
+arnadí,spain,food,spanish
+arrope,spain,food,spanish
+arroz a la cazuela,spain,food,spanish
+arroz con leche,spain,food,spanish
+arroz con liebre,spain,food,spanish
+asadurilla,spain,food,spanish
+atascaburras,spain,food,spanish
+atún,spain,food,spanish
+bacalao,spain,food,spanish
+banderillas,spain,food,spanish
+barquillo,spain,food,spanish
+batiburrillo,spain,food,spanish
+bienmesabe,spain,food,spanish
+bocadillo,spain,food,spanish
+bollo preñaos,spain,food,spanish
+boquerones,spain,food,spanish
+borona,spain,food,spanish
+boroña,spain,food,spanish
+botelo,spain,food,spanish
+botifarra,spain,food,spanish
+botillo,spain,food,spanish
+brunyols de l'empordà,spain,food,spanish
+butiellu,spain,food,spanish
+butifarre,spain,food,spanish
+buñuelo,spain,food,spanish
+cachelo,spain,food,spanish
+cachopo,spain,food,spanish
+cachuela,spain,food,spanish
+calamares,spain,food,spanish
+caldeirada,spain,food,spanish
+caldillo de perro,spain,food,spanish
+calentitos,spain,food,spanish
+callos,spain,food,spanish
+caparrones,spain,food,spanish
+carbayon,spain,food,spanish
+carcamusa,spain,food,spanish
+carnixulla,spain,food,spanish
+carquinyolis,spain,food,spanish
+carquinyols,spain,food,spanish
+chacinas,spain,food,spanish
+chanfaina,spain,food,spanish
+changurro,spain,food,spanish
+chicharron,spain,food,spanish
+chicharrón,spain,food,spanish
+chireta,spain,food,spanish
+chistorra,spain,food,spanish
+chopito,spain,food,spanish
+chorizo,spain,food,spanish
+churrasco,spain,food,spanish
+churros,spain,food,spanish
+coca de recapte,spain,food,spanish
+cocido,spain,food,spanish
+cococha,spain,food,spanish
+cocochas,spain,food,spanish
+codonyat,spain,food,spanish
+cojondongo,spain,food,spanish
+cojonudo,spain,food,spanish
+compango,spain,food,spanish
+crocante,spain,food,spanish
+croqueta,spain,food,spanish
+cuchifrito,spain,food,spanish
+desayuno,spain,food,spanish
+dulces,spain,food,spanish
+empanada,spain,food,spanish
+empanadas,spain,food,spanish
+empanadillas,spain,food,spanish
+empiñonados,spain,food,spanish
+ensaimada,spain,food,spanish
+ensalada,spain,food,spanish
+entomatá de lagarto,spain,food,spanish
+escabeche,spain,food,spanish
+escaldón,spain,food,spanish
+escalivada,spain,food,spanish
+escarapuche,spain,food,spanish
+escaveche,spain,food,spanish
+escudella,spain,food,spanish
+esgarradet,spain,food,spanish
+esgarrat,spain,food,spanish
+españoletas,spain,food,spanish
+fabada,spain,food,spanish
+fabes con almejas,spain,food,spanish
+fardelejo,spain,food,spanish
+farinetes,spain,food,spanish
+fayueles,spain,food,spanish
+fideuá,spain,food,spanish
+filloas,spain,food,spanish
+flamenquín,spain,food,spanish
+flaon,spain,food,spanish
+floretas,spain,food,spanish
+florones,spain,food,spanish
+frangollo,spain,food,spanish
+freginat,spain,food,spanish
+fritada,spain,food,spanish
+fuet,spain,food,spanish
+gachas,spain,food,spanish
+gambas,spain,food,spanish
+gamonéu,spain,food,spanish
+gazpacho,spain,food,spanish
+gazpachuelo,spain,food,spanish
+gofio,spain,food,spanish
+goguera,spain,food,spanish
+guiso,spain,food,spanish
+hojuelas,spain,food,spanish
+hornazo,spain,food,spanish
+ibores,spain,food,spanish
+jamón,spain,food,spanish
+judión de la granja,spain,food,spanish
+judías de el barco de ávila,spain,food,spanish
+laconada,spain,food,spanish
+laconadas,spain,food,spanish
+lacón,spain,food,spanish
+lechazo,spain,food,spanish
+lechon,spain,food,spanish
+lechón,spain,food,spanish
+lomo embuchado,spain,food,spanish
+longaniza,spain,food,spanish
+longanizas,spain,food,spanish
+madejas,spain,food,spanish
+magdalenas,spain,food,spanish
+majorero,spain,food,spanish
+manchega,spain,food,spanish
+mantecado,spain,food,spanish
+mariscada,spain,food,spanish
+marmitako,spain,food,spanish
+mayonesa,spain,food,spanish
+mazapan,spain,food,spanish
+mejillones,spain,food,spanish
+menestra,spain,food,spanish
+merengues,spain,food,spanish
+michirones,spain,food,spanish
+migas,spain,food,spanish
+mojama,spain,food,spanish
+mojete,spain,food,spanish
+mollete,spain,food,spanish
+mona de pascua,spain,food,spanish
+monjavina,spain,food,spanish
+morcilla,spain,food,spanish
+morcilla de calabaza,spain,food,spanish
+morcillas,spain,food,spanish
+morteruelo,spain,food,spanish
+natillas,spain,food,spanish
+neula,spain,food,spanish
+oliaigua,spain,food,spanish
+olla podrida,spain,food,spanish
+opilla de san marco,spain,food,spanish
+orejas de carnaval,spain,food,spanish
+otarteko,spain,food,spanish
+paella,spain,food,spanish
+panellets,spain,food,spanish
+panquemao,spain,food,spanish
+paparajotes,spain,food,spanish
+parpandúa,spain,food,spanish
+pastisset,spain,food,spanish
+pataqueta,spain,food,spanish
+peladilla,spain,food,spanish
+pepinillo,spain,food,spanish
+pepitoria,spain,food,spanish
+perrunilla,spain,food,spanish
+picada,spain,food,spanish
+picatoste,spain,food,spanish
+pinchitos,spain,food,spanish
+pincho,spain,food,spanish
+piperrada,spain,food,spanish
+pipirrana,spain,food,spanish
+poleás,spain,food,spanish
+pollo al chilindrón,spain,food,spanish
+polvoron,spain,food,spanish
+potaje,spain,food,spanish
+potajes,spain,food,spanish
+potatge,spain,food,spanish
+pringá,spain,food,spanish
+puchero,spain,food,spanish
+pulpeiras,spain,food,spanish
+pulpo a la gallega,spain,food,spanish
+puntillitas,spain,food,spanish
+quesaílla,spain,food,spanish
+queso,spain,food,spanish
+queso de mallorca,spain,food,spanish
+regañaos,spain,food,spanish
+repápalos,spain,food,spanish
+romesco,spain,food,spanish
+rosigón,spain,food,spanish
+rosigón,spain,food,spanish
+sacristán,spain,food,spanish
+salchicha,spain,food,spanish
+salmorejo,spain,food,spanish
+salmorreta,spain,food,spanish
+salpicón,spain,food,spanish
+samfaina,spain,food,spanish
+sobrasada,spain,food,spanish
+sopa de gato,spain,food,spanish
+sorropotún,spain,food,spanish
+suquet,spain,food,spanish
+tarta de santiago,spain,food,spanish
+ternasco,spain,food,spanish
+tiznao,spain,food,spanish
+tocino,spain,food,spanish
+torreznos,spain,food,spanish
+torrija,spain,food,spanish
+torta,spain,food,spanish
+tortell de reis,spain,food,spanish
+tortilla de patatas,spain,food,spanish
+tortos de maíz,spain,food,spanish
+tostada,spain,food,spanish
+tumbet,spain,food,spanish
+zamburiña,spain,food,spanish
+zamburiñas,spain,food,spanish
+zarajo,spain,food,spanish
+zarangollo,spain,food,spanish
+zorongollo,spain,food,spanish
+cereza,spain,fruit,spanish
+cítricos,spain,fruit,spanish
+limonero,spain,fruit,spanish
+manzana,spain,fruit,spanish
+melocotón,spain,fruit,spanish
+melón de oro,spain,fruit,spanish
+membrillo,spain,fruit,spanish
+mespilus,spain,fruit,spanish
+naranja,spain,fruit,spanish
+níspero,spain,fruit,spanish
+nísperos,spain,fruit,spanish
+oliva,spain,fruit,spanish
+pera,spain,fruit,spanish
+sandía,spain,fruit,spanish
+aguaducho,spain,houses,spanish
+aljibe,spain,houses,spanish
+alqueria,spain,houses,spanish
+barraca,spain,houses,spanish
+barracas de piedra,spain,houses,spanish
+barracones,spain,houses,spanish
+bodega,spain,houses,spanish
+bodegas,spain,houses,spanish
+borda,spain,houses,spanish
+casa de volta,spain,houses,spanish
+casa pagesa,spain,houses,spanish
+casona montañesa,spain,houses,spanish
+chalé,spain,houses,spanish
+chiringuito,spain,houses,spanish
+churrerías,spain,houses,spanish
+cigarral,spain,houses,spanish
+cortijo,spain,houses,spanish
+entresuelo,spain,houses,spanish
+hospederías,spain,houses,spanish
+hórreos,spain,houses,spanish
+llotja de palma,spain,houses,spanish
+masía,spain,houses,spanish
+palacio de cristal,spain,houses,spanish
+pazo,spain,houses,spanish
+portalada,spain,houses,spanish
+posessió,spain,houses,spanish
+pósito,spain,houses,spanish
+quinta,spain,houses,spanish
+riurau,spain,houses,spanish
+taberna,spain,houses,spanish
+trompes,spain,houses,spanish
+acordeón,spain,music,spanish
+albogue,spain,music,spanish
+añafiles,spain,music,spanish
+bandurria,spain,music,spanish
+castanets,spain,music,spanish
+charamela,spain,music,spanish
+chifla,spain,music,spanish
+chiflo,spain,music,spanish
+clarinete,spain,music,spanish
+contrabajo,spain,music,spanish
+dulzaina,spain,music,spanish
+flabiol,spain,music,spanish
+flauta,spain,music,spanish
+gaita cabreiresa,spain,music,spanish
+gaiteros,spain,music,spanish
+gall-gallet,spain,music,spanish
+guitarra,spain,music,spanish
+guitarró,spain,music,spanish
+laúd,spain,music,spanish
+nacaire,spain,music,spanish
+odrecillo,spain,music,spanish
+pandereta,spain,music,spanish
+panderete,spain,music,spanish
+rabel,spain,music,spanish
+rabequet,spain,music,spanish
+redoblante,spain,music,spanish
+requinto,spain,music,spanish
+rigo-rago,spain,music,spanish
+rinrán,spain,music,spanish
+sonajas,spain,music,spanish
+tambor,spain,music,spanish
+timbal,spain,music,spanish
+trikitixa,spain,music,spanish
+trompa,spain,music,spanish
+vihuela,spain,music,spanish
+xeremies,spain,music,spanish
+zambomba,spain,music,spanish
+zanfona,spain,music,spanish
+zanfoña,spain,music,spanish
+zarrabete,spain,music,spanish
+akelarre,spain,religion_setting,spanish
+bautizo,spain,religion_custom,spanish
+capillas,spain,religion_setting,spanish
+catedral,spain,religion_setting,spanish
+comunión,spain,religion_custom,spanish
+conjuratorio,spain,religion_setting,spanish
+convento,spain,religion_setting,spanish
+cruceiro,spain,religion_object,spanish
+cruceiros,spain,religion_object,spanish
+custodia,spain,religion_object,spanish
+cuélebre,spain,religion_setting,spanish
+iglesia,spain,religion_setting,spanish
+jentilak,spain,religion_setting,spanish
+ojáncana,spain,religion_setting,spanish
+procession,spain,religion_custom,spanish
+rosario,spain,religion_object,spanish
+santuário,spain,religion_setting,spanish
+sorgina,spain,religion_setting,spanish
+templo,spain,religion_setting,spanish
+trastolillu,spain,religion_setting,spanish
+aizkolaritza,spain,sport,spanish
+ajedrez,spain,sport,spanish
+automovilismo,spain,sport,spanish
+baloncesto,spain,sport,spanish
+balonmano,spain,sport,spanish
+bolera,spain,sport,spanish
+boxeo,spain,sport,spanish
+béisbol,spain,sport,spanish
+cetrería,spain,sport,spanish
+ciclismo,spain,sport,spanish
+cuatreada,spain,sport,spanish
+equitación,spain,sport,spanish
+esgrima,spain,sport,spanish
+esquí,spain,sport,spanish
+fútbol,spain,sport,spanish
+gimnasia,spain,sport,spanish
+hípica,spain,sport,spanish
+maratón,spain,sport,spanish
+matadores,spain,sport,spanish
+motociclismo,spain,sport,spanish
+natación,spain,sport,spanish
+picadores,spain,sport,spanish
+piraguismo,spain,sport,spanish
+piragüismo,spain,sport,spanish
+plaza de toros,spain,sport,spanish
+pádel,spain,sport,spanish
+pádel,spain,sport,spanish
+rocódromos,spain,sport,spanish
+sokatira,spain,sport,spanish
+tenis,spain,sport,spanish
+toreo,spain,sport,spanish
+trainera,spain,sport,spanish
+triatlón,spain,sport,spanish
+alambique,spain,utensil,spanish
+barrica,spain,utensil,spanish
+barricas,spain,utensil,spanish
+bota,spain,utensil,spanish
+botijas,spain,utensil,spanish
+botijo,spain,utensil,spanish
+caldero,spain,utensil,spanish
+caña,spain,utensil,spanish
+cuchillo jamonero,spain,utensil,spanish
+cántara,spain,utensil,spanish
+escancia,spain,utensil,spanish
+flambadou,spain,utensil,spanish
+garot,spain,utensil,spanish
+jamonero,spain,utensil,spanish
+mancerina,spain,utensil,spanish
+molinillo,spain,utensil,spanish
+parrillas,spain,utensil,spanish
+pellejo,spain,utensil,spanish
+porrón,spain,utensil,spanish
+salvavirgo,spain,utensil,spanish
+serreta,spain,utensil,spanish
+tinaja,spain,utensil,spanish
+ánfora,spain,utensil,spanish
+ajo,spain,vegetable,spanish
+alcachofas,spain,vegetable,spanish
+berenjena,spain,vegetable,spanish
+boniato,spain,vegetable,spanish
+borraja,spain,vegetable,spanish
+calabazas,spain,vegetable,spanish
+cebolla,spain,vegetable,spanish
+cebolla fuentes de ebro,spain,vegetable,spanish
+chufa,spain,vegetable,spanish
+chícharo,spain,vegetable,spanish
+empeltre,spain,vegetable,spanish
+encurtido,spain,vegetable,spanish
+espinaca,spain,vegetable,spanish
+espárrago,spain,vegetable,spanish
+grelo,spain,vegetable,spanish
+grelos,spain,vegetable,spanish
+guisantes,spain,vegetable,spanish
+hortaliza,spain,vegetable,spanish
+hortalizas,spain,vegetable,spanish
+lechuga,spain,vegetable,spanish
+lenteja,spain,vegetable,spanish
+maíz,spain,vegetable,spanish
+nabiza,spain,vegetable,spanish
+nabo,spain,vegetable,spanish
+oliva,spain,vegetable,spanish
+patata,spain,vegetable,spanish
+pimiento,spain,vegetable,spanish
+pimientos,spain,vegetable,spanish
+piparra,spain,vegetable,spanish
+pochas,spain,vegetable,spanish
+puerro,spain,vegetable,spanish
+tomates,spain,vegetable,spanish
+tomatá,spain,vegetable,spanish
+alegrias,spain,visual arts,spanish
+anfiteatro,spain,visual arts,spanish
+animero,spain,visual arts,spanish
+bailaor,spain,visual arts,spanish
+bailaora,spain,visual arts,spanish
+bailaoras,spain,visual arts,spanish
+bodegones,spain,visual arts,spanish
+caganer,spain,visual arts,spanish
+chotis,spain,visual arts,spanish
+efigie,spain,visual arts,spanish
+estampa,spain,visual arts,spanish
+fanal,spain,visual arts,spanish
+galerías,spain,visual arts,spanish
+gran teatre del liceu,spain,visual arts,spanish
+la señera,spain,visual arts,spanish
+litografía,spain,visual arts,spanish
+mimo,spain,visual arts,spanish
+retablo,spain,visual arts,spanish
+rondeña,spain,visual arts,spanish
+seguidilla,spain,visual arts,spanish
+siurell,spain,visual arts,spanish
+tocaor,spain,visual arts,spanish
+zapateo,spain,visual arts,spanish

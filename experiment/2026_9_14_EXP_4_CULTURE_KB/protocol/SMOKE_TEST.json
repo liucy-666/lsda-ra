@@ -1,0 +1,131 @@
+[
+ {
+  "input": {
+   "concept": "Ras malai",
+   "culture": "India",
+   "category": "food"
+  },
+  "model": "gpt-4o-mini",
+  "parse": {
+   "culture": "India",
+   "object_type": "dessert",
+   "style": "",
+   "wikidata_query": "Ras malai",
+   "notes": "Ras malai is a popular Indian sweet made from cream and sugar."
+  },
+  "wikidata": {
+   "qid": "Q5656299",
+   "label": "Ras malai",
+   "description": "Bengali sweet made with Indian cheese",
+   "used_query": "Ras malai",
+   "facts": {
+    "subclass_of": [
+     "dessert"
+    ],
+    "country_of_origin": [
+     "Bengal"
+    ],
+    "country": [
+     "India",
+     "Bangladesh"
+    ],
+    "material_used": [
+     "cardamom",
+     "pistachio nut",
+     "Malai",
+     "chhena",
+     "sugar",
+     "saffron"
+    ],
+    "part_of": [
+     "Bengali cuisine"
+    ]
+   },
+   "rejects": null
+  },
+  "verify": {
+   "match": true,
+   "reason": "Candidate is the same object as the concept.",
+   "knowledge_text": "made with cardamom, pistachio nut, Malai, chhena, sugar, saffron; a Bengali sweet; part of Bengali cuisine"
+  },
+  "source": "wikidata",
+  "clean": "made with cardamom, pistachio nut, Malai, chhena, sugar, saffron; a Bengali sweet; part of Bengali cuisine",
+  "familiarity": 0.4,
+  "seconds": 15.0
+ },
+ {
+  "input": {
+   "concept": "yugwa",
+   "culture": "South Korea",
+   "category": "food"
+  },
+  "model": "gpt-4o-mini",
+  "parse": {
+   "culture": "South Korea",
+   "object_type": "food",
+   "style": "",
+   "wikidata_query": "yugwa Korean snack",
+   "notes": "Yugwa is a traditional Korean rice snack often enjoyed during celebrations."
+  },
+  "wikidata": {
+   "qid": "Q28645639",
+   "label": "yugwa",
+   "description": "Korean dessert",
+   "used_query": "yugwa",
+   "facts": {
+    "subclass_of": [
+     "hangwa"
+    ],
+    "country_of_origin": [
+     "Korea"
+    ]
+   },
+   "rejects": null
+  },
+  "verify": {
+   "match": true,
+   "reason": "Candidate matches the concept.",
+   "knowledge_text": "sweet rice cake, made with glutinous rice flour, often coated with powdered soybean flour, sometimes flavored with honey or sesame, traditional Korean dessert"
+  },
+  "source": "wikidata",
+  "clean": "sweet rice cake, made with glutinous rice flour, often coated with powdered soybean flour, sometimes flavored with honey or sesame, traditional Korean dessert",
+  "familiarity": 0.2,
+  "seconds": 78.6
+ },
+ {
+  "input": {
+   "concept": "niu jiao hu",
+   "culture": "China",
+   "category": "food"
+  },
+  "model": "gpt-4o-mini",
+  "parse": {
+   "culture": "China",
+   "object_type": "food",
+   "style": "",
+   "wikidata_query": "niu jiao hu",
+   "notes": "Niu jiao hu is a traditional Chinese dish."
+  },
+  "wikidata": {
+   "qid": "Q41047858",
+   "label": "Niu Huang",
+   "description": "researcher",
+   "used_query": "niu hu",
+   "facts": {
+    "instance_of": [
+     "human"
+    ]
+   },
+   "rejects": null
+  },
+  "verify": {
+   "match": false,
+   "reason": "Candidate is a person, not a cultural object.",
+   "knowledge_text": ""
+  },
+  "source": "llm_fallback",
+  "clean": "ceramic bowl, earthy tones, hand-glazed finish, dragon and cloud motifs, rounded form, smooth texture, traditional Chinese patterns, intricate detailing, balanced proportions, culturally significant presentation.",
+  "familiarity": 0.1,
+  "seconds": 22.5
+ }
+]

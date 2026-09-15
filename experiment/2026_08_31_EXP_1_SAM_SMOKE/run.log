@@ -1,68 +1,0 @@
-Loading pipeline components...:   0%|          | 0/9 [00:00<?, ?it/s]
-Loading weights:   0%|          | 0/197 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 197/197 [00:00<00:00, 9852.71it/s]
-Loading pipeline components...:  22%|██▏       | 2/9 [00:00<00:00, 11.44it/s]
-Loading weights:   0%|          | 0/517 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 517/517 [00:00<00:00, 10436.91it/s]
-Loading pipeline components...:  44%|████▍     | 4/9 [00:00<00:00, 14.12it/s]
-Loading weights:   0%|          | 0/219 [00:00<?, ?it/s][A
-Loading weights:  74%|███████▍  | 162/219 [00:00<00:00, 1582.46it/s][ALoading weights: 100%|██████████| 219/219 [00:00<00:00, 1769.66it/s]
-Loading pipeline components...:  67%|██████▋   | 6/9 [00:00<00:00,  9.55it/s]
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][A
-Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.52it/s][A
-Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.20it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  3.07it/s]
-Loading pipeline components...: 100%|██████████| 9/9 [00:01<00:00,  4.64it/s]Loading pipeline components...: 100%|██████████| 9/9 [00:01<00:00,  5.73it/s]
-  0%|          | 0/28 [00:00<?, ?it/s]  4%|▎         | 1/28 [00:00<00:15,  1.75it/s]  7%|▋         | 2/28 [00:00<00:11,  2.21it/s] 11%|█         | 3/28 [00:01<00:12,  2.07it/s] 14%|█▍        | 4/28 [00:01<00:11,  2.01it/s] 18%|█▊        | 5/28 [00:02<00:11,  1.98it/s] 21%|██▏       | 6/28 [00:03<00:11,  1.96it/s] 25%|██▌       | 7/28 [00:03<00:10,  1.95it/s] 29%|██▊       | 8/28 [00:04<00:10,  1.94it/s] 32%|███▏      | 9/28 [00:04<00:09,  1.93it/s] 36%|███▌      | 10/28 [00:05<00:09,  1.93it/s] 39%|███▉      | 11/28 [00:05<00:08,  1.92it/s] 43%|████▎     | 12/28 [00:06<00:08,  1.92it/s] 46%|████▋     | 13/28 [00:06<00:07,  1.92it/s] 50%|█████     | 14/28 [00:07<00:07,  1.92it/s] 54%|█████▎    | 15/28 [00:07<00:06,  1.92it/s] 57%|█████▋    | 16/28 [00:08<00:06,  1.92it/s] 61%|██████    | 17/28 [00:08<00:05,  1.92it/s] 64%|██████▍   | 18/28 [00:09<00:05,  1.92it/s] 68%|██████▊   | 19/28 [00:09<00:04,  1.91it/s] 71%|███████▏  | 20/28 [00:10<00:04,  1.91it/s] 75%|███████▌  | 21/28 [00:10<00:03,  1.91it/s] 79%|███████▊  | 22/28 [00:11<00:03,  1.91it/s] 82%|████████▏ | 23/28 [00:11<00:02,  1.91it/s] 86%|████████▌ | 24/28 [00:12<00:02,  1.91it/s] 89%|████████▉ | 25/28 [00:12<00:01,  1.91it/s] 93%|█████████▎| 26/28 [00:13<00:01,  1.91it/s] 96%|█████████▋| 27/28 [00:13<00:00,  1.91it/s]100%|██████████| 28/28 [00:14<00:00,  1.91it/s]100%|██████████| 28/28 [00:14<00:00,  1.93it/s]
-Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]Loading weights: 100%|██████████| 314/314 [00:00<00:00, 10501.40it/s]
-{
-  "prompt": "On a neutral studio background, a Chinese blue-and-white porcelain plate is placed on the left and a Japanese Kutani porcelain vase is placed on the right. Both objects are fully visible, spatially separated, and similar in apparent size.",
-  "seed": 999,
-  "model_dir": "/science/wx/pry/models/stable-diffusion-3.5-large",
-  "sam_model_dir": "/science/wx/pry/models/sam-vit-base",
-  "sam_variant": "sam-vit-base",
-  "elapsed_seconds": 30.621855974197388,
-  "outputs": {
-    "native_ss": "/science/wx/pry/experiment/2026_08_31_EXP_1_SAM_SMOKE/native_ss_seed999.png",
-    "overlay": "/science/wx/pry/experiment/2026_08_31_EXP_1_SAM_SMOKE/segmentation/overlay.png",
-    "owner_a": "/science/wx/pry/experiment/2026_08_31_EXP_1_SAM_SMOKE/segmentation/owner_1.png",
-    "owner_b": "/science/wx/pry/experiment/2026_08_31_EXP_1_SAM_SMOKE/segmentation/owner_2.png"
-  },
-  "segmentation": {
-    "raw_overlap_fraction": 0.0,
-    "owner_fractions_image": [
-      0.15758895874023438,
-      0.11717414855957031
-    ],
-    "background_fraction_image": 0.7252368927001953,
-    "partition_min_image": 1,
-    "partition_max_image": 1,
-    "entities": [
-      {
-        "name": "A: Chinese blue-and-white plate",
-        "area": 0.15758895874023438,
-        "bbox": [
-          77,
-          353,
-          536,
-          810
-        ],
-        "centroid": [
-          307.1386374089226,
-          580.7747573285566
-        ]
-      },
-      {
-        "name": "B: Japanese Kutani vase",
-        "area": 0.11717414855957031,
-        "bbox": [
-          593,
-          265,
-          922,
-          815
-        ],
-        "centroid": [
-          755.5342893884394,
-          572.8593182817053
-        ]
-      }
-    ]
-  }
-}

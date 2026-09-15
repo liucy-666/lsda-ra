@@ -1,0 +1,2252 @@
+[
+ {
+  "run_id": "lsdalong_p001_s1011",
+  "pair": 1,
+  "seed": 1011,
+  "a_prompt": "a Chinese blue-and-white porcelain vase with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Vietnamese Bát Tràng blue-and-white ceramic vase with cobalt-blue hand-painted decoration on pale glaze, showing stylized lotus, fish, and scrolling foliage",
+  "ss_prompt": "Neutral studio background: a Chinese blue-and-white porcelain vase on the left, a Vietnamese Bát Tràng blue-and-white ceramic vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p001_s1012",
+  "pair": 1,
+  "seed": 1012,
+  "a_prompt": "a Chinese blue-and-white porcelain vase with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Vietnamese Bát Tràng blue-and-white ceramic vase with cobalt-blue hand-painted decoration on pale glaze, showing stylized lotus, fish, and scrolling foliage",
+  "ss_prompt": "Neutral studio background: a Chinese blue-and-white porcelain vase on the left, a Vietnamese Bát Tràng blue-and-white ceramic vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p001_s1013",
+  "pair": 1,
+  "seed": 1013,
+  "a_prompt": "a Chinese blue-and-white porcelain vase with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Vietnamese Bát Tràng blue-and-white ceramic vase with cobalt-blue hand-painted decoration on pale glaze, showing stylized lotus, fish, and scrolling foliage",
+  "ss_prompt": "Neutral studio background: a Chinese blue-and-white porcelain vase on the left, a Vietnamese Bát Tràng blue-and-white ceramic vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p002_s1011",
+  "pair": 2,
+  "seed": 1011,
+  "a_prompt": "a Chinese blue-and-white porcelain plate with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Japanese Nabeshima porcelain plate with underglaze-blue outlines and sparse overglaze color, showing asymmetrical flowers, textiles, and geometric border motifs",
+  "ss_prompt": "Neutral studio background: a Chinese blue-and-white porcelain plate on the left, a Japanese Nabeshima porcelain plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p002_s1012",
+  "pair": 2,
+  "seed": 1012,
+  "a_prompt": "a Chinese blue-and-white porcelain plate with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Japanese Nabeshima porcelain plate with underglaze-blue outlines and sparse overglaze color, showing asymmetrical flowers, textiles, and geometric border motifs",
+  "ss_prompt": "Neutral studio background: a Chinese blue-and-white porcelain plate on the left, a Japanese Nabeshima porcelain plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p002_s1013",
+  "pair": 2,
+  "seed": 1013,
+  "a_prompt": "a Chinese blue-and-white porcelain plate with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Japanese Nabeshima porcelain plate with underglaze-blue outlines and sparse overglaze color, showing asymmetrical flowers, textiles, and geometric border motifs",
+  "ss_prompt": "Neutral studio background: a Chinese blue-and-white porcelain plate on the left, a Japanese Nabeshima porcelain plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p003_s1011",
+  "pair": 3,
+  "seed": 1011,
+  "a_prompt": "a Chinese blue-and-white porcelain vase with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Thai Bencharong porcelain vase with polychrome overglaze enamel and gold outlines, showing repeating flame, deity, and floral motifs on a dark ground",
+  "ss_prompt": "Neutral studio background: a Chinese blue-and-white porcelain vase on the left, a Thai Bencharong porcelain vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p003_s1012",
+  "pair": 3,
+  "seed": 1012,
+  "a_prompt": "a Chinese blue-and-white porcelain vase with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Thai Bencharong porcelain vase with polychrome overglaze enamel and gold outlines, showing repeating flame, deity, and floral motifs on a dark ground",
+  "ss_prompt": "Neutral studio background: a Chinese blue-and-white porcelain vase on the left, a Thai Bencharong porcelain vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p003_s1013",
+  "pair": 3,
+  "seed": 1013,
+  "a_prompt": "a Chinese blue-and-white porcelain vase with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Thai Bencharong porcelain vase with polychrome overglaze enamel and gold outlines, showing repeating flame, deity, and floral motifs on a dark ground",
+  "ss_prompt": "Neutral studio background: a Chinese blue-and-white porcelain vase on the left, a Thai Bencharong porcelain vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p004_s1011",
+  "pair": 4,
+  "seed": 1011,
+  "a_prompt": "a Japanese Imari porcelain jar with cobalt-blue underglaze and iron-red and gold overglaze decoration, showing floral panels and patterned reserves",
+  "b_prompt": "a Korean Joseon iron-painted porcelain jar with freely brushed iron-brown decoration on white porcelain, showing dragons, bamboo, or abbreviated floral motifs",
+  "ss_prompt": "Neutral studio background: a Japanese Imari porcelain jar on the left, a Korean Joseon iron-painted porcelain jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p004_s1012",
+  "pair": 4,
+  "seed": 1012,
+  "a_prompt": "a Japanese Imari porcelain jar with cobalt-blue underglaze and iron-red and gold overglaze decoration, showing floral panels and patterned reserves",
+  "b_prompt": "a Korean Joseon iron-painted porcelain jar with freely brushed iron-brown decoration on white porcelain, showing dragons, bamboo, or abbreviated floral motifs",
+  "ss_prompt": "Neutral studio background: a Japanese Imari porcelain jar on the left, a Korean Joseon iron-painted porcelain jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p004_s1013",
+  "pair": 4,
+  "seed": 1013,
+  "a_prompt": "a Japanese Imari porcelain jar with cobalt-blue underglaze and iron-red and gold overglaze decoration, showing floral panels and patterned reserves",
+  "b_prompt": "a Korean Joseon iron-painted porcelain jar with freely brushed iron-brown decoration on white porcelain, showing dragons, bamboo, or abbreviated floral motifs",
+  "ss_prompt": "Neutral studio background: a Japanese Imari porcelain jar on the left, a Korean Joseon iron-painted porcelain jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p005_s1011",
+  "pair": 5,
+  "seed": 1011,
+  "a_prompt": "a Japanese Imari porcelain plate with cobalt-blue underglaze and iron-red and gold overglaze decoration, showing radial floral panels and patterned reserves",
+  "b_prompt": "a Japanese Kutani porcelain plate with polychrome overglaze enamels in green, yellow, red, purple, and blue, showing floral and landscape panels",
+  "ss_prompt": "Neutral studio background: a Japanese Imari porcelain plate on the left, a Japanese Kutani porcelain plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p005_s1012",
+  "pair": 5,
+  "seed": 1012,
+  "a_prompt": "a Japanese Imari porcelain plate with cobalt-blue underglaze and iron-red and gold overglaze decoration, showing radial floral panels and patterned reserves",
+  "b_prompt": "a Japanese Kutani porcelain plate with polychrome overglaze enamels in green, yellow, red, purple, and blue, showing floral and landscape panels",
+  "ss_prompt": "Neutral studio background: a Japanese Imari porcelain plate on the left, a Japanese Kutani porcelain plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p005_s1013",
+  "pair": 5,
+  "seed": 1013,
+  "a_prompt": "a Japanese Imari porcelain plate with cobalt-blue underglaze and iron-red and gold overglaze decoration, showing radial floral panels and patterned reserves",
+  "b_prompt": "a Japanese Kutani porcelain plate with polychrome overglaze enamels in green, yellow, red, purple, and blue, showing floral and landscape panels",
+  "ss_prompt": "Neutral studio background: a Japanese Imari porcelain plate on the left, a Japanese Kutani porcelain plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p007_s1011",
+  "pair": 7,
+  "seed": 1011,
+  "a_prompt": "a French Sèvres porcelain vase with a bleu-céleste ground, gilded bronze-like ornament, and painted floral or courtly reserve panels",
+  "b_prompt": "a Russian Imperial Porcelain cobalt-net vase with cobalt-blue lattice, gold intersections, and radiating rosette motifs",
+  "ss_prompt": "Neutral studio background: a French Sèvres porcelain vase on the left, a Russian Imperial Porcelain cobalt-net vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p007_s1013",
+  "pair": 7,
+  "seed": 1013,
+  "a_prompt": "a French Sèvres porcelain vase with a bleu-céleste ground, gilded bronze-like ornament, and painted floral or courtly reserve panels",
+  "b_prompt": "a Russian Imperial Porcelain cobalt-net vase with cobalt-blue lattice, gold intersections, and radiating rosette motifs",
+  "ss_prompt": "Neutral studio background: a French Sèvres porcelain vase on the left, a Russian Imperial Porcelain cobalt-net vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p008_s1011",
+  "pair": 8,
+  "seed": 1011,
+  "a_prompt": "a Chinese famille-rose porcelain vase with opaque pink, green, yellow, and turquoise overglaze enamels, showing peonies, birds, and auspicious garden scenes",
+  "b_prompt": "a Hungarian Herend porcelain vase with polychrome enamel painting and gilded rims, showing stylized butterflies, flowers, and scale-like fishnet patterns",
+  "ss_prompt": "Neutral studio background: a Chinese famille-rose porcelain vase on the left, a Hungarian Herend porcelain vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p008_s1012",
+  "pair": 8,
+  "seed": 1012,
+  "a_prompt": "a Chinese famille-rose porcelain vase with opaque pink, green, yellow, and turquoise overglaze enamels, showing peonies, birds, and auspicious garden scenes",
+  "b_prompt": "a Hungarian Herend porcelain vase with polychrome enamel painting and gilded rims, showing stylized butterflies, flowers, and scale-like fishnet patterns",
+  "ss_prompt": "Neutral studio background: a Chinese famille-rose porcelain vase on the left, a Hungarian Herend porcelain vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p008_s1013",
+  "pair": 8,
+  "seed": 1013,
+  "a_prompt": "a Chinese famille-rose porcelain vase with opaque pink, green, yellow, and turquoise overglaze enamels, showing peonies, birds, and auspicious garden scenes",
+  "b_prompt": "a Hungarian Herend porcelain vase with polychrome enamel painting and gilded rims, showing stylized butterflies, flowers, and scale-like fishnet patterns",
+  "ss_prompt": "Neutral studio background: a Chinese famille-rose porcelain vase on the left, a Hungarian Herend porcelain vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p009_s1012",
+  "pair": 9,
+  "seed": 1012,
+  "a_prompt": "a Chinese Dehua blanc-de-Chine porcelain figurine with an ivory-white surface, modeled robes, and carved details without painted color",
+  "b_prompt": "a Japanese Hirado porcelain figurine with delicate underglaze-blue accents, showing miniature modeling and textile details",
+  "ss_prompt": "Neutral studio background: a Chinese Dehua blanc-de-Chine porcelain figurine on the left, a Japanese Hirado porcelain figurine on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p009_s1013",
+  "pair": 9,
+  "seed": 1013,
+  "a_prompt": "a Chinese Dehua blanc-de-Chine porcelain figurine with an ivory-white surface, modeled robes, and carved details without painted color",
+  "b_prompt": "a Japanese Hirado porcelain figurine with delicate underglaze-blue accents, showing miniature modeling and textile details",
+  "ss_prompt": "Neutral studio background: a Chinese Dehua blanc-de-Chine porcelain figurine on the left, a Japanese Hirado porcelain figurine on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p010_s1011",
+  "pair": 10,
+  "seed": 1011,
+  "a_prompt": "a Chinese celadon ceramic bowl with translucent blue-green glaze, showing carved lotus petals beneath the glaze",
+  "b_prompt": "a Vietnamese Lý–Trần celadon ceramic bowl with a pale jade-green glaze and lightly crackled surface, showing carved lotus petals and combed floral decoration",
+  "ss_prompt": "Neutral studio background: a Chinese celadon ceramic bowl on the left, a Vietnamese Lý–Trần celadon ceramic bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p010_s1012",
+  "pair": 10,
+  "seed": 1012,
+  "a_prompt": "a Chinese celadon ceramic bowl with translucent blue-green glaze, showing carved lotus petals beneath the glaze",
+  "b_prompt": "a Vietnamese Lý–Trần celadon ceramic bowl with a pale jade-green glaze and lightly crackled surface, showing carved lotus petals and combed floral decoration",
+  "ss_prompt": "Neutral studio background: a Chinese celadon ceramic bowl on the left, a Vietnamese Lý–Trần celadon ceramic bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p010_s1013",
+  "pair": 10,
+  "seed": 1013,
+  "a_prompt": "a Chinese celadon ceramic bowl with translucent blue-green glaze, showing carved lotus petals beneath the glaze",
+  "b_prompt": "a Vietnamese Lý–Trần celadon ceramic bowl with a pale jade-green glaze and lightly crackled surface, showing carved lotus petals and combed floral decoration",
+  "ss_prompt": "Neutral studio background: a Chinese celadon ceramic bowl on the left, a Vietnamese Lý–Trần celadon ceramic bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p011_s1011",
+  "pair": 11,
+  "seed": 1011,
+  "a_prompt": "a Korean Goryeo celadon maebyeong vase with a green celadon glaze and pale slip inlay, showing cranes, clouds, and chrysanthemum medallions",
+  "b_prompt": "a Thai Sawankhalok celadon jar with an olive-green crackled glaze on a stoneware body, showing incised lotus petals and simple ring bands",
+  "ss_prompt": "Neutral studio background: a Korean Goryeo celadon maebyeong vase on the left, a Thai Sawankhalok celadon jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p011_s1012",
+  "pair": 11,
+  "seed": 1012,
+  "a_prompt": "a Korean Goryeo celadon maebyeong vase with a green celadon glaze and pale slip inlay, showing cranes, clouds, and chrysanthemum medallions",
+  "b_prompt": "a Thai Sawankhalok celadon jar with an olive-green crackled glaze on a stoneware body, showing incised lotus petals and simple ring bands",
+  "ss_prompt": "Neutral studio background: a Korean Goryeo celadon maebyeong vase on the left, a Thai Sawankhalok celadon jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p011_s1013",
+  "pair": 11,
+  "seed": 1013,
+  "a_prompt": "a Korean Goryeo celadon maebyeong vase with a green celadon glaze and pale slip inlay, showing cranes, clouds, and chrysanthemum medallions",
+  "b_prompt": "a Thai Sawankhalok celadon jar with an olive-green crackled glaze on a stoneware body, showing incised lotus petals and simple ring bands",
+  "ss_prompt": "Neutral studio background: a Korean Goryeo celadon maebyeong vase on the left, a Thai Sawankhalok celadon jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p012_s1011",
+  "pair": 12,
+  "seed": 1011,
+  "a_prompt": "a Dutch blue-and-white Delftware plate with opaque white tin glaze, painted in cobalt blue with canal-house, tulip, and ornamental border motifs",
+  "b_prompt": "a Slovak Modra faience plate made of pale glazed earthenware, painted in cobalt blue, green, yellow, and manganese with stylized birds and folk flowers",
+  "ss_prompt": "Neutral studio background: a Dutch blue-and-white Delftware plate on the left, a Slovak Modra faience plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p012_s1012",
+  "pair": 12,
+  "seed": 1012,
+  "a_prompt": "a Dutch blue-and-white Delftware plate with opaque white tin glaze, painted in cobalt blue with canal-house, tulip, and ornamental border motifs",
+  "b_prompt": "a Slovak Modra faience plate made of pale glazed earthenware, painted in cobalt blue, green, yellow, and manganese with stylized birds and folk flowers",
+  "ss_prompt": "Neutral studio background: a Dutch blue-and-white Delftware plate on the left, a Slovak Modra faience plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p012_s1013",
+  "pair": 12,
+  "seed": 1013,
+  "a_prompt": "a Dutch blue-and-white Delftware plate with opaque white tin glaze, painted in cobalt blue with canal-house, tulip, and ornamental border motifs",
+  "b_prompt": "a Slovak Modra faience plate made of pale glazed earthenware, painted in cobalt blue, green, yellow, and manganese with stylized birds and folk flowers",
+  "ss_prompt": "Neutral studio background: a Dutch blue-and-white Delftware plate on the left, a Slovak Modra faience plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p013_s1011",
+  "pair": 13,
+  "seed": 1011,
+  "a_prompt": "a Dutch blue-and-white Delftware vase with opaque white tin glaze, painted in cobalt blue with canal-house, tulip, and ornamental border motifs",
+  "b_prompt": "a Tunisian Qallaline faience vase with tin glaze, painted in cobalt blue, green, ochre, and manganese with cypress, arch, and floral motifs",
+  "ss_prompt": "Neutral studio background: a Dutch blue-and-white Delftware vase on the left, a Tunisian Qallaline faience vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p013_s1012",
+  "pair": 13,
+  "seed": 1012,
+  "a_prompt": "a Dutch blue-and-white Delftware vase with opaque white tin glaze, painted in cobalt blue with canal-house, tulip, and ornamental border motifs",
+  "b_prompt": "a Tunisian Qallaline faience vase with tin glaze, painted in cobalt blue, green, ochre, and manganese with cypress, arch, and floral motifs",
+  "ss_prompt": "Neutral studio background: a Dutch blue-and-white Delftware vase on the left, a Tunisian Qallaline faience vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p013_s1013",
+  "pair": 13,
+  "seed": 1013,
+  "a_prompt": "a Dutch blue-and-white Delftware vase with opaque white tin glaze, painted in cobalt blue with canal-house, tulip, and ornamental border motifs",
+  "b_prompt": "a Tunisian Qallaline faience vase with tin glaze, painted in cobalt blue, green, ochre, and manganese with cypress, arch, and floral motifs",
+  "ss_prompt": "Neutral studio background: a Dutch blue-and-white Delftware vase on the left, a Tunisian Qallaline faience vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p014_s1011",
+  "pair": 14,
+  "seed": 1011,
+  "a_prompt": "an Italian Renaissance maiolica plate with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+  "b_prompt": "a French Nevers faience plate with white tin glaze, painted in deep blue, yellow, and manganese with heraldic, pastoral, and symmetrical floral motifs",
+  "ss_prompt": "Neutral studio background: an Italian Renaissance maiolica plate on the left, a French Nevers faience plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p014_s1012",
+  "pair": 14,
+  "seed": 1012,
+  "a_prompt": "an Italian Renaissance maiolica plate with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+  "b_prompt": "a French Nevers faience plate with white tin glaze, painted in deep blue, yellow, and manganese with heraldic, pastoral, and symmetrical floral motifs",
+  "ss_prompt": "Neutral studio background: an Italian Renaissance maiolica plate on the left, a French Nevers faience plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p014_s1013",
+  "pair": 14,
+  "seed": 1013,
+  "a_prompt": "an Italian Renaissance maiolica plate with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+  "b_prompt": "a French Nevers faience plate with white tin glaze, painted in deep blue, yellow, and manganese with heraldic, pastoral, and symmetrical floral motifs",
+  "ss_prompt": "Neutral studio background: an Italian Renaissance maiolica plate on the left, a French Nevers faience plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p015_s1011",
+  "pair": 15,
+  "seed": 1011,
+  "a_prompt": "an Italian Renaissance maiolica vase with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+  "b_prompt": "a Spanish Manises lusterware vase made of tin-glazed earthenware with coppery metallic luster, showing cobalt-blue vines, heraldic shields, and repeating leaf motifs",
+  "ss_prompt": "Neutral studio background: an Italian Renaissance maiolica vase on the left, a Spanish Manises lusterware vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p015_s1012",
+  "pair": 15,
+  "seed": 1012,
+  "a_prompt": "an Italian Renaissance maiolica vase with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+  "b_prompt": "a Spanish Manises lusterware vase made of tin-glazed earthenware with coppery metallic luster, showing cobalt-blue vines, heraldic shields, and repeating leaf motifs",
+  "ss_prompt": "Neutral studio background: an Italian Renaissance maiolica vase on the left, a Spanish Manises lusterware vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p015_s1013",
+  "pair": 15,
+  "seed": 1013,
+  "a_prompt": "an Italian Renaissance maiolica vase with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+  "b_prompt": "a Spanish Manises lusterware vase made of tin-glazed earthenware with coppery metallic luster, showing cobalt-blue vines, heraldic shields, and repeating leaf motifs",
+  "ss_prompt": "Neutral studio background: an Italian Renaissance maiolica vase on the left, a Spanish Manises lusterware vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p016_s1011",
+  "pair": 16,
+  "seed": 1011,
+  "a_prompt": "a Mexican Talavera de Puebla plate with opaque white tin glaze, decorated with cobalt-blue, yellow, green, and orange painted floral and geometric bands",
+  "b_prompt": "a Romanian Horezu pottery plate made of glazed earthenware with combed slip decoration, showing brown, green, blue, and ochre spirals, rosettes, and the Horezu rooster",
+  "ss_prompt": "Neutral studio background: a Mexican Talavera de Puebla plate on the left, a Romanian Horezu pottery plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p016_s1012",
+  "pair": 16,
+  "seed": 1012,
+  "a_prompt": "a Mexican Talavera de Puebla plate with opaque white tin glaze, decorated with cobalt-blue, yellow, green, and orange painted floral and geometric bands",
+  "b_prompt": "a Romanian Horezu pottery plate made of glazed earthenware with combed slip decoration, showing brown, green, blue, and ochre spirals, rosettes, and the Horezu rooster",
+  "ss_prompt": "Neutral studio background: a Mexican Talavera de Puebla plate on the left, a Romanian Horezu pottery plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p016_s1013",
+  "pair": 16,
+  "seed": 1013,
+  "a_prompt": "a Mexican Talavera de Puebla plate with opaque white tin glaze, decorated with cobalt-blue, yellow, green, and orange painted floral and geometric bands",
+  "b_prompt": "a Romanian Horezu pottery plate made of glazed earthenware with combed slip decoration, showing brown, green, blue, and ochre spirals, rosettes, and the Horezu rooster",
+  "ss_prompt": "Neutral studio background: a Mexican Talavera de Puebla plate on the left, a Romanian Horezu pottery plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p017_s1011",
+  "pair": 17,
+  "seed": 1011,
+  "a_prompt": "an Ottoman İznik ceramic plate with a white fritware body, cobalt blue, turquoise, emerald green, and raised bole-red painting, showing tulips, carnations, and saz leaves",
+  "b_prompt": "an Armenian Kütahya ceramic plate with a white glazed body and blue, green, yellow, and red painting, showing rosettes, crosses, birds, and floral borders",
+  "ss_prompt": "Neutral studio background: an Ottoman İznik ceramic plate on the left, an Armenian Kütahya ceramic plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p017_s1012",
+  "pair": 17,
+  "seed": 1012,
+  "a_prompt": "an Ottoman İznik ceramic plate with a white fritware body, cobalt blue, turquoise, emerald green, and raised bole-red painting, showing tulips, carnations, and saz leaves",
+  "b_prompt": "an Armenian Kütahya ceramic plate with a white glazed body and blue, green, yellow, and red painting, showing rosettes, crosses, birds, and floral borders",
+  "ss_prompt": "Neutral studio background: an Ottoman İznik ceramic plate on the left, an Armenian Kütahya ceramic plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p018_s1011",
+  "pair": 18,
+  "seed": 1011,
+  "a_prompt": "a Moroccan Fes ceramic bowl with a white glazed body painted in cobalt blue, green, and yellow, showing organized star, arabesque, and palmette motifs",
+  "b_prompt": "an Algerian Kabyle pottery bowl made of hand-built earthenware with red, black, and white painted decoration, showing triangles, chevrons, and protective geometric signs",
+  "ss_prompt": "Neutral studio background: a Moroccan Fes ceramic bowl on the left, an Algerian Kabyle pottery bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p018_s1012",
+  "pair": 18,
+  "seed": 1012,
+  "a_prompt": "a Moroccan Fes ceramic bowl with a white glazed body painted in cobalt blue, green, and yellow, showing organized star, arabesque, and palmette motifs",
+  "b_prompt": "an Algerian Kabyle pottery bowl made of hand-built earthenware with red, black, and white painted decoration, showing triangles, chevrons, and protective geometric signs",
+  "ss_prompt": "Neutral studio background: a Moroccan Fes ceramic bowl on the left, an Algerian Kabyle pottery bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p018_s1013",
+  "pair": 18,
+  "seed": 1013,
+  "a_prompt": "a Moroccan Fes ceramic bowl with a white glazed body painted in cobalt blue, green, and yellow, showing organized star, arabesque, and palmette motifs",
+  "b_prompt": "an Algerian Kabyle pottery bowl made of hand-built earthenware with red, black, and white painted decoration, showing triangles, chevrons, and protective geometric signs",
+  "ss_prompt": "Neutral studio background: a Moroccan Fes ceramic bowl on the left, an Algerian Kabyle pottery bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p019_s1011",
+  "pair": 19,
+  "seed": 1011,
+  "a_prompt": "a Japanese Raku tea bowl with a hand-shaped low-fired body and irregular black glaze, showing a warped rim and tactile matte-to-gloss surface",
+  "b_prompt": "a Japanese Onta ware bowl made of stoneware with slip-trailed and combed decoration, showing rhythmic white, brown, and ochre bands made by wheel techniques",
+  "ss_prompt": "Neutral studio background: a Japanese Raku tea bowl on the left, a Japanese Onta ware bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p019_s1012",
+  "pair": 19,
+  "seed": 1012,
+  "a_prompt": "a Japanese Raku tea bowl with a hand-shaped low-fired body and irregular black glaze, showing a warped rim and tactile matte-to-gloss surface",
+  "b_prompt": "a Japanese Onta ware bowl made of stoneware with slip-trailed and combed decoration, showing rhythmic white, brown, and ochre bands made by wheel techniques",
+  "ss_prompt": "Neutral studio background: a Japanese Raku tea bowl on the left, a Japanese Onta ware bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p019_s1013",
+  "pair": 19,
+  "seed": 1013,
+  "a_prompt": "a Japanese Raku tea bowl with a hand-shaped low-fired body and irregular black glaze, showing a warped rim and tactile matte-to-gloss surface",
+  "b_prompt": "a Japanese Onta ware bowl made of stoneware with slip-trailed and combed decoration, showing rhythmic white, brown, and ochre bands made by wheel techniques",
+  "ss_prompt": "Neutral studio background: a Japanese Raku tea bowl on the left, a Japanese Onta ware bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p020_s1011",
+  "pair": 20,
+  "seed": 1011,
+  "a_prompt": "a Polish Bolesławiec stoneware jug with a cream glazed body stamped in cobalt blue, showing repeated dots, peacock-eye rosettes, and circular folk patterns",
+  "b_prompt": "a Bulgarian Troyan pottery jug with a dark glazed earthenware body and feathered slip decoration, showing brown, green, yellow, and cream wave patterns",
+  "ss_prompt": "Neutral studio background: a Polish Bolesławiec stoneware jug on the left, a Bulgarian Troyan pottery jug on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p020_s1012",
+  "pair": 20,
+  "seed": 1012,
+  "a_prompt": "a Polish Bolesławiec stoneware jug with a cream glazed body stamped in cobalt blue, showing repeated dots, peacock-eye rosettes, and circular folk patterns",
+  "b_prompt": "a Bulgarian Troyan pottery jug with a dark glazed earthenware body and feathered slip decoration, showing brown, green, yellow, and cream wave patterns",
+  "ss_prompt": "Neutral studio background: a Polish Bolesławiec stoneware jug on the left, a Bulgarian Troyan pottery jug on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p020_s1013",
+  "pair": 20,
+  "seed": 1013,
+  "a_prompt": "a Polish Bolesławiec stoneware jug with a cream glazed body stamped in cobalt blue, showing repeated dots, peacock-eye rosettes, and circular folk patterns",
+  "b_prompt": "a Bulgarian Troyan pottery jug with a dark glazed earthenware body and feathered slip decoration, showing brown, green, yellow, and cream wave patterns",
+  "ss_prompt": "Neutral studio background: a Polish Bolesławiec stoneware jug on the left, a Bulgarian Troyan pottery jug on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p021_s1011",
+  "pair": 21,
+  "seed": 1011,
+  "a_prompt": "a Japanese Raku tea bowl with a hand-shaped low-fired body and irregular black glaze, showing a warped rim and tactile matte-to-gloss surface",
+  "b_prompt": "a Korean buncheong tea bowl made of gray stoneware brushed with white slip, showing stamped, incised, or freely painted decoration beneath a translucent glaze",
+  "ss_prompt": "Neutral studio background: a Japanese Raku tea bowl on the left, a Korean buncheong tea bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p021_s1012",
+  "pair": 21,
+  "seed": 1012,
+  "a_prompt": "a Japanese Raku tea bowl with a hand-shaped low-fired body and irregular black glaze, showing a warped rim and tactile matte-to-gloss surface",
+  "b_prompt": "a Korean buncheong tea bowl made of gray stoneware brushed with white slip, showing stamped, incised, or freely painted decoration beneath a translucent glaze",
+  "ss_prompt": "Neutral studio background: a Japanese Raku tea bowl on the left, a Korean buncheong tea bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p021_s1013",
+  "pair": 21,
+  "seed": 1013,
+  "a_prompt": "a Japanese Raku tea bowl with a hand-shaped low-fired body and irregular black glaze, showing a warped rim and tactile matte-to-gloss surface",
+  "b_prompt": "a Korean buncheong tea bowl made of gray stoneware brushed with white slip, showing stamped, incised, or freely painted decoration beneath a translucent glaze",
+  "ss_prompt": "Neutral studio background: a Japanese Raku tea bowl on the left, a Korean buncheong tea bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p022_s1011",
+  "pair": 22,
+  "seed": 1011,
+  "a_prompt": "a Chinese sancai glazed ceramic jar with amber, green, and cream lead glazes over a rounded earthenware body, showing drips and molded relief bands",
+  "b_prompt": "a Peruvian Chulucanas pottery jar with a burnished clay surface in black, cream, and brown, showing negative-painted geometric bands and abstract figures",
+  "ss_prompt": "Neutral studio background: a Chinese sancai glazed ceramic jar on the left, a Peruvian Chulucanas pottery jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p022_s1012",
+  "pair": 22,
+  "seed": 1012,
+  "a_prompt": "a Chinese sancai glazed ceramic jar with amber, green, and cream lead glazes over a rounded earthenware body, showing drips and molded relief bands",
+  "b_prompt": "a Peruvian Chulucanas pottery jar with a burnished clay surface in black, cream, and brown, showing negative-painted geometric bands and abstract figures",
+  "ss_prompt": "Neutral studio background: a Chinese sancai glazed ceramic jar on the left, a Peruvian Chulucanas pottery jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p022_s1013",
+  "pair": 22,
+  "seed": 1013,
+  "a_prompt": "a Chinese sancai glazed ceramic jar with amber, green, and cream lead glazes over a rounded earthenware body, showing drips and molded relief bands",
+  "b_prompt": "a Peruvian Chulucanas pottery jar with a burnished clay surface in black, cream, and brown, showing negative-painted geometric bands and abstract figures",
+  "ss_prompt": "Neutral studio background: a Chinese sancai glazed ceramic jar on the left, a Peruvian Chulucanas pottery jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p023_s1011",
+  "pair": 23,
+  "seed": 1011,
+  "a_prompt": "an ancient Greek black-figure ceramic amphora with black silhouettes on red clay, showing mythological figures arranged in horizontal narrative registers",
+  "b_prompt": "an ancient Cypriot bichrome ceramic amphora with red and black painted lines on a pale clay body, showing concentric circles, birds, and compact geometric panels",
+  "ss_prompt": "Neutral studio background: an ancient Greek black-figure ceramic amphora on the left, an ancient Cypriot bichrome ceramic amphora on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p023_s1012",
+  "pair": 23,
+  "seed": 1012,
+  "a_prompt": "an ancient Greek black-figure ceramic amphora with black silhouettes on red clay, showing mythological figures arranged in horizontal narrative registers",
+  "b_prompt": "an ancient Cypriot bichrome ceramic amphora with red and black painted lines on a pale clay body, showing concentric circles, birds, and compact geometric panels",
+  "ss_prompt": "Neutral studio background: an ancient Greek black-figure ceramic amphora on the left, an ancient Cypriot bichrome ceramic amphora on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p023_s1013",
+  "pair": 23,
+  "seed": 1013,
+  "a_prompt": "an ancient Greek black-figure ceramic amphora with black silhouettes on red clay, showing mythological figures arranged in horizontal narrative registers",
+  "b_prompt": "an ancient Cypriot bichrome ceramic amphora with red and black painted lines on a pale clay body, showing concentric circles, birds, and compact geometric panels",
+  "ss_prompt": "Neutral studio background: an ancient Greek black-figure ceramic amphora on the left, an ancient Cypriot bichrome ceramic amphora on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p024_s1011",
+  "pair": 24,
+  "seed": 1011,
+  "a_prompt": "an Acoma Pueblo pottery jar with a pale clay body and black-and-red painting, showing -line rain, stepped-cloud, and interlocking geometric motifs",
+  "b_prompt": "a Catawba burnished pottery jar made of unglazed hand-coiled clay with a smoky brown surface, showing a polished finish and incised details",
+  "ss_prompt": "Neutral studio background: an Acoma Pueblo pottery jar on the left, a Catawba burnished pottery jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p024_s1012",
+  "pair": 24,
+  "seed": 1012,
+  "a_prompt": "an Acoma Pueblo pottery jar with a pale clay body and black-and-red painting, showing -line rain, stepped-cloud, and interlocking geometric motifs",
+  "b_prompt": "a Catawba burnished pottery jar made of unglazed hand-coiled clay with a smoky brown surface, showing a polished finish and incised details",
+  "ss_prompt": "Neutral studio background: an Acoma Pueblo pottery jar on the left, a Catawba burnished pottery jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p024_s1013",
+  "pair": 24,
+  "seed": 1013,
+  "a_prompt": "an Acoma Pueblo pottery jar with a pale clay body and black-and-red painting, showing -line rain, stepped-cloud, and interlocking geometric motifs",
+  "b_prompt": "a Catawba burnished pottery jar made of unglazed hand-coiled clay with a smoky brown surface, showing a polished finish and incised details",
+  "ss_prompt": "Neutral studio background: an Acoma Pueblo pottery jar on the left, a Catawba burnished pottery jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p025_s1011",
+  "pair": 25,
+  "seed": 1011,
+  "a_prompt": "a Mexican Mata Ortiz pottery jar with a thin-walled polished clay body and black-and-red painting, showing interlocking geometric and Mimbres-inspired animal motifs",
+  "b_prompt": "a Serbian Zlakusa pottery jar made from clay mixed with ground calcite, showing a unglazed surface, rounded cooking-vessel form, and sparse incised bands",
+  "ss_prompt": "Neutral studio background: a Mexican Mata Ortiz pottery jar on the left, a Serbian Zlakusa pottery jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p025_s1012",
+  "pair": 25,
+  "seed": 1012,
+  "a_prompt": "a Mexican Mata Ortiz pottery jar with a thin-walled polished clay body and black-and-red painting, showing interlocking geometric and Mimbres-inspired animal motifs",
+  "b_prompt": "a Serbian Zlakusa pottery jar made from clay mixed with ground calcite, showing a unglazed surface, rounded cooking-vessel form, and sparse incised bands",
+  "ss_prompt": "Neutral studio background: a Mexican Mata Ortiz pottery jar on the left, a Serbian Zlakusa pottery jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p025_s1013",
+  "pair": 25,
+  "seed": 1013,
+  "a_prompt": "a Mexican Mata Ortiz pottery jar with a thin-walled polished clay body and black-and-red painting, showing interlocking geometric and Mimbres-inspired animal motifs",
+  "b_prompt": "a Serbian Zlakusa pottery jar made from clay mixed with ground calcite, showing a unglazed surface, rounded cooking-vessel form, and sparse incised bands",
+  "ss_prompt": "Neutral studio background: a Mexican Mata Ortiz pottery jar on the left, a Serbian Zlakusa pottery jar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p026_s1011",
+  "pair": 26,
+  "seed": 1011,
+  "a_prompt": "a Moroccan Safi pottery vase with a glazed earthenware body painted in blue, green, yellow, and brown, showing arabesques and floral medallions",
+  "b_prompt": "a Tunisian Nabeul pottery vase with a white glazed body painted in cobalt blue, turquoise, yellow, and green, showing fish, flowers, and Mediterranean geometric borders",
+  "ss_prompt": "Neutral studio background: a Moroccan Safi pottery vase on the left, a Tunisian Nabeul pottery vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p026_s1012",
+  "pair": 26,
+  "seed": 1012,
+  "a_prompt": "a Moroccan Safi pottery vase with a glazed earthenware body painted in blue, green, yellow, and brown, showing arabesques and floral medallions",
+  "b_prompt": "a Tunisian Nabeul pottery vase with a white glazed body painted in cobalt blue, turquoise, yellow, and green, showing fish, flowers, and Mediterranean geometric borders",
+  "ss_prompt": "Neutral studio background: a Moroccan Safi pottery vase on the left, a Tunisian Nabeul pottery vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p026_s1013",
+  "pair": 26,
+  "seed": 1013,
+  "a_prompt": "a Moroccan Safi pottery vase with a glazed earthenware body painted in blue, green, yellow, and brown, showing arabesques and floral medallions",
+  "b_prompt": "a Tunisian Nabeul pottery vase with a white glazed body painted in cobalt blue, turquoise, yellow, and green, showing fish, flowers, and Mediterranean geometric borders",
+  "ss_prompt": "Neutral studio background: a Moroccan Safi pottery vase on the left, a Tunisian Nabeul pottery vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p027_s1011",
+  "pair": 27,
+  "seed": 1011,
+  "a_prompt": "an English Wedgwood jasperware vase with a matte blue stoneware body and white relief decoration, showing classical figures, laurel swags, and geometric borders",
+  "b_prompt": "a Portuguese Caldas da Rainha ceramic vase with brightly glazed sculptural earthenware, showing naturalistic leaves, fruit, insects, and textured relief surfaces",
+  "ss_prompt": "Neutral studio background: an English Wedgwood jasperware vase on the left, a Portuguese Caldas da Rainha ceramic vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p027_s1012",
+  "pair": 27,
+  "seed": 1012,
+  "a_prompt": "an English Wedgwood jasperware vase with a matte blue stoneware body and white relief decoration, showing classical figures, laurel swags, and geometric borders",
+  "b_prompt": "a Portuguese Caldas da Rainha ceramic vase with brightly glazed sculptural earthenware, showing naturalistic leaves, fruit, insects, and textured relief surfaces",
+  "ss_prompt": "Neutral studio background: an English Wedgwood jasperware vase on the left, a Portuguese Caldas da Rainha ceramic vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p027_s1013",
+  "pair": 27,
+  "seed": 1013,
+  "a_prompt": "an English Wedgwood jasperware vase with a matte blue stoneware body and white relief decoration, showing classical figures, laurel swags, and geometric borders",
+  "b_prompt": "a Portuguese Caldas da Rainha ceramic vase with brightly glazed sculptural earthenware, showing naturalistic leaves, fruit, insects, and textured relief surfaces",
+  "ss_prompt": "Neutral studio background: an English Wedgwood jasperware vase on the left, a Portuguese Caldas da Rainha ceramic vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p028_s1011",
+  "pair": 28,
+  "seed": 1011,
+  "a_prompt": "a Chinese Jun ware ceramic bowl with a thick opalescent blue glaze and irregular purple splashes, showing a simple rounded form and pooled color",
+  "b_prompt": "a Japanese Hagi ware tea bowl with a porous stoneware body and milky white crackled glaze, showing a irregular foot and ash-toned surface",
+  "ss_prompt": "Neutral studio background: a Chinese Jun ware ceramic bowl on the left, a Japanese Hagi ware tea bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p028_s1012",
+  "pair": 28,
+  "seed": 1012,
+  "a_prompt": "a Chinese Jun ware ceramic bowl with a thick opalescent blue glaze and irregular purple splashes, showing a simple rounded form and pooled color",
+  "b_prompt": "a Japanese Hagi ware tea bowl with a porous stoneware body and milky white crackled glaze, showing a irregular foot and ash-toned surface",
+  "ss_prompt": "Neutral studio background: a Chinese Jun ware ceramic bowl on the left, a Japanese Hagi ware tea bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p028_s1013",
+  "pair": 28,
+  "seed": 1013,
+  "a_prompt": "a Chinese Jun ware ceramic bowl with a thick opalescent blue glaze and irregular purple splashes, showing a simple rounded form and pooled color",
+  "b_prompt": "a Japanese Hagi ware tea bowl with a porous stoneware body and milky white crackled glaze, showing a irregular foot and ash-toned surface",
+  "ss_prompt": "Neutral studio background: a Chinese Jun ware ceramic bowl on the left, a Japanese Hagi ware tea bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p029_s1011",
+  "pair": 29,
+  "seed": 1011,
+  "a_prompt": "a Japanese Bizen stoneware vase with an unglazed reddish-brown body marked by natural ash deposits and flame flashes, showing an austere asymmetrical form",
+  "b_prompt": "a French Puisaye stoneware vase with a dark salt-glazed stoneware body and earthy brown-to-gray surface, showing incised bands and robust hand-thrown proportions",
+  "ss_prompt": "Neutral studio background: a Japanese Bizen stoneware vase on the left, a French Puisaye stoneware vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p029_s1012",
+  "pair": 29,
+  "seed": 1012,
+  "a_prompt": "a Japanese Bizen stoneware vase with an unglazed reddish-brown body marked by natural ash deposits and flame flashes, showing an austere asymmetrical form",
+  "b_prompt": "a French Puisaye stoneware vase with a dark salt-glazed stoneware body and earthy brown-to-gray surface, showing incised bands and robust hand-thrown proportions",
+  "ss_prompt": "Neutral studio background: a Japanese Bizen stoneware vase on the left, a French Puisaye stoneware vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p029_s1013",
+  "pair": 29,
+  "seed": 1013,
+  "a_prompt": "a Japanese Bizen stoneware vase with an unglazed reddish-brown body marked by natural ash deposits and flame flashes, showing an austere asymmetrical form",
+  "b_prompt": "a French Puisaye stoneware vase with a dark salt-glazed stoneware body and earthy brown-to-gray surface, showing incised bands and robust hand-thrown proportions",
+  "ss_prompt": "Neutral studio background: a Japanese Bizen stoneware vase on the left, a French Puisaye stoneware vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p030_s1011",
+  "pair": 30,
+  "seed": 1011,
+  "a_prompt": "a Chinese Longquan celadon vase with a thick translucent sea-green glaze over a balanced stoneware form, showing carved lotus petals and defined ridges",
+  "b_prompt": "a Thai Si Satchanalai celadon vase with an olive-green crackled glaze over gray stoneware, showing incised lotus petals, ring bands, and a high-shouldered profile",
+  "ss_prompt": "Neutral studio background: a Chinese Longquan celadon vase on the left, a Thai Si Satchanalai celadon vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p030_s1012",
+  "pair": 30,
+  "seed": 1012,
+  "a_prompt": "a Chinese Longquan celadon vase with a thick translucent sea-green glaze over a balanced stoneware form, showing carved lotus petals and defined ridges",
+  "b_prompt": "a Thai Si Satchanalai celadon vase with an olive-green crackled glaze over gray stoneware, showing incised lotus petals, ring bands, and a high-shouldered profile",
+  "ss_prompt": "Neutral studio background: a Chinese Longquan celadon vase on the left, a Thai Si Satchanalai celadon vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p030_s1013",
+  "pair": 30,
+  "seed": 1013,
+  "a_prompt": "a Chinese Longquan celadon vase with a thick translucent sea-green glaze over a balanced stoneware form, showing carved lotus petals and defined ridges",
+  "b_prompt": "a Thai Si Satchanalai celadon vase with an olive-green crackled glaze over gray stoneware, showing incised lotus petals, ring bands, and a high-shouldered profile",
+  "ss_prompt": "Neutral studio background: a Chinese Longquan celadon vase on the left, a Thai Si Satchanalai celadon vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p031_s1012",
+  "pair": 31,
+  "seed": 1012,
+  "a_prompt": "a Japanese maki-e lacquerware box with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs",
+  "b_prompt": "a Thai lai rod nam lacquerware box with black lacquer covered by gold-leaf resist decoration, showing flame, deity, and scrolling vegetal patterns",
+  "ss_prompt": "Neutral studio background: a Japanese maki-e lacquerware box on the left, a Thai lai rod nam lacquerware box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p032_s1011",
+  "pair": 32,
+  "seed": 1011,
+  "a_prompt": "a Japanese maki-e lacquerware tray with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs",
+  "b_prompt": "a Burmese shwe zawa lacquerware tray with a black lacquer ground and engraved gold-leaf decoration, showing courtly figures, mythical animals, and filled borders",
+  "ss_prompt": "Neutral studio background: a Japanese maki-e lacquerware tray on the left, a Burmese shwe zawa lacquerware tray on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p032_s1012",
+  "pair": 32,
+  "seed": 1012,
+  "a_prompt": "a Japanese maki-e lacquerware tray with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs",
+  "b_prompt": "a Burmese shwe zawa lacquerware tray with a black lacquer ground and engraved gold-leaf decoration, showing courtly figures, mythical animals, and filled borders",
+  "ss_prompt": "Neutral studio background: a Japanese maki-e lacquerware tray on the left, a Burmese shwe zawa lacquerware tray on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p032_s1013",
+  "pair": 32,
+  "seed": 1013,
+  "a_prompt": "a Japanese maki-e lacquerware tray with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs",
+  "b_prompt": "a Burmese shwe zawa lacquerware tray with a black lacquer ground and engraved gold-leaf decoration, showing courtly figures, mythical animals, and filled borders",
+  "ss_prompt": "Neutral studio background: a Japanese maki-e lacquerware tray on the left, a Burmese shwe zawa lacquerware tray on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p033_s1011",
+  "pair": 33,
+  "seed": 1011,
+  "a_prompt": "a Chinese carved cinnabar-lacquer box with thick vermilion lacquer carved in deep relief, showing peonies, dragons, and layered landscape scenes over geometric grounds",
+  "b_prompt": "a Bhutanese lacquered wooden box with a red or black lacquer surface, showing hand-painted lotus petals, cloud bands, and Buddhist auspicious motifs",
+  "ss_prompt": "Neutral studio background: a Chinese carved cinnabar-lacquer box on the left, a Bhutanese lacquered wooden box on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p033_s1012",
+  "pair": 33,
+  "seed": 1012,
+  "a_prompt": "a Chinese carved cinnabar-lacquer box with thick vermilion lacquer carved in deep relief, showing peonies, dragons, and layered landscape scenes over geometric grounds",
+  "b_prompt": "a Bhutanese lacquered wooden box with a red or black lacquer surface, showing hand-painted lotus petals, cloud bands, and Buddhist auspicious motifs",
+  "ss_prompt": "Neutral studio background: a Chinese carved cinnabar-lacquer box on the left, a Bhutanese lacquered wooden box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p033_s1013",
+  "pair": 33,
+  "seed": 1013,
+  "a_prompt": "a Chinese carved cinnabar-lacquer box with thick vermilion lacquer carved in deep relief, showing peonies, dragons, and layered landscape scenes over geometric grounds",
+  "b_prompt": "a Bhutanese lacquered wooden box with a red or black lacquer surface, showing hand-painted lotus petals, cloud bands, and Buddhist auspicious motifs",
+  "ss_prompt": "Neutral studio background: a Chinese carved cinnabar-lacquer box on the left, a Bhutanese lacquered wooden box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p034_s1011",
+  "pair": 34,
+  "seed": 1011,
+  "a_prompt": "a Japanese raden lacquerware lidded box with deep black lacquer and iridescent mother-of-pearl shell inlay forming bird, flower, and geometric motifs",
+  "b_prompt": "a Mexican Olinalá lacquerware lidded box made from linaloe wood, with red, ochre, green, blue, and white floral and animal decoration and incised rayado patterns",
+  "ss_prompt": "Neutral studio background: a Japanese raden lacquerware lidded box on the left, a Mexican Olinalá lacquerware lidded box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p034_s1012",
+  "pair": 34,
+  "seed": 1012,
+  "a_prompt": "a Japanese raden lacquerware lidded box with deep black lacquer and iridescent mother-of-pearl shell inlay forming bird, flower, and geometric motifs",
+  "b_prompt": "a Mexican Olinalá lacquerware lidded box made from linaloe wood, with red, ochre, green, blue, and white floral and animal decoration and incised rayado patterns",
+  "ss_prompt": "Neutral studio background: a Japanese raden lacquerware lidded box on the left, a Mexican Olinalá lacquerware lidded box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p034_s1013",
+  "pair": 34,
+  "seed": 1013,
+  "a_prompt": "a Japanese raden lacquerware lidded box with deep black lacquer and iridescent mother-of-pearl shell inlay forming bird, flower, and geometric motifs",
+  "b_prompt": "a Mexican Olinalá lacquerware lidded box made from linaloe wood, with red, ochre, green, blue, and white floral and animal decoration and incised rayado patterns",
+  "ss_prompt": "Neutral studio background: a Japanese raden lacquerware lidded box on the left, a Mexican Olinalá lacquerware lidded box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p035_s1011",
+  "pair": 35,
+  "seed": 1011,
+  "a_prompt": "a Japanese raden lacquerware tray with deep black lacquer and iridescent mother-of-pearl shell inlay forming bird, flower, and geometric motifs",
+  "b_prompt": "a Korean najeonchilgi lacquerware tray with black lacquer and mother-of-pearl inlay, showing chrysanthemum scrolls, cranes, and repeated geometric borders",
+  "ss_prompt": "Neutral studio background: a Japanese raden lacquerware tray on the left, a Korean najeonchilgi lacquerware tray on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p035_s1012",
+  "pair": 35,
+  "seed": 1012,
+  "a_prompt": "a Japanese raden lacquerware tray with deep black lacquer and iridescent mother-of-pearl shell inlay forming bird, flower, and geometric motifs",
+  "b_prompt": "a Korean najeonchilgi lacquerware tray with black lacquer and mother-of-pearl inlay, showing chrysanthemum scrolls, cranes, and repeated geometric borders",
+  "ss_prompt": "Neutral studio background: a Japanese raden lacquerware tray on the left, a Korean najeonchilgi lacquerware tray on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p035_s1013",
+  "pair": 35,
+  "seed": 1013,
+  "a_prompt": "a Japanese raden lacquerware tray with deep black lacquer and iridescent mother-of-pearl shell inlay forming bird, flower, and geometric motifs",
+  "b_prompt": "a Korean najeonchilgi lacquerware tray with black lacquer and mother-of-pearl inlay, showing chrysanthemum scrolls, cranes, and repeated geometric borders",
+  "ss_prompt": "Neutral studio background: a Japanese raden lacquerware tray on the left, a Korean najeonchilgi lacquerware tray on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p036_s1011",
+  "pair": 36,
+  "seed": 1011,
+  "a_prompt": "a Japanese maki-e lacquerware vase with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs",
+  "b_prompt": "a Vietnamese sơn mài lacquerware vase with layered black, red, and gold lacquer polished to depth, showing stylized bamboo, village, and eggshell-inlay motifs",
+  "ss_prompt": "Neutral studio background: a Japanese maki-e lacquerware vase on the left, a Vietnamese sơn mài lacquerware vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p036_s1012",
+  "pair": 36,
+  "seed": 1012,
+  "a_prompt": "a Japanese maki-e lacquerware vase with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs",
+  "b_prompt": "a Vietnamese sơn mài lacquerware vase with layered black, red, and gold lacquer polished to depth, showing stylized bamboo, village, and eggshell-inlay motifs",
+  "ss_prompt": "Neutral studio background: a Japanese maki-e lacquerware vase on the left, a Vietnamese sơn mài lacquerware vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p036_s1013",
+  "pair": 36,
+  "seed": 1013,
+  "a_prompt": "a Japanese maki-e lacquerware vase with deep black lacquer sprinkled with gold and silver powder, showing cranes, pine branches, and landscape motifs",
+  "b_prompt": "a Vietnamese sơn mài lacquerware vase with layered black, red, and gold lacquer polished to depth, showing stylized bamboo, village, and eggshell-inlay motifs",
+  "ss_prompt": "Neutral studio background: a Japanese maki-e lacquerware vase on the left, a Vietnamese sơn mài lacquerware vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p037_s1011",
+  "pair": 37,
+  "seed": 1011,
+  "a_prompt": "a Chinese black-lacquer wooden bowl with a deep-black lacquer surface and red or gold linear decoration, showing a thin balanced profile",
+  "b_prompt": "a Burmese yun lacquerware bowl with black lacquer incised and filled with red, green, and yellow pigments, showing zodiac figures and geometric bands",
+  "ss_prompt": "Neutral studio background: a Chinese black-lacquer wooden bowl on the left, a Burmese yun lacquerware bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p037_s1012",
+  "pair": 37,
+  "seed": 1012,
+  "a_prompt": "a Chinese black-lacquer wooden bowl with a deep-black lacquer surface and red or gold linear decoration, showing a thin balanced profile",
+  "b_prompt": "a Burmese yun lacquerware bowl with black lacquer incised and filled with red, green, and yellow pigments, showing zodiac figures and geometric bands",
+  "ss_prompt": "Neutral studio background: a Chinese black-lacquer wooden bowl on the left, a Burmese yun lacquerware bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p037_s1013",
+  "pair": 37,
+  "seed": 1013,
+  "a_prompt": "a Chinese black-lacquer wooden bowl with a deep-black lacquer surface and red or gold linear decoration, showing a thin balanced profile",
+  "b_prompt": "a Burmese yun lacquerware bowl with black lacquer incised and filled with red, green, and yellow pigments, showing zodiac figures and geometric bands",
+  "ss_prompt": "Neutral studio background: a Chinese black-lacquer wooden bowl on the left, a Burmese yun lacquerware bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p038_s1011",
+  "pair": 38,
+  "seed": 1011,
+  "a_prompt": "a Russian Khokhloma painted wooden bowl with a black and gold ground painted in red, showing curling berries, leaves, and sweeping floral stems",
+  "b_prompt": "a Ryukyuan lacquerware bowl with a vermilion lacquer surface and delicate gold decoration, showing hibiscus, birds, and island landscape motifs",
+  "ss_prompt": "Neutral studio background: a Russian Khokhloma painted wooden bowl on the left, a Ryukyuan lacquerware bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p038_s1012",
+  "pair": 38,
+  "seed": 1012,
+  "a_prompt": "a Russian Khokhloma painted wooden bowl with a black and gold ground painted in red, showing curling berries, leaves, and sweeping floral stems",
+  "b_prompt": "a Ryukyuan lacquerware bowl with a vermilion lacquer surface and delicate gold decoration, showing hibiscus, birds, and island landscape motifs",
+  "ss_prompt": "Neutral studio background: a Russian Khokhloma painted wooden bowl on the left, a Ryukyuan lacquerware bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p038_s1013",
+  "pair": 38,
+  "seed": 1013,
+  "a_prompt": "a Russian Khokhloma painted wooden bowl with a black and gold ground painted in red, showing curling berries, leaves, and sweeping floral stems",
+  "b_prompt": "a Ryukyuan lacquerware bowl with a vermilion lacquer surface and delicate gold decoration, showing hibiscus, birds, and island landscape motifs",
+  "ss_prompt": "Neutral studio background: a Russian Khokhloma painted wooden bowl on the left, a Ryukyuan lacquerware bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p039_s1011",
+  "pair": 39,
+  "seed": 1011,
+  "a_prompt": "a Japanese Tsugaru-nuri lacquerware box with many polished lacquer layers forming mottled red, black, yellow, and green patterns across a geometric form",
+  "b_prompt": "a Kashmiri papier-mâché lacquer box with a lacquered paper-pulp body painted in gold and jewel colors, showing chinar leaves, flowers, and arabesques",
+  "ss_prompt": "Neutral studio background: a Japanese Tsugaru-nuri lacquerware box on the left, a Kashmiri papier-mâché lacquer box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p039_s1012",
+  "pair": 39,
+  "seed": 1012,
+  "a_prompt": "a Japanese Tsugaru-nuri lacquerware box with many polished lacquer layers forming mottled red, black, yellow, and green patterns across a geometric form",
+  "b_prompt": "a Kashmiri papier-mâché lacquer box with a lacquered paper-pulp body painted in gold and jewel colors, showing chinar leaves, flowers, and arabesques",
+  "ss_prompt": "Neutral studio background: a Japanese Tsugaru-nuri lacquerware box on the left, a Kashmiri papier-mâché lacquer box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p039_s1013",
+  "pair": 39,
+  "seed": 1013,
+  "a_prompt": "a Japanese Tsugaru-nuri lacquerware box with many polished lacquer layers forming mottled red, black, yellow, and green patterns across a geometric form",
+  "b_prompt": "a Kashmiri papier-mâché lacquer box with a lacquered paper-pulp body painted in gold and jewel colors, showing chinar leaves, flowers, and arabesques",
+  "ss_prompt": "Neutral studio background: a Japanese Tsugaru-nuri lacquerware box on the left, a Kashmiri papier-mâché lacquer box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p040_s1011",
+  "pair": 40,
+  "seed": 1011,
+  "a_prompt": "a Chinese lacquered folding screen with deep black lacquer, gilded outlines, and carved or painted garden scenes showing pavilions, birds, and flowering trees",
+  "b_prompt": "a Vietnamese sơn mài lacquer screen with layered black, red, and gold lacquer polished to depth, showing stylized village scenes, bamboo, and eggshell inlay",
+  "ss_prompt": "Neutral studio background: a Chinese lacquered folding screen on the left, a Vietnamese sơn mài lacquer screen on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p040_s1012",
+  "pair": 40,
+  "seed": 1012,
+  "a_prompt": "a Chinese lacquered folding screen with deep black lacquer, gilded outlines, and carved or painted garden scenes showing pavilions, birds, and flowering trees",
+  "b_prompt": "a Vietnamese sơn mài lacquer screen with layered black, red, and gold lacquer polished to depth, showing stylized village scenes, bamboo, and eggshell inlay",
+  "ss_prompt": "Neutral studio background: a Chinese lacquered folding screen on the left, a Vietnamese sơn mài lacquer screen on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p040_s1013",
+  "pair": 40,
+  "seed": 1013,
+  "a_prompt": "a Chinese lacquered folding screen with deep black lacquer, gilded outlines, and carved or painted garden scenes showing pavilions, birds, and flowering trees",
+  "b_prompt": "a Vietnamese sơn mài lacquer screen with layered black, red, and gold lacquer polished to depth, showing stylized village scenes, bamboo, and eggshell inlay",
+  "ss_prompt": "Neutral studio background: a Chinese lacquered folding screen on the left, a Vietnamese sơn mài lacquer screen on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p041_s1011",
+  "pair": 41,
+  "seed": 1011,
+  "a_prompt": "a Chinese cloisonné vase with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs",
+  "b_prompt": "a Georgian Minankari enamel vase with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork",
+  "ss_prompt": "Neutral studio background: a Chinese cloisonné vase on the left, a Georgian Minankari enamel vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p041_s1012",
+  "pair": 41,
+  "seed": 1012,
+  "a_prompt": "a Chinese cloisonné vase with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs",
+  "b_prompt": "a Georgian Minankari enamel vase with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork",
+  "ss_prompt": "Neutral studio background: a Chinese cloisonné vase on the left, a Georgian Minankari enamel vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p041_s1013",
+  "pair": 41,
+  "seed": 1013,
+  "a_prompt": "a Chinese cloisonné vase with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs",
+  "b_prompt": "a Georgian Minankari enamel vase with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork",
+  "ss_prompt": "Neutral studio background: a Chinese cloisonné vase on the left, a Georgian Minankari enamel vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p042_s1012",
+  "pair": 42,
+  "seed": 1012,
+  "a_prompt": "a Chinese cloisonné box with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs",
+  "b_prompt": "a Korean chilbo enamel box with colored enamel over a metal base, showing simplified plum blossoms, cranes, and geometric motifs in compact panels",
+  "ss_prompt": "Neutral studio background: a Chinese cloisonné box on the left, a Korean chilbo enamel box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p043_s1011",
+  "pair": 43,
+  "seed": 1011,
+  "a_prompt": "a Russian Fabergé-style guilloché enamel box with translucent enamel over machine-engraved radiating patterns, showing pastel color fields, gold mounts, and jeweled accents",
+  "b_prompt": "an Indian Jaipur meenakari enamel box with opaque red, green, blue, and white enamel on gilded metal, showing peacocks, flowers, and scrolling foliage",
+  "ss_prompt": "Neutral studio background: a Russian Fabergé-style guilloché enamel box on the left, an Indian Jaipur meenakari enamel box on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p043_s1012",
+  "pair": 43,
+  "seed": 1012,
+  "a_prompt": "a Russian Fabergé-style guilloché enamel box with translucent enamel over machine-engraved radiating patterns, showing pastel color fields, gold mounts, and jeweled accents",
+  "b_prompt": "an Indian Jaipur meenakari enamel box with opaque red, green, blue, and white enamel on gilded metal, showing peacocks, flowers, and scrolling foliage",
+  "ss_prompt": "Neutral studio background: a Russian Fabergé-style guilloché enamel box on the left, an Indian Jaipur meenakari enamel box on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p043_s1013",
+  "pair": 43,
+  "seed": 1013,
+  "a_prompt": "a Russian Fabergé-style guilloché enamel box with translucent enamel over machine-engraved radiating patterns, showing pastel color fields, gold mounts, and jeweled accents",
+  "b_prompt": "an Indian Jaipur meenakari enamel box with opaque red, green, blue, and white enamel on gilded metal, showing peacocks, flowers, and scrolling foliage",
+  "ss_prompt": "Neutral studio background: a Russian Fabergé-style guilloché enamel box on the left, an Indian Jaipur meenakari enamel box on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p044_s1011",
+  "pair": 44,
+  "seed": 1011,
+  "a_prompt": "a Japanese shippō cloisonné enamel box with colored enamel cells divided by silver wires, showing chrysanthemums, butterflies, and graded pictorial grounds",
+  "b_prompt": "a Russian Rostov finift painted-enamel box with miniature enamel painting on a white metal-mounted plaque, showing delicate flowers, saints, or pastoral scenes in pastel colors",
+  "ss_prompt": "Neutral studio background: a Japanese shippō cloisonné enamel box on the left, a Russian Rostov finift painted-enamel box on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p044_s1012",
+  "pair": 44,
+  "seed": 1012,
+  "a_prompt": "a Japanese shippō cloisonné enamel box with colored enamel cells divided by silver wires, showing chrysanthemums, butterflies, and graded pictorial grounds",
+  "b_prompt": "a Russian Rostov finift painted-enamel box with miniature enamel painting on a white metal-mounted plaque, showing delicate flowers, saints, or pastoral scenes in pastel colors",
+  "ss_prompt": "Neutral studio background: a Japanese shippō cloisonné enamel box on the left, a Russian Rostov finift painted-enamel box on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p044_s1013",
+  "pair": 44,
+  "seed": 1013,
+  "a_prompt": "a Japanese shippō cloisonné enamel box with colored enamel cells divided by silver wires, showing chrysanthemums, butterflies, and graded pictorial grounds",
+  "b_prompt": "a Russian Rostov finift painted-enamel box with miniature enamel painting on a white metal-mounted plaque, showing delicate flowers, saints, or pastoral scenes in pastel colors",
+  "ss_prompt": "Neutral studio background: a Japanese shippō cloisonné enamel box on the left, a Russian Rostov finift painted-enamel box on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p045_s1011",
+  "pair": 45,
+  "seed": 1011,
+  "a_prompt": "a Spanish Toledo damascened box made of blackened steel inlaid with gold and silver, showing Moorish arabesques and geometric filigree patterns",
+  "b_prompt": "a Japanese nunome-zōgan metal-inlay box made of dark iron overlaid with gold and silver textile-like inlay, showing waves, flowers, and geometric bands",
+  "ss_prompt": "Neutral studio background: a Spanish Toledo damascened box on the left, a Japanese nunome-zōgan metal-inlay box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p045_s1012",
+  "pair": 45,
+  "seed": 1012,
+  "a_prompt": "a Spanish Toledo damascened box made of blackened steel inlaid with gold and silver, showing Moorish arabesques and geometric filigree patterns",
+  "b_prompt": "a Japanese nunome-zōgan metal-inlay box made of dark iron overlaid with gold and silver textile-like inlay, showing waves, flowers, and geometric bands",
+  "ss_prompt": "Neutral studio background: a Spanish Toledo damascened box on the left, a Japanese nunome-zōgan metal-inlay box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p045_s1013",
+  "pair": 45,
+  "seed": 1013,
+  "a_prompt": "a Spanish Toledo damascened box made of blackened steel inlaid with gold and silver, showing Moorish arabesques and geometric filigree patterns",
+  "b_prompt": "a Japanese nunome-zōgan metal-inlay box made of dark iron overlaid with gold and silver textile-like inlay, showing waves, flowers, and geometric bands",
+  "ss_prompt": "Neutral studio background: a Spanish Toledo damascened box on the left, a Japanese nunome-zōgan metal-inlay box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p046_s1011",
+  "pair": 46,
+  "seed": 1011,
+  "a_prompt": "a Spanish Toledo damascened vase made of blackened steel inlaid with gold and silver, showing Moorish arabesques and geometric filigree patterns",
+  "b_prompt": "a Korean ipsa metal-inlay vase made of dark patinated metal inlaid with silver wire, showing cranes, clouds, and sparse linear landscape motifs",
+  "ss_prompt": "Neutral studio background: a Spanish Toledo damascened vase on the left, a Korean ipsa metal-inlay vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p046_s1012",
+  "pair": 46,
+  "seed": 1012,
+  "a_prompt": "a Spanish Toledo damascened vase made of blackened steel inlaid with gold and silver, showing Moorish arabesques and geometric filigree patterns",
+  "b_prompt": "a Korean ipsa metal-inlay vase made of dark patinated metal inlaid with silver wire, showing cranes, clouds, and sparse linear landscape motifs",
+  "ss_prompt": "Neutral studio background: a Spanish Toledo damascened vase on the left, a Korean ipsa metal-inlay vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p046_s1013",
+  "pair": 46,
+  "seed": 1013,
+  "a_prompt": "a Spanish Toledo damascened vase made of blackened steel inlaid with gold and silver, showing Moorish arabesques and geometric filigree patterns",
+  "b_prompt": "a Korean ipsa metal-inlay vase made of dark patinated metal inlaid with silver wire, showing cranes, clouds, and sparse linear landscape motifs",
+  "ss_prompt": "Neutral studio background: a Spanish Toledo damascened vase on the left, a Korean ipsa metal-inlay vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p047_s1011",
+  "pair": 47,
+  "seed": 1011,
+  "a_prompt": "an Indian Bidriware vase made of blackened zinc alloy inlaid with silver, showing poppy flowers, geometric lattices, and arabesques",
+  "b_prompt": "a Syrian Damascene inlaid-brass vase made of darkened brass inlaid with silver and copper, showing calligraphic bands, interlaced stars, and scrolling arabesques",
+  "ss_prompt": "Neutral studio background: an Indian Bidriware vase on the left, a Syrian Damascene inlaid-brass vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p047_s1012",
+  "pair": 47,
+  "seed": 1012,
+  "a_prompt": "an Indian Bidriware vase made of blackened zinc alloy inlaid with silver, showing poppy flowers, geometric lattices, and arabesques",
+  "b_prompt": "a Syrian Damascene inlaid-brass vase made of darkened brass inlaid with silver and copper, showing calligraphic bands, interlaced stars, and scrolling arabesques",
+  "ss_prompt": "Neutral studio background: an Indian Bidriware vase on the left, a Syrian Damascene inlaid-brass vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p047_s1013",
+  "pair": 47,
+  "seed": 1013,
+  "a_prompt": "an Indian Bidriware vase made of blackened zinc alloy inlaid with silver, showing poppy flowers, geometric lattices, and arabesques",
+  "b_prompt": "a Syrian Damascene inlaid-brass vase made of darkened brass inlaid with silver and copper, showing calligraphic bands, interlaced stars, and scrolling arabesques",
+  "ss_prompt": "Neutral studio background: an Indian Bidriware vase on the left, a Syrian Damascene inlaid-brass vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p048_s1011",
+  "pair": 48,
+  "seed": 1011,
+  "a_prompt": "an Indian Bidriware box made of blackened zinc alloy inlaid with silver, showing poppy flowers, geometric lattices, and arabesques",
+  "b_prompt": "an Egyptian Mamluk-style inlaid-brass box made of brass inlaid with silver and copper, showing monumental calligraphy, interlaced medallions, and geometric borders",
+  "ss_prompt": "Neutral studio background: an Indian Bidriware box on the left, an Egyptian Mamluk-style inlaid-brass box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p048_s1012",
+  "pair": 48,
+  "seed": 1012,
+  "a_prompt": "an Indian Bidriware box made of blackened zinc alloy inlaid with silver, showing poppy flowers, geometric lattices, and arabesques",
+  "b_prompt": "an Egyptian Mamluk-style inlaid-brass box made of brass inlaid with silver and copper, showing monumental calligraphy, interlaced medallions, and geometric borders",
+  "ss_prompt": "Neutral studio background: an Indian Bidriware box on the left, an Egyptian Mamluk-style inlaid-brass box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p048_s1013",
+  "pair": 48,
+  "seed": 1013,
+  "a_prompt": "an Indian Bidriware box made of blackened zinc alloy inlaid with silver, showing poppy flowers, geometric lattices, and arabesques",
+  "b_prompt": "an Egyptian Mamluk-style inlaid-brass box made of brass inlaid with silver and copper, showing monumental calligraphy, interlaced medallions, and geometric borders",
+  "ss_prompt": "Neutral studio background: an Indian Bidriware box on the left, an Egyptian Mamluk-style inlaid-brass box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p049_s1011",
+  "pair": 49,
+  "seed": 1011,
+  "a_prompt": "a Chinese cloisonné enamel plate with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs",
+  "b_prompt": "a French Limoges painted-enamel plate with opaque and translucent enamel painted over copper, showing Renaissance figures, grisaille shading, and jewel-toned borders",
+  "ss_prompt": "Neutral studio background: a Chinese cloisonné enamel plate on the left, a French Limoges painted-enamel plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p049_s1013",
+  "pair": 49,
+  "seed": 1013,
+  "a_prompt": "a Chinese cloisonné enamel plate with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs",
+  "b_prompt": "a French Limoges painted-enamel plate with opaque and translucent enamel painted over copper, showing Renaissance figures, grisaille shading, and jewel-toned borders",
+  "ss_prompt": "Neutral studio background: a Chinese cloisonné enamel plate on the left, a French Limoges painted-enamel plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p050_s1011",
+  "pair": 50,
+  "seed": 1011,
+  "a_prompt": "a Persian minakari enamel plate with blue, turquoise, red, and white enamel over copper, showing floral arabesques and central medallions",
+  "b_prompt": "a Georgian Minankari enamel plate with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork",
+  "ss_prompt": "Neutral studio background: a Persian minakari enamel plate on the left, a Georgian Minankari enamel plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p050_s1012",
+  "pair": 50,
+  "seed": 1012,
+  "a_prompt": "a Persian minakari enamel plate with blue, turquoise, red, and white enamel over copper, showing floral arabesques and central medallions",
+  "b_prompt": "a Georgian Minankari enamel plate with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork",
+  "ss_prompt": "Neutral studio background: a Persian minakari enamel plate on the left, a Georgian Minankari enamel plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p050_s1013",
+  "pair": 50,
+  "seed": 1013,
+  "a_prompt": "a Persian minakari enamel plate with blue, turquoise, red, and white enamel over copper, showing floral arabesques and central medallions",
+  "b_prompt": "a Georgian Minankari enamel plate with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork",
+  "ss_prompt": "Neutral studio background: a Persian minakari enamel plate on the left, a Georgian Minankari enamel plate on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p052_s1011",
+  "pair": 52,
+  "seed": 1011,
+  "a_prompt": "an Ottoman tinned-copper ewer with a reflective silver-toned tinned surface, tall curved spout, and chased tulip, cypress, and arabesque decoration",
+  "b_prompt": "a Bosnian engraved-copper coffee ewer with a copper body, long curved spout, and hand-hammered rosette, star, and interlaced geometric motifs",
+  "ss_prompt": "Neutral studio background: an Ottoman tinned-copper ewer on the left, a Bosnian engraved-copper coffee ewer on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p054_s1012",
+  "pair": 54,
+  "seed": 1012,
+  "a_prompt": "a Mexican Taxco silver bowl with a polished hand-hammered silver surface and modern curves, showing geometric or pre-Columbian-inspired accents",
+  "b_prompt": "an Indonesian Kotagede silver bowl with a oxidized silver surface worked in repoussé and filigree, showing lotus scrolls, vines, and stippled grounds",
+  "ss_prompt": "Neutral studio background: a Mexican Taxco silver bowl on the left, an Indonesian Kotagede silver bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p054_s1013",
+  "pair": 54,
+  "seed": 1013,
+  "a_prompt": "a Mexican Taxco silver bowl with a polished hand-hammered silver surface and modern curves, showing geometric or pre-Columbian-inspired accents",
+  "b_prompt": "an Indonesian Kotagede silver bowl with a oxidized silver surface worked in repoussé and filigree, showing lotus scrolls, vines, and stippled grounds",
+  "ss_prompt": "Neutral studio background: a Mexican Taxco silver bowl on the left, an Indonesian Kotagede silver bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p055_s1011",
+  "pair": 55,
+  "seed": 1011,
+  "a_prompt": "an Indian Dhokra bronze figurine made by lost-wax casting with an earthy bronze surface, showing elongated limbs, coiled-wire textures, and stylized tribal ornament",
+  "b_prompt": "a Ghanaian Asante brass goldweight figurine made by lost-wax casting in compact geometric form, showing a proverb-inspired human, animal, or tool motif with textured details",
+  "ss_prompt": "Neutral studio background: an Indian Dhokra bronze figurine on the left, a Ghanaian Asante brass goldweight figurine on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p055_s1012",
+  "pair": 55,
+  "seed": 1012,
+  "a_prompt": "an Indian Dhokra bronze figurine made by lost-wax casting with an earthy bronze surface, showing elongated limbs, coiled-wire textures, and stylized tribal ornament",
+  "b_prompt": "a Ghanaian Asante brass goldweight figurine made by lost-wax casting in compact geometric form, showing a proverb-inspired human, animal, or tool motif with textured details",
+  "ss_prompt": "Neutral studio background: an Indian Dhokra bronze figurine on the left, a Ghanaian Asante brass goldweight figurine on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p055_s1013",
+  "pair": 55,
+  "seed": 1013,
+  "a_prompt": "an Indian Dhokra bronze figurine made by lost-wax casting with an earthy bronze surface, showing elongated limbs, coiled-wire textures, and stylized tribal ornament",
+  "b_prompt": "a Ghanaian Asante brass goldweight figurine made by lost-wax casting in compact geometric form, showing a proverb-inspired human, animal, or tool motif with textured details",
+  "ss_prompt": "Neutral studio background: an Indian Dhokra bronze figurine on the left, a Ghanaian Asante brass goldweight figurine on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p056_s1011",
+  "pair": 56,
+  "seed": 1011,
+  "a_prompt": "a Benin bronze relief plaque made of cast brass with high-relief court figures, showing patterned robes, coral regalia, and a hierarchical composition",
+  "b_prompt": "a Nepalese repoussé copper plaque made of hammered copper worked from the reverse, showing a Buddhist deity, lotus throne, and flame-like halo with gilded details",
+  "ss_prompt": "Neutral studio background: a Benin bronze relief plaque on the left, a Nepalese repoussé copper plaque on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p056_s1012",
+  "pair": 56,
+  "seed": 1012,
+  "a_prompt": "a Benin bronze relief plaque made of cast brass with high-relief court figures, showing patterned robes, coral regalia, and a hierarchical composition",
+  "b_prompt": "a Nepalese repoussé copper plaque made of hammered copper worked from the reverse, showing a Buddhist deity, lotus throne, and flame-like halo with gilded details",
+  "ss_prompt": "Neutral studio background: a Benin bronze relief plaque on the left, a Nepalese repoussé copper plaque on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p056_s1013",
+  "pair": 56,
+  "seed": 1013,
+  "a_prompt": "a Benin bronze relief plaque made of cast brass with high-relief court figures, showing patterned robes, coral regalia, and a hierarchical composition",
+  "b_prompt": "a Nepalese repoussé copper plaque made of hammered copper worked from the reverse, showing a Buddhist deity, lotus throne, and flame-like halo with gilded details",
+  "ss_prompt": "Neutral studio background: a Benin bronze relief plaque on the left, a Nepalese repoussé copper plaque on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p058_s1011",
+  "pair": 58,
+  "seed": 1011,
+  "a_prompt": "a Russian brass samovar with a polished urn-shaped body, side handles, and ornate spigot, showing engraved floral bands and architectural details",
+  "b_prompt": "an Iranian Qajar brass samovar with a tall faceted brass body, curved handles, and engraved panels showing birds, flowers, and courtly motifs",
+  "ss_prompt": "Neutral studio background: a Russian brass samovar on the left, an Iranian Qajar brass samovar on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p058_s1012",
+  "pair": 58,
+  "seed": 1012,
+  "a_prompt": "a Russian brass samovar with a polished urn-shaped body, side handles, and ornate spigot, showing engraved floral bands and architectural details",
+  "b_prompt": "an Iranian Qajar brass samovar with a tall faceted brass body, curved handles, and engraved panels showing birds, flowers, and courtly motifs",
+  "ss_prompt": "Neutral studio background: a Russian brass samovar on the left, an Iranian Qajar brass samovar on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p058_s1013",
+  "pair": 58,
+  "seed": 1013,
+  "a_prompt": "a Russian brass samovar with a polished urn-shaped body, side handles, and ornate spigot, showing engraved floral bands and architectural details",
+  "b_prompt": "an Iranian Qajar brass samovar with a tall faceted brass body, curved handles, and engraved panels showing birds, flowers, and courtly motifs",
+  "ss_prompt": "Neutral studio background: a Russian brass samovar on the left, an Iranian Qajar brass samovar on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p059_s1011",
+  "pair": 59,
+  "seed": 1011,
+  "a_prompt": "a Tibetan silver ritual box with repoussé silver, turquoise settings, and gilded details, showing lotus petals, cloud scrolls, and Buddhist auspicious symbols",
+  "b_prompt": "a Balkan silver-filigree reliquary box with twisted silver wire and granulated bosses, showing crosses, rosettes, and compact geometric latticework",
+  "ss_prompt": "Neutral studio background: a Tibetan silver ritual box on the left, a Balkan silver-filigree reliquary box on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p059_s1012",
+  "pair": 59,
+  "seed": 1012,
+  "a_prompt": "a Tibetan silver ritual box with repoussé silver, turquoise settings, and gilded details, showing lotus petals, cloud scrolls, and Buddhist auspicious symbols",
+  "b_prompt": "a Balkan silver-filigree reliquary box with twisted silver wire and granulated bosses, showing crosses, rosettes, and compact geometric latticework",
+  "ss_prompt": "Neutral studio background: a Tibetan silver ritual box on the left, a Balkan silver-filigree reliquary box on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p059_s1013",
+  "pair": 59,
+  "seed": 1013,
+  "a_prompt": "a Tibetan silver ritual box with repoussé silver, turquoise settings, and gilded details, showing lotus petals, cloud scrolls, and Buddhist auspicious symbols",
+  "b_prompt": "a Balkan silver-filigree reliquary box with twisted silver wire and granulated bosses, showing crosses, rosettes, and compact geometric latticework",
+  "ss_prompt": "Neutral studio background: a Tibetan silver ritual box on the left, a Balkan silver-filigree reliquary box on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p060_s1011",
+  "pair": 60,
+  "seed": 1011,
+  "a_prompt": "a Chinese bronze ritual bowl with a dark patinated bronze surface and cast relief, showing taotie-like masks, leiwen spirals, and symmetrical handles",
+  "b_prompt": "a Korean bangjja bronze bowl made of hand-hammered bronze with a golden surface, showing a clean resonant form, hammer marks, and minimal ornament",
+  "ss_prompt": "Neutral studio background: a Chinese bronze ritual bowl on the left, a Korean bangjja bronze bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p060_s1012",
+  "pair": 60,
+  "seed": 1012,
+  "a_prompt": "a Chinese bronze ritual bowl with a dark patinated bronze surface and cast relief, showing taotie-like masks, leiwen spirals, and symmetrical handles",
+  "b_prompt": "a Korean bangjja bronze bowl made of hand-hammered bronze with a golden surface, showing a clean resonant form, hammer marks, and minimal ornament",
+  "ss_prompt": "Neutral studio background: a Chinese bronze ritual bowl on the left, a Korean bangjja bronze bowl on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p061_s1011",
+  "pair": 61,
+  "seed": 1011,
+  "a_prompt": "a Japanese silk kimono with a lustrous woven ground and dyed or embroidered decoration, showing cranes, cherry blossoms, water, and seasonal motifs",
+  "b_prompt": "a Lao sinh silk skirt with supplementary-weft silk bands and patterned borders, showing diamonds, serpents, temple forms, and jewel colors",
+  "ss_prompt": "Neutral studio background: a Japanese silk kimono on the left, a Lao sinh silk skirt on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p061_s1012",
+  "pair": 61,
+  "seed": 1012,
+  "a_prompt": "a Japanese silk kimono with a lustrous woven ground and dyed or embroidered decoration, showing cranes, cherry blossoms, water, and seasonal motifs",
+  "b_prompt": "a Lao sinh silk skirt with supplementary-weft silk bands and patterned borders, showing diamonds, serpents, temple forms, and jewel colors",
+  "ss_prompt": "Neutral studio background: a Japanese silk kimono on the left, a Lao sinh silk skirt on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p061_s1013",
+  "pair": 61,
+  "seed": 1013,
+  "a_prompt": "a Japanese silk kimono with a lustrous woven ground and dyed or embroidered decoration, showing cranes, cherry blossoms, water, and seasonal motifs",
+  "b_prompt": "a Lao sinh silk skirt with supplementary-weft silk bands and patterned borders, showing diamonds, serpents, temple forms, and jewel colors",
+  "ss_prompt": "Neutral studio background: a Japanese silk kimono on the left, a Lao sinh silk skirt on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p062_s1011",
+  "pair": 62,
+  "seed": 1011,
+  "a_prompt": "a Japanese silk kimono with a lustrous woven ground and dyed or embroidered decoration, showing cranes, cherry blossoms, water, and seasonal motifs",
+  "b_prompt": "a Cambodian hol silk robe made from weft-ikat silk with feathered pattern edges, showing repeating lozenges, flowers, and temple-inspired motifs",
+  "ss_prompt": "Neutral studio background: a Japanese silk kimono on the left, a Cambodian hol silk robe on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p062_s1012",
+  "pair": 62,
+  "seed": 1012,
+  "a_prompt": "a Japanese silk kimono with a lustrous woven ground and dyed or embroidered decoration, showing cranes, cherry blossoms, water, and seasonal motifs",
+  "b_prompt": "a Cambodian hol silk robe made from weft-ikat silk with feathered pattern edges, showing repeating lozenges, flowers, and temple-inspired motifs",
+  "ss_prompt": "Neutral studio background: a Japanese silk kimono on the left, a Cambodian hol silk robe on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p062_s1013",
+  "pair": 62,
+  "seed": 1013,
+  "a_prompt": "a Japanese silk kimono with a lustrous woven ground and dyed or embroidered decoration, showing cranes, cherry blossoms, water, and seasonal motifs",
+  "b_prompt": "a Cambodian hol silk robe made from weft-ikat silk with feathered pattern edges, showing repeating lozenges, flowers, and temple-inspired motifs",
+  "ss_prompt": "Neutral studio background: a Japanese silk kimono on the left, a Cambodian hol silk robe on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p063_s1011",
+  "pair": 63,
+  "seed": 1011,
+  "a_prompt": "an Indian Banarasi brocade sari woven in rich silk with gold zari, showing floral buta, scrolling vines, and elaborate architectural borders",
+  "b_prompt": "a Bhutanese kushuthara silk kira woven in silk with supplementary-weft patterning, showing geometric flowers, diamonds, and horizontal bands",
+  "ss_prompt": "Neutral studio background: an Indian Banarasi brocade sari on the left, a Bhutanese kushuthara silk kira on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p063_s1012",
+  "pair": 63,
+  "seed": 1012,
+  "a_prompt": "an Indian Banarasi brocade sari woven in rich silk with gold zari, showing floral buta, scrolling vines, and elaborate architectural borders",
+  "b_prompt": "a Bhutanese kushuthara silk kira woven in silk with supplementary-weft patterning, showing geometric flowers, diamonds, and horizontal bands",
+  "ss_prompt": "Neutral studio background: an Indian Banarasi brocade sari on the left, a Bhutanese kushuthara silk kira on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p063_s1013",
+  "pair": 63,
+  "seed": 1013,
+  "a_prompt": "an Indian Banarasi brocade sari woven in rich silk with gold zari, showing floral buta, scrolling vines, and elaborate architectural borders",
+  "b_prompt": "a Bhutanese kushuthara silk kira woven in silk with supplementary-weft patterning, showing geometric flowers, diamonds, and horizontal bands",
+  "ss_prompt": "Neutral studio background: an Indian Banarasi brocade sari on the left, a Bhutanese kushuthara silk kira on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p064_s1011",
+  "pair": 64,
+  "seed": 1011,
+  "a_prompt": "an Indian Banarasi brocade textile panel woven in rich silk with gold zari, showing floral buta, scrolling vines, and elaborate architectural borders",
+  "b_prompt": "a Turkmen keteni silk textile panel woven in narrow bands of red, yellow, green, and purple silk, showing stripes and geometric accents",
+  "ss_prompt": "Neutral studio background: an Indian Banarasi brocade textile panel on the left, a Turkmen keteni silk textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p064_s1012",
+  "pair": 64,
+  "seed": 1012,
+  "a_prompt": "an Indian Banarasi brocade textile panel woven in rich silk with gold zari, showing floral buta, scrolling vines, and elaborate architectural borders",
+  "b_prompt": "a Turkmen keteni silk textile panel woven in narrow bands of red, yellow, green, and purple silk, showing stripes and geometric accents",
+  "ss_prompt": "Neutral studio background: an Indian Banarasi brocade textile panel on the left, a Turkmen keteni silk textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p064_s1013",
+  "pair": 64,
+  "seed": 1013,
+  "a_prompt": "an Indian Banarasi brocade textile panel woven in rich silk with gold zari, showing floral buta, scrolling vines, and elaborate architectural borders",
+  "b_prompt": "a Turkmen keteni silk textile panel woven in narrow bands of red, yellow, green, and purple silk, showing stripes and geometric accents",
+  "ss_prompt": "Neutral studio background: an Indian Banarasi brocade textile panel on the left, a Turkmen keteni silk textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p066_s1011",
+  "pair": 66,
+  "seed": 1011,
+  "a_prompt": "a Chinese silk-brocade robe woven with colored silk and gold thread, showing dragons, clouds, waves, and organized auspicious emblems",
+  "b_prompt": "an Assamese muga-silk robe woven from naturally golden silk with red, green, and black supplementary motifs, showing stylized flowers and geometric borders",
+  "ss_prompt": "Neutral studio background: a Chinese silk-brocade robe on the left, an Assamese muga-silk robe on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p066_s1012",
+  "pair": 66,
+  "seed": 1012,
+  "a_prompt": "a Chinese silk-brocade robe woven with colored silk and gold thread, showing dragons, clouds, waves, and organized auspicious emblems",
+  "b_prompt": "an Assamese muga-silk robe woven from naturally golden silk with red, green, and black supplementary motifs, showing stylized flowers and geometric borders",
+  "ss_prompt": "Neutral studio background: a Chinese silk-brocade robe on the left, an Assamese muga-silk robe on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p066_s1013",
+  "pair": 66,
+  "seed": 1013,
+  "a_prompt": "a Chinese silk-brocade robe woven with colored silk and gold thread, showing dragons, clouds, waves, and organized auspicious emblems",
+  "b_prompt": "an Assamese muga-silk robe woven from naturally golden silk with red, green, and black supplementary motifs, showing stylized flowers and geometric borders",
+  "ss_prompt": "Neutral studio background: a Chinese silk-brocade robe on the left, an Assamese muga-silk robe on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p068_s1011",
+  "pair": 68,
+  "seed": 1011,
+  "a_prompt": "an Indonesian ikat textile panel woven from resist-dyed threads with feathered edges, showing diamonds, ancestor figures, and rhythmic color bands",
+  "b_prompt": "an Iban pua kumbu textile panel woven in warp ikat with deep red, black, and cream yarns, showing powerful hooked figures, spirit motifs, and mirrored geometric bands",
+  "ss_prompt": "Neutral studio background: an Indonesian ikat textile panel on the left, an Iban pua kumbu textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p068_s1012",
+  "pair": 68,
+  "seed": 1012,
+  "a_prompt": "an Indonesian ikat textile panel woven from resist-dyed threads with feathered edges, showing diamonds, ancestor figures, and rhythmic color bands",
+  "b_prompt": "an Iban pua kumbu textile panel woven in warp ikat with deep red, black, and cream yarns, showing powerful hooked figures, spirit motifs, and mirrored geometric bands",
+  "ss_prompt": "Neutral studio background: an Indonesian ikat textile panel on the left, an Iban pua kumbu textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p068_s1013",
+  "pair": 68,
+  "seed": 1013,
+  "a_prompt": "an Indonesian ikat textile panel woven from resist-dyed threads with feathered edges, showing diamonds, ancestor figures, and rhythmic color bands",
+  "b_prompt": "an Iban pua kumbu textile panel woven in warp ikat with deep red, black, and cream yarns, showing powerful hooked figures, spirit motifs, and mirrored geometric bands",
+  "ss_prompt": "Neutral studio background: an Indonesian ikat textile panel on the left, an Iban pua kumbu textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p069_s1011",
+  "pair": 69,
+  "seed": 1011,
+  "a_prompt": "an Indonesian ikat textile panel woven from resist-dyed threads with feathered edges, showing diamonds, ancestor figures, and rhythmic color bands",
+  "b_prompt": "a Sumbanese hinggi textile panel woven in warp ikat with indigo, rust red, and cream, showing horses, roosters, skull trees, and large heraldic figures",
+  "ss_prompt": "Neutral studio background: an Indonesian ikat textile panel on the left, a Sumbanese hinggi textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p069_s1012",
+  "pair": 69,
+  "seed": 1012,
+  "a_prompt": "an Indonesian ikat textile panel woven from resist-dyed threads with feathered edges, showing diamonds, ancestor figures, and rhythmic color bands",
+  "b_prompt": "a Sumbanese hinggi textile panel woven in warp ikat with indigo, rust red, and cream, showing horses, roosters, skull trees, and large heraldic figures",
+  "ss_prompt": "Neutral studio background: an Indonesian ikat textile panel on the left, a Sumbanese hinggi textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p069_s1013",
+  "pair": 69,
+  "seed": 1013,
+  "a_prompt": "an Indonesian ikat textile panel woven from resist-dyed threads with feathered edges, showing diamonds, ancestor figures, and rhythmic color bands",
+  "b_prompt": "a Sumbanese hinggi textile panel woven in warp ikat with indigo, rust red, and cream, showing horses, roosters, skull trees, and large heraldic figures",
+  "ss_prompt": "Neutral studio background: an Indonesian ikat textile panel on the left, a Sumbanese hinggi textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p070_s1011",
+  "pair": 70,
+  "seed": 1011,
+  "a_prompt": "an Indian Patola double-ikat textile panel woven from precisely resist-dyed silk warp and weft, showing dancing figures, elephants, flowers, and geometric grids",
+  "b_prompt": "a Timorese tais textile panel woven in cotton warp ikat with red, black, yellow, and white bands, showing hooks, diamonds, and locally specific ancestral motifs",
+  "ss_prompt": "Neutral studio background: an Indian Patola double-ikat textile panel on the left, a Timorese tais textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p070_s1012",
+  "pair": 70,
+  "seed": 1012,
+  "a_prompt": "an Indian Patola double-ikat textile panel woven from precisely resist-dyed silk warp and weft, showing dancing figures, elephants, flowers, and geometric grids",
+  "b_prompt": "a Timorese tais textile panel woven in cotton warp ikat with red, black, yellow, and white bands, showing hooks, diamonds, and locally specific ancestral motifs",
+  "ss_prompt": "Neutral studio background: an Indian Patola double-ikat textile panel on the left, a Timorese tais textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p070_s1013",
+  "pair": 70,
+  "seed": 1013,
+  "a_prompt": "an Indian Patola double-ikat textile panel woven from precisely resist-dyed silk warp and weft, showing dancing figures, elephants, flowers, and geometric grids",
+  "b_prompt": "a Timorese tais textile panel woven in cotton warp ikat with red, black, yellow, and white bands, showing hooks, diamonds, and locally specific ancestral motifs",
+  "ss_prompt": "Neutral studio background: an Indian Patola double-ikat textile panel on the left, a Timorese tais textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p071_s1011",
+  "pair": 71,
+  "seed": 1011,
+  "a_prompt": "an Indonesian batik cloth with wax-resist dyeing in indigo, brown, and cream, showing parang diagonals, kawung rosettes, and densely repeated floral motifs",
+  "b_prompt": "a Nigerian adire cloth with indigo resist-dyed cotton, showing white circles, grids, comb-like marks, and hand-drawn or stitched geometric patterns",
+  "ss_prompt": "Neutral studio background: an Indonesian batik cloth on the left, a Nigerian adire cloth on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p071_s1012",
+  "pair": 71,
+  "seed": 1012,
+  "a_prompt": "an Indonesian batik cloth with wax-resist dyeing in indigo, brown, and cream, showing parang diagonals, kawung rosettes, and densely repeated floral motifs",
+  "b_prompt": "a Nigerian adire cloth with indigo resist-dyed cotton, showing white circles, grids, comb-like marks, and hand-drawn or stitched geometric patterns",
+  "ss_prompt": "Neutral studio background: an Indonesian batik cloth on the left, a Nigerian adire cloth on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p071_s1013",
+  "pair": 71,
+  "seed": 1013,
+  "a_prompt": "an Indonesian batik cloth with wax-resist dyeing in indigo, brown, and cream, showing parang diagonals, kawung rosettes, and densely repeated floral motifs",
+  "b_prompt": "a Nigerian adire cloth with indigo resist-dyed cotton, showing white circles, grids, comb-like marks, and hand-drawn or stitched geometric patterns",
+  "ss_prompt": "Neutral studio background: an Indonesian batik cloth on the left, a Nigerian adire cloth on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p072_s1011",
+  "pair": 72,
+  "seed": 1011,
+  "a_prompt": "an Indonesian batik textile panel with wax-resist dyeing in indigo, brown, and cream, showing parang diagonals, kawung rosettes, and densely repeated floral motifs",
+  "b_prompt": "a Japanese katazome textile panel with stencil-resist dyeing on cotton in indigo and white, showing waves, chrysanthemums, birds, and repeating geometric motifs",
+  "ss_prompt": "Neutral studio background: an Indonesian batik textile panel on the left, a Japanese katazome textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p072_s1012",
+  "pair": 72,
+  "seed": 1012,
+  "a_prompt": "an Indonesian batik textile panel with wax-resist dyeing in indigo, brown, and cream, showing parang diagonals, kawung rosettes, and densely repeated floral motifs",
+  "b_prompt": "a Japanese katazome textile panel with stencil-resist dyeing on cotton in indigo and white, showing waves, chrysanthemums, birds, and repeating geometric motifs",
+  "ss_prompt": "Neutral studio background: an Indonesian batik textile panel on the left, a Japanese katazome textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p072_s1013",
+  "pair": 72,
+  "seed": 1013,
+  "a_prompt": "an Indonesian batik textile panel with wax-resist dyeing in indigo, brown, and cream, showing parang diagonals, kawung rosettes, and densely repeated floral motifs",
+  "b_prompt": "a Japanese katazome textile panel with stencil-resist dyeing on cotton in indigo and white, showing waves, chrysanthemums, birds, and repeating geometric motifs",
+  "ss_prompt": "Neutral studio background: an Indonesian batik textile panel on the left, a Japanese katazome textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p073_s1011",
+  "pair": 73,
+  "seed": 1011,
+  "a_prompt": "an Indian Ajrakh block-printed cloth with layered resist printing in indigo, madder red, black, and white, showing precisely repeated stars and interlocking geometry",
+  "b_prompt": "a Chinese Nantong blue-calico cloth with indigo resist dyeing on cotton, showing white flowers, birds, fish, and auspicious folk motifs against a deep-blue ground",
+  "ss_prompt": "Neutral studio background: an Indian Ajrakh block-printed cloth on the left, a Chinese Nantong blue-calico cloth on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p073_s1012",
+  "pair": 73,
+  "seed": 1012,
+  "a_prompt": "an Indian Ajrakh block-printed cloth with layered resist printing in indigo, madder red, black, and white, showing precisely repeated stars and interlocking geometry",
+  "b_prompt": "a Chinese Nantong blue-calico cloth with indigo resist dyeing on cotton, showing white flowers, birds, fish, and auspicious folk motifs against a deep-blue ground",
+  "ss_prompt": "Neutral studio background: an Indian Ajrakh block-printed cloth on the left, a Chinese Nantong blue-calico cloth on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p073_s1013",
+  "pair": 73,
+  "seed": 1013,
+  "a_prompt": "an Indian Ajrakh block-printed cloth with layered resist printing in indigo, madder red, black, and white, showing precisely repeated stars and interlocking geometry",
+  "b_prompt": "a Chinese Nantong blue-calico cloth with indigo resist dyeing on cotton, showing white flowers, birds, fish, and auspicious folk motifs against a deep-blue ground",
+  "ss_prompt": "Neutral studio background: an Indian Ajrakh block-printed cloth on the left, a Chinese Nantong blue-calico cloth on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p074_s1011",
+  "pair": 74,
+  "seed": 1011,
+  "a_prompt": "a Mexican Otomi embroidery panel worked in flat satin stitch on pale cotton, showing mirrored birds, deer, flowers, and fantastical animals",
+  "b_prompt": "a Palestinian tatreez embroidery panel worked in red and multicolored cross-stitch, showing cypress trees, stars, feathers, and region-specific geometric motifs",
+  "ss_prompt": "Neutral studio background: a Mexican Otomi embroidery panel on the left, a Palestinian tatreez embroidery panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p075_s1012",
+  "pair": 75,
+  "seed": 1012,
+  "a_prompt": "a Mexican Otomi embroidered blouse worked in flat satin stitch, showing mirrored birds, deer, flowers, and fantastical animals around the neckline and sleeves",
+  "b_prompt": "a Guatemalan huipil blouse woven and embroidered in colors, showing diamonds, birds, maize, and community-specific geometric bands",
+  "ss_prompt": "Neutral studio background: a Mexican Otomi embroidered blouse on the left, a Guatemalan huipil blouse on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p075_s1013",
+  "pair": 75,
+  "seed": 1013,
+  "a_prompt": "a Mexican Otomi embroidered blouse worked in flat satin stitch, showing mirrored birds, deer, flowers, and fantastical animals around the neckline and sleeves",
+  "b_prompt": "a Guatemalan huipil blouse woven and embroidered in colors, showing diamonds, birds, maize, and community-specific geometric bands",
+  "ss_prompt": "Neutral studio background: a Mexican Otomi embroidered blouse on the left, a Guatemalan huipil blouse on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p076_s1011",
+  "pair": 76,
+  "seed": 1011,
+  "a_prompt": "a Japanese sashiko textile panel stitched with white running thread on indigo cotton, showing repeating hemp-leaf, wave, and linked-diamond reinforcement patterns",
+  "b_prompt": "a Romanian ie-embroidery textile panel worked in red, black, blue, and metallic thread, showing vertical floral bands, diamonds, and region-specific geometric motifs",
+  "ss_prompt": "Neutral studio background: a Japanese sashiko textile panel on the left, a Romanian ie-embroidery textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p076_s1012",
+  "pair": 76,
+  "seed": 1012,
+  "a_prompt": "a Japanese sashiko textile panel stitched with white running thread on indigo cotton, showing repeating hemp-leaf, wave, and linked-diamond reinforcement patterns",
+  "b_prompt": "a Romanian ie-embroidery textile panel worked in red, black, blue, and metallic thread, showing vertical floral bands, diamonds, and region-specific geometric motifs",
+  "ss_prompt": "Neutral studio background: a Japanese sashiko textile panel on the left, a Romanian ie-embroidery textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p076_s1013",
+  "pair": 76,
+  "seed": 1013,
+  "a_prompt": "a Japanese sashiko textile panel stitched with white running thread on indigo cotton, showing repeating hemp-leaf, wave, and linked-diamond reinforcement patterns",
+  "b_prompt": "a Romanian ie-embroidery textile panel worked in red, black, blue, and metallic thread, showing vertical floral bands, diamonds, and region-specific geometric motifs",
+  "ss_prompt": "Neutral studio background: a Japanese sashiko textile panel on the left, a Romanian ie-embroidery textile panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p077_s1011",
+  "pair": 77,
+  "seed": 1011,
+  "a_prompt": "a Hungarian Matyó embroidery panel worked in red, pink, blue, yellow, and green thread, showing densely packed roses and curling floral sprays",
+  "b_prompt": "a Slovak Detva embroidery panel worked in chain stitch and satin stitch, showing compact geometric flowers, hearts, and rhythmic folk borders",
+  "ss_prompt": "Neutral studio background: a Hungarian Matyó embroidery panel on the left, a Slovak Detva embroidery panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p077_s1012",
+  "pair": 77,
+  "seed": 1012,
+  "a_prompt": "a Hungarian Matyó embroidery panel worked in red, pink, blue, yellow, and green thread, showing densely packed roses and curling floral sprays",
+  "b_prompt": "a Slovak Detva embroidery panel worked in chain stitch and satin stitch, showing compact geometric flowers, hearts, and rhythmic folk borders",
+  "ss_prompt": "Neutral studio background: a Hungarian Matyó embroidery panel on the left, a Slovak Detva embroidery panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p077_s1013",
+  "pair": 77,
+  "seed": 1013,
+  "a_prompt": "a Hungarian Matyó embroidery panel worked in red, pink, blue, yellow, and green thread, showing densely packed roses and curling floral sprays",
+  "b_prompt": "a Slovak Detva embroidery panel worked in chain stitch and satin stitch, showing compact geometric flowers, hearts, and rhythmic folk borders",
+  "ss_prompt": "Neutral studio background: a Hungarian Matyó embroidery panel on the left, a Slovak Detva embroidery panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p078_s1011",
+  "pair": 78,
+  "seed": 1011,
+  "a_prompt": "an Indian kantha quilt made from layered cotton joined by running stitches, showing rippling lines, lotus flowers, animals, and narrative folk scenes",
+  "b_prompt": "a Korean bojagi patchwork wrapping cloth assembled from translucent or opaque fabric rectangles, showing asymmetrical geometric seams and jewel-toned color blocks",
+  "ss_prompt": "Neutral studio background: an Indian kantha quilt on the left, a Korean bojagi patchwork wrapping cloth on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p078_s1012",
+  "pair": 78,
+  "seed": 1012,
+  "a_prompt": "an Indian kantha quilt made from layered cotton joined by running stitches, showing rippling lines, lotus flowers, animals, and narrative folk scenes",
+  "b_prompt": "a Korean bojagi patchwork wrapping cloth assembled from translucent or opaque fabric rectangles, showing asymmetrical geometric seams and jewel-toned color blocks",
+  "ss_prompt": "Neutral studio background: an Indian kantha quilt on the left, a Korean bojagi patchwork wrapping cloth on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p078_s1013",
+  "pair": 78,
+  "seed": 1013,
+  "a_prompt": "an Indian kantha quilt made from layered cotton joined by running stitches, showing rippling lines, lotus flowers, animals, and narrative folk scenes",
+  "b_prompt": "a Korean bojagi patchwork wrapping cloth assembled from translucent or opaque fabric rectangles, showing asymmetrical geometric seams and jewel-toned color blocks",
+  "ss_prompt": "Neutral studio background: an Indian kantha quilt on the left, a Korean bojagi patchwork wrapping cloth on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p079_s1011",
+  "pair": 79,
+  "seed": 1011,
+  "a_prompt": "a Panamanian mola textile panel made with layered reverse appliqué in colors, showing animals, plants, and maze-like geometric contours",
+  "b_prompt": "a Ukrainian Hutsul embroidery panel worked in cross-stitch with red, orange, black, and green thread, showing diamonds, hooks, and repeated geometric bands",
+  "ss_prompt": "Neutral studio background: a Panamanian mola textile panel on the left, a Ukrainian Hutsul embroidery panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p079_s1012",
+  "pair": 79,
+  "seed": 1012,
+  "a_prompt": "a Panamanian mola textile panel made with layered reverse appliqué in colors, showing animals, plants, and maze-like geometric contours",
+  "b_prompt": "a Ukrainian Hutsul embroidery panel worked in cross-stitch with red, orange, black, and green thread, showing diamonds, hooks, and repeated geometric bands",
+  "ss_prompt": "Neutral studio background: a Panamanian mola textile panel on the left, a Ukrainian Hutsul embroidery panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p079_s1013",
+  "pair": 79,
+  "seed": 1013,
+  "a_prompt": "a Panamanian mola textile panel made with layered reverse appliqué in colors, showing animals, plants, and maze-like geometric contours",
+  "b_prompt": "a Ukrainian Hutsul embroidery panel worked in cross-stitch with red, orange, black, and green thread, showing diamonds, hooks, and repeated geometric bands",
+  "ss_prompt": "Neutral studio background: a Panamanian mola textile panel on the left, a Ukrainian Hutsul embroidery panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p080_s1012",
+  "pair": 80,
+  "seed": 1012,
+  "a_prompt": "a Ghanaian kente cloth woven in narrow strips of silk or rayon, showing alternating geometric blocks in gold, green, red, blue, and black",
+  "b_prompt": "a Bhutanese yathra wool textile woven in thick colored wool with supplementary-weft motifs, showing repeating diamonds, flowers, and horizontal geometric bands",
+  "ss_prompt": "Neutral studio background: a Ghanaian kente cloth on the left, a Bhutanese yathra wool textile on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p080_s1013",
+  "pair": 80,
+  "seed": 1013,
+  "a_prompt": "a Ghanaian kente cloth woven in narrow strips of silk or rayon, showing alternating geometric blocks in gold, green, red, blue, and black",
+  "b_prompt": "a Bhutanese yathra wool textile woven in thick colored wool with supplementary-weft motifs, showing repeating diamonds, flowers, and horizontal geometric bands",
+  "ss_prompt": "Neutral studio background: a Ghanaian kente cloth on the left, a Bhutanese yathra wool textile on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p081_s1011",
+  "pair": 81,
+  "seed": 1011,
+  "a_prompt": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+  "b_prompt": "a Turkmen Tekke carpet with a deep red wool pile and repeated octagonal guls, showing compact black, white, and dark-blue tribal geometry",
+  "ss_prompt": "Neutral studio background: a Persian floral carpet on the left, a Turkmen Tekke carpet on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p081_s1012",
+  "pair": 81,
+  "seed": 1012,
+  "a_prompt": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+  "b_prompt": "a Turkmen Tekke carpet with a deep red wool pile and repeated octagonal guls, showing compact black, white, and dark-blue tribal geometry",
+  "ss_prompt": "Neutral studio background: a Persian floral carpet on the left, a Turkmen Tekke carpet on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p081_s1013",
+  "pair": 81,
+  "seed": 1013,
+  "a_prompt": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+  "b_prompt": "a Turkmen Tekke carpet with a deep red wool pile and repeated octagonal guls, showing compact black, white, and dark-blue tribal geometry",
+  "ss_prompt": "Neutral studio background: a Persian floral carpet on the left, a Turkmen Tekke carpet on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p082_s1011",
+  "pair": 82,
+  "seed": 1011,
+  "a_prompt": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+  "b_prompt": "an Azerbaijani Kuba carpet with a knotted wool pile, showing angular medallions, stylized animals, and blue, red, and ivory geometric borders",
+  "ss_prompt": "Neutral studio background: a Persian floral carpet on the left, an Azerbaijani Kuba carpet on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p083_s1011",
+  "pair": 83,
+  "seed": 1011,
+  "a_prompt": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+  "b_prompt": "an Armenian Karabakh carpet with a wool pile in red, blue, green, and cream, showing floral medallions and elongated geometric forms",
+  "ss_prompt": "Neutral studio background: a Persian floral carpet on the left, an Armenian Karabakh carpet on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p083_s1012",
+  "pair": 83,
+  "seed": 1012,
+  "a_prompt": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+  "b_prompt": "an Armenian Karabakh carpet with a wool pile in red, blue, green, and cream, showing floral medallions and elongated geometric forms",
+  "ss_prompt": "Neutral studio background: a Persian floral carpet on the left, an Armenian Karabakh carpet on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p084_s1011",
+  "pair": 84,
+  "seed": 1011,
+  "a_prompt": "a Moroccan Beni Ourain wool rug with a thick cream wool pile and sparse dark-brown lines, showing large asymmetrical diamonds and open geometric spacing",
+  "b_prompt": "a Ukrainian Hutsul lizhnyk wool rug with a shaggy woven wool surface in gray, cream, brown, and muted color, showing stepped diamonds and rhythmic zigzag bands",
+  "ss_prompt": "Neutral studio background: a Moroccan Beni Ourain wool rug on the left, a Ukrainian Hutsul lizhnyk wool rug on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p084_s1012",
+  "pair": 84,
+  "seed": 1012,
+  "a_prompt": "a Moroccan Beni Ourain wool rug with a thick cream wool pile and sparse dark-brown lines, showing large asymmetrical diamonds and open geometric spacing",
+  "b_prompt": "a Ukrainian Hutsul lizhnyk wool rug with a shaggy woven wool surface in gray, cream, brown, and muted color, showing stepped diamonds and rhythmic zigzag bands",
+  "ss_prompt": "Neutral studio background: a Moroccan Beni Ourain wool rug on the left, a Ukrainian Hutsul lizhnyk wool rug on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p084_s1013",
+  "pair": 84,
+  "seed": 1013,
+  "a_prompt": "a Moroccan Beni Ourain wool rug with a thick cream wool pile and sparse dark-brown lines, showing large asymmetrical diamonds and open geometric spacing",
+  "b_prompt": "a Ukrainian Hutsul lizhnyk wool rug with a shaggy woven wool surface in gray, cream, brown, and muted color, showing stepped diamonds and rhythmic zigzag bands",
+  "ss_prompt": "Neutral studio background: a Moroccan Beni Ourain wool rug on the left, a Ukrainian Hutsul lizhnyk wool rug on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p085_s1011",
+  "pair": 85,
+  "seed": 1011,
+  "a_prompt": "a Turkish flat-woven kilim with interlocked wool wefts in red, blue, orange, and cream, showing hooked diamonds, ram horns, and stepped medallions",
+  "b_prompt": "a Romanian Oltenian kilim with a flat-woven wool surface in red, green, blue, and cream, showing stylized flowers, birds, and vertical bouquet arrangements",
+  "ss_prompt": "Neutral studio background: a Turkish flat-woven kilim on the left, a Romanian Oltenian kilim on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p085_s1012",
+  "pair": 85,
+  "seed": 1012,
+  "a_prompt": "a Turkish flat-woven kilim with interlocked wool wefts in red, blue, orange, and cream, showing hooked diamonds, ram horns, and stepped medallions",
+  "b_prompt": "a Romanian Oltenian kilim with a flat-woven wool surface in red, green, blue, and cream, showing stylized flowers, birds, and vertical bouquet arrangements",
+  "ss_prompt": "Neutral studio background: a Turkish flat-woven kilim on the left, a Romanian Oltenian kilim on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p085_s1013",
+  "pair": 85,
+  "seed": 1013,
+  "a_prompt": "a Turkish flat-woven kilim with interlocked wool wefts in red, blue, orange, and cream, showing hooked diamonds, ram horns, and stepped medallions",
+  "b_prompt": "a Romanian Oltenian kilim with a flat-woven wool surface in red, green, blue, and cream, showing stylized flowers, birds, and vertical bouquet arrangements",
+  "ss_prompt": "Neutral studio background: a Turkish flat-woven kilim on the left, a Romanian Oltenian kilim on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p086_s1013",
+  "pair": 86,
+  "seed": 1013,
+  "a_prompt": "a Turkish flat-woven kilim with interlocked wool wefts in red, blue, orange, and cream, showing hooked diamonds, ram horns, and stepped medallions",
+  "b_prompt": "a Serbian Pirot kilim with a reversible flat weave and red, black, blue, and white geometry, showing turtles, hooks, and repeated protective motifs",
+  "ss_prompt": "Neutral studio background: a Turkish flat-woven kilim on the left, a Serbian Pirot kilim on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p088_s1011",
+  "pair": 88,
+  "seed": 1011,
+  "a_prompt": "a Navajo wool rug with a woven flat surface and red, black, gray, and cream geometry, showing stepped diamonds and serrated bands",
+  "b_prompt": "a Kyrgyz shyrdak felt rug made from cut and inlaid wool felt in contrasting colors, showing mirrored horn motifs, scrolling forms, and outlined geometry",
+  "ss_prompt": "Neutral studio background: a Navajo wool rug on the left, a Kyrgyz shyrdak felt rug on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p088_s1012",
+  "pair": 88,
+  "seed": 1012,
+  "a_prompt": "a Navajo wool rug with a woven flat surface and red, black, gray, and cream geometry, showing stepped diamonds and serrated bands",
+  "b_prompt": "a Kyrgyz shyrdak felt rug made from cut and inlaid wool felt in contrasting colors, showing mirrored horn motifs, scrolling forms, and outlined geometry",
+  "ss_prompt": "Neutral studio background: a Navajo wool rug on the left, a Kyrgyz shyrdak felt rug on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p088_s1013",
+  "pair": 88,
+  "seed": 1013,
+  "a_prompt": "a Navajo wool rug with a woven flat surface and red, black, gray, and cream geometry, showing stepped diamonds and serrated bands",
+  "b_prompt": "a Kyrgyz shyrdak felt rug made from cut and inlaid wool felt in contrasting colors, showing mirrored horn motifs, scrolling forms, and outlined geometry",
+  "ss_prompt": "Neutral studio background: a Navajo wool rug on the left, a Kyrgyz shyrdak felt rug on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p089_s1011",
+  "pair": 89,
+  "seed": 1011,
+  "a_prompt": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+  "b_prompt": "a Tibetan khaden carpet with a compact wool pile in red, blue, yellow, and cream, showing snow lions, lotus flowers, clouds, or checkerboard motifs",
+  "ss_prompt": "Neutral studio background: a Persian floral carpet on the left, a Tibetan khaden carpet on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p089_s1013",
+  "pair": 89,
+  "seed": 1013,
+  "a_prompt": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+  "b_prompt": "a Tibetan khaden carpet with a compact wool pile in red, blue, yellow, and cream, showing snow lions, lotus flowers, clouds, or checkerboard motifs",
+  "ss_prompt": "Neutral studio background: a Persian floral carpet on the left, a Tibetan khaden carpet on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p090_s1012",
+  "pair": 90,
+  "seed": 1012,
+  "a_prompt": "a Moroccan geometric wool rug with a hand-knotted or flat-woven wool surface, showing diamonds, zigzags, and irregular bands in earth colors",
+  "b_prompt": "an Afghan Baluch wool rug with a dark wool pile in deep red, brown, navy, and ivory, showing repeated prayer niches, hooked medallions, and compact tribal borders",
+  "ss_prompt": "Neutral studio background: a Moroccan geometric wool rug on the left, an Afghan Baluch wool rug on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p090_s1013",
+  "pair": 90,
+  "seed": 1013,
+  "a_prompt": "a Moroccan geometric wool rug with a hand-knotted or flat-woven wool surface, showing diamonds, zigzags, and irregular bands in earth colors",
+  "b_prompt": "an Afghan Baluch wool rug with a dark wool pile in deep red, brown, navy, and ivory, showing repeated prayer niches, hooked medallions, and compact tribal borders",
+  "ss_prompt": "Neutral studio background: a Moroccan geometric wool rug on the left, an Afghan Baluch wool rug on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p091_s1011",
+  "pair": 91,
+  "seed": 1011,
+  "a_prompt": "a Venetian Murano glass vase made from vividly colored blown glass with layered canes, showing curves, millefiori accents, and polished translucent depth",
+  "b_prompt": "a Palestinian Hebron blown-glass vase made from recycled glass in translucent turquoise and green, showing a irregular hand-blown body, bubbles, and applied glass trails",
+  "ss_prompt": "Neutral studio background: a Venetian Murano glass vase on the left, a Palestinian Hebron blown-glass vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p091_s1012",
+  "pair": 91,
+  "seed": 1012,
+  "a_prompt": "a Venetian Murano glass vase made from vividly colored blown glass with layered canes, showing curves, millefiori accents, and polished translucent depth",
+  "b_prompt": "a Palestinian Hebron blown-glass vase made from recycled glass in translucent turquoise and green, showing a irregular hand-blown body, bubbles, and applied glass trails",
+  "ss_prompt": "Neutral studio background: a Venetian Murano glass vase on the left, a Palestinian Hebron blown-glass vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p092_s1011",
+  "pair": 92,
+  "seed": 1011,
+  "a_prompt": "a Bohemian cut-glass vase made from clear or ruby-overlaid crystal with deep wheel-cut facets, showing stars, fans, and sharply sparkling geometric panels",
+  "b_prompt": "a Czech Železný Brod art-glass vase made from hand-shaped colored glass with clean modern curves, showing layered transparent tones, internal bubbles, and sculptural forms",
+  "ss_prompt": "Neutral studio background: a Bohemian cut-glass vase on the left, a Czech Železný Brod art-glass vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p092_s1013",
+  "pair": 92,
+  "seed": 1013,
+  "a_prompt": "a Bohemian cut-glass vase made from clear or ruby-overlaid crystal with deep wheel-cut facets, showing stars, fans, and sharply sparkling geometric panels",
+  "b_prompt": "a Czech Železný Brod art-glass vase made from hand-shaped colored glass with clean modern curves, showing layered transparent tones, internal bubbles, and sculptural forms",
+  "ss_prompt": "Neutral studio background: a Bohemian cut-glass vase on the left, a Czech Železný Brod art-glass vase on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p093_s1011",
+  "pair": 93,
+  "seed": 1011,
+  "a_prompt": "a Venetian millefiori glass-bead necklace made from multicolored glass canes sliced into flower-like beads, showing red, blue, yellow, white, and green mosaic patterns",
+  "b_prompt": "a Ghanaian Krobo powder-glass-bead necklace made from molded recycled glass powder, showing opaque hand-painted stripes, dots, chevrons, and earth and jewel colors",
+  "ss_prompt": "Neutral studio background: a Venetian millefiori glass-bead necklace on the left, a Ghanaian Krobo powder-glass-bead necklace on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p093_s1012",
+  "pair": 93,
+  "seed": 1012,
+  "a_prompt": "a Venetian millefiori glass-bead necklace made from multicolored glass canes sliced into flower-like beads, showing red, blue, yellow, white, and green mosaic patterns",
+  "b_prompt": "a Ghanaian Krobo powder-glass-bead necklace made from molded recycled glass powder, showing opaque hand-painted stripes, dots, chevrons, and earth and jewel colors",
+  "ss_prompt": "Neutral studio background: a Venetian millefiori glass-bead necklace on the left, a Ghanaian Krobo powder-glass-bead necklace on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p093_s1013",
+  "pair": 93,
+  "seed": 1013,
+  "a_prompt": "a Venetian millefiori glass-bead necklace made from multicolored glass canes sliced into flower-like beads, showing red, blue, yellow, white, and green mosaic patterns",
+  "b_prompt": "a Ghanaian Krobo powder-glass-bead necklace made from molded recycled glass powder, showing opaque hand-painted stripes, dots, chevrons, and earth and jewel colors",
+  "ss_prompt": "Neutral studio background: a Venetian millefiori glass-bead necklace on the left, a Ghanaian Krobo powder-glass-bead necklace on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p095_s1011",
+  "pair": 95,
+  "seed": 1011,
+  "a_prompt": "a Navajo coiled basket woven from plant fibers in a shallow circular form, showing a central opening and radiating red, black, and natural spiral motifs",
+  "b_prompt": "a Panamanian Wounaan chunga basket coiled from palm fiber, showing exceptionally tight weaving and animal, plant, or geometric motifs in black and colors",
+  "ss_prompt": "Neutral studio background: a Navajo coiled basket on the left, a Panamanian Wounaan chunga basket on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p095_s1012",
+  "pair": 95,
+  "seed": 1012,
+  "a_prompt": "a Navajo coiled basket woven from plant fibers in a shallow circular form, showing a central opening and radiating red, black, and natural spiral motifs",
+  "b_prompt": "a Panamanian Wounaan chunga basket coiled from palm fiber, showing exceptionally tight weaving and animal, plant, or geometric motifs in black and colors",
+  "ss_prompt": "Neutral studio background: a Navajo coiled basket on the left, a Panamanian Wounaan chunga basket on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p095_s1013",
+  "pair": 95,
+  "seed": 1013,
+  "a_prompt": "a Navajo coiled basket woven from plant fibers in a shallow circular form, showing a central opening and radiating red, black, and natural spiral motifs",
+  "b_prompt": "a Panamanian Wounaan chunga basket coiled from palm fiber, showing exceptionally tight weaving and animal, plant, or geometric motifs in black and colors",
+  "ss_prompt": "Neutral studio background: a Navajo coiled basket on the left, a Panamanian Wounaan chunga basket on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p096_s1011",
+  "pair": 96,
+  "seed": 1011,
+  "a_prompt": "a Moroccan tooled-leather box covered in brown leather with stamped and painted ornament, showing stars, arabesques, and scalloped geometric borders",
+  "b_prompt": "a Tuareg tooled-leather box covered in dark leather with incised and colored decoration, showing triangles, crosses, zigzags, and applied metal studs",
+  "ss_prompt": "Neutral studio background: a Moroccan tooled-leather box on the left, a Tuareg tooled-leather box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p096_s1013",
+  "pair": 96,
+  "seed": 1013,
+  "a_prompt": "a Moroccan tooled-leather box covered in brown leather with stamped and painted ornament, showing stars, arabesques, and scalloped geometric borders",
+  "b_prompt": "a Tuareg tooled-leather box covered in dark leather with incised and colored decoration, showing triangles, crosses, zigzags, and applied metal studs",
+  "ss_prompt": "Neutral studio background: a Moroccan tooled-leather box on the left, a Tuareg tooled-leather box on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p097_s1011",
+  "pair": 97,
+  "seed": 1011,
+  "a_prompt": "an Italian tooled-leather wall panel made from embossed and gilded leather, showing scrolling acanthus leaves, heraldic forms, and brown-and-gold relief",
+  "b_prompt": "a Spanish Córdoba guadamecí leather panel made from silvered, painted, and embossed leather, showing Renaissance arabesques, flowers, and richly colored metallic relief",
+  "ss_prompt": "Neutral studio background: an Italian tooled-leather wall panel on the left, a Spanish Córdoba guadamecí leather panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p097_s1012",
+  "pair": 97,
+  "seed": 1012,
+  "a_prompt": "an Italian tooled-leather wall panel made from embossed and gilded leather, showing scrolling acanthus leaves, heraldic forms, and brown-and-gold relief",
+  "b_prompt": "a Spanish Córdoba guadamecí leather panel made from silvered, painted, and embossed leather, showing Renaissance arabesques, flowers, and richly colored metallic relief",
+  "ss_prompt": "Neutral studio background: an Italian tooled-leather wall panel on the left, a Spanish Córdoba guadamecí leather panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p097_s1013",
+  "pair": 97,
+  "seed": 1013,
+  "a_prompt": "an Italian tooled-leather wall panel made from embossed and gilded leather, showing scrolling acanthus leaves, heraldic forms, and brown-and-gold relief",
+  "b_prompt": "a Spanish Córdoba guadamecí leather panel made from silvered, painted, and embossed leather, showing Renaissance arabesques, flowers, and richly colored metallic relief",
+  "ss_prompt": "Neutral studio background: an Italian tooled-leather wall panel on the left, a Spanish Córdoba guadamecí leather panel on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p098_s1011",
+  "pair": 98,
+  "seed": 1011,
+  "a_prompt": "a Russian matryoshka wooden doll with a turned wooden body painted in colors, showing a smiling figure in a floral headscarf and apron",
+  "b_prompt": "a Japanese Tsugaru kokeshi wooden doll with a lathe-turned cylindrical body and rounded head, showing painted rings, chrysanthemum motifs, and a simple face",
+  "ss_prompt": "Neutral studio background: a Russian matryoshka wooden doll on the left, a Japanese Tsugaru kokeshi wooden doll on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p098_s1012",
+  "pair": 98,
+  "seed": 1012,
+  "a_prompt": "a Russian matryoshka wooden doll with a turned wooden body painted in colors, showing a smiling figure in a floral headscarf and apron",
+  "b_prompt": "a Japanese Tsugaru kokeshi wooden doll with a lathe-turned cylindrical body and rounded head, showing painted rings, chrysanthemum motifs, and a simple face",
+  "ss_prompt": "Neutral studio background: a Russian matryoshka wooden doll on the left, a Japanese Tsugaru kokeshi wooden doll on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p098_s1013",
+  "pair": 98,
+  "seed": 1013,
+  "a_prompt": "a Russian matryoshka wooden doll with a turned wooden body painted in colors, showing a smiling figure in a floral headscarf and apron",
+  "b_prompt": "a Japanese Tsugaru kokeshi wooden doll with a lathe-turned cylindrical body and rounded head, showing painted rings, chrysanthemum motifs, and a simple face",
+  "ss_prompt": "Neutral studio background: a Russian matryoshka wooden doll on the left, a Japanese Tsugaru kokeshi wooden doll on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p099_s1011",
+  "pair": 99,
+  "seed": 1011,
+  "a_prompt": "a Chinese carved-jade pendant made from polished pale green or white jade, showing pierced clouds, dragons, or floral scrolls in low relief",
+  "b_prompt": "a Māori pounamu hei tiki pendant carved from translucent greenstone in a compact ancestral figure, showing an inclined head, large eyes, and curved limbs",
+  "ss_prompt": "Neutral studio background: a Chinese carved-jade pendant on the left, a Māori pounamu hei tiki pendant on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p099_s1012",
+  "pair": 99,
+  "seed": 1012,
+  "a_prompt": "a Chinese carved-jade pendant made from polished pale green or white jade, showing pierced clouds, dragons, or floral scrolls in low relief",
+  "b_prompt": "a Māori pounamu hei tiki pendant carved from translucent greenstone in a compact ancestral figure, showing an inclined head, large eyes, and curved limbs",
+  "ss_prompt": "Neutral studio background: a Chinese carved-jade pendant on the left, a Māori pounamu hei tiki pendant on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p099_s1013",
+  "pair": 99,
+  "seed": 1013,
+  "a_prompt": "a Chinese carved-jade pendant made from polished pale green or white jade, showing pierced clouds, dragons, or floral scrolls in low relief",
+  "b_prompt": "a Māori pounamu hei tiki pendant carved from translucent greenstone in a compact ancestral figure, showing an inclined head, large eyes, and curved limbs",
+  "ss_prompt": "Neutral studio background: a Chinese carved-jade pendant on the left, a Māori pounamu hei tiki pendant on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p100_s1011",
+  "pair": 100,
+  "seed": 1011,
+  "a_prompt": "an Inuit soapstone figurine carved from dark gray-green stone with rounded tactile surfaces, showing a compact animal or human figure with incised details",
+  "b_prompt": "a Kenyan Kisii soapstone figurine carved from pale soapstone and polished, showing an abstract intertwined human or animal form with rounded contours",
+  "ss_prompt": "Neutral studio background: an Inuit soapstone figurine on the left, a Kenyan Kisii soapstone figurine on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ },
+ {
+  "run_id": "lsdalong_p100_s1012",
+  "pair": 100,
+  "seed": 1012,
+  "a_prompt": "an Inuit soapstone figurine carved from dark gray-green stone with rounded tactile surfaces, showing a compact animal or human figure with incised details",
+  "b_prompt": "a Kenyan Kisii soapstone figurine carved from pale soapstone and polished, showing an abstract intertwined human or animal form with rounded contours",
+  "ss_prompt": "Neutral studio background: an Inuit soapstone figurine on the left, a Kenyan Kisii soapstone figurine on the right; both fully visible, separate, and similar in size.",
+  "kind": "ME"
+ },
+ {
+  "run_id": "lsdalong_p100_s1013",
+  "pair": 100,
+  "seed": 1013,
+  "a_prompt": "an Inuit soapstone figurine carved from dark gray-green stone with rounded tactile surfaces, showing a compact animal or human figure with incised details",
+  "b_prompt": "a Kenyan Kisii soapstone figurine carved from pale soapstone and polished, showing an abstract intertwined human or animal form with rounded contours",
+  "ss_prompt": "Neutral studio background: an Inuit soapstone figurine on the left, a Kenyan Kisii soapstone figurine on the right; both fully visible, separate, and similar in size.",
+  "kind": "KA"
+ }
+]

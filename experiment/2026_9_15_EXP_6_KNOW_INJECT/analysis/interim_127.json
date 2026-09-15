@@ -1,0 +1,15 @@
+{
+ "n_paired": 127,
+ "criterion": "c1",
+ "note": "interim; scoring still running",
+ "repair_rate": {
+  "LSDA-attrs": 0.861,
+  "LSDA-Long": 0.824,
+  "LL": 0.546
+ },
+ "harm": {
+  "LSDA-attrs": "1/19",
+  "LSDA-Long": "2/19",
+  "LL": "8/19"
+ }
+}

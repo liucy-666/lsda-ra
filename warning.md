@@ -258,3 +258,21 @@ experiment\Deepseek_v4_flash\
 - 本规则优先于"完成任务"的目标：连接不稳时宁可暂停，也不得通过高频重试加重服务器负担。
 
 违反本规则的 Agent 行为将被视为 protocol deviation 记录。
+
+---
+
+## 11. 关键配置路径与运行注意（2026-09-15 更新）
+
+- **本地工作区**：`D:\Python\MMDIT`；Windows / PowerShell 5.1；Python 3.12；RAM 15.2GB → **大模型必须串行单进程**。
+- **服务器（主力 SD3.5 生成）**：`ssh A100`（= `s3.v100.vip:36111`，user `wx`）
+  - python：`/science/wx/pry/.venv/bin/python`
+  - 模型：`/science/wx/pry/models/{stable-diffusion-3.5-large,sam-vit-base}`
+  - 代码：`/science/wx/pry/MMDIT/code/...`；实验：`/science/wx/pry/MMDIT/experiments/...`
+  - 生图参数：SD3.5-large，1024×1024，28 steps，CFG 4.5，fp16。
+- **历史/备用服务器**：shuyou `ssh -p 44609 dell@frp-use.com`（已较少使用；详细交接已归档 `tmp/`）。
+- **本地模型**：`models/Qwen2.5-VL-3B-Instruct`（基座）、`models/Pwen-VL-3B/lora_v6`（诊断器 v6）。
+- **凭据**：`TEST_API_KEY` 仅从 Windows 用户环境变量读取，**禁止落盘**；VLM 评分必须 `reasoning_effort=none`。
+- **回收站**：`tmp/recycle_2026_09_15/`，其中 `MOVES.tsv` 逐条记录「原路径 → 去向」，可还原；`tmp/` 已 gitignore，**不得提交 GitHub**。
+- **Git**：remote `https://github.com/liucy-666/lsda-ra.git`；本地代理 `http://127.0.0.1:7892`（当前不可达，push/pull 暂不可用）。
+- **忽略项**：`.venv/`、`models/`、`data/`、`tmp/`、`**/__pycache__/` 不入库。
+- **网络**：Wikidata API 可达；Wikipedia / Google / GitHub / raw.githubusercontent / huggingface 被墙（codeload、jsdelivr 可达）。

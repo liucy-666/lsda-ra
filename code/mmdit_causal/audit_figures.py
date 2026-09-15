@@ -14,7 +14,6 @@ from pathlib import Path
 
 URL = "https://api.openlux.ai/v1/chat/completions"
 MODEL = "gpt-5.6-sol"
-
 PROMPT = (
     "You are a scientific figure QA reviewer for a CVPR paper. Examine this figure carefully. "
     "Check specifically: (1) whether any text, tick label, annotation, or legend overlaps, "
@@ -48,17 +47,26 @@ def prepare(path: Path) -> str:
     from PIL import Image
 
     img = Image.open(path).convert("RGB")
+    w, h = img.size
+    scale = 1536 / max(w, h)
+    if scale < 1.0:
+        img = img.resize((int(w * scale), int(h * scale)), Image.LANCZOS)
     buf = BytesIO()
     img.save(buf, format="PNG")
     return base64.b64encode(buf.getvalue()).decode()
 
 
-def call(api_key: str, b64: str) -> dict:
+def call(api_key: str, b64: str, model: str = MODEL) -> dict:
     body = {
-        "model": MODEL,
+        "model": model,
         "temperature": 0.0,
-        "max_tokens": 700,
+        "max_tokens": 900,
+        "response_format": {"type": "json_object"},
         "messages": [
+            {
+                "role": "system",
+                "content": "You are a figure QA reviewer. Output only a valid json object.",
+            },
             {
                 "role": "user",
                 "content": [
@@ -68,6 +76,9 @@ def call(api_key: str, b64: str) -> dict:
             }
         ],
     }
+    if "gemini" in model.lower():
+        # thinking models: without this the visible content is truncated
+        body["reasoning_effort"] = "none"
     req = urllib.request.Request(
         URL,
         data=json.dumps(body).encode(),
@@ -92,6 +103,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fig-dir", type=Path, required=True)
     ap.add_argument("--out", type=Path, required=True)
+    ap.add_argument("--model", default=MODEL)
     args = ap.parse_args()
 
     api_key = os.environ.get("TEST_API_KEY")
@@ -109,10 +121,10 @@ def main():
             if fig.name in done:
                 continue
             try:
-                verdict = call(api_key, prepare(fig))
+                verdict = call(api_key, prepare(fig), args.model)
             except Exception as exc:  # noqa: BLE001
                 verdict = {"error": str(exc)}
-            row = {"figure": fig.name, **verdict}
+            row = {"figure": fig.name, "model": args.model, **verdict}
             fh.write(json.dumps(row, ensure_ascii=False) + "\n")
             fh.flush()
             print(json.dumps({"audited": fig.name, "overlap": verdict.get("overlap"), "aesthetics": verdict.get("aesthetics")}), flush=True)

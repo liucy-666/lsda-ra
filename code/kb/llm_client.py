@@ -24,21 +24,29 @@ def parse_json(text):
 
 def chat(prompt: str, model: str = DEFAULT_MODEL, system: str | None = None,
          json_mode: bool = False, max_tokens: int = 1200, temperature: float = 0.0,
-         retries=(0, 3, 10, 25, 50), timeout: int = 60) -> str:
+         reasoning_effort: str | None = None, retries=(0, 3, 10, 25, 50), timeout: int = 60) -> str:
+    """Text completion via openlux.
+
+    reasoning_effort is only sent when explicitly provided (reasoning models reject it otherwise).
+    json_mode injects a system rule containing the literal word 'json' (required by OpenAI).
+    """
     key = os.environ.get("TEST_API_KEY")
     if not key:
         raise RuntimeError("TEST_API_KEY missing")
     messages = []
     if system:
         messages.append({"role": "system", "content": system})
+    if json_mode:
+        messages.append({"role": "system", "content": "You must output only a valid json object."})
     messages.append({"role": "user", "content": prompt})
     body = {
         "model": model,
         "temperature": temperature,
         "max_tokens": max_tokens,
-        "reasoning_effort": "none",
         "messages": messages,
     }
+    if reasoning_effort is not None:
+        body["reasoning_effort"] = reasoning_effort
     if json_mode:
         body["response_format"] = {"type": "json_object"}
     req = urllib.request.Request(
@@ -57,7 +65,15 @@ def chat(prompt: str, model: str = DEFAULT_MODEL, system: str | None = None,
             if isinstance(content, list):
                 content = " ".join(i.get("text", "") for i in content if isinstance(i, dict))
             return content
-        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, ValueError,
-                KeyError, json.JSONDecodeError, OSError) as exc:
+        except urllib.error.HTTPError as exc:
+            if exc.code == 429:
+                last = f"HTTPError: {exc}"
+                time.sleep(5 * (attempt + 1))
+                continue
+            if 400 <= exc.code < 500:
+                raise RuntimeError(f"HTTP {exc.code}: {exc.read().decode('utf-8', 'replace')[:300]}")
+            last = f"HTTPError: {exc}"
+        except (urllib.error.URLError, TimeoutError, ValueError, KeyError,
+                json.JSONDecodeError, OSError) as exc:
             last = f"{type(exc).__name__}: {exc}"
     raise RuntimeError(last)

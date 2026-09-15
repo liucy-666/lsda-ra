@@ -70,3 +70,23 @@ python code/agentic_lsda/collect_counterfactuals.py \
 - manifest、sidecar、指标和日志：`experiment/<experiment-id>/...`
 - 不覆盖 EXP_1、LSDA clean v1 图像或评分。
 - 机制 hook 未接入的字段必须明确为空，禁止用最终标签冒充在线观测。
+
+## 设计总览（原 `agent_design_progress.md`）
+
+把 MM-DiT 去噪轨迹建模为可交互环境，Agent = VLM 感知器 + 时序策略 + LSDA 工具 + 反馈验证器，
+在可纠正窗口内做序贯工具调用（`WAIT / INVOKE(i,k) / ACCEPT / ROLLBACK`）的闭环。
+- **工具**：LSDA 局部专家；采用回滚重放，动作 `INVOKE(i, rollback horizon k)`。
+- **指标**：CADS 作为**离线教师信号 + 机制解释**（在线不再计算）。
+- **奖励**：`R = w1·C_bind − w2·L_struct − w3·L_leak − w4·L_artifact − w5·C_compute`，结构为硬约束。
+- **训练管线**：阶段 0 离线反事实轨迹 → 阶段 1 监督诊断（current drift vs future risk）→ 阶段 2 Oracle BC → 阶段 3 RL 微调（可选）。
+- **三条生死假设**：H1 内部信号能提前预测漂移；H2 最优时机样本依赖；H3 学习策略优于固定时机/阈值。
+- **实验矩阵**：Exp0 时机样本依赖 / Exp1 内部指标预测 / Exp2 策略对比 / Exp3 消融 / Exp4 成本与失败模式 / Exp5 VLM 必要性 / Exp6 在线 vs 离线。
+- **纪律**：`51.78%→14.11%` 只支撑「LSDA 有干预潜力」，不支撑 Agent/RL/VLM 必要性；证据分 `[data-supported] / [hypothesis] / [system design]`。
+
+## 文化 Token Binding 分析（原 `culture_token_binding.md`）
+
+DreamRenderer 式「实例级注意力隔离」在**多实例、共享配色、低判别度**的文化场景有六点不足：
+依赖布局输入、类别与属性混淆、共享修饰词无法判别、soft 层是文化泄漏通道、跨步静态、桥接 token 代价。
+改进方向「文化感知 Token Binding」：(A) 文化属性词元绑定；(B) 共享词元用 soft；
+(C) 自动实例分割；(D) vital 层 hard + 其他层对另一实例文化词元衰减；
+(E) 时机感知绑定（与 v6 诊断器联动）。最小落地顺序 C→D→B，再叠加 A/B 屏蔽组合验证。

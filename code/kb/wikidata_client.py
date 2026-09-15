@@ -14,7 +14,8 @@ from pathlib import Path
 
 API = "https://www.wikidata.org/w/api.php"
 UA = {"User-Agent": "MMDIT-CultureKB/0.1 (research; contact: local)"}
-MIN_INTERVAL = 0.6
+import os as _os
+MIN_INTERVAL = float(_os.environ.get("WD_MIN_INTERVAL", "0.6"))
 _LAST = [0.0]
 
 
@@ -86,7 +87,7 @@ def get_entities(qids: list[str], language: str = "en") -> dict:
             continue
         d = _get({
             "action": "wbgetentities", "ids": "|".join(batch),
-            "props": "claims|labels|descriptions|aliases", "languages": language,
+            "props": "claims|labels|descriptions|aliases|sitelinks", "languages": language,
         })
         out.update(d.get("entities", {}))
     return out
@@ -131,8 +132,72 @@ def collect_facts(qid: str, language: str = "en") -> dict:
         "description": (ent.get("descriptions", {}).get(language) or {}).get("value", ""),
         "aliases": [a["value"] for a in ent.get("aliases", {}).get(language, [])],
         "url": f"https://www.wikidata.org/wiki/{qid}",
+        "sitelinks": len(ent.get("sitelinks", {}) or {}),
         "facts": facts,
     }
+
+
+def get_by_titles(titles: list[str], site: str = "enwiki", language: str = "en") -> dict:
+    """Batch-resolve exact site titles (up to 50/call) with redirects.
+
+    Returns {"entities": {qid: entity}, "by_title": {normalized_title_lower: qid}}.
+    """
+    entities, by_title = {}, {}
+    for i in range(0, len(titles), 50):
+        batch = [t for t in titles[i : i + 50] if t]
+        if not batch:
+            continue
+        d = _get({
+            "action": "wbgetentities", "sites": site, "titles": "|".join(batch),
+            "props": "claims|labels|descriptions|sitelinks", "languages": language,
+            "redirects": "yes",
+        })
+        norm = {n["from"]: n["to"] for n in d.get("query", {}).get("normalized", [])}
+        redir = {r["from"]: r["to"] for r in d.get("query", {}).get("redirects", [])}
+        for qid, ent in d.get("entities", {}).items():
+            entities[qid] = ent
+            if "missing" in ent:
+                continue
+            title = (ent.get("sitelinks", {}).get(site, {}) or {}).get("title")
+            for cand in (ent.get("labels", {}).get(language, {}) or {}).get("value", ""), title:
+                if cand:
+                    by_title.setdefault(cand.lower(), qid)
+                    by_title.setdefault(norm.get(cand, cand).lower(), qid)
+        for frm, to in {**norm, **redir}.items():
+            by_title.setdefault(frm.lower(), by_title.get(to.lower(), ""))
+    return {"entities": entities, "by_title": {k: v for k, v in by_title.items() if v}}
+
+
+def raw_claims(ent: dict) -> dict:
+    return {name: _claim_qids(ent, prop) for prop, name in PROPS.items() if _claim_qids(ent, prop)}
+
+
+def batch_facts(entities: dict, language: str = "en") -> dict:
+    """Build fact dicts for many entities, resolving related QIDs to labels in batched calls."""
+    raw_by_qid, related = {}, set()
+    for qid, ent in entities.items():
+        if "missing" in ent:
+            continue
+        rc = raw_claims(ent)
+        raw_by_qid[qid] = rc
+        for vals in rc.values():
+            related.update(q for q in vals if q.startswith("Q"))
+    labels = {}
+    related = sorted(related)
+    for i in range(0, len(related), 40):
+        for q, e in get_entities(related[i : i + 40], language).items():
+            labels[q] = label_of(e, language)
+    out = {}
+    for qid, rc in raw_by_qid.items():
+        ent = entities[qid]
+        out[qid] = {
+            "qid": qid, "label": label_of(ent, language),
+            "description": (ent.get("descriptions", {}).get(language) or {}).get("value", ""),
+            "url": f"https://www.wikidata.org/wiki/{qid}",
+            "sitelinks": len(ent.get("sitelinks", {}) or {}),
+            "facts": {name: [labels.get(q, q) for q in vals] for name, vals in rc.items()},
+        }
+    return out
 
 
 def pick_best_hit(hits: list[dict], culture_noun: str, country_hint: str = "", type_hints=None) -> dict | None:
