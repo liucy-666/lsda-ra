@@ -42,3 +42,6 @@
 
 ## 纪律
 一切以 `warning.md` 为准：原始数据只增不改、失败样本不隐藏、判据全流程一致、`TEST_API_KEY` 不落盘、VLM 评分 `reasoning_effort=none`、SSH/API 三振即停、长任务必配看门狗。
+
+## Plan 9/13 数据路径
+`code/kb`、`code/benchmark`、`code/metrics/structure.py`、`code/mmdit_causal/value_projection.py` 收录了 plan 9/13 的**免模型**工具：归一化 CUBE/TU、构建可审计 Wikidata KB、生成确定性跨文化 prompt、报告结构与 Value 方向代理，均不需要本地模型权重。本地检查与服务器命令见 `docs/plan_9_13_implementation.md`。

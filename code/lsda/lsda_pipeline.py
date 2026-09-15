@@ -430,6 +430,11 @@ def main():
         help="Directory containing the phase1/phase2 LSDA helper modules.",
     )
     parser.add_argument("--output-root", type=Path, required=True)
+    parser.add_argument(
+        "--knowledge-kb",
+        type=Path,
+        help="Optional KB JSONL. Entities are joined by kb_key/key/concept and receive verified knowledge_text.",
+    )
     parser.add_argument("--overwrite", action="store_true")
     parser.add_argument("--reuse-ss", action="store_true")
     parser.add_argument("--reuse-segmentation", action="store_true")
@@ -442,6 +447,18 @@ def main():
         if not path.exists():
             raise FileNotFoundError(f"{label} path does not exist: {path}")
     config = json.loads(args.config.read_text(encoding="utf-8"))
+    knowledge_injected = False
+    if args.knowledge_kb:
+        if not args.knowledge_kb.exists():
+            raise FileNotFoundError(f"knowledge KB path does not exist: {args.knowledge_kb}")
+        rows = [
+            json.loads(line)
+            for line in args.knowledge_kb.read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        ]
+        from kb_prompt import inject_from_kb
+        config = inject_from_kb(config, rows)
+        knowledge_injected = True
     run_dir = args.output_root / "runs" / config["run_id"]
     if run_dir.exists() and not args.overwrite:
         raise FileExistsError(run_dir)
@@ -521,6 +538,8 @@ def main():
         "background_expert": "same-seed native SS trajectory, mask complement only",
         "native_mu": native_mu,
         "external_visual_information": "native SS contour only",
+        "knowledge_text_injected": knowledge_injected,
+        "knowledge_kb": str(args.knowledge_kb) if args.knowledge_kb else None,
         "standalone_sl_ll_image_or_latent_used": False,
         "segmentation": segmentation_diagnostics,
         "denoising": denoise_diagnostics,

@@ -1,30 +1,119 @@
-"""Minimal Wikidata client for cultural knowledge retrieval (urllib only).
+"""Wikidata API access with deterministic JSONL caching.
 
-The local shell cannot reach Wikipedia/Google, but ``www.wikidata.org`` is reachable.
-Wikidata provides structured cultural facts (material used, depicts, country of origin,
-genre, subclass chain) — the same structured-KB basis used by CUBE (DeepMind, NeurIPS 2024).
+The client speaks only the public search/entity endpoints. Cache paths are
+caller-supplied so credentials and generated data never enter the repository.
 """
 from __future__ import annotations
 
 import json
+import os
 import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from typing import Any, Iterable, Mapping, Optional, Union
 
 API = "https://www.wikidata.org/w/api.php"
+DEFAULT_ENDPOINT = API
 UA = {"User-Agent": "MMDIT-CultureKB/0.1 (research; contact: local)"}
-import os as _os
-MIN_INTERVAL = float(_os.environ.get("WD_MIN_INTERVAL", "0.6"))
+MIN_INTERVAL = float(os.environ.get("WD_MIN_INTERVAL", "0.6"))
 _LAST = [0.0]
 
 
-def _sleep_gap():
-    import time as _t
-    gap = MIN_INTERVAL - (_t.time() - _LAST[0])
-    if gap > 0:
-        _t.sleep(gap)
-    _LAST[0] = _t.time()
+class WikidataRequestError(RuntimeError):
+    """Raised when Wikidata remains unavailable after retries."""
+
+
+def _claim_value(claim: Mapping[str, Any]) -> Any:
+    value = claim.get("mainsnak", {}).get("datavalue", {}).get("value")
+    return value.get("id") if isinstance(value, Mapping) and "id" in value else value
+
+
+class WikidataClient:
+    def __init__(
+        self,
+        endpoint: str = DEFAULT_ENDPOINT,
+        *,
+        timeout: float = 20.0,
+        retries: int = 3,
+        user_agent: str = "lsda-ra-kb/1.0 (research)",
+        cache_path: Optional[Union[os.PathLike, str]] = None,
+        opener: Optional[Any] = None,
+    ) -> None:
+        self.endpoint = endpoint
+        self.timeout = float(timeout)
+        self.retries = max(0, int(retries))
+        self.user_agent = user_agent
+        self.cache_path = Path(cache_path) if cache_path else None
+        self._opener = opener or urllib.request.urlopen
+        self._cache: dict[str, Any] = {}
+        if self.cache_path and self.cache_path.exists():
+            self._load_cache()
+
+    def _load_cache(self) -> None:
+        assert self.cache_path is not None
+        for line in self.cache_path.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            try:
+                row = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if isinstance(row, Mapping) and row.get("key"):
+                self._cache[str(row["key"])] = row.get("value")
+
+    def _save_cache(self, key: str, value: Any) -> None:
+        if not self.cache_path:
+            return
+        self.cache_path.parent.mkdir(parents=True, exist_ok=True)
+        with self.cache_path.open("a", encoding="utf-8") as handle:
+            handle.write(json.dumps({"key": key, "value": value}, ensure_ascii=False, sort_keys=True) + "\n")
+
+    def request(self, params: Mapping[str, Any]) -> dict[str, Any]:
+        query = {"format": "json", "formatversion": "2", **params}
+        key = urllib.parse.urlencode(sorted((str(k), str(v)) for k, v in query.items()))
+        if key in self._cache:
+            return self._cache[key]
+        url = self.endpoint + "?" + urllib.parse.urlencode(query)
+        request = urllib.request.Request(url, headers={"User-Agent": self.user_agent})
+        last: Optional[BaseException] = None
+        for attempt in range(self.retries + 1):
+            try:
+                with self._opener(request, timeout=self.timeout) as response:
+                    data = json.loads(response.read().decode("utf-8", errors="replace"))
+                if not isinstance(data, dict):
+                    raise ValueError("Wikidata returned a non-object response")
+                self._cache[key] = data
+                self._save_cache(key, data)
+                return data
+            except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, ValueError, json.JSONDecodeError) as exc:
+                last = exc
+                if attempt < self.retries:
+                    time.sleep(min(2.0**attempt, 8.0))
+        raise WikidataRequestError("Wikidata request failed after retries") from last
+
+    def search(self, term: str, *, language: str = "en", limit: int = 10) -> list[dict[str, Any]]:
+        data = self.request({"action": "wbsearchentities", "search": term, "language": language,
+                             "uselang": language, "type": "item", "limit": max(1, min(int(limit), 50))})
+        return [dict(item) for item in data.get("search", []) if isinstance(item, Mapping)]
+
+    def get_entities(self, qids: Iterable[str], *, language: str = "en") -> dict[str, dict[str, Any]]:
+        ids = [str(q).strip() for q in qids if str(q).strip()]
+        if not ids:
+            return {}
+        data = self.request({"action": "wbgetentities", "ids": "|".join(ids[:50]), "languages": language,
+                             "props": "info|labels|descriptions|aliases|claims"})
+        return {str(key): dict(value) for key, value in data.get("entities", {}).items()
+                if isinstance(value, Mapping)}
+
+    def get_entity(self, qid: str, *, language: str = "en") -> Optional[dict[str, Any]]:
+        return self.get_entities([qid], language=language).get(str(qid))
+
+
+def claim_values(entity: Mapping[str, Any], property_id: str) -> list[Any]:
+    claims = entity.get("claims", {})
+    rows = claims.get(property_id, []) if isinstance(claims, Mapping) else []
+    return [_claim_value(row) for row in rows if isinstance(row, Mapping)]
 
 # Cultural / visual attributes kept from the Wikidata claims.
 PROPS = {
@@ -51,9 +140,8 @@ def _get(params: dict, retries: int = 5, timeout: int = 30) -> dict:
     for attempt, delay in enumerate((0, 2, 8, 20, 45)):
         if delay:
             time.sleep(delay)
-        _sleep_gap()
         try:
-            req = urllib.request.Request(url, headers=UA)
+            req = urllib.request.Request(url, headers={"User-Agent": "lsda-ra-kb/1.0 (research)"})
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return json.loads(resp.read().decode("utf-8", errors="replace"))
         except urllib.error.HTTPError as exc:
@@ -218,3 +306,9 @@ def pick_best_hit(hits: list[dict], culture_noun: str, country_hint: str = "", t
         if score > best_score:
             best, best_score = h, score
     return best
+
+
+__all__ = [
+    "DEFAULT_ENDPOINT", "WikidataClient", "WikidataRequestError", "claim_values",
+    "search", "get_entities", "collect_facts", "pick_best_hit",
+]
