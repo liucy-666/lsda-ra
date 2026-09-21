@@ -276,3 +276,11 @@ experiment\Deepseek_v4_flash\
 - **Git**：remote `https://github.com/liucy-666/lsda-ra.git`；本地代理 `http://127.0.0.1:7892`。
 - **忽略项**：`.venv/`、`models/`、`data/`、`tmp/`、`**/__pycache__/` 不入库。
 - **网络**：Wikidata API 可达；Wikipedia / Google / GitHub / raw.githubusercontent / huggingface 被墙（codeload、jsdelivr 可达）。
+- **外部辅助 Agent：Pi**（命令 `pi`，全局 npm 包 `C:\Users\admin\AppData\Roaming\npm\pi.ps1`）
+  - 终端可调用的 AI coding assistant，自带 `read/bash/edit/write` 工具；**上下文占用小、支持自动扩展**。
+  - 非交互用法：`pi -p "<指令>"`；可指定 `--provider <name>`、`--model <pattern>`、`--thinking <level>`、`--mode json`、`--no-session`。
+  - 用途：把**机械/低价值杂活**外包给它，主线 Agent 保留上下文——如批量重命名、格式转换、目录清单、日志抓取、简单脚本、数据统计等。示例：
+    ```
+    pi -p "把 D:\Python\MMDIT\data\X 下所有 png 转成 1024 jpg 到 Y，并输出文件数"
+    ```
+  - 约束：Pi 同样会读写文件，**必须遵守本文件全部纪律**；不得让它接触 API key/凭据、原始数据、正式结果，或执行删除/提交等敏感操作；产出需主线 Agent 复核后才能进入正式资产。

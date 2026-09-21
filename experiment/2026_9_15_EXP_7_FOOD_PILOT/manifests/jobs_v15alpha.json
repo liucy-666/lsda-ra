@@ -1,0 +1,92 @@
+[
+ {
+  "run_id": "v15alpha_p001_s1011",
+  "pair": 1,
+  "seed": 1011,
+  "kind": "AESTH",
+  "ss_prompt": "Neutral studio background: a Chinese blue-and-white porcelain vase on the left, a Vietnamese Bát Tràng blue-and-white ceramic vase on the right; both fully visible, separate, and similar in size.",
+  "a_prompt": "a Chinese blue-and-white porcelain vase with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Vietnamese Bát Tràng blue-and-white ceramic vase with cobalt-blue hand-painted decoration on pale glaze, showing stylized lotus, fish, and scrolling foliage"
+ },
+ {
+  "run_id": "v15alpha_p002_s1011",
+  "pair": 2,
+  "seed": 1011,
+  "kind": "AESTH",
+  "ss_prompt": "Neutral studio background: a Chinese blue-and-white porcelain plate on the left, a Japanese Nabeshima porcelain plate on the right; both fully visible, separate, and similar in size.",
+  "a_prompt": "a Chinese blue-and-white porcelain plate with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Japanese Nabeshima porcelain plate with underglaze-blue outlines and sparse overglaze color, showing asymmetrical flowers, textiles, and geometric border motifs"
+ },
+ {
+  "run_id": "v15alpha_p004_s1011",
+  "pair": 4,
+  "seed": 1011,
+  "kind": "AESTH",
+  "ss_prompt": "Neutral studio background: a Japanese Imari porcelain jar on the left, a Korean Joseon iron-painted porcelain jar on the right; both fully visible, separate, and similar in size.",
+  "a_prompt": "a Japanese Imari porcelain jar with cobalt-blue underglaze and iron-red and gold overglaze decoration, showing floral panels and patterned reserves",
+  "b_prompt": "a Korean Joseon iron-painted porcelain jar with freely brushed iron-brown decoration on white porcelain, showing dragons, bamboo, or abbreviated floral motifs"
+ },
+ {
+  "run_id": "v15alpha_p008_s1011",
+  "pair": 8,
+  "seed": 1011,
+  "kind": "AESTH",
+  "ss_prompt": "Neutral studio background: a Chinese famille-rose porcelain vase on the left, a Hungarian Herend porcelain vase on the right; both fully visible, separate, and similar in size.",
+  "a_prompt": "a Chinese famille-rose porcelain vase with opaque pink, green, yellow, and turquoise overglaze enamels, showing peonies, birds, and auspicious garden scenes",
+  "b_prompt": "a Hungarian Herend porcelain vase with polychrome enamel painting and gilded rims, showing stylized butterflies, flowers, and scale-like fishnet patterns"
+ },
+ {
+  "run_id": "v15alpha_p014_s1011",
+  "pair": 14,
+  "seed": 1011,
+  "kind": "AESTH",
+  "ss_prompt": "Neutral studio background: an Italian Renaissance maiolica plate on the left, a French Nevers faience plate on the right; both fully visible, separate, and similar in size.",
+  "a_prompt": "an Italian Renaissance maiolica plate with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+  "b_prompt": "a French Nevers faience plate with white tin glaze, painted in deep blue, yellow, and manganese with heraldic, pastoral, and symmetrical floral motifs"
+ },
+ {
+  "run_id": "v15alpha_p016_s1011",
+  "pair": 16,
+  "seed": 1011,
+  "kind": "AESTH",
+  "ss_prompt": "Neutral studio background: a Mexican Talavera de Puebla plate on the left, a Romanian Horezu pottery plate on the right; both fully visible, separate, and similar in size.",
+  "a_prompt": "a Mexican Talavera de Puebla plate with opaque white tin glaze, decorated with cobalt-blue, yellow, green, and orange painted floral and geometric bands",
+  "b_prompt": "a Romanian Horezu pottery plate made of glazed earthenware with combed slip decoration, showing brown, green, blue, and ochre spirals, rosettes, and the Horezu rooster"
+ },
+ {
+  "run_id": "v15alpha_p022_s1011",
+  "pair": 22,
+  "seed": 1011,
+  "kind": "AESTH",
+  "ss_prompt": "Neutral studio background: a Chinese sancai glazed ceramic jar on the left, a Peruvian Chulucanas pottery jar on the right; both fully visible, separate, and similar in size.",
+  "a_prompt": "a Chinese sancai glazed ceramic jar with amber, green, and cream lead glazes over a rounded earthenware body, showing drips and molded relief bands",
+  "b_prompt": "a Peruvian Chulucanas pottery jar with a burnished clay surface in black, cream, and brown, showing negative-painted geometric bands and abstract figures"
+ },
+ {
+  "run_id": "v15alpha_p041_s1011",
+  "pair": 41,
+  "seed": 1011,
+  "kind": "AESTH",
+  "ss_prompt": "Neutral studio background: a Chinese cloisonné vase on the left, a Georgian Minankari enamel vase on the right; both fully visible, separate, and similar in size.",
+  "a_prompt": "a Chinese cloisonné vase with turquoise and cobalt-blue enamel cells separated by gilded metal wires, showing lotus, cloud, and auspicious motifs",
+  "b_prompt": "a Georgian Minankari enamel vase with translucent jewel-toned enamel over engraved silver, showing compact flowers, birds, and scrolling vines outlined by metalwork"
+ },
+ {
+  "run_id": "v15alpha_p061_s1011",
+  "pair": 61,
+  "seed": 1011,
+  "kind": "AESTH",
+  "ss_prompt": "Neutral studio background: a Japanese silk kimono on the left, a Lao sinh silk skirt on the right; both fully visible, separate, and similar in size.",
+  "a_prompt": "a Japanese silk kimono with a lustrous woven ground and dyed or embroidered decoration, showing cranes, cherry blossoms, water, and seasonal motifs",
+  "b_prompt": "a Lao sinh silk skirt with supplementary-weft silk bands and patterned borders, showing diamonds, serpents, temple forms, and jewel colors"
+ },
+ {
+  "run_id": "v15alpha_p081_s1011",
+  "pair": 81,
+  "seed": 1011,
+  "kind": "AESTH",
+  "ss_prompt": "Neutral studio background: a Persian floral carpet on the left, a Turkmen Tekke carpet on the right; both fully visible, separate, and similar in size.",
+  "a_prompt": "a Persian floral carpet with a wool pile and central medallion, showing curving vines, palmettes, and flowers in deep red, blue, and ivory",
+  "b_prompt": "a Turkmen Tekke carpet with a deep red wool pile and repeated octagonal guls, showing compact black, white, and dark-blue tribal geometry"
+ }
+]

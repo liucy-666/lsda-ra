@@ -1,0 +1,102 @@
+[
+ {
+  "idx": 1,
+  "A": {
+   "short": "a Chinese blue-and-white porcelain vase"
+  },
+  "B": {
+   "short": "a Vietnamese Bát Tràng blue-and-white ceramic vase"
+  },
+  "ss_prompt": "Studio product photograph on a plain light-gray background: a Chinese blue-and-white porcelain vase on the left and a Vietnamese Bát Tràng blue-and-white ceramic vase on the right, shown small and fully inside the frame, each object occupying only a small part of the image with wide empty margins on all sides, lots of negative space, not cropped, equal size, centered side by side."
+ },
+ {
+  "idx": 2,
+  "A": {
+   "short": "a Chinese blue-and-white porcelain plate"
+  },
+  "B": {
+   "short": "a Japanese Nabeshima porcelain plate"
+  },
+  "ss_prompt": "Studio product photograph on a plain light-gray background: a Chinese blue-and-white porcelain plate on the left and a Japanese Nabeshima porcelain plate on the right, shown small and fully inside the frame, each object occupying only a small part of the image with wide empty margins on all sides, lots of negative space, not cropped, equal size, centered side by side."
+ },
+ {
+  "idx": 4,
+  "A": {
+   "short": "a Japanese Imari porcelain jar"
+  },
+  "B": {
+   "short": "a Korean Joseon iron-painted porcelain jar"
+  },
+  "ss_prompt": "Studio product photograph on a plain light-gray background: a Japanese Imari porcelain jar on the left and a Korean Joseon iron-painted porcelain jar on the right, shown small and fully inside the frame, each object occupying only a small part of the image with wide empty margins on all sides, lots of negative space, not cropped, equal size, centered side by side."
+ },
+ {
+  "idx": 8,
+  "A": {
+   "short": "a Chinese famille-rose porcelain vase"
+  },
+  "B": {
+   "short": "a Hungarian Herend porcelain vase"
+  },
+  "ss_prompt": "Studio product photograph on a plain light-gray background: a Chinese famille-rose porcelain vase on the left and a Hungarian Herend porcelain vase on the right, shown small and fully inside the frame, each object occupying only a small part of the image with wide empty margins on all sides, lots of negative space, not cropped, equal size, centered side by side."
+ },
+ {
+  "idx": 14,
+  "A": {
+   "short": "an Italian Renaissance maiolica plate"
+  },
+  "B": {
+   "short": "a French Nevers faience plate"
+  },
+  "ss_prompt": "Studio product photograph on a plain light-gray background: an Italian Renaissance maiolica plate on the left and a French Nevers faience plate on the right, shown small and fully inside the frame, each object occupying only a small part of the image with wide empty margins on all sides, lots of negative space, not cropped, equal size, centered side by side."
+ },
+ {
+  "idx": 16,
+  "A": {
+   "short": "a Mexican Talavera de Puebla plate"
+  },
+  "B": {
+   "short": "a Romanian Horezu pottery plate"
+  },
+  "ss_prompt": "Studio product photograph on a plain light-gray background: a Mexican Talavera de Puebla plate on the left and a Romanian Horezu pottery plate on the right, shown small and fully inside the frame, each object occupying only a small part of the image with wide empty margins on all sides, lots of negative space, not cropped, equal size, centered side by side."
+ },
+ {
+  "idx": 22,
+  "A": {
+   "short": "a Chinese sancai glazed ceramic jar"
+  },
+  "B": {
+   "short": "a Peruvian Chulucanas pottery jar"
+  },
+  "ss_prompt": "Studio product photograph on a plain light-gray background: a Chinese sancai glazed ceramic jar on the left and a Peruvian Chulucanas pottery jar on the right, shown small and fully inside the frame, each object occupying only a small part of the image with wide empty margins on all sides, lots of negative space, not cropped, equal size, centered side by side."
+ },
+ {
+  "idx": 41,
+  "A": {
+   "short": "a Chinese cloisonné vase"
+  },
+  "B": {
+   "short": "a Georgian Minankari enamel vase"
+  },
+  "ss_prompt": "Studio product photograph on a plain light-gray background: a Chinese cloisonné vase on the left and a Georgian Minankari enamel vase on the right, shown small and fully inside the frame, each object occupying only a small part of the image with wide empty margins on all sides, lots of negative space, not cropped, equal size, centered side by side."
+ },
+ {
+  "idx": 61,
+  "A": {
+   "short": "a Japanese silk kimono"
+  },
+  "B": {
+   "short": "a Lao sinh silk skirt"
+  },
+  "ss_prompt": "Studio product photograph on a plain light-gray background: a Japanese silk kimono on the left and a Lao sinh silk skirt on the right, shown small and fully inside the frame, each object occupying only a small part of the image with wide empty margins on all sides, lots of negative space, not cropped, equal size, centered side by side."
+ },
+ {
+  "idx": 81,
+  "A": {
+   "short": "a Persian floral carpet"
+  },
+  "B": {
+   "short": "a Turkmen Tekke carpet"
+  },
+  "ss_prompt": "Studio product photograph on a plain light-gray background: a Persian floral carpet on the left and a Turkmen Tekke carpet on the right, shown small and fully inside the frame, each object occupying only a small part of the image with wide empty margins on all sides, lots of negative space, not cropped, equal size, centered side by side."
+ }
+]

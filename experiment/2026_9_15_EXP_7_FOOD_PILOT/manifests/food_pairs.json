@@ -1,0 +1,32 @@
+[
+ {
+  "idx": 1,
+  "A": {"key": "egusi", "concept": "egusi", "culture": "Nigeria",
+        "short": "a Nigerian egusi soup",
+        "attrs": "yellow-orange palette, thick soup-like texture, ground melon seeds, leafy greens and meat, served in a bowl with pounded yam"},
+  "B": {"key": "gimchobap", "concept": "gimchobap", "culture": "South Korea",
+        "short": "a South Korean gimchobap",
+        "attrs": "seaweed rice rolls, dark green and white, cylindrical form, filled with rice and vegetables, sliced into bite-sized pieces"},
+  "ss_prompt": "Neutral studio background: a Nigerian egusi soup on the left, a South Korean gimchobap on the right; both fully visible, separate, and similar in size."
+ },
+ {
+  "idx": 2,
+  "A": {"key": "bacalhau_a_bras", "concept": "bacalhau à brás", "culture": "Brazil",
+        "short": "a Brazilian bacalhau a bras",
+        "attrs": "shredded codfish, golden-yellow palette, black olives and parsley, served in a shallow ceramic dish, crispy matchstick potatoes"},
+  "B": {"key": "caffe_con_panna", "concept": "caffe con panna", "culture": "Italy",
+        "short": "an Italian caffe con panna",
+        "attrs": "layered form, dark brown coffee, white whipped cream topping, served in a small cup, creamy and frothy"},
+  "ss_prompt": "Neutral studio background: a Brazilian bacalhau a bras on the left, an Italian caffe con panna on the right; both fully visible, separate, and similar in size."
+ },
+ {
+  "idx": 3,
+  "A": {"key": "salpicao", "concept": "salpicao", "culture": "Brazil",
+        "short": "a Brazilian salpicao salad",
+        "attrs": "shredded chicken, orange carrots and green parsley, mayonnaise, potato sticks, served in a bowl, festive presentation"},
+  "B": {"key": "spaghetti_carbonara", "concept": "spaghetti carbonara", "culture": "Italy",
+        "short": "an Italian spaghetti carbonara",
+        "attrs": "pasta strands, golden-yellow sauce, creamy texture, black pepper specks, grated cheese, circular plate"},
+  "ss_prompt": "Neutral studio background: a Brazilian salpicao salad on the left, an Italian spaghetti carbonara on the right; both fully visible, separate, and similar in size."
+ }
+]

@@ -1,0 +1,14 @@
+[
+ {"run_id": "demo_doces_litchi_s42", "pair": 1, "seed": 42, "kind": "DEMO",
+  "ss_prompt": "Neutral studio background: Doces do Brasil on the left, litchi on the right; both fully visible, separate, and similar in size.",
+  "a_prompt": "Doces do Brasil, vibrant colors, sugar-based, small bite-sized forms, intricate shapes, decorated with sprinkles or coconut, festive appearance",
+  "b_prompt": "litchi, red or pink skin, translucent white flesh, sweet and juicy, round form, glossy surface"},
+ {"run_id": "demo_doces_litchi_s43", "pair": 1, "seed": 43, "kind": "DEMO",
+  "ss_prompt": "Neutral studio background: Doces do Brasil on the left, litchi on the right; both fully visible, separate, and similar in size.",
+  "a_prompt": "Doces do Brasil, vibrant colors, sugar-based, small bite-sized forms, intricate shapes, decorated with sprinkles or coconut, festive appearance",
+  "b_prompt": "litchi, red or pink skin, translucent white flesh, sweet and juicy, round form, glossy surface"},
+ {"run_id": "demo_doces_litchi_s44", "pair": 1, "seed": 44, "kind": "DEMO",
+  "ss_prompt": "Neutral studio background: Doces do Brasil on the left, litchi on the right; both fully visible, separate, and similar in size.",
+  "a_prompt": "Doces do Brasil, vibrant colors, sugar-based, small bite-sized forms, intricate shapes, decorated with sprinkles or coconut, festive appearance",
+  "b_prompt": "litchi, red or pink skin, translucent white flesh, sweet and juicy, round form, glossy surface"}
+]

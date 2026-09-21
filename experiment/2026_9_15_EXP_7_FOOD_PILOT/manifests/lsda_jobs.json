@@ -1,0 +1,20 @@
+[
+ {
+  "run_id": "foodlsda_p001_s42", "pair": 1, "seed": 42, "kind": "FOOD",
+  "a_prompt": "a Nigerian egusi soup, yellow-orange palette, thick soup-like texture, ground melon seeds, leafy greens and meat, served in a bowl with pounded yam",
+  "b_prompt": "a South Korean gimchobap, seaweed rice rolls, dark green and white, cylindrical form, filled with rice and vegetables, sliced into bite-sized pieces",
+  "ss_prompt": "Neutral studio background: a Nigerian egusi soup on the left, a South Korean gimchobap on the right; both fully visible, separate, and similar in size."
+ },
+ {
+  "run_id": "foodlsda_p002_s42", "pair": 2, "seed": 42, "kind": "FOOD",
+  "a_prompt": "a Brazilian bacalhau a bras, shredded codfish, golden-yellow palette, black olives and parsley, served in a shallow ceramic dish, crispy matchstick potatoes",
+  "b_prompt": "an Italian caffe con panna, layered form, dark brown coffee, white whipped cream topping, in a small cup, creamy and frothy",
+  "ss_prompt": "Neutral studio background: a Brazilian bacalhau a bras on the left, an Italian caffe con panna on the right; both fully visible, separate, and similar in size."
+ },
+ {
+  "run_id": "foodlsda_p003_s42", "pair": 3, "seed": 42, "kind": "FOOD",
+  "a_prompt": "a Brazilian salpicao salad, shredded chicken, orange carrots and green parsley, mayonnaise, potato sticks, served in a bowl, festive presentation",
+  "b_prompt": "an Italian spaghetti carbonara, pasta strands, golden-yellow sauce, creamy texture, black pepper specks, grated cheese, circular plate",
+  "ss_prompt": "Neutral studio background: a Brazilian salpicao salad on the left, an Italian spaghetti carbonara on the right; both fully visible, separate, and similar in size."
+ }
+]

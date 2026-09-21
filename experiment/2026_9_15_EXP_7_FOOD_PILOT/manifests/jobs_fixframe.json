@@ -1,0 +1,83 @@
+[
+ {
+  "run_id": "fixT1_p002_s1011",
+  "pair": 2,
+  "seed": 1011,
+  "kind": "FIXFRAME_T1",
+  "ss_prompt": "Studio product photograph on a plain light-gray background: a Chinese blue-and-white porcelain plate on the left and a Japanese Nabeshima porcelain plate on the right, both whole objects fully inside the frame with generous empty space around them, not cropped, side by side, centered composition, similar size.",
+  "a_prompt": "a Chinese blue-and-white porcelain plate with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Japanese Nabeshima porcelain plate with underglaze-blue outlines and sparse overglaze color, showing asymmetrical flowers, textiles, and geometric border motifs"
+ },
+ {
+  "run_id": "fixT2_p002_s1011",
+  "pair": 2,
+  "seed": 1011,
+  "kind": "FIXFRAME_T2",
+  "ss_prompt": "Top-down studio shot on a plain light-gray background: a Chinese blue-and-white porcelain plate and a Japanese Nabeshima porcelain plate placed side by side in the center, each shown in full with a wide margin, not touching the frame edges, similar size.",
+  "a_prompt": "a Chinese blue-and-white porcelain plate with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Japanese Nabeshima porcelain plate with underglaze-blue outlines and sparse overglaze color, showing asymmetrical flowers, textiles, and geometric border motifs"
+ },
+ {
+  "run_id": "fixT3_p002_s1011",
+  "pair": 2,
+  "seed": 1011,
+  "kind": "FIXFRAME_T3",
+  "ss_prompt": "A wide, zoomed-out studio product photograph on a plain light-gray background showing two separate objects side by side with lots of empty space around them: a Chinese blue-and-white porcelain plate on the left, a Japanese Nabeshima porcelain plate on the right; both fully visible, not cropped, equal size.",
+  "a_prompt": "a Chinese blue-and-white porcelain plate with cobalt-blue underglaze painting, showing Chinese landscape, lotus, and scrolling-cloud motifs",
+  "b_prompt": "a Japanese Nabeshima porcelain plate with underglaze-blue outlines and sparse overglaze color, showing asymmetrical flowers, textiles, and geometric border motifs"
+ },
+ {
+  "run_id": "fixT1_p014_s1011",
+  "pair": 14,
+  "seed": 1011,
+  "kind": "FIXFRAME_T1",
+  "ss_prompt": "Studio product photograph on a plain light-gray background: an Italian Renaissance maiolica plate on the left and a French Nevers faience plate on the right, both whole objects fully inside the frame with generous empty space around them, not cropped, side by side, centered composition, similar size.",
+  "a_prompt": "an Italian Renaissance maiolica plate with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+  "b_prompt": "a French Nevers faience plate with white tin glaze, painted in deep blue, yellow, and manganese with heraldic, pastoral, and symmetrical floral motifs"
+ },
+ {
+  "run_id": "fixT2_p014_s1011",
+  "pair": 14,
+  "seed": 1011,
+  "kind": "FIXFRAME_T2",
+  "ss_prompt": "Top-down studio shot on a plain light-gray background: an Italian Renaissance maiolica plate and a French Nevers faience plate placed side by side in the center, each shown in full with a wide margin, not touching the frame edges, similar size.",
+  "a_prompt": "an Italian Renaissance maiolica plate with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+  "b_prompt": "a French Nevers faience plate with white tin glaze, painted in deep blue, yellow, and manganese with heraldic, pastoral, and symmetrical floral motifs"
+ },
+ {
+  "run_id": "fixT3_p014_s1011",
+  "pair": 14,
+  "seed": 1011,
+  "kind": "FIXFRAME_T3",
+  "ss_prompt": "A wide, zoomed-out studio product photograph on a plain light-gray background showing two separate objects side by side with lots of empty space around them: an Italian Renaissance maiolica plate on the left, a French Nevers faience plate on the right; both fully visible, not cropped, equal size.",
+  "a_prompt": "an Italian Renaissance maiolica plate with opaque white tin glaze, painted in cobalt blue, ochre yellow, copper green, and manganese purple with a figurative medallion and scrolling foliage",
+  "b_prompt": "a French Nevers faience plate with white tin glaze, painted in deep blue, yellow, and manganese with heraldic, pastoral, and symmetrical floral motifs"
+ },
+ {
+  "run_id": "fixT1_p016_s1011",
+  "pair": 16,
+  "seed": 1011,
+  "kind": "FIXFRAME_T1",
+  "ss_prompt": "Studio product photograph on a plain light-gray background: a Mexican Talavera de Puebla plate on the left and a Romanian Horezu pottery plate on the right, both whole objects fully inside the frame with generous empty space around them, not cropped, side by side, centered composition, similar size.",
+  "a_prompt": "a Mexican Talavera de Puebla plate with opaque white tin glaze, decorated with cobalt-blue, yellow, green, and orange painted floral and geometric bands",
+  "b_prompt": "a Romanian Horezu pottery plate made of glazed earthenware with combed slip decoration, showing brown, green, blue, and ochre spirals, rosettes, and the Horezu rooster"
+ },
+ {
+  "run_id": "fixT2_p016_s1011",
+  "pair": 16,
+  "seed": 1011,
+  "kind": "FIXFRAME_T2",
+  "ss_prompt": "Top-down studio shot on a plain light-gray background: a Mexican Talavera de Puebla plate and a Romanian Horezu pottery plate placed side by side in the center, each shown in full with a wide margin, not touching the frame edges, similar size.",
+  "a_prompt": "a Mexican Talavera de Puebla plate with opaque white tin glaze, decorated with cobalt-blue, yellow, green, and orange painted floral and geometric bands",
+  "b_prompt": "a Romanian Horezu pottery plate made of glazed earthenware with combed slip decoration, showing brown, green, blue, and ochre spirals, rosettes, and the Horezu rooster"
+ },
+ {
+  "run_id": "fixT3_p016_s1011",
+  "pair": 16,
+  "seed": 1011,
+  "kind": "FIXFRAME_T3",
+  "ss_prompt": "A wide, zoomed-out studio product photograph on a plain light-gray background showing two separate objects side by side with lots of empty space around them: a Mexican Talavera de Puebla plate on the left, a Romanian Horezu pottery plate on the right; both fully visible, not cropped, equal size.",
+  "a_prompt": "a Mexican Talavera de Puebla plate with opaque white tin glaze, decorated with cobalt-blue, yellow, green, and orange painted floral and geometric bands",
+  "b_prompt": "a Romanian Horezu pottery plate made of glazed earthenware with combed slip decoration, showing brown, green, blue, and ochre spirals, rosettes, and the Horezu rooster"
+ }
+]
